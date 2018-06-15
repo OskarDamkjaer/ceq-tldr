@@ -12,7 +12,9 @@ Scrapade CEQ hemsidan med python och genererade htmlen via google sheets. Filter
 * Byta till bättra tablehantering
 * Looks
 * Lägga och renskriva pythonscriptet för scraping
-* SRDs kommenterarer ska med
+* SRDs kommenterarer ska med, följer inte samma struktur.
+* Fler år
+* Auomatisera alla steg
 
 ## Hade varit najs
 * Implementera egen sök och sortering i React

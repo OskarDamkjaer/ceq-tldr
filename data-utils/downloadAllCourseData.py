@@ -2,10 +2,8 @@ from bs4 import BeautifulSoup
 
 from scrape import simple_get
 
-
 def getAllHREFS():
     raw_html = simple_get("http://www.ceq.lth.se/rapporter/?lasar_lp=alla&program=&kurskod=&sort=kurskod")
-
     soup = BeautifulSoup(raw_html, 'html.parser')
 
     urlbois = []
@@ -80,4 +78,4 @@ for link in allLinks:
     if row and len(row) == fieldLen:
         for field in row:
             newDATA.write(field + ",")
-        newDATA.write("\n")
+    newDATA.write("\n")

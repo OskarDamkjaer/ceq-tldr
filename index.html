@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>ceq-tldr</title>
-    <script src="libs/sorttable.js"></script>
+    <!--<script src="libs/sorttable.js"></script>-->
 
     <style type="text/css">
-        table.tableizer-table {
+        /*table.tableizer-table {
             font-size: 12px;
             font-family: Arial, Helvetica, sans-serif;
             background-color:#eee;
@@ -27,12 +27,11 @@
             color: #FFF;
             font-weight: bold;
             padding: 3px;
-        }
-
+        }*/
     </style>
 </head>
 <body>
-<table class="tableizer-table sortable">
+<table class="tableizer-table sortable list">
     <thead>
     <tr class="tableizer-firstrow">
         <th>Kursnamn</th>
@@ -948,6 +947,22 @@
     </tr>
     </tbody>
 </table>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script>var options = {
+  valueNames: ['Kursnamn', 'Kurskod','Läsår','Registerade','Andel Godkända','','','','','','','',]
+}
+
+  <th>Läsår</th>
+  <th>Registerade</th>
+  <th>Andel Godkända</th>
+<th>God undervisning</th>
+<th>Tydliga mål</th>
+<th>Förståelseinriktad Examination</th>
+<th>Lämplig arbetsbelastning</th>
+<th>Angelägen för utbilding</th>
+<th>Överlag Nöjd</th>
+
+var userList = new List('users', options)</script>
 </body>
 </html>
 
