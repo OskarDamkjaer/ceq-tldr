@@ -16,6 +16,10 @@ Scrapade CEQ hemsidan med python och genererade htmlen via google sheets. Filter
 * Fler år
 * Auomatisera alla steg
 
+
 ## Hade varit najs
 * Implementera egen sök och sortering i React
 * Göra genereringen av sidan automatiserad för kommande år
+
+
+## Ny till python
