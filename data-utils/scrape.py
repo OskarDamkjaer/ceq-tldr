@@ -1,9 +1,8 @@
 from contextlib import closing
 
-from requests import get
 from bs4 import BeautifulSoup
+from requests import get
 from requests.exceptions import RequestException
-from databaseHandler import insert_list_of_scrape_result
 
 
 def simple_get(url):
@@ -54,27 +53,35 @@ def gimme_dat_info(ceq_url):
             result['teachingScore'] = text
         if i == 108:
             result['goalClearnessScore'] = text
-        if i == 22:
-            result['examScore'] = text
         if i == 112:
-            result['educationScore'] = text
+            result['assessmentScore'] = text
         if i == 116:
+            result['workloadScore'] = text
+        if i == 125:
+            result['importanceScore'] = text
+        if i == 129:
             result['satisfactionScore'] = text
 
     comments = ""
     for i, line in enumerate(html.get_text().split('\n')):
-        #print(i, line)
+        # print(i, line)
         if i > 99:
-            comments += line + '\n'
+            comments += line.strip()
 
     if not comments.isspace():
         result['comments'] = comments
 
     return result
 
-results = []
-results.append(gimme_dat_info("http://www.ceq.lth.se/rapporter/2017_HT/LP1/ETEF15_2017_HT_LP1_slutrapport.html"))
-results.append(gimme_dat_info("http://www.ceq.lth.se/rapporter/2017_HT/LP1/ETEF01_2017_HT_LP1_slutrapport.html"))
-results.append(gimme_dat_info("http://www.ceq.lth.se/rapporter/2017_VT/LP2/ETEN01_2017_VT_LP2_slutrapport.html"))
 
-insert_list_of_scrape_result(results)
+def getAllHREFS():
+    raw_html = simple_get("http://www.ceq.lth.se/rapporter/?lasar_lp=alla&program=&kurskod=&sort=kurskod")
+    soup = BeautifulSoup(raw_html, 'html.parser')
+
+    urlbois = []
+
+    for a in soup.find_all('a', href=True):
+        if "slutrapport.html" in a['href']:
+            urlbois.append(a['href'])
+
+    return urlbois
