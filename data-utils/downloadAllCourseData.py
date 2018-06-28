@@ -1,3 +1,5 @@
+import pandas as pd
+
 from scrape import gimme_dat_info
 
 
@@ -13,13 +15,6 @@ sv_fields = ['Kursnamn', 'Kurskod', 'HP', 'Läsår', 'Registerade', 'Andel Godk�
              'Förståelseinriktad Examination', 'Lämplig arbetsbelastning', 'Angelägen för utbilding', 'Överlag Nöjd',
              'Studierådets kommentarer']
 
-fields = ['code', 'name', 'points', 'year', 'registered', 'percentPassed', 'teachingScore',
-          'assessmentScore', 'workloadScore', 'importanceScore', 'satisfactionScore', 'comments']
-
-for field in fields:
-    scrape_file.write(field + ",")
-scrape_file.write('\n')
-
 # all_links = getAllHREFS()
 print("Downloaded all links")
 
@@ -30,13 +25,14 @@ all_links = ["http://www.ceq.lth.se/rapporter/2017_HT/LP1/ETEF01_2017_HT_LP1_slu
              "http://www.ceq.lth.se/rapporter/2012_VT/LP1/AAH150_2012_VT_LP1_slutrapport_en.html",
              "http://www.ceq.lth.se/rapporter/2006_HT/LP1/AAK630_2006_HT_LP1_slutrapport.html"]
 
-for link in all_links:
-    row = gimme_dat_info(link)
-    for field in fields:
-        scrape_file.write(blank_or_data(row, field) + ",")
-    scrape_file.write("\n")
+all_series = [gimme_dat_info(link) for link in all_links]
 
-print(row.keys())
-print(fields)
+all_data = pd.DataFrame(data = all_series)
 
-# DEBUGA DETTA, verkar vara som att exam och satisfactionscore e whack
+with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+    print(all_data)
+
+# Ploppa till table
+
+
+all_data.to_csv('all_data.csv')

@@ -1,5 +1,6 @@
 from contextlib import closing
 
+import pandas as pd
 from bs4 import BeautifulSoup
 from requests import get
 from requests.exceptions import RequestException
@@ -71,7 +72,7 @@ def gimme_dat_info(ceq_url):
     if not comments.isspace():
         result['comments'] = comments
 
-    return result
+    return pd.Series(result)
 
 
 def getAllHREFS():
