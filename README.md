@@ -15,5 +15,5 @@ Jag hittade ca 300 valbara kurser för data och infocom, ~160 av dessa var duble
 * Installera alla programmen som behövs (python och de flesta i pythonRequirements.txt)
 * Se till att vara på LUs nätverk (ev. via VPN).
 * Testa så du kommer åt http://www.ceq.lth.se/rapporter/2017_HT/LP1/AADA01_2017_HT_LP1_slutrapport_en.html ordentligt
-* Kör downloadAllCourseData.py vilket för mig tar 30 min ish.
+* Kör downloadAllCourseData.py vilket för mig tar 30 min ish. (Kan vara sönder i nuläget O:) )
 * Tanken är att man efter detta kan köra dataRefiner.py för att skapa de andra filerna utifrån de nedladdade
