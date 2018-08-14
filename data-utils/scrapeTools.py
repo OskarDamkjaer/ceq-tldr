@@ -1,6 +1,5 @@
 from contextlib import closing
 
-import pandas as pd
 from bs4 import BeautifulSoup
 from requests import get
 from requests.exceptions import RequestException
@@ -37,7 +36,7 @@ def gimme_dat_info(ceq_url):
         if tag.string is None:
             continue
         text = tag.get_text().strip()
-        #print(i, text)
+        # print(i, text)
         if i == 6:
             result['code'] = text[-6:]
         if i == 14:
@@ -72,12 +71,14 @@ def gimme_dat_info(ceq_url):
     if not comments.isspace():
         result['comments'] = comments
 
-    return pd.Series(result)
+    return result
 
 
-def getAllHREFS():
+def get_all_hrefs():
     raw_html = simple_get("http://www.ceq.lth.se/rapporter/?lasar_lp=alla&program=&kurskod=&sort=kurskod")
     soup = BeautifulSoup(raw_html, 'html.parser')
+
+    print(raw_html)
 
     urlbois = []
 
