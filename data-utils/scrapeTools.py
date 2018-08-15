@@ -78,7 +78,7 @@ def get_all_hrefs():
     urlbois = []
 
     programs = ["C", "D"]
-    lps = range(66, 90)
+    lps = range(66, 150)
     for p in programs:
         for lp in lps:
             raw_html = simple_get("http://www.ceq.lth.se/rapporter/?lasar_lp=" + str(lp) + "&program=" + p)

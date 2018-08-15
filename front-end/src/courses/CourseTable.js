@@ -55,15 +55,3 @@ SimpleTable.propTypes = {
 }
 
 export default withStyles(styles)(SimpleTable)
-/*
-              <TableCell>{row.assessmentScore}</TableCell>
-              <TableCell>{row.code}</TableCell>
-              <TableCell>{row.goalClearnessScore}</TableCell>
-              <TableCell>{row.importanceScore}</TableCell>
-              <TableCell>{row.percentPassed}</TableCell>
-              <TableCell>{row.points}</TableCell>
-              <TableCell>{row.registered}</TableCell>
-              <TableCell>{row.satisfactionScore}</TableCell>
-              <TableCell>{row.teachingScore}</TableCell>
-              <TableCell>{row.workloadScore}</TableCell>
- */
