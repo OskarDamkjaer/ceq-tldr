@@ -17,6 +17,6 @@
 .env.test.local
 .env.production.local
 
-front-end/nnpm-debug.log*
-front-end/nyarn-debug.log*
-front-end/nyarn-error.log*
+front-end/npm-debug.log*
+front-end/yarn-debug.log*
+front-end/yarn-error.log*
