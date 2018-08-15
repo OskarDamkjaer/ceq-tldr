@@ -75,15 +75,17 @@ def gimme_dat_info(ceq_url):
 
 
 def get_all_hrefs():
-    raw_html = simple_get("http://www.ceq.lth.se/rapporter/?lasar_lp=alla&program=&kurskod=&sort=kurskod")
-    soup = BeautifulSoup(raw_html, 'html.parser')
-
-    print(raw_html)
-
     urlbois = []
 
-    for a in soup.find_all('a', href=True):
-        if "slutrapport.html" in a['href']:
-            urlbois.append(a['href'])
+    programs = ["C", "D"]
+    lps = range(66, 90)
+    for p in programs:
+        for lp in lps:
+            raw_html = simple_get("http://www.ceq.lth.se/rapporter/?lasar_lp=" + str(lp) + "&program=" + p)
+            soup = BeautifulSoup(raw_html, 'html.parser')
+            for a in soup.find_all('a', href=True):
+                if "slutrapport.html" in a['href']:
+                    urlbois.append(a['href'])
 
+    print(urlbois)
     return urlbois
