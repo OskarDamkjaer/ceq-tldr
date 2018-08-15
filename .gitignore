@@ -1,2 +1,22 @@
 .idea/
 ./data-utils/venv
+
+# dependencies
+/front-end/node_modules
+
+# testing
+/front-end/ncoverage
+
+# production
+/front-end/nbuild
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+front-end/nnpm-debug.log*
+front-end/nyarn-debug.log*
+front-end/nyarn-error.log*

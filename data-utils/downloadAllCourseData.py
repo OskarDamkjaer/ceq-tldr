@@ -19,4 +19,4 @@ all_links = ["http://www.ceq.lth.se/rapporter/2017_HT/LP1/ETEF01_2017_HT_LP1_slu
 '''
 
 all_series = [gimme_dat_info(link) for link in all_links]
-pd.DataFrame.from_records(all_series).to_json("./data/pureScrapeData.json")
+pd.DataFrame.from_records(all_series).to_csv("./data/pureScrapeData.csv")
