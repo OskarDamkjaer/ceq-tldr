@@ -7,7 +7,7 @@ import TableCell from '@material-ui/core/TableCell'
 import TableHead from '@material-ui/core/TableHead'
 import TableRow from '@material-ui/core/TableRow'
 import Paper from '@material-ui/core/Paper'
-//import scrapeData from "./pureScrapeData"
+import pureData from './pureScrapeData'
 
 const styles = theme => ({
   root: {
@@ -20,19 +20,11 @@ const styles = theme => ({
   },
 })
 
-let id = 0
-const scrapeData = [{
-  'assessmentScore': '+47',
-  'code': 'EDAA01',
-  'goalClearnessScore': '+24',
-  'importanceScore': '+64',
-  'percentPassed': '58%',
-  'points': '7.5',
-  'registered': '40',
-  'satisfactionScore': '+29',
-  'teachingScore': '+4',
-  'workloadScore': '-7'
-}]
+// Comments are big and index number 3
+const scrapeData = Object.values(pureData).filter((item, index) => index !== 2)
+const scrapeKeys = Object.keys(pureData[0]).filter((item, index) => index !== 2)
+
+// Aparently we don't need to parse this as json as it is already a "valid" js object...
 
 function SimpleTable (props) {
   const {classes} = props
@@ -42,23 +34,14 @@ function SimpleTable (props) {
         <TableHead>
           <TableRow>
             {
-              Object.keys(scrapeData[0]).map(key => <TableCell>{key}</TableCell>)
+              scrapeKeys.map(key => <TableCell>{key}</TableCell>)
             }
           </TableRow>
         </TableHead>
         <TableBody>
-          {[scrapeData[0]].map((row, index) => (
+          {scrapeData.map((row, index) => (
             <TableRow key={index}>
-              <TableCell>{row.assessmentScore}</TableCell>
-              <TableCell>{row.code}</TableCell>
-              <TableCell>{row.goalClearnessScore}</TableCell>
-              <TableCell>{row.importanceScore}</TableCell>
-              <TableCell>{row.percentPassed}</TableCell>
-              <TableCell>{row.points}</TableCell>
-              <TableCell>{row.registered}</TableCell>
-              <TableCell>{row.satisfactionScore}</TableCell>
-              <TableCell>{row.teachingScore}</TableCell>
-              <TableCell>{row.workloadScore}</TableCell>
+              {scrapeKeys.map(key => <TableCell>{row[key]}</TableCell>)}
             </TableRow>
           ))}
         </TableBody>
@@ -72,3 +55,15 @@ SimpleTable.propTypes = {
 }
 
 export default withStyles(styles)(SimpleTable)
+/*
+              <TableCell>{row.assessmentScore}</TableCell>
+              <TableCell>{row.code}</TableCell>
+              <TableCell>{row.goalClearnessScore}</TableCell>
+              <TableCell>{row.importanceScore}</TableCell>
+              <TableCell>{row.percentPassed}</TableCell>
+              <TableCell>{row.points}</TableCell>
+              <TableCell>{row.registered}</TableCell>
+              <TableCell>{row.satisfactionScore}</TableCell>
+              <TableCell>{row.teachingScore}</TableCell>
+              <TableCell>{row.workloadScore}</TableCell>
+ */
