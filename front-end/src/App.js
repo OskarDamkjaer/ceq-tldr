@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import CourseTable from './courses/CourseTable'
+import Table from './courses/Table'
 
 class App extends Component {
   render () {
     return (
-      <CourseTable/>
+      <Table/>
     )
   }
 }

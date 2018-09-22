@@ -11,12 +11,13 @@ import pureData from './pureScrapeData'
 
 const styles = theme => ({
   root: {
-    width: '100%',
+    width: '100vw',
     marginTop: theme.spacing.unit * 3,
     overflowX: 'auto',
   },
   table: {
     minWidth: 700,
+    maxWidth: '100vw',
   },
 })
 

@@ -12,7 +12,7 @@ export default {
     'satisfactionScore': '+29',
     'teachingScore': '+4',
     'workloadScore': '-7',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '1': {
     'assessmentScore': '+22',
@@ -27,12 +27,12 @@ export default {
     'satisfactionScore': '+82',
     'teachingScore': '+58',
     'workloadScore': '+18',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '2': {
     'assessmentScore': '+21',
     'code': 'EIT070',
-    'comments': 'Studier\u00e5dets kommentarer\u00d6verlag en kurs en stor majoritet av studenterna \u00e4r n\u00f6jda med. F\u00f6rel\u00e4saren f\u00f6r stort plus f\u00f6r sin pedagogik. \u00d6vningsledarna prisas f\u00f6r sin grundlighet.Kritik mot labbhandledningen samt att det mot slutet av kursen var mindre koppling\/r\u00f6d tr\u00e5d mellan f\u00f6rel\u00e4sning, laborationer och \u00f6vningar. C-programmeringen b\u00f6r flyttas fr\u00e5n f\u00f6rel\u00e4sning till (frivilligt) laborationsmoment. Framtiden om kursuppl\u00e4gget diskuterades och alternativ lades fram, men i skrivande stund beh\u00f6ver och kommer inte kursen att \u00e4ndras n\u00e4mnv\u00e4rt - n\u00e5got som \u00e4r utan problem, d\u00e5 kursen uppfattas som utm\u00e4rkt.Kursl\u00e4rarens kommentererKursen g\u00e5r i stort sett mycket bra, men institutionen \u00e4r medveten om b\u00e5de m\u00f6jligheten och behovet av modernisering och f\u00f6r\u00e4ndring. Kursen och dess inneh\u00e5ll \u00e4r starkt kopplade till kursen i Datorarkitektur, och all f\u00f6r\u00e4ndring m\u00e5ste ske i samarbete med denna senare kurs. Det \u00e4r i dagens l\u00e4ge oklart vad som skall g\u00f6ras och under vilket \u00e5r.Till n\u00e4sta \u00e5r kommer en det att ske en genomg\u00e5ng av laborationshandledningarna.Under CEQ-m\u00f6tet ber\u00e4ttade representanter fr\u00e5n D-programmet att m\u00e5nga tyckte att kursen k\u00e4ndes mycket inspirerande f\u00f6r just valet av utbildning, och E-programmet var ocks\u00e5 mycket positivt. Kursansvarig tackar f\u00f6r detta och konstaterar att den typen av positiv kritik ocks\u00e5 k\u00e4nns mycket inspirerande.Programledarens kommentarerKursen upplevs som angel\u00e4gen f\u00f6r utbildningen. Labbhandledningarna fick en del kritik av studenterna och kommer arbetas om till n\u00e4sta \u00e5r. Dock var laborationerna i sig v\u00e4ldigt uppskattade. Det f\u00f6rekommer en del C-programmering i  kursen och flera InfoCom-studenter upplever detta som sv\u00e5rt d\u00e5 man inte l\u00e4ser n\u00e5gon kurs i C-programmering. F\u00f6rel\u00e4saren fick positiva kommentarer.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarer\u00d6verlag en kurs en stor majoritet av studenterna \u00e4r n\u00f6jda med. F\u00f6rel\u00e4saren f\u00f6r stort plus f\u00f6r sin pedagogik. \u00d6vningsledarna prisas f\u00f6r sin grundlighet.Kritik mot labbhandledningen samt att det mot slutet av kursen var mindre koppling/r\u00f6d tr\u00e5d mellan f\u00f6rel\u00e4sning, laborationer och \u00f6vningar. C-programmeringen b\u00f6r flyttas fr\u00e5n f\u00f6rel\u00e4sning till (frivilligt) laborationsmoment. Framtiden om kursuppl\u00e4gget diskuterades och alternativ lades fram, men i skrivande stund beh\u00f6ver och kommer inte kursen att \u00e4ndras n\u00e4mnv\u00e4rt - n\u00e5got som \u00e4r utan problem, d\u00e5 kursen uppfattas som utm\u00e4rkt.Kursl\u00e4rarens kommentererKursen g\u00e5r i stort sett mycket bra, men institutionen \u00e4r medveten om b\u00e5de m\u00f6jligheten och behovet av modernisering och f\u00f6r\u00e4ndring. Kursen och dess inneh\u00e5ll \u00e4r starkt kopplade till kursen i Datorarkitektur, och all f\u00f6r\u00e4ndring m\u00e5ste ske i samarbete med denna senare kurs. Det \u00e4r i dagens l\u00e4ge oklart vad som skall g\u00f6ras och under vilket \u00e5r.Till n\u00e4sta \u00e5r kommer en det att ske en genomg\u00e5ng av laborationshandledningarna.Under CEQ-m\u00f6tet ber\u00e4ttade representanter fr\u00e5n D-programmet att m\u00e5nga tyckte att kursen k\u00e4ndes mycket inspirerande f\u00f6r just valet av utbildning, och E-programmet var ocks\u00e5 mycket positivt. Kursansvarig tackar f\u00f6r detta och konstaterar att den typen av positiv kritik ocks\u00e5 k\u00e4nns mycket inspirerande.Programledarens kommentarerKursen upplevs som angel\u00e4gen f\u00f6r utbildningen. Labbhandledningarna fick en del kritik av studenterna och kommer arbetas om till n\u00e4sta \u00e5r. Dock var laborationerna i sig v\u00e4ldigt uppskattade. Det f\u00f6rekommer en del C-programmering i  kursen och flera InfoCom-studenter upplever detta som sv\u00e5rt d\u00e5 man inte l\u00e4ser n\u00e5gon kurs i C-programmering. F\u00f6rel\u00e4saren fick positiva kommentarer.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+9',
     'importanceScore': '+50',
     'name': 'Datorteknik',
@@ -42,7 +42,7 @@ export default {
     'satisfactionScore': '+36',
     'teachingScore': '+15',
     'workloadScore': '+21',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '3': {
     'assessmentScore': '+38',
@@ -57,7 +57,7 @@ export default {
     'satisfactionScore': '+4',
     'teachingScore': '-4',
     'workloadScore': '-7',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '4': {
     'assessmentScore': '+43',
@@ -72,7 +72,7 @@ export default {
     'satisfactionScore': '+55',
     'teachingScore': '+35',
     'workloadScore': '-26',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '5': {
     'assessmentScore': '+23',
@@ -87,7 +87,7 @@ export default {
     'satisfactionScore': '+36',
     'teachingScore': '+28',
     'workloadScore': '+16',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '6': {
     'assessmentScore': '+40',
@@ -102,7 +102,7 @@ export default {
     'satisfactionScore': '+57',
     'teachingScore': '+25',
     'workloadScore': '+22',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '7': {
     'assessmentScore': '+49',
@@ -117,7 +117,7 @@ export default {
     'satisfactionScore': '+63',
     'teachingScore': '+33',
     'workloadScore': '+44',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '8': {
     'assessmentScore': '+18',
@@ -132,7 +132,7 @@ export default {
     'satisfactionScore': '+36',
     'teachingScore': '+15',
     'workloadScore': '+39',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '9': {
     'assessmentScore': '+25',
@@ -147,7 +147,7 @@ export default {
     'satisfactionScore': '-13',
     'teachingScore': '-61',
     'workloadScore': '-13',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '10': {
     'assessmentScore': '+26',
@@ -162,7 +162,7 @@ export default {
     'satisfactionScore': '+4',
     'teachingScore': '-13',
     'workloadScore': '+19',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '11': {
     'assessmentScore': '+44',
@@ -177,7 +177,7 @@ export default {
     'satisfactionScore': '+7',
     'teachingScore': '+4',
     'workloadScore': '-36',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '12': {
     'assessmentScore': '+36',
@@ -192,7 +192,7 @@ export default {
     'satisfactionScore': '0',
     'teachingScore': '-13',
     'workloadScore': '+31',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '13': {
     'assessmentScore': '-28',
@@ -207,7 +207,7 @@ export default {
     'satisfactionScore': '-29',
     'teachingScore': '-31',
     'workloadScore': '+25',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '14': {
     'assessmentScore': '+13',
@@ -222,7 +222,7 @@ export default {
     'satisfactionScore': '+59',
     'teachingScore': '+38',
     'workloadScore': '+32',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '15': {
     'assessmentScore': '+58',
@@ -237,7 +237,7 @@ export default {
     'satisfactionScore': '+16',
     'teachingScore': '-11',
     'workloadScore': '-38',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '16': {
     'assessmentScore': '+18',
@@ -252,7 +252,7 @@ export default {
     'satisfactionScore': '+70',
     'teachingScore': '+40',
     'workloadScore': '+34',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '17': {
     'assessmentScore': '+46',
@@ -267,7 +267,7 @@ export default {
     'satisfactionScore': '+43',
     'teachingScore': '+33',
     'workloadScore': '+16',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '18': {
     'assessmentScore': '+61',
@@ -282,7 +282,7 @@ export default {
     'satisfactionScore': '+53',
     'teachingScore': '+35',
     'workloadScore': '-15',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '19': {
     'assessmentScore': '+51',
@@ -297,7 +297,7 @@ export default {
     'satisfactionScore': '+11',
     'teachingScore': '-17',
     'workloadScore': '+16',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '20': {
     'assessmentScore': '+17',
@@ -312,7 +312,7 @@ export default {
     'satisfactionScore': '+72',
     'teachingScore': '+43',
     'workloadScore': '+28',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '21': {
     'assessmentScore': '+42',
@@ -327,7 +327,7 @@ export default {
     'satisfactionScore': '+35',
     'teachingScore': '+18',
     'workloadScore': '-28',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '22': {
     'assessmentScore': '+55',
@@ -342,7 +342,7 @@ export default {
     'satisfactionScore': '-18',
     'teachingScore': '-36',
     'workloadScore': '-24',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '23': {
     'assessmentScore': '+63',
@@ -357,7 +357,7 @@ export default {
     'satisfactionScore': '+40',
     'teachingScore': '-11',
     'workloadScore': '+13',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '24': {
     'assessmentScore': '+50',
@@ -372,7 +372,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+27',
     'workloadScore': '0',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '25': {
     'assessmentScore': '+32',
@@ -387,12 +387,12 @@ export default {
     'satisfactionScore': '-9',
     'teachingScore': '-4',
     'workloadScore': '+20',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '26': {
     'assessmentScore': '+49',
     'code': 'EDAA01',
-    'comments': 'Studier\u00e5dets kommentarerF\u00f6rel\u00e4sningarna var bra och f\u00f6rel\u00e4saren var bra p\u00e5 att f\u00f6rmedla sin kunskap. Att man alltid kunde g\u00e5 och fr\u00e5ga om hj\u00e4lp var v\u00e4rdefullt och uppskattat.Laborationshandledningarna b\u00f6r f\u00f6rtydligas, ibland \u00e4r det sv\u00e5rt att f\u00f6rst\u00e5 vad som menas.Kursl\u00e4rarens kommentererDet \u00e4r gl\u00e4djande att s\u00e5 m\u00e5nga \u00e4r n\u00f6jda med kursen och finner den relevant f\u00f6r sin utbildning.Kursen skiljer sig fr\u00e5n grundkurserna genom att den f\u00f6rutom programmering inneh\u00e5ller en hel del teori. Laborationerna och inl\u00e4mningsuppgiften ger tr\u00e4ning i att skriva program. \u00d6vningarna \u00e4r ett viktigt komplement och inneh\u00e5ller b\u00e5de programmerings- och  teoriuppgifter. Studenternas deltagande i undervisningen har varit bra, \u00e4ven om n\u00e4rvaron p\u00e5 \u00f6vningarna kunde varit b\u00e4ttre.V\u00e5rens kursomg\u00e5ng g\u00e5r under en l\u00e4speriod. Det inneb\u00e4r att studenterna har ca 25 timmar\/vecka att l\u00e4gga p\u00e5 kursen. Sista l\u00e4sveckan upplevs som tung. Men man kan b\u00f6rja med inl\u00e4mningsuppgiften i l\u00e4svecka 4, 5 eller 6 beroende p\u00e5 vilken variant av inl\u00e4mningsuppgiften man valt. Det finns allts\u00e5 m\u00f6jlighet att sj\u00e4lv utj\u00e4mna arbetsbelastningen under l\u00e4sperioden.Inf\u00f6r n\u00e4sta kursomg\u00e5ng planerar vi att se \u00f6ver \u00f6vningsuppgifterna. Bland annat ska vissa  \u00f6vningsuppgifter anpassas s\u00e5 att de l\u00e4ttare kan l\u00f6sas p\u00e5 dator.Programledarens kommentarerKursen upplevs av studenterna som mycket angel\u00e4gen f\u00f6r utbildningen. B\u00e5de f\u00f6rel\u00e4sare och kursen som helhet fick m\u00e5nga positiva kommentarer. P\u00e5 CEQ-m\u00f6tet diskuterades \u00e4ven f\u00f6rslag p\u00e5 eventuella f\u00f6rb\u00e4ttrings\u00e5tg\u00e4rder.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerF\u00f6rel\u00e4sningarna var bra och f\u00f6rel\u00e4saren var bra p\u00e5 att f\u00f6rmedla sin kunskap. Att man alltid kunde g\u00e5 och fr\u00e5ga om hj\u00e4lp var v\u00e4rdefullt och uppskattat.Laborationshandledningarna b\u00f6r f\u00f6rtydligas, ibland \u00e4r det sv\u00e5rt att f\u00f6rst\u00e5 vad som menas.Kursl\u00e4rarens kommentererDet \u00e4r gl\u00e4djande att s\u00e5 m\u00e5nga \u00e4r n\u00f6jda med kursen och finner den relevant f\u00f6r sin utbildning.Kursen skiljer sig fr\u00e5n grundkurserna genom att den f\u00f6rutom programmering inneh\u00e5ller en hel del teori. Laborationerna och inl\u00e4mningsuppgiften ger tr\u00e4ning i att skriva program. \u00d6vningarna \u00e4r ett viktigt komplement och inneh\u00e5ller b\u00e5de programmerings- och  teoriuppgifter. Studenternas deltagande i undervisningen har varit bra, \u00e4ven om n\u00e4rvaron p\u00e5 \u00f6vningarna kunde varit b\u00e4ttre.V\u00e5rens kursomg\u00e5ng g\u00e5r under en l\u00e4speriod. Det inneb\u00e4r att studenterna har ca 25 timmar/vecka att l\u00e4gga p\u00e5 kursen. Sista l\u00e4sveckan upplevs som tung. Men man kan b\u00f6rja med inl\u00e4mningsuppgiften i l\u00e4svecka 4, 5 eller 6 beroende p\u00e5 vilken variant av inl\u00e4mningsuppgiften man valt. Det finns allts\u00e5 m\u00f6jlighet att sj\u00e4lv utj\u00e4mna arbetsbelastningen under l\u00e4sperioden.Inf\u00f6r n\u00e4sta kursomg\u00e5ng planerar vi att se \u00f6ver \u00f6vningsuppgifterna. Bland annat ska vissa  \u00f6vningsuppgifter anpassas s\u00e5 att de l\u00e4ttare kan l\u00f6sas p\u00e5 dator.Programledarens kommentarerKursen upplevs av studenterna som mycket angel\u00e4gen f\u00f6r utbildningen. B\u00e5de f\u00f6rel\u00e4sare och kursen som helhet fick m\u00e5nga positiva kommentarer. P\u00e5 CEQ-m\u00f6tet diskuterades \u00e4ven f\u00f6rslag p\u00e5 eventuella f\u00f6rb\u00e4ttrings\u00e5tg\u00e4rder.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+9',
     'importanceScore': '+73',
     'name': 'Programmeringsteknik - f\u00f6rdjupningskurs',
@@ -402,7 +402,7 @@ export default {
     'satisfactionScore': '+45',
     'teachingScore': '+13',
     'workloadScore': '-3',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '27': {
     'assessmentScore': '+15',
@@ -417,7 +417,7 @@ export default {
     'satisfactionScore': '+74',
     'teachingScore': '+50',
     'workloadScore': '-3',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '28': {
     'assessmentScore': '+41',
@@ -432,12 +432,12 @@ export default {
     'satisfactionScore': '+71',
     'teachingScore': '+36',
     'workloadScore': '+23',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '29': {
     'assessmentScore': '+25',
     'code': 'FAFF25',
-    'comments': 'Studier\u00e5dets kommentarer\u00d6vningarna uppskattades.Kursens koppling till programmet upplevdes som d\u00e5lig. Fotonikdelen hade kunnat bygga vidare p\u00e5 omr\u00e5det kommunikationssystem.R\u00e4ttningen av labbrapporterna var inkonskvent mellan handledarna och kraven fr\u00e5n dessa varierar. Bed\u00f6mningen av dessa b\u00f6r koordineras s\u00e5 att kraven p\u00e5 uppgiften inte beror p\u00e5 vilken handledare man f\u00e5r.Kursl\u00e4rarens kommentererL\u00e4rarna p\u00e5 kursen \u00e4r i huvudsak n\u00f6jda med kursens genomf\u00f6rande och vi tolkar CEQ svaren som att detta ocks\u00e5 g\u00e4ller f\u00f6r studenterna.Dock har kursen sedan starten det stora problemet att den inte upplevs som angel\u00e4gen eller relevant f\u00f6r utbildningen. L\u00e4rarna och studenterna \u00e4r helt \u00f6verens om att den viktigaste och n\u00f6dv\u00e4ndiga f\u00f6rb\u00e4ttringen \u00e4r att flytta kursen till \u00e5k 1 eller b\u00f6rjan av \u00e5k 2, d\u00e4r motsvarande kurser ligger i alla andra civilingenj\u00f6rsprogram. En tydlig process mot detta m\u00e5l kommer att startas av programledningarna, och ett f\u00f6rsta uppf\u00f6ljningsm\u00f6te \u00e4r planerat till mitten av september.N\u00e5gra detaljf\u00f6rb\u00e4ttringar som kommer att genomf\u00f6ras till n\u00e4sta kurs \u00e4r:1) Ytterligare betona vikten och kraven p\u00e5 bra muntliga presentationer av projekten2) Som ett led i detta ordnar programledningarna en allm\u00e4n f\u00f6rel\u00e4sning om muntlig presentationsteknik f\u00f6re redovisningarna av projekten.3) Unders\u00f6ka m\u00f6jligheten att hitta n\u00e5got nytt projekt med betoning p\u00e5 h\u00e5llbar utveckling och tydligare koppling till CD utbildningen4) Utrustningen och laborationsinstruktionerna till fiberoptiklabben ses \u00f6ver.5) Eventuellt ut\u00f6ka de dator\/simuleringsbaserade inl\u00e4mningsuppgifterna.Programledarens kommentarerTyv\u00e4rr \u00e4r svarsfrekvensen l\u00e5g (25%). Dock, det verkar som att kursen inte uppfattas av studenterna som angel\u00e4gen f\u00f6r utbildningen, vilket \u00e4r olyckligt. Orsaken till denna uppfattning diskuterades bl.a. p\u00e5 CEQ-m\u00f6tet, vilket ledde till att ett m\u00f6te mellan kursansvarig och programledningen \u00e4r inplanerat till mitten av september 2013. Vid detta m\u00f6te skall m\u00f6jligheten till tidigarel\u00e4ggning av kursen diskuteras.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarer\u00d6vningarna uppskattades.Kursens koppling till programmet upplevdes som d\u00e5lig. Fotonikdelen hade kunnat bygga vidare p\u00e5 omr\u00e5det kommunikationssystem.R\u00e4ttningen av labbrapporterna var inkonskvent mellan handledarna och kraven fr\u00e5n dessa varierar. Bed\u00f6mningen av dessa b\u00f6r koordineras s\u00e5 att kraven p\u00e5 uppgiften inte beror p\u00e5 vilken handledare man f\u00e5r.Kursl\u00e4rarens kommentererL\u00e4rarna p\u00e5 kursen \u00e4r i huvudsak n\u00f6jda med kursens genomf\u00f6rande och vi tolkar CEQ svaren som att detta ocks\u00e5 g\u00e4ller f\u00f6r studenterna.Dock har kursen sedan starten det stora problemet att den inte upplevs som angel\u00e4gen eller relevant f\u00f6r utbildningen. L\u00e4rarna och studenterna \u00e4r helt \u00f6verens om att den viktigaste och n\u00f6dv\u00e4ndiga f\u00f6rb\u00e4ttringen \u00e4r att flytta kursen till \u00e5k 1 eller b\u00f6rjan av \u00e5k 2, d\u00e4r motsvarande kurser ligger i alla andra civilingenj\u00f6rsprogram. En tydlig process mot detta m\u00e5l kommer att startas av programledningarna, och ett f\u00f6rsta uppf\u00f6ljningsm\u00f6te \u00e4r planerat till mitten av september.N\u00e5gra detaljf\u00f6rb\u00e4ttringar som kommer att genomf\u00f6ras till n\u00e4sta kurs \u00e4r:1) Ytterligare betona vikten och kraven p\u00e5 bra muntliga presentationer av projekten2) Som ett led i detta ordnar programledningarna en allm\u00e4n f\u00f6rel\u00e4sning om muntlig presentationsteknik f\u00f6re redovisningarna av projekten.3) Unders\u00f6ka m\u00f6jligheten att hitta n\u00e5got nytt projekt med betoning p\u00e5 h\u00e5llbar utveckling och tydligare koppling till CD utbildningen4) Utrustningen och laborationsinstruktionerna till fiberoptiklabben ses \u00f6ver.5) Eventuellt ut\u00f6ka de dator/simuleringsbaserade inl\u00e4mningsuppgifterna.Programledarens kommentarerTyv\u00e4rr \u00e4r svarsfrekvensen l\u00e5g (25%). Dock, det verkar som att kursen inte uppfattas av studenterna som angel\u00e4gen f\u00f6r utbildningen, vilket \u00e4r olyckligt. Orsaken till denna uppfattning diskuterades bl.a. p\u00e5 CEQ-m\u00f6tet, vilket ledde till att ett m\u00f6te mellan kursansvarig och programledningen \u00e4r inplanerat till mitten av september 2013. Vid detta m\u00f6te skall m\u00f6jligheten till tidigarel\u00e4ggning av kursen diskuteras.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+13',
     'importanceScore': '-50',
     'name': 'Fysik',
@@ -447,7 +447,7 @@ export default {
     'satisfactionScore': '-20',
     'teachingScore': '+4',
     'workloadScore': '+9',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '30': {
     'assessmentScore': '+54',
@@ -462,7 +462,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+20',
     'workloadScore': '-4',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '31': {
     'assessmentScore': '-8',
@@ -477,12 +477,12 @@ export default {
     'satisfactionScore': '-7',
     'teachingScore': '-3',
     'workloadScore': '+29',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '32': {
     'assessmentScore': '+52',
     'code': 'EDA095',
-    'comments': 'Studier\u00e5dets kommentarerKommentarer har ej inkommit f\u00f6re utsatt tidKursl\u00e4rarens kommentererKursen fungerade v\u00e4l \u00e4ven i \u00e5r och \u00e4r \u00f6verlag uppskattad. Flytten fr\u00e5n C3 till C2 vars effekter vi s\u00e4rskilt bevakade i \u00e5r verkar inte ha haft menlig inverkan. Till n\u00e4sta \u00e5r avser vi se \u00f6ver hur laborationer kan beskrivas tydligare och hur projektet kan f\u00e5 en tydligare m\u00e5ls\u00e4ttning och tydligare krav p\u00e5 inneh\u00e5ll\/redovisning.Programledarens kommentarerKursen fungerar v\u00e4l, f\u00e5r goda omd\u00f6men samt upplevs ha h\u00f6g relevans f\u00f6r utbildningen. Vid CEQ-m\u00f6tet diskuterades arbetsrapporten, samt intryck och erfarenheter av kursen presenterades.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerKommentarer har ej inkommit f\u00f6re utsatt tidKursl\u00e4rarens kommentererKursen fungerade v\u00e4l \u00e4ven i \u00e5r och \u00e4r \u00f6verlag uppskattad. Flytten fr\u00e5n C3 till C2 vars effekter vi s\u00e4rskilt bevakade i \u00e5r verkar inte ha haft menlig inverkan. Till n\u00e4sta \u00e5r avser vi se \u00f6ver hur laborationer kan beskrivas tydligare och hur projektet kan f\u00e5 en tydligare m\u00e5ls\u00e4ttning och tydligare krav p\u00e5 inneh\u00e5ll/redovisning.Programledarens kommentarerKursen fungerar v\u00e4l, f\u00e5r goda omd\u00f6men samt upplevs ha h\u00f6g relevans f\u00f6r utbildningen. Vid CEQ-m\u00f6tet diskuterades arbetsrapporten, samt intryck och erfarenheter av kursen presenterades.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+36',
     'importanceScore': '+81',
     'name': 'N\u00e4tverksprogrammering',
@@ -492,7 +492,7 @@ export default {
     'satisfactionScore': '+52',
     'teachingScore': '+26',
     'workloadScore': '+39',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '33': {
     'assessmentScore': '+49',
@@ -507,7 +507,7 @@ export default {
     'satisfactionScore': '+67',
     'teachingScore': '+34',
     'workloadScore': '+57',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '34': {
     'assessmentScore': '+14',
@@ -522,7 +522,7 @@ export default {
     'satisfactionScore': '-47',
     'teachingScore': '-42',
     'workloadScore': '-11',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '35': {
     'assessmentScore': '+15',
@@ -537,7 +537,7 @@ export default {
     'satisfactionScore': '+15',
     'teachingScore': '-5',
     'workloadScore': '+1',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '36': {
     'assessmentScore': '+43',
@@ -552,7 +552,7 @@ export default {
     'satisfactionScore': '-17',
     'teachingScore': '-26',
     'workloadScore': '-19',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '37': {
     'assessmentScore': '+48',
@@ -567,7 +567,7 @@ export default {
     'satisfactionScore': '+53',
     'teachingScore': '+43',
     'workloadScore': '-33',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '38': {
     'assessmentScore': '+26',
@@ -582,7 +582,7 @@ export default {
     'satisfactionScore': '+10',
     'teachingScore': '-1',
     'workloadScore': '+40',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '39': {
     'assessmentScore': '-6',
@@ -597,7 +597,7 @@ export default {
     'satisfactionScore': '-25',
     'teachingScore': '-28',
     'workloadScore': '-3',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '40': {
     'assessmentScore': '+56',
@@ -612,7 +612,7 @@ export default {
     'satisfactionScore': '+43',
     'teachingScore': '+27',
     'workloadScore': '-0',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '41': {
     'assessmentScore': '+18',
@@ -627,12 +627,12 @@ export default {
     'satisfactionScore': '+73',
     'teachingScore': '+41',
     'workloadScore': '+51',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '42': {
     'assessmentScore': '+25',
     'code': 'ETT051',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerP\u00e5 utv\u00e4rderingsm\u00f6tet diskuterade vi hur man skulle g\u00f6ra f\u00f6rel\u00e4sningarna roligare\/intressantare. F\u00f6rslag som kom upp var fler verklighetsf\u00f6rankrade r\u00e4kneexempel.Mycket positiv kritik gavs om \u00f6vningarnas uppl\u00e4gg.Ist\u00e4llet f\u00f6r att ha tv\u00e5 \u00f6vningstillf\u00e4llen dedikerade till fr\u00e5gor f\u00f6reslogs att ha en gemensam extenta-r\u00e4kning p\u00e5 en av dessa tillf\u00e4llen.Kursens \u00f6vningar och f\u00f6rel\u00e4sningar fungerade bra i allm\u00e4nhet.Det som diskuterades p\u00e5 CEQ m\u00f6tet var att f\u00f6rel\u00e4saren har f\u00e5tt kommentarer fr\u00e5n studenter att de kanske hade l\u00e4ttare att f\u00f6rst\u00e5 honom om han pratade svenska ist\u00e4llet, men med tanke p\u00e5 utbytesstudenter s\u00e5 \u00e4r det nog lite sv\u00e5rt att \u00e5tg\u00e4rda.Fler intressanta\/verlighetsf\u00f6rankrade exempel togs upp som f\u00f6rslag f\u00f6r att kunna hj\u00e4lpa studenterna att komma ih\u00e5g vissa begrepp.Labbarna fick mycket positiva kommentarer. Eventuell exempel p\u00e5 liknande tentauppgift p\u00e5 varje \u00f6vningstillf\u00e4lle diskuterades ocks\u00e5, f\u00f6r att man ska kunna vara lite mer f\u00f6rberedd p\u00e5 vad man f\u00f6rv\u00e4ntas kunna inf\u00f6r tentan.\u00c5terkopplingsm\u00f6te med kursombud diskuterades ocks\u00e5, om det skulle vara mitt i l\u00e4sperioden t ex vecka 3, eftersom kursombuden inte brukar svara p\u00e5 mejl.Kursl\u00e4rarens kommenterer\u00d6verlag verkar \u00e5rets kurs ha g\u00e5tt relativt bra, och i paritet med tidigare \u00e5r. P\u00e5 CEQ-m\u00f6tet, som var mycket givande, framf\u00f6rdes bl.a. \u00f6nskem\u00e5l om fler tydliga exempel p\u00e5 f\u00f6rel\u00e4sningarna, samt extentagenomg\u00e5ng vid sista \u00f6vningspasset. Jag ska f\u00f6rs\u00f6ka l\u00f6sa detta till n\u00e4sta l\u00e4s\u00e5r.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerP\u00e5 utv\u00e4rderingsm\u00f6tet diskuterade vi hur man skulle g\u00f6ra f\u00f6rel\u00e4sningarna roligare/intressantare. F\u00f6rslag som kom upp var fler verklighetsf\u00f6rankrade r\u00e4kneexempel.Mycket positiv kritik gavs om \u00f6vningarnas uppl\u00e4gg.Ist\u00e4llet f\u00f6r att ha tv\u00e5 \u00f6vningstillf\u00e4llen dedikerade till fr\u00e5gor f\u00f6reslogs att ha en gemensam extenta-r\u00e4kning p\u00e5 en av dessa tillf\u00e4llen.Kursens \u00f6vningar och f\u00f6rel\u00e4sningar fungerade bra i allm\u00e4nhet.Det som diskuterades p\u00e5 CEQ m\u00f6tet var att f\u00f6rel\u00e4saren har f\u00e5tt kommentarer fr\u00e5n studenter att de kanske hade l\u00e4ttare att f\u00f6rst\u00e5 honom om han pratade svenska ist\u00e4llet, men med tanke p\u00e5 utbytesstudenter s\u00e5 \u00e4r det nog lite sv\u00e5rt att \u00e5tg\u00e4rda.Fler intressanta/verlighetsf\u00f6rankrade exempel togs upp som f\u00f6rslag f\u00f6r att kunna hj\u00e4lpa studenterna att komma ih\u00e5g vissa begrepp.Labbarna fick mycket positiva kommentarer. Eventuell exempel p\u00e5 liknande tentauppgift p\u00e5 varje \u00f6vningstillf\u00e4lle diskuterades ocks\u00e5, f\u00f6r att man ska kunna vara lite mer f\u00f6rberedd p\u00e5 vad man f\u00f6rv\u00e4ntas kunna inf\u00f6r tentan.\u00c5terkopplingsm\u00f6te med kursombud diskuterades ocks\u00e5, om det skulle vara mitt i l\u00e4sperioden t ex vecka 3, eftersom kursombuden inte brukar svara p\u00e5 mejl.Kursl\u00e4rarens kommenterer\u00d6verlag verkar \u00e5rets kurs ha g\u00e5tt relativt bra, och i paritet med tidigare \u00e5r. P\u00e5 CEQ-m\u00f6tet, som var mycket givande, framf\u00f6rdes bl.a. \u00f6nskem\u00e5l om fler tydliga exempel p\u00e5 f\u00f6rel\u00e4sningarna, samt extentagenomg\u00e5ng vid sista \u00f6vningspasset. Jag ska f\u00f6rs\u00f6ka l\u00f6sa detta till n\u00e4sta l\u00e4s\u00e5r.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+27',
     'importanceScore': '+52',
     'name': 'Digital kommunikation',
@@ -642,7 +642,7 @@ export default {
     'satisfactionScore': '+41',
     'teachingScore': '+26',
     'workloadScore': '+11',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '43': {
     'assessmentScore': '+43',
@@ -657,7 +657,7 @@ export default {
     'satisfactionScore': '+29',
     'teachingScore': '-10',
     'workloadScore': '+8',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '44': {
     'assessmentScore': '+55',
@@ -672,7 +672,7 @@ export default {
     'satisfactionScore': '+25',
     'teachingScore': '-0',
     'workloadScore': '+16',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '45': {
     'assessmentScore': '+32',
@@ -687,12 +687,12 @@ export default {
     'satisfactionScore': '+76',
     'teachingScore': '+45',
     'workloadScore': '+28',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '46': {
     'assessmentScore': '+17',
     'code': 'ETSF05',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerOtroligt tidskr\u00e4vande kurs. Po\u00e4ngf\u00f6rdelningen och arbetsbelastningen \u00e4r brutalt missvisande. Kursens inneh\u00e5ll \u00e4r roligt, l\u00e4rorikt och intressant f\u00f6r C- och D- studenterna, men d\u00e5 kursen \u00e4r obligatorisk f\u00f6r C2:orna s\u00e5 b\u00f6r den definitivt revideras s\u00e5 att inneh\u00e5llet blir mer mottagligt f\u00f6r studenterna.Kursl\u00e4rarens kommentererDenna kurs \u00e4r uppbyggd s\u00e5 att studenterna sj\u00e4lva ska kunna best\u00e4mma ambitionsniv\u00e5 och kunna planera sitt arbete. Det g\u00e5r s\u00e5ledes att genomf\u00f6ra kursen som en traditionell kurs med f\u00f6rel\u00e4sningar, \u00f6vningar, labbar och en stor tenta i tentaperioden. Men det g\u00e5r ocks\u00e5 att klara kursen genom att under l\u00e4sperioden delta i frivilliga aktiviteter och hem-duggor. Studenter som klagar p\u00e5 h\u00f6g arbetsbealstning pga dessa frivilliga aktiviter har uppenbarligen inte f\u00f6rst\u00e5tt det f\u00f6rh\u00e5llandet; Informationen om detta ska f\u00f6rst\u00e4rkas.Att det \u00e4r sv\u00e5rt att f\u00e5 tillg\u00e5ng till routerlabbet \u00e4r ett k\u00e4nt fenomen, vilket jag p\u00e5talar varje \u00e5r. Vill man kunna v\u00e4lja tidpunkter "fritt" b\u00f6r man starta med projektet tidigt. Det \u00e4r s\u00e5ledes \u00e4ven h\u00e4r fr\u00e5ga om att planera sin tid vilket jag p\u00e5pekar. Att genomf\u00f6ra denna lab som en vanlig salslab l\u00e5ter sig inte g\u00f6ras annat \u00e4n i en emulerad milj\u00f6. Jag ser det som viktigt att det faktiskt \u00e4r riktiga routrar vi anv\u00e4nder. Emulering \u00e4r nu en g\u00e5ng emulering. Labbhandledningen g\u00e5s normalt igenom och uppdateras\/uppfr\u00e4schas varje \u00e5r, och d\u00e5 tas kommentarer ad notam i s\u00e5 stor utsrt\u00e4ckning som m\u00f6jligt. Viktigt \u00e4r att labben inte reduceras till en "fylleri"-\u00f6vning.Korttentan i l\u00e4speriod 1 ska f\u00e5 l\u00e4ngre tentamenstid. Resultaten av de f\u00f6r\u00e4ndringsf\u00f6rs\u00f6k vi gjort tyder p\u00e5 att det framf\u00f6rallt \u00e4r den korta tentatiden som stressar till de d\u00e5liga prestantionerna. Att klara av en tenta som i omf\u00e5ng \u00e4r cirka 40% av en normal tenta p\u00e5 40% av en normal tentatid tycks problematiskt. (Detta \u00e4r f\u00f6rv\u00e5nande d\u00e5 merparten av tentanderna brukar l\u00e4mna in i mycket god tid innan tentatidens slut vid en normal tenta.) Att de teoriavsnitt som denna tenta omfattar upplevs som utan sammanhang \u00e4ger sin riktigthet d\u00e5 denna del av kursen \u00e4r en ut\u00f6kning av ETS130 som har som ett delm\u00e5l att anpassa C-studenternas kunskaper till de som D- och E-studenterna f\u00e5r i ETS052.Under n\u00e4sta l\u00e4s\u00e5r engageras en ny \u00f6vningshandledare. I samband d\u00e4rmed sker naturligtvis en \u00f6versyn av \u00f6vningarna. Ett h\u00f6gst troligt byte av kurslitteratur kommer att f\u00f6rst\u00e4rka denna process.Programledarens kommentarerKursen upplevs som mycket angel\u00e4gen f\u00f6r utbildningen. Den fick ocks\u00e5 m\u00e5nga positiva kommentarer. Arbetsrapporten inneh\u00e5ller \u00e4ven f\u00f6rb\u00e4ttringsf\u00f6rslag och p\u00e5 m\u00f6tet diskuterades en del av dessa. Kursansvarig har tagit till sig de synpunkter som framf\u00f6rts.CEQ-enk\u00e4ten fylldes iweb-enk\u00e4t',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerOtroligt tidskr\u00e4vande kurs. Po\u00e4ngf\u00f6rdelningen och arbetsbelastningen \u00e4r brutalt missvisande. Kursens inneh\u00e5ll \u00e4r roligt, l\u00e4rorikt och intressant f\u00f6r C- och D- studenterna, men d\u00e5 kursen \u00e4r obligatorisk f\u00f6r C2:orna s\u00e5 b\u00f6r den definitivt revideras s\u00e5 att inneh\u00e5llet blir mer mottagligt f\u00f6r studenterna.Kursl\u00e4rarens kommentererDenna kurs \u00e4r uppbyggd s\u00e5 att studenterna sj\u00e4lva ska kunna best\u00e4mma ambitionsniv\u00e5 och kunna planera sitt arbete. Det g\u00e5r s\u00e5ledes att genomf\u00f6ra kursen som en traditionell kurs med f\u00f6rel\u00e4sningar, \u00f6vningar, labbar och en stor tenta i tentaperioden. Men det g\u00e5r ocks\u00e5 att klara kursen genom att under l\u00e4sperioden delta i frivilliga aktiviteter och hem-duggor. Studenter som klagar p\u00e5 h\u00f6g arbetsbealstning pga dessa frivilliga aktiviter har uppenbarligen inte f\u00f6rst\u00e5tt det f\u00f6rh\u00e5llandet; Informationen om detta ska f\u00f6rst\u00e4rkas.Att det \u00e4r sv\u00e5rt att f\u00e5 tillg\u00e5ng till routerlabbet \u00e4r ett k\u00e4nt fenomen, vilket jag p\u00e5talar varje \u00e5r. Vill man kunna v\u00e4lja tidpunkter "fritt" b\u00f6r man starta med projektet tidigt. Det \u00e4r s\u00e5ledes \u00e4ven h\u00e4r fr\u00e5ga om att planera sin tid vilket jag p\u00e5pekar. Att genomf\u00f6ra denna lab som en vanlig salslab l\u00e5ter sig inte g\u00f6ras annat \u00e4n i en emulerad milj\u00f6. Jag ser det som viktigt att det faktiskt \u00e4r riktiga routrar vi anv\u00e4nder. Emulering \u00e4r nu en g\u00e5ng emulering. Labbhandledningen g\u00e5s normalt igenom och uppdateras/uppfr\u00e4schas varje \u00e5r, och d\u00e5 tas kommentarer ad notam i s\u00e5 stor utsrt\u00e4ckning som m\u00f6jligt. Viktigt \u00e4r att labben inte reduceras till en "fylleri"-\u00f6vning.Korttentan i l\u00e4speriod 1 ska f\u00e5 l\u00e4ngre tentamenstid. Resultaten av de f\u00f6r\u00e4ndringsf\u00f6rs\u00f6k vi gjort tyder p\u00e5 att det framf\u00f6rallt \u00e4r den korta tentatiden som stressar till de d\u00e5liga prestantionerna. Att klara av en tenta som i omf\u00e5ng \u00e4r cirka 40% av en normal tenta p\u00e5 40% av en normal tentatid tycks problematiskt. (Detta \u00e4r f\u00f6rv\u00e5nande d\u00e5 merparten av tentanderna brukar l\u00e4mna in i mycket god tid innan tentatidens slut vid en normal tenta.) Att de teoriavsnitt som denna tenta omfattar upplevs som utan sammanhang \u00e4ger sin riktigthet d\u00e5 denna del av kursen \u00e4r en ut\u00f6kning av ETS130 som har som ett delm\u00e5l att anpassa C-studenternas kunskaper till de som D- och E-studenterna f\u00e5r i ETS052.Under n\u00e4sta l\u00e4s\u00e5r engageras en ny \u00f6vningshandledare. I samband d\u00e4rmed sker naturligtvis en \u00f6versyn av \u00f6vningarna. Ett h\u00f6gst troligt byte av kurslitteratur kommer att f\u00f6rst\u00e4rka denna process.Programledarens kommentarerKursen upplevs som mycket angel\u00e4gen f\u00f6r utbildningen. Den fick ocks\u00e5 m\u00e5nga positiva kommentarer. Arbetsrapporten inneh\u00e5ller \u00e4ven f\u00f6rb\u00e4ttringsf\u00f6rslag och p\u00e5 m\u00f6tet diskuterades en del av dessa. Kursansvarig har tagit till sig de synpunkter som framf\u00f6rts.CEQ-enk\u00e4ten fylldes iweb-enk\u00e4t',
     'goalClearnessScore': '+7',
     'importanceScore': '+89',
     'name': 'Internetprotokoll',
@@ -702,7 +702,7 @@ export default {
     'satisfactionScore': '+18',
     'teachingScore': '+9',
     'workloadScore': '-24',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '47': {
     'assessmentScore': '+45',
@@ -717,12 +717,12 @@ export default {
     'satisfactionScore': '+63',
     'teachingScore': '+30',
     'workloadScore': '-1',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '48': {
     'assessmentScore': '+55',
     'code': 'FMS012',
-    'comments': 'Studier\u00e5dets kommentarerRolig, intressant och l\u00e4rorik kurs som k\u00e4nns relevant f\u00f6r utbildningen. Belastningen p\u00e5 kursens olika moment \u00e4r lite skev. Vissa \u00f6vningar och labbar var man tvungen att stressa sig igenom, medan andra var triviala. Inf\u00f6r n\u00e4sta kursomg\u00e5ng b\u00f6r strukturen och kursens uppl\u00e4gg revideras s\u00e5 att informationen\/l\u00e4rdomarna blir mer l\u00e4ttsm\u00e4lta och j\u00e4mnt f\u00f6rdelade \u00f6ver de 2 l\u00e4sperioderna.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerDet \u00e4r gl\u00e4djande att notera att kursen verkar ha fungerat bra, och att studenterna ger den goda omd\u00f6men.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerRolig, intressant och l\u00e4rorik kurs som k\u00e4nns relevant f\u00f6r utbildningen. Belastningen p\u00e5 kursens olika moment \u00e4r lite skev. Vissa \u00f6vningar och labbar var man tvungen att stressa sig igenom, medan andra var triviala. Inf\u00f6r n\u00e4sta kursomg\u00e5ng b\u00f6r strukturen och kursens uppl\u00e4gg revideras s\u00e5 att informationen/l\u00e4rdomarna blir mer l\u00e4ttsm\u00e4lta och j\u00e4mnt f\u00f6rdelade \u00f6ver de 2 l\u00e4sperioderna.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerDet \u00e4r gl\u00e4djande att notera att kursen verkar ha fungerat bra, och att studenterna ger den goda omd\u00f6men.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+31',
     'importanceScore': '+19',
     'name': 'Matematisk statistik, allm\u00e4n kurs',
@@ -732,7 +732,7 @@ export default {
     'satisfactionScore': '+38',
     'teachingScore': '+18',
     'workloadScore': '-11',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '49': {
     'assessmentScore': '+48',
@@ -747,7 +747,7 @@ export default {
     'satisfactionScore': '+38',
     'teachingScore': '+37',
     'workloadScore': '-16',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '50': {
     'assessmentScore': '+80',
@@ -762,7 +762,7 @@ export default {
     'satisfactionScore': '+47',
     'teachingScore': '+35',
     'workloadScore': '+15',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '51': {
     'assessmentScore': '+33',
@@ -777,12 +777,12 @@ export default {
     'satisfactionScore': '-18',
     'teachingScore': '-6',
     'workloadScore': '+48',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '52': {
     'assessmentScore': '+51',
     'code': 'EDAA01',
-    'comments': 'Studier\u00e5dets kommentarerL\u00e4rarna \u00e4r v\u00e4ldigt sympatiska och pedagogiska. Kursen bidrar med en j\u00e4mn och naturlig \u00f6verg\u00e5ng fr\u00e5n introduktionskursen vilket g\u00f6r att man l\u00e4tt kan s\u00e4tta sig in i \u00e4mnet. En del av inneh\u00e5llet b\u00f6r motiveras och f\u00f6rklaras tydligare s\u00e5som vilka praktiska till\u00e4mpningar det kan ha och hur man kan anv\u00e4nda vissa tekniker p\u00e5 alternativa s\u00e4tt.Kursl\u00e4rarens kommentererDet \u00e4r gl\u00e4djande att s\u00e5 m\u00e5nga \u00e4r n\u00f6jda med kursen och finner den relevant f\u00f6r sin utbildning.V\u00e5rens kursomg\u00e5ng g\u00e5r under en l\u00e4speriod. Det inneb\u00e4r att studenterna har ca 25 timmar\/vecka att l\u00e4gga p\u00e5 kursen. Sista l\u00e4sveckan upplevs som tung, men detta kommer att bli b\u00e4ttre med den nya l\u00e4speriodsindelningen. Sista laborationen och sista inl\u00e4mningsdatum f\u00f6r inl\u00e4mningsuppgiften kommer att hamna i olika l\u00e4sveckor. Jag funderar ocks\u00e5 p\u00e5 att ers\u00e4tta inl\u00e4mningsuppgiften med en laboration. Inf\u00f6r n\u00e4sta kursomg\u00e5ng (HT14) planerar jag att p\u00e5 f\u00f6rs\u00f6k l\u00e4gga in ett moment d\u00e4r studenterna h\u00e5ller en kort muntlig presentation av n\u00e5got begrepp i kursen. Syftet med detta \u00e4r att studenterna ska bli s\u00e4krare p\u00e5 den begreppsapparat som anv\u00e4nds i kursen och dessutom f\u00e5 tr\u00e4na p\u00e5 muntlig presentation.Programledarens kommentarerKursen upplevs som angel\u00e4gen f\u00f6r utbildningen, vilket \u00e4r gl\u00e4djande. Arbetsbelastningen upplevdes som relativt tung, n\u00e5got som \u00e4ven flera studenter fr\u00e5n andra program upplevde. F\u00f6rhoppningsvis kommer detta att bli b\u00e4ttre n\u00e4sta \u00e5r d\u00e5 det finns en extra vecka inlagd i l\u00e4speriod 3. Sammantaget verkar kursen fungera bra och studenterna \u00e4r n\u00f6jda med de olika momenten.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerL\u00e4rarna \u00e4r v\u00e4ldigt sympatiska och pedagogiska. Kursen bidrar med en j\u00e4mn och naturlig \u00f6verg\u00e5ng fr\u00e5n introduktionskursen vilket g\u00f6r att man l\u00e4tt kan s\u00e4tta sig in i \u00e4mnet. En del av inneh\u00e5llet b\u00f6r motiveras och f\u00f6rklaras tydligare s\u00e5som vilka praktiska till\u00e4mpningar det kan ha och hur man kan anv\u00e4nda vissa tekniker p\u00e5 alternativa s\u00e4tt.Kursl\u00e4rarens kommentererDet \u00e4r gl\u00e4djande att s\u00e5 m\u00e5nga \u00e4r n\u00f6jda med kursen och finner den relevant f\u00f6r sin utbildning.V\u00e5rens kursomg\u00e5ng g\u00e5r under en l\u00e4speriod. Det inneb\u00e4r att studenterna har ca 25 timmar/vecka att l\u00e4gga p\u00e5 kursen. Sista l\u00e4sveckan upplevs som tung, men detta kommer att bli b\u00e4ttre med den nya l\u00e4speriodsindelningen. Sista laborationen och sista inl\u00e4mningsdatum f\u00f6r inl\u00e4mningsuppgiften kommer att hamna i olika l\u00e4sveckor. Jag funderar ocks\u00e5 p\u00e5 att ers\u00e4tta inl\u00e4mningsuppgiften med en laboration. Inf\u00f6r n\u00e4sta kursomg\u00e5ng (HT14) planerar jag att p\u00e5 f\u00f6rs\u00f6k l\u00e4gga in ett moment d\u00e4r studenterna h\u00e5ller en kort muntlig presentation av n\u00e5got begrepp i kursen. Syftet med detta \u00e4r att studenterna ska bli s\u00e4krare p\u00e5 den begreppsapparat som anv\u00e4nds i kursen och dessutom f\u00e5 tr\u00e4na p\u00e5 muntlig presentation.Programledarens kommentarerKursen upplevs som angel\u00e4gen f\u00f6r utbildningen, vilket \u00e4r gl\u00e4djande. Arbetsbelastningen upplevdes som relativt tung, n\u00e5got som \u00e4ven flera studenter fr\u00e5n andra program upplevde. F\u00f6rhoppningsvis kommer detta att bli b\u00e4ttre n\u00e4sta \u00e5r d\u00e5 det finns en extra vecka inlagd i l\u00e4speriod 3. Sammantaget verkar kursen fungera bra och studenterna \u00e4r n\u00f6jda med de olika momenten.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+20',
     'importanceScore': '+77',
     'name': 'Programmeringsteknik - f\u00f6rdjupningskurs',
@@ -792,7 +792,7 @@ export default {
     'satisfactionScore': '+20',
     'teachingScore': '+4',
     'workloadScore': '-13',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '53': {
     'assessmentScore': '-2',
@@ -807,7 +807,7 @@ export default {
     'satisfactionScore': '+62',
     'teachingScore': '+47',
     'workloadScore': '-5',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '54': {
     'assessmentScore': '+31',
@@ -822,7 +822,7 @@ export default {
     'satisfactionScore': '+55',
     'teachingScore': '+26',
     'workloadScore': '+22',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '55': {
     'assessmentScore': '+44',
@@ -837,7 +837,7 @@ export default {
     'satisfactionScore': '+20',
     'teachingScore': '+16',
     'workloadScore': '+18',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '56': {
     'assessmentScore': '+58',
@@ -852,7 +852,7 @@ export default {
     'satisfactionScore': '-13',
     'teachingScore': '-35',
     'workloadScore': '-41',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '57': {
     'assessmentScore': '+23',
@@ -867,7 +867,7 @@ export default {
     'satisfactionScore': '+61',
     'teachingScore': '+32',
     'workloadScore': '+54',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '58': {
     'assessmentScore': '+36',
@@ -882,7 +882,7 @@ export default {
     'satisfactionScore': '+52',
     'teachingScore': '+2',
     'workloadScore': '+23',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '59': {
     'assessmentScore': '+50',
@@ -897,7 +897,7 @@ export default {
     'satisfactionScore': '+72',
     'teachingScore': '+45',
     'workloadScore': '+48',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '60': {
     'assessmentScore': '+26',
@@ -912,7 +912,7 @@ export default {
     'satisfactionScore': '-18',
     'teachingScore': '-27',
     'workloadScore': '-20',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '61': {
     'assessmentScore': '+38',
@@ -927,7 +927,7 @@ export default {
     'satisfactionScore': '-30',
     'teachingScore': '+2',
     'workloadScore': '-36',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '62': {
     'assessmentScore': '+39',
@@ -942,12 +942,12 @@ export default {
     'satisfactionScore': '+30',
     'teachingScore': '+18',
     'workloadScore': '+14',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '63': {
     'assessmentScore': '+48',
     'code': 'ETSA01',
-    'comments': 'Studier\u00e5dets kommentarerPositivt:- Roligt att jobba i projekt.- Hemtenta ett bra s\u00e4tt att tentera kursen.Neutralt:- Stora grupper g\u00f6r att man l\u00e4r sig gruppdynamik p\u00e5 ett immersivt s\u00e4tt.- Ganska h\u00f6g arbetsbelastning.Negativt:- Oorganiserad kurshemsida, sv\u00e5rt att hitta vad man beh\u00f6vde g\u00f6ra.- Stor skillnad p\u00e5 vad projekthandledarna kunde\/hur de undervisadeKursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerPositivt:- Roligt att jobba i projekt.- Hemtenta ett bra s\u00e4tt att tentera kursen.Neutralt:- Stora grupper g\u00f6r att man l\u00e4r sig gruppdynamik p\u00e5 ett immersivt s\u00e4tt.- Ganska h\u00f6g arbetsbelastning.Negativt:- Oorganiserad kurshemsida, sv\u00e5rt att hitta vad man beh\u00f6vde g\u00f6ra.- Stor skillnad p\u00e5 vad projekthandledarna kunde/hur de undervisadeKursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-13',
     'importanceScore': '+85',
     'name': 'Ingenj\u00f6rsprocessen f\u00f6r programvaruutveckling - metodik',
@@ -957,7 +957,7 @@ export default {
     'satisfactionScore': '+35',
     'teachingScore': '+25',
     'workloadScore': '+3',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '64': {
     'assessmentScore': '+33',
@@ -972,7 +972,7 @@ export default {
     'satisfactionScore': '0',
     'teachingScore': '-19',
     'workloadScore': '+40',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '65': {
     'assessmentScore': '+2',
@@ -987,7 +987,7 @@ export default {
     'satisfactionScore': '-25',
     'teachingScore': '-35',
     'workloadScore': '+4',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '66': {
     'assessmentScore': '+56',
@@ -1002,7 +1002,7 @@ export default {
     'satisfactionScore': '+65',
     'teachingScore': '+57',
     'workloadScore': '+31',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '67': {
     'assessmentScore': '+61',
@@ -1017,7 +1017,7 @@ export default {
     'satisfactionScore': '+67',
     'teachingScore': '+45',
     'workloadScore': '+36',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '68': {
     'assessmentScore': '+20',
@@ -1032,7 +1032,7 @@ export default {
     'satisfactionScore': '+66',
     'teachingScore': '+45',
     'workloadScore': '+35',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '69': {
     'assessmentScore': '+34',
@@ -1047,7 +1047,7 @@ export default {
     'satisfactionScore': '+68',
     'teachingScore': '+38',
     'workloadScore': '+13',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '70': {
     'assessmentScore': '+28',
@@ -1062,7 +1062,7 @@ export default {
     'satisfactionScore': '+36',
     'teachingScore': '+24',
     'workloadScore': '-2',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '71': {
     'assessmentScore': '+68',
@@ -1077,7 +1077,7 @@ export default {
     'satisfactionScore': '+91',
     'teachingScore': '+75',
     'workloadScore': '+8',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '72': {
     'assessmentScore': '+60',
@@ -1092,7 +1092,7 @@ export default {
     'satisfactionScore': '+55',
     'teachingScore': '+23',
     'workloadScore': '+49',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '73': {
     'assessmentScore': '+29',
@@ -1107,7 +1107,7 @@ export default {
     'satisfactionScore': '+7',
     'teachingScore': '-13',
     'workloadScore': '-45',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '74': {
     'assessmentScore': '+44',
@@ -1122,7 +1122,7 @@ export default {
     'satisfactionScore': '-20',
     'teachingScore': '-42',
     'workloadScore': '-6',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '75': {
     'assessmentScore': '+29',
@@ -1137,7 +1137,7 @@ export default {
     'satisfactionScore': '-65',
     'teachingScore': '-63',
     'workloadScore': '-26',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '76': {
     'assessmentScore': '+43',
@@ -1152,7 +1152,7 @@ export default {
     'satisfactionScore': '+39',
     'teachingScore': '+13',
     'workloadScore': '+1',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '77': {
     'assessmentScore': '+50',
@@ -1167,7 +1167,7 @@ export default {
     'satisfactionScore': '-14',
     'teachingScore': '0',
     'workloadScore': '+32',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '78': {
     'assessmentScore': '+63',
@@ -1182,7 +1182,7 @@ export default {
     'satisfactionScore': '+65',
     'teachingScore': '+22',
     'workloadScore': '+14',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '79': {
     'assessmentScore': '+5',
@@ -1197,12 +1197,12 @@ export default {
     'satisfactionScore': '+55',
     'teachingScore': '+43',
     'workloadScore': '-3',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '80': {
     'assessmentScore': '-21',
     'code': 'EIT070',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerEnligt CEQ ank\u00e4ten tyckte studenterna p\u00e5 C att f\u00f6rel\u00e4sningarna var bra och att \u00f6vningsledarna f\u00f6rklarade bra. Dock k\u00e4ndes kursen v\u00e4ldigt uppdelad mellan teorin\/f\u00f6rel\u00e4singarna och assembly-programmeringen\/\u00f6vningarna+labbarna. Det var sv\u00e5rt att koppla den teorin som togs upp p\u00e5 f\u00f6rel\u00e4sningarna till det vi gjorde p\u00e5 labbarna. \u00d6vningarna var bra men m\u00e5nga slutade g\u00f6ra dem eftersom det inte skulle komma p\u00e5 tentan. \u00d6vningstiden lades ist\u00e4llet p\u00e5 att klara labbarna, vilket var sv\u00e5rt eftersom f\u00f6rel\u00e4sningarna inte var till n\u00e5gon hj\u00e4lp f\u00f6r detta. Men \u00f6vningsledarna var bra p\u00e5 att f\u00f6rklara s\u00e5 man fick bra hj\u00e4lp om man gick dit. Hade dock varit bra med \u00f6vningar som ledde till att man fick de kunskaper som kr\u00e4vdes inf\u00f6r tentan.P\u00e5 f\u00f6rel\u00e4sningsslidesen var det m\u00e5nga f\u00f6rkortningar och en del bilder som var sv\u00e5ra att f\u00f6rst\u00e5 i efterhand om man missat f\u00f6rel\u00e4sningen eller om man inte f\u00f6rstod allt d\u00e5 man var d\u00e4r. Slidesen \u00e4r t\u00e4nka som ett komplement till f\u00f6rel\u00e4sningen, men m\u00e5nga studenter tycker \u00e4nd\u00e5 det \u00e4r bra om man kan g\u00e5 tillbaka lite och f\u00f6rst\u00e5 b\u00e4ttre, speciellt d\u00e5 inte \u00f6vningarna \u00e4r till hj\u00e4lp inf\u00f6r tentan utan endast f\u00f6rel\u00e4sningarna och den nya boken. Instuderingsfr\u00e5gorna var v\u00e4ldigt bra!Till n\u00e4sta \u00e5r ska labbarna g\u00f6ras om. Det vore \u00e4ven bra att kolla igenom facit till \u00f6vningarna, ifall de ska vara kvar, eftersom det fanns n\u00e5gra fel i dem. Det hade hj\u00e4lpt mycket med tex l\u00e4nkar p\u00e5 kurshemsidan som leder till mer information om programmeringen om den inte ska g\u00e5s igenom mer p\u00e5 f\u00f6rel\u00e4sningarna. Ocks\u00e5 bra att vara tydlig i b\u00f6rjan med att kusen har tv\u00e5 olika delar - teorin och programmeringen, s\u00e5 att folk \u00e4r inst\u00e4llda p\u00e5 det och g\u00e5r till \u00f6vningarna f\u00f6r att f\u00e5 hj\u00e4lp.Kursl\u00e4rarens kommentererJag (Erik Larsson) gav kursen f\u00f6r f\u00f6rsta g\u00e5ngen VT 2015. Fokus i \u00e5r var att uppdatera f\u00f6rel\u00e4sningarna. Jag ville modernisera kursen lite och ta med cacheminnen, virtuelltminne och mer om pipelining. Detta \u00e4r koncept som finns i alla processorer idag. Gr\u00e4nsen mellan Datorteknik och Datorarkitektur g\u00e5r nu vid antalet k\u00e4rnor i processor (i Datorteknik - 1 CPU\/core och i Datorarkitektur - flera CPU:er\/cores). M\u00e5let med kursen \u00e4r att ge en bra grund i hur datorer fungerar. Fokus ligger p\u00e5 generella principer som g\u00e4ller alla processorer och p\u00e5 att visa p\u00e5 avv\u00e4gningar som g\u00f6rs (framf\u00f6r att i detalj titta p\u00e5 en processor utan att reflektera \u00f6ver designbeslut). Jag ville ocks\u00e5 l\u00e4gga fokus p\u00e5 kursboken av Patterson and Hennessey (framf\u00f6r kursboken av Brorsson).I och med att jag uppdaterade f\u00f6rel\u00e4sningarna och beh\u00f6ll de gamla lektionerna och de gamla laborationerna blev det ett litet glapp mellan f\u00f6rel\u00e4sningarna \u00e5 ena sidan och lektioner\/laborationer \u00e5 andra sidan. Inf\u00f6r 2016 arbetar vi med nya laborationer d\u00e4r vi kommer anv\u00e4nda en FPGA p\u00e5 vilken vi programmerat en processor. Med detta kommer studenterna i kontakt med riktig h\u00e5rdvara och kommer f\u00e5 hantera tryckknappar och 7-segments displayer.Programledarens kommentarerKursen \u00e4r inne i en period d\u00e4r den delvis omstruktureras, och detta \u00e4r en trolig f\u00f6rklaring till det relativt s\u00e4mre utv\u00e4rderingsresultatet i \u00e5r. P\u00e5 CEQ-m\u00f6tet diskuterades arbetsrapporten och kursens planerade nya struktur. F\u00f6rslag p\u00e5 kursf\u00f6rb\u00e4ttrings\u00e5tg\u00e4rder ventilerades.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerEnligt CEQ ank\u00e4ten tyckte studenterna p\u00e5 C att f\u00f6rel\u00e4sningarna var bra och att \u00f6vningsledarna f\u00f6rklarade bra. Dock k\u00e4ndes kursen v\u00e4ldigt uppdelad mellan teorin/f\u00f6rel\u00e4singarna och assembly-programmeringen/\u00f6vningarna+labbarna. Det var sv\u00e5rt att koppla den teorin som togs upp p\u00e5 f\u00f6rel\u00e4sningarna till det vi gjorde p\u00e5 labbarna. \u00d6vningarna var bra men m\u00e5nga slutade g\u00f6ra dem eftersom det inte skulle komma p\u00e5 tentan. \u00d6vningstiden lades ist\u00e4llet p\u00e5 att klara labbarna, vilket var sv\u00e5rt eftersom f\u00f6rel\u00e4sningarna inte var till n\u00e5gon hj\u00e4lp f\u00f6r detta. Men \u00f6vningsledarna var bra p\u00e5 att f\u00f6rklara s\u00e5 man fick bra hj\u00e4lp om man gick dit. Hade dock varit bra med \u00f6vningar som ledde till att man fick de kunskaper som kr\u00e4vdes inf\u00f6r tentan.P\u00e5 f\u00f6rel\u00e4sningsslidesen var det m\u00e5nga f\u00f6rkortningar och en del bilder som var sv\u00e5ra att f\u00f6rst\u00e5 i efterhand om man missat f\u00f6rel\u00e4sningen eller om man inte f\u00f6rstod allt d\u00e5 man var d\u00e4r. Slidesen \u00e4r t\u00e4nka som ett komplement till f\u00f6rel\u00e4sningen, men m\u00e5nga studenter tycker \u00e4nd\u00e5 det \u00e4r bra om man kan g\u00e5 tillbaka lite och f\u00f6rst\u00e5 b\u00e4ttre, speciellt d\u00e5 inte \u00f6vningarna \u00e4r till hj\u00e4lp inf\u00f6r tentan utan endast f\u00f6rel\u00e4sningarna och den nya boken. Instuderingsfr\u00e5gorna var v\u00e4ldigt bra!Till n\u00e4sta \u00e5r ska labbarna g\u00f6ras om. Det vore \u00e4ven bra att kolla igenom facit till \u00f6vningarna, ifall de ska vara kvar, eftersom det fanns n\u00e5gra fel i dem. Det hade hj\u00e4lpt mycket med tex l\u00e4nkar p\u00e5 kurshemsidan som leder till mer information om programmeringen om den inte ska g\u00e5s igenom mer p\u00e5 f\u00f6rel\u00e4sningarna. Ocks\u00e5 bra att vara tydlig i b\u00f6rjan med att kusen har tv\u00e5 olika delar - teorin och programmeringen, s\u00e5 att folk \u00e4r inst\u00e4llda p\u00e5 det och g\u00e5r till \u00f6vningarna f\u00f6r att f\u00e5 hj\u00e4lp.Kursl\u00e4rarens kommentererJag (Erik Larsson) gav kursen f\u00f6r f\u00f6rsta g\u00e5ngen VT 2015. Fokus i \u00e5r var att uppdatera f\u00f6rel\u00e4sningarna. Jag ville modernisera kursen lite och ta med cacheminnen, virtuelltminne och mer om pipelining. Detta \u00e4r koncept som finns i alla processorer idag. Gr\u00e4nsen mellan Datorteknik och Datorarkitektur g\u00e5r nu vid antalet k\u00e4rnor i processor (i Datorteknik - 1 CPU/core och i Datorarkitektur - flera CPU:er/cores). M\u00e5let med kursen \u00e4r att ge en bra grund i hur datorer fungerar. Fokus ligger p\u00e5 generella principer som g\u00e4ller alla processorer och p\u00e5 att visa p\u00e5 avv\u00e4gningar som g\u00f6rs (framf\u00f6r att i detalj titta p\u00e5 en processor utan att reflektera \u00f6ver designbeslut). Jag ville ocks\u00e5 l\u00e4gga fokus p\u00e5 kursboken av Patterson and Hennessey (framf\u00f6r kursboken av Brorsson).I och med att jag uppdaterade f\u00f6rel\u00e4sningarna och beh\u00f6ll de gamla lektionerna och de gamla laborationerna blev det ett litet glapp mellan f\u00f6rel\u00e4sningarna \u00e5 ena sidan och lektioner/laborationer \u00e5 andra sidan. Inf\u00f6r 2016 arbetar vi med nya laborationer d\u00e4r vi kommer anv\u00e4nda en FPGA p\u00e5 vilken vi programmerat en processor. Med detta kommer studenterna i kontakt med riktig h\u00e5rdvara och kommer f\u00e5 hantera tryckknappar och 7-segments displayer.Programledarens kommentarerKursen \u00e4r inne i en period d\u00e4r den delvis omstruktureras, och detta \u00e4r en trolig f\u00f6rklaring till det relativt s\u00e4mre utv\u00e4rderingsresultatet i \u00e5r. P\u00e5 CEQ-m\u00f6tet diskuterades arbetsrapporten och kursens planerade nya struktur. F\u00f6rslag p\u00e5 kursf\u00f6rb\u00e4ttrings\u00e5tg\u00e4rder ventilerades.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-51',
     'importanceScore': '+50',
     'name': 'Datorteknik',
@@ -1212,7 +1212,7 @@ export default {
     'satisfactionScore': '-10',
     'teachingScore': '-2',
     'workloadScore': '+1',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '81': {
     'assessmentScore': '+24',
@@ -1227,7 +1227,7 @@ export default {
     'satisfactionScore': '-6',
     'teachingScore': '-8',
     'workloadScore': '+3',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '82': {
     'assessmentScore': '+63',
@@ -1242,7 +1242,7 @@ export default {
     'satisfactionScore': '+38',
     'teachingScore': '-10',
     'workloadScore': '+7',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '83': {
     'assessmentScore': '+6',
@@ -1257,7 +1257,7 @@ export default {
     'satisfactionScore': '-3',
     'teachingScore': '-14',
     'workloadScore': '+34',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '84': {
     'assessmentScore': '+41',
@@ -1272,7 +1272,7 @@ export default {
     'satisfactionScore': '+41',
     'teachingScore': '+13',
     'workloadScore': '+33',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '85': {
     'assessmentScore': '+43',
@@ -1287,7 +1287,7 @@ export default {
     'satisfactionScore': '+56',
     'teachingScore': '+40',
     'workloadScore': '+51',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '86': {
     'assessmentScore': '+38',
@@ -1302,7 +1302,7 @@ export default {
     'satisfactionScore': '+34',
     'teachingScore': '+10',
     'workloadScore': '-1',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '87': {
     'assessmentScore': '+50',
@@ -1317,7 +1317,7 @@ export default {
     'satisfactionScore': '-7',
     'teachingScore': '-8',
     'workloadScore': '+5',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '88': {
     'assessmentScore': '+52',
@@ -1332,7 +1332,7 @@ export default {
     'satisfactionScore': '+67',
     'teachingScore': '+52',
     'workloadScore': '+42',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '89': {
     'assessmentScore': '+45',
@@ -1347,7 +1347,7 @@ export default {
     'satisfactionScore': '+39',
     'teachingScore': '+45',
     'workloadScore': '+4',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '90': {
     'assessmentScore': '+34',
@@ -1362,7 +1362,7 @@ export default {
     'satisfactionScore': '+12',
     'teachingScore': '+4',
     'workloadScore': '+19',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '91': {
     'assessmentScore': '-41',
@@ -1377,12 +1377,12 @@ export default {
     'satisfactionScore': '-53',
     'teachingScore': '-36',
     'workloadScore': '-10',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '92': {
     'assessmentScore': '+63',
     'code': 'MAMN01',
-    'comments': 'Studier\u00e5dets kommentarerKommentarer har ej inkommit f\u00f6re utsatt tidKursl\u00e4rarens kommentererKursansvarig och handledare tycker att kursen flyter p\u00e5 relativt bra, men att v\u00e5rterminens lp2 inte \u00e4r optimal f\u00f6r en projektkurs eftersom den \u00e4r uppdelad.Ett nytt moment i \u00e5r var en obligatorisk inl\u00e4mningsuppgift i Android-programmering, som till kommande \u00e5r kommer att stramas upp lite.F\u00f6r att eventuellt \u00f6verbrygga den uppdelade l\u00e4sperioden kan det ocks\u00e5 bli aktuellt med mer tydlig projekt-planering.Vi jobbar ocks\u00e5 kontinuerligt med att f\u00f6rs\u00f6ka bli b\u00e4ttre\/tydligare p\u00e5 \u00e5terkoppling under kursens g\u00e5ng.Programledarens kommentarerDet \u00e4r gl\u00e4djande att notera att kursen fungerar mycket bra och att studenterna anser att kursen \u00e4r mycket angel\u00e4gen f\u00f6r utbildningen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerKommentarer har ej inkommit f\u00f6re utsatt tidKursl\u00e4rarens kommentererKursansvarig och handledare tycker att kursen flyter p\u00e5 relativt bra, men att v\u00e5rterminens lp2 inte \u00e4r optimal f\u00f6r en projektkurs eftersom den \u00e4r uppdelad.Ett nytt moment i \u00e5r var en obligatorisk inl\u00e4mningsuppgift i Android-programmering, som till kommande \u00e5r kommer att stramas upp lite.F\u00f6r att eventuellt \u00f6verbrygga den uppdelade l\u00e4sperioden kan det ocks\u00e5 bli aktuellt med mer tydlig projekt-planering.Vi jobbar ocks\u00e5 kontinuerligt med att f\u00f6rs\u00f6ka bli b\u00e4ttre/tydligare p\u00e5 \u00e5terkoppling under kursens g\u00e5ng.Programledarens kommentarerDet \u00e4r gl\u00e4djande att notera att kursen fungerar mycket bra och att studenterna anser att kursen \u00e4r mycket angel\u00e4gen f\u00f6r utbildningen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+39',
     'importanceScore': '+83',
     'name': 'Avancerad interaktionsdesign',
@@ -1392,7 +1392,7 @@ export default {
     'satisfactionScore': '+63',
     'teachingScore': '+51',
     'workloadScore': '+30',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '93': {
     'assessmentScore': '+55',
@@ -1407,12 +1407,12 @@ export default {
     'satisfactionScore': '+52',
     'teachingScore': '+30',
     'workloadScore': '+0',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '94': {
     'assessmentScore': '+18',
     'code': 'EITF05',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerStudenterna uppfattar kursen som otroligt relevant vilket inneb\u00e4r att sj\u00e4lva kursinneh\u00e5llet h\u00e5ller en bra niv\u00e5. F\u00f6rv\u00e4ntningarna p\u00e5 studenterna verkar ha brustit (m.a.p fr\u00e5ga 18, 25) n\u00e5got som kan motverkas om kommunikationen (antingen p\u00e5 f\u00f6rel\u00e4sningar eller via anvisningar i labhandledning\/hemsida) f\u00f6rtydligas. Kursen \u00f6verlag var mycket bra. Onlinetentan kommer att g\u00f6ras om n\u00e4sta \u00e5r f\u00f6r att fungera b\u00e4ttre och antagligen kommer man f\u00e5 anv\u00e4nda kurslitteraturen under onlinetenan\/duggan. Projektet var b\u00e5de l\u00e4rorikt och intressant.Kursl\u00e4rarens kommentererDen stora nyheten i \u00e5rets version av kursen var onlineskrivningen, som fick blandad kritik. En f\u00f6rb\u00e4ttring f\u00f6r n\u00e4sta \u00e5r \u00e4r att till\u00e5ta studenterna att ha kurslitteraturen tillg\u00e4nglig n\u00e4r man skriver provet. En annan \u00e4r att b\u00e4ttre f\u00f6rbereda studenterna p\u00e5 att det inte \u00e4r en rutinm\u00e4ssig eller enkel skrivning - den tar tid.Projekten fungerade mestadels bra, vilket \u00e4r gl\u00e4djande. Eventuellt skulle man kunna fokusera mer p\u00e5 attackerna.Programledarens kommentarerDet \u00e4r gl\u00e4djande att notera att kursen \u00e5terigen bed\u00f6ms ha mycket h\u00f6g relevans f\u00f6r utbildningen. Kursen har fungerat bra, och vid CEQ-m\u00f6tet ventilerades n\u00e5gra eventuella f\u00f6rb\u00e4ttringsf\u00f6rslag.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerStudenterna uppfattar kursen som otroligt relevant vilket inneb\u00e4r att sj\u00e4lva kursinneh\u00e5llet h\u00e5ller en bra niv\u00e5. F\u00f6rv\u00e4ntningarna p\u00e5 studenterna verkar ha brustit (m.a.p fr\u00e5ga 18, 25) n\u00e5got som kan motverkas om kommunikationen (antingen p\u00e5 f\u00f6rel\u00e4sningar eller via anvisningar i labhandledning/hemsida) f\u00f6rtydligas. Kursen \u00f6verlag var mycket bra. Onlinetentan kommer att g\u00f6ras om n\u00e4sta \u00e5r f\u00f6r att fungera b\u00e4ttre och antagligen kommer man f\u00e5 anv\u00e4nda kurslitteraturen under onlinetenan/duggan. Projektet var b\u00e5de l\u00e4rorikt och intressant.Kursl\u00e4rarens kommentererDen stora nyheten i \u00e5rets version av kursen var onlineskrivningen, som fick blandad kritik. En f\u00f6rb\u00e4ttring f\u00f6r n\u00e4sta \u00e5r \u00e4r att till\u00e5ta studenterna att ha kurslitteraturen tillg\u00e4nglig n\u00e4r man skriver provet. En annan \u00e4r att b\u00e4ttre f\u00f6rbereda studenterna p\u00e5 att det inte \u00e4r en rutinm\u00e4ssig eller enkel skrivning - den tar tid.Projekten fungerade mestadels bra, vilket \u00e4r gl\u00e4djande. Eventuellt skulle man kunna fokusera mer p\u00e5 attackerna.Programledarens kommentarerDet \u00e4r gl\u00e4djande att notera att kursen \u00e5terigen bed\u00f6ms ha mycket h\u00f6g relevans f\u00f6r utbildningen. Kursen har fungerat bra, och vid CEQ-m\u00f6tet ventilerades n\u00e5gra eventuella f\u00f6rb\u00e4ttringsf\u00f6rslag.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+31',
     'importanceScore': '+79',
     'name': 'Webbs\u00e4kerhet',
@@ -1422,7 +1422,7 @@ export default {
     'satisfactionScore': '+63',
     'teachingScore': '+49',
     'workloadScore': '+32',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '95': {
     'assessmentScore': '+26',
@@ -1437,7 +1437,7 @@ export default {
     'satisfactionScore': '+55',
     'teachingScore': '+34',
     'workloadScore': '+20',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '96': {
     'assessmentScore': '+21',
@@ -1452,7 +1452,7 @@ export default {
     'satisfactionScore': '+27',
     'teachingScore': '+6',
     'workloadScore': '+9',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '97': {
     'assessmentScore': '+44',
@@ -1467,12 +1467,12 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+18',
     'workloadScore': '+3',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '98': {
     'assessmentScore': '+44',
     'code': 'ETSF05',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerStudenterna tycker kursen var v\u00e4ldigt relevant f\u00f6r deras utbildning och onlinediskussionerna var v\u00e4ldigt bra. Folk vill helst dock att examinationen inte bara ska ske med duggorna som grund utan \u00e4ven kanske projektet.Kursl\u00e4rarens kommentererPga besparingskrav \u00e4ndrades examinationen till hemduggor via moodle sent under v\u00e5ren 2015. F\u00f6r kursansv har detta dock fungerat v\u00e4l och gett ett balanserat utslag. Studenternas synpunkter \u00e4r b\u00e5de positiva och negativa. Mest positivt \u00e4r onlinediskussionerna. Att duggorna upplevs testa f\u00f6rst\u00e5else \u00e4r postivt. Tunga arbetsbelastning framh\u00e5lls i fritetxtsvaren men mostvaras inte riktigt av enk\u00e4ten. Kursen \u00e4r i mycket en projektkurs med mycket hemarbete och mindre m\u00e4ngd f\u00f6rel\u00e4sningar och \u00f6vningar.Sambandet mellan f\u00f6rel\u00e4sningar och \u00f6vningar \u00e4r inte lika tydligt som i t ex matematiken. F\u00f6rel\u00e4sningarna beskriver ffa f\u00f6reteelser, \u00f6vningarna koncentreras p\u00e5 detaljer som kan modelleras (vilket inte g\u00e4ller alla f\u00f6reteelser som ing\u00e5r i kursen). B\u00f6r dock f\u00f6ljas upp.Krav f\u00f6r olika betyg kan m\u00e5 v\u00e4l av en \u00f6versyn. Dock sv\u00e5rt att r\u00e4ttvist gradera projekten annat \u00e4n G\/IG d\u00e5 dessa g\u00f6rs parvis med lite insyn fr\u00e5n handledare.Programledarens kommentarerDet \u00e4r gl\u00e4djande att kursen bed\u00f6ms ha mycket stor relevans f\u00f6r programmet, och kursen verkar fungera bra.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerStudenterna tycker kursen var v\u00e4ldigt relevant f\u00f6r deras utbildning och onlinediskussionerna var v\u00e4ldigt bra. Folk vill helst dock att examinationen inte bara ska ske med duggorna som grund utan \u00e4ven kanske projektet.Kursl\u00e4rarens kommentererPga besparingskrav \u00e4ndrades examinationen till hemduggor via moodle sent under v\u00e5ren 2015. F\u00f6r kursansv har detta dock fungerat v\u00e4l och gett ett balanserat utslag. Studenternas synpunkter \u00e4r b\u00e5de positiva och negativa. Mest positivt \u00e4r onlinediskussionerna. Att duggorna upplevs testa f\u00f6rst\u00e5else \u00e4r postivt. Tunga arbetsbelastning framh\u00e5lls i fritetxtsvaren men mostvaras inte riktigt av enk\u00e4ten. Kursen \u00e4r i mycket en projektkurs med mycket hemarbete och mindre m\u00e4ngd f\u00f6rel\u00e4sningar och \u00f6vningar.Sambandet mellan f\u00f6rel\u00e4sningar och \u00f6vningar \u00e4r inte lika tydligt som i t ex matematiken. F\u00f6rel\u00e4sningarna beskriver ffa f\u00f6reteelser, \u00f6vningarna koncentreras p\u00e5 detaljer som kan modelleras (vilket inte g\u00e4ller alla f\u00f6reteelser som ing\u00e5r i kursen). B\u00f6r dock f\u00f6ljas upp.Krav f\u00f6r olika betyg kan m\u00e5 v\u00e4l av en \u00f6versyn. Dock sv\u00e5rt att r\u00e4ttvist gradera projekten annat \u00e4n G/IG d\u00e5 dessa g\u00f6rs parvis med lite insyn fr\u00e5n handledare.Programledarens kommentarerDet \u00e4r gl\u00e4djande att kursen bed\u00f6ms ha mycket stor relevans f\u00f6r programmet, och kursen verkar fungera bra.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+1',
     'importanceScore': '+76',
     'name': 'Internetprotokoll',
@@ -1482,7 +1482,7 @@ export default {
     'satisfactionScore': '+16',
     'teachingScore': '+0',
     'workloadScore': '-9',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '99': {
     'assessmentScore': '+55',
@@ -1497,7 +1497,7 @@ export default {
     'satisfactionScore': '+15',
     'teachingScore': '-36',
     'workloadScore': '+20',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '100': {
     'assessmentScore': '+21',
@@ -1512,7 +1512,7 @@ export default {
     'satisfactionScore': '+7',
     'teachingScore': '-30',
     'workloadScore': '-46',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '101': {
     'assessmentScore': '+50',
@@ -1527,7 +1527,7 @@ export default {
     'satisfactionScore': '+17',
     'teachingScore': '-3',
     'workloadScore': '+17',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '102': {
     'assessmentScore': '+43',
@@ -1542,7 +1542,7 @@ export default {
     'satisfactionScore': '+58',
     'teachingScore': '+38',
     'workloadScore': '+28',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '103': {
     'assessmentScore': '+43',
@@ -1557,7 +1557,7 @@ export default {
     'satisfactionScore': '+17',
     'teachingScore': '+4',
     'workloadScore': '+38',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '104': {
     'assessmentScore': '+69',
@@ -1572,7 +1572,7 @@ export default {
     'satisfactionScore': '+65',
     'teachingScore': '+65',
     'workloadScore': '+32',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '105': {
     'assessmentScore': '+38',
@@ -1587,7 +1587,7 @@ export default {
     'satisfactionScore': '+81',
     'teachingScore': '+60',
     'workloadScore': '+10',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '106': {
     'assessmentScore': '+15',
@@ -1602,7 +1602,7 @@ export default {
     'satisfactionScore': '-23',
     'teachingScore': '-18',
     'workloadScore': '-29',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '107': {
     'assessmentScore': '+21',
@@ -1617,7 +1617,7 @@ export default {
     'satisfactionScore': '-29',
     'teachingScore': '-16',
     'workloadScore': '-30',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '108': {
     'assessmentScore': '+60',
@@ -1632,7 +1632,7 @@ export default {
     'satisfactionScore': '0',
     'teachingScore': '-8',
     'workloadScore': '0',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '109': {
     'assessmentScore': '+35',
@@ -1647,12 +1647,12 @@ export default {
     'satisfactionScore': '+25',
     'teachingScore': '-15',
     'workloadScore': '+30',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '110': {
     'assessmentScore': '+42',
     'code': 'EDA095',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerProjektet var bra och uppskattades av studenterna. Del 1 av tentamen k\u00e4ndes mest som utantill kunskap, det hade varit b\u00e4ttre att fokusera p\u00e5 f\u00f6rst\u00e5else och strukturer. Labbhandledningarna upplevdes som otydliga, detta skulle antingen kunna skrivas om eller s\u00e5 kan man s\u00e4tta in mer \u00f6vnings- eller labbtillf\u00e4llen f\u00f6r att underl\u00e4tta med detta.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerVid CEQ-m\u00f6tet deltog kursansvarig samt programledningen f\u00f6r C\/D. Kursen fick m\u00e5nga bra omd\u00f6men men \u00e4vem en del kritik i CEQ och detta diskuterades. Bland annat uppskattade studenterna laborationerna men tyckte att lab-handledningarna beh\u00f6vde uppdateras. Kursansvarig ska se \u00f6ver detta till n\u00e4sta \u00e5r.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerProjektet var bra och uppskattades av studenterna. Del 1 av tentamen k\u00e4ndes mest som utantill kunskap, det hade varit b\u00e4ttre att fokusera p\u00e5 f\u00f6rst\u00e5else och strukturer. Labbhandledningarna upplevdes som otydliga, detta skulle antingen kunna skrivas om eller s\u00e5 kan man s\u00e4tta in mer \u00f6vnings- eller labbtillf\u00e4llen f\u00f6r att underl\u00e4tta med detta.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerVid CEQ-m\u00f6tet deltog kursansvarig samt programledningen f\u00f6r C/D. Kursen fick m\u00e5nga bra omd\u00f6men men \u00e4vem en del kritik i CEQ och detta diskuterades. Bland annat uppskattade studenterna laborationerna men tyckte att lab-handledningarna beh\u00f6vde uppdateras. Kursansvarig ska se \u00f6ver detta till n\u00e4sta \u00e5r.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+19',
     'importanceScore': '+85',
     'name': 'N\u00e4tverksprogrammering',
@@ -1662,12 +1662,12 @@ export default {
     'satisfactionScore': '+43',
     'teachingScore': '-4',
     'workloadScore': '+15',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '111': {
     'assessmentScore': '+36',
     'code': 'EDA216',
-    'comments': 'Studier\u00e5dets kommentarerV\u00e4ldigt l\u00e4rorik kurs! Intressanta f\u00f6rel\u00e4sningar och bra labbar! Det k\u00e4ndes som att ens minne var viktigt p\u00e5 tentamen d\u00e5 man beh\u00f6vde komma ih\u00e5g sql-queries utantill. Kraven och instruktionerna i projektet beh\u00f6vde \u00e4ven vara tydligare, det borde ses \u00f6ver och kanske \u00e4ven skrivas till\/om p\u00e5 sina st\u00e4llen  Ut\u00f6ver det s\u00e5 var det en riktigt bra kurs!Kursl\u00e4rarens kommentererDetta var f\u00f6rsta g\u00e5ngen jag gav kursen i Lund. Baserat p\u00e5 \u00e5terkopplingen fr\u00e5n studenterna kommer jag fram\u00f6ver att h\u00e5lla f\u00f6rel\u00e4sningarna p\u00e5 svenska. Jag kommer \u00e4ven att arbeta med att f\u00f6rtydliga m\u00e5len f\u00f6r kursen.Programledarens kommentarerVid CEQ-m\u00f6tet deltog kursansvarig samt programledningen f\u00f6r C\/D. Det var f\u00f6rsta \u00e5ret som kursansvarig hade kursen och detta har antagligen varit anledningen till en del av studenternas feedback. Det tar ett par \u00e5r f\u00f6r en l\u00e4rare att ta \u00f6ver en kurs. CEQ-kommentarerna diskuterades och kommer att anv\u00e4ndas till n\u00e4sta g\u00e5mg kursen ges.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerV\u00e4ldigt l\u00e4rorik kurs! Intressanta f\u00f6rel\u00e4sningar och bra labbar! Det k\u00e4ndes som att ens minne var viktigt p\u00e5 tentamen d\u00e5 man beh\u00f6vde komma ih\u00e5g sql-queries utantill. Kraven och instruktionerna i projektet beh\u00f6vde \u00e4ven vara tydligare, det borde ses \u00f6ver och kanske \u00e4ven skrivas till/om p\u00e5 sina st\u00e4llen  Ut\u00f6ver det s\u00e5 var det en riktigt bra kurs!Kursl\u00e4rarens kommentererDetta var f\u00f6rsta g\u00e5ngen jag gav kursen i Lund. Baserat p\u00e5 \u00e5terkopplingen fr\u00e5n studenterna kommer jag fram\u00f6ver att h\u00e5lla f\u00f6rel\u00e4sningarna p\u00e5 svenska. Jag kommer \u00e4ven att arbeta med att f\u00f6rtydliga m\u00e5len f\u00f6r kursen.Programledarens kommentarerVid CEQ-m\u00f6tet deltog kursansvarig samt programledningen f\u00f6r C/D. Det var f\u00f6rsta \u00e5ret som kursansvarig hade kursen och detta har antagligen varit anledningen till en del av studenternas feedback. Det tar ett par \u00e5r f\u00f6r en l\u00e4rare att ta \u00f6ver en kurs. CEQ-kommentarerna diskuterades och kommer att anv\u00e4ndas till n\u00e4sta g\u00e5mg kursen ges.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+13',
     'importanceScore': '+77',
     'name': 'Databasteknik',
@@ -1677,7 +1677,7 @@ export default {
     'satisfactionScore': '+32',
     'teachingScore': '-2',
     'workloadScore': '+24',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '112': {
     'assessmentScore': '+40',
@@ -1692,7 +1692,7 @@ export default {
     'satisfactionScore': '+33',
     'teachingScore': '+16',
     'workloadScore': '+4',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '113': {
     'assessmentScore': '+59',
@@ -1707,7 +1707,7 @@ export default {
     'satisfactionScore': '+58',
     'teachingScore': '+43',
     'workloadScore': '-13',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '114': {
     'assessmentScore': '+57',
@@ -1722,12 +1722,12 @@ export default {
     'satisfactionScore': '+38',
     'teachingScore': '+22',
     'workloadScore': '+43',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '115': {
     'assessmentScore': '+45',
     'code': 'ETSA02',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerDet stora problemet var att programmeringen var f\u00f6r stor del av projektet, studenterna k\u00e4nde att de beh\u00f6vde l\u00e4sa mer programmeringskurser f\u00f6r att kunna f\u00e5 ut n\u00e5got av den h\u00e4r kursen s\u00e5. Den borde eventuellt l\u00e4ggas senare f\u00f6r C programmet, g\u00e4rna efter programmering f\u00f6rdjupningskursen.Kompendiet beh\u00f6ver \u00e4ven f\u00f6rtydligas d\u00e5 det var sv\u00e5rt att utl\u00e4sa vad man skulle g\u00f6ra.Man beh\u00f6ver \u00e4ven f\u00e5 mer kontinuerlig feedback p\u00e5 projektet s\u00e5 att man har b\u00e4ttre koll p\u00e5 hur det ligger tillKursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerDen huvudsakliga diskussionspunkten g\u00e4llde skillnaderna mellan C- och I-studenterna, som saml\u00e4ser kursen. Kursen ligger mycket olyckligt f\u00f6r C-arna, som har kursen tidigt i sin utbildning och bara har hunnit l\u00e4sa grundkursen i programmering. F\u00f6r I-arna ligger kursen sent i utbildningen och de hinner dessutom l\u00e4sa forts\u00e4ttningskursen i programmering i n\u00e4ra anslutning f\u00f6re denna. Allts\u00e5, helt olika f\u00f6ruts\u00e4ttningar som v\u00e5llar en hel del problem i kursen.Flera riktade sm\u00e5\u00e5tg\u00e4rder diskuterades.PL C blockade st\u00f6rre \u00e5tg\u00e4rder med h\u00e4nsyn till kommande beslut\/riktlinjer om en eventuell omorganisering till 3+2-struktur.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerDet stora problemet var att programmeringen var f\u00f6r stor del av projektet, studenterna k\u00e4nde att de beh\u00f6vde l\u00e4sa mer programmeringskurser f\u00f6r att kunna f\u00e5 ut n\u00e5got av den h\u00e4r kursen s\u00e5. Den borde eventuellt l\u00e4ggas senare f\u00f6r C programmet, g\u00e4rna efter programmering f\u00f6rdjupningskursen.Kompendiet beh\u00f6ver \u00e4ven f\u00f6rtydligas d\u00e5 det var sv\u00e5rt att utl\u00e4sa vad man skulle g\u00f6ra.Man beh\u00f6ver \u00e4ven f\u00e5 mer kontinuerlig feedback p\u00e5 projektet s\u00e5 att man har b\u00e4ttre koll p\u00e5 hur det ligger tillKursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerDen huvudsakliga diskussionspunkten g\u00e4llde skillnaderna mellan C- och I-studenterna, som saml\u00e4ser kursen. Kursen ligger mycket olyckligt f\u00f6r C-arna, som har kursen tidigt i sin utbildning och bara har hunnit l\u00e4sa grundkursen i programmering. F\u00f6r I-arna ligger kursen sent i utbildningen och de hinner dessutom l\u00e4sa forts\u00e4ttningskursen i programmering i n\u00e4ra anslutning f\u00f6re denna. Allts\u00e5, helt olika f\u00f6ruts\u00e4ttningar som v\u00e5llar en hel del problem i kursen.Flera riktade sm\u00e5\u00e5tg\u00e4rder diskuterades.PL C blockade st\u00f6rre \u00e5tg\u00e4rder med h\u00e4nsyn till kommande beslut/riktlinjer om en eventuell omorganisering till 3+2-struktur.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-18',
     'importanceScore': '+59',
     'name': 'Programvaruutveckling - metodik',
@@ -1737,12 +1737,12 @@ export default {
     'satisfactionScore': '+9',
     'teachingScore': '+18',
     'workloadScore': '-2',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '116': {
     'assessmentScore': '+24',
     'code': 'ETSF01',
-    'comments': 'Studier\u00e5dets kommentarerLite oklar kurs d\u00e4r det inte var sj\u00e4lvklart vad man skulle g\u00f6ra. Sv\u00e5rt att koppla momenten till kursnamnet. Varf\u00f6r s\u00e5 m\u00e5nga examinerande objekt f\u00f6r s\u00e5 f\u00e5 po\u00e4ng? Att ge feedback i skolan n\u00e4r man redan f\u00e5tt den den genom moodle var ocks\u00e5 ganska on\u00f6digt och man hade hellre kunnat spendera den tiden med att jobba p\u00e5 projektet d\u00e5 att tr\u00e4ffa personerna inte tillf\u00f6rde n\u00e5got mer \u00e4n sj\u00e4lva moodle svarenKursl\u00e4rarens kommentererKA response to CEQ for ETSF01 2015\/16En av kursens st\u00f6rsta utmaningar \u00e4r att f\u00f6rmedla relevansen av kursinneh\u00e5llet, d\u00e5 det handlar om av icke-tekniska aspekter av programvaruutveckling (projektplanering\/ledning etc.) Responsen \u00e4r fortsatt blandad med b\u00e5de positiva och negativa fritext svar p\u00e5 denna punkt. Kursinneh\u00e5llet beh\u00f6ver fortl\u00f6pande motiveras igenom hela kursen, inte bara i b\u00f6rjan. \u00c5rets tv\u00e5 g\u00e4stf\u00f6rel\u00e4sningar var uppskattade, och gav insikt i hur projekt leds och organiseras inom industrin. Uppl\u00e4gget med tema f\u00f6rel\u00e4sningar fungerade bra, dvs en vanlig f\u00f6rel\u00e4sning i pass 1 och en g\u00e4stf\u00f6rel\u00e4sare som pratade om samma tema i pass 2.Information om kursuppl\u00e4gget beh\u00f6ver ocks\u00e5 fortsatt arbetas med. \u00c4ven om informationen finns tillg\u00e4nglig, t ex l\u00e4sanvisningarna p\u00e5 kurshemsidan, s\u00e5 beh\u00f6vs den pekas p\u00e5 upprepade g\u00e5nger under f\u00f6rel\u00e4sningarna. \u00c4ven de pedagogiska uppl\u00e4gget beh\u00f6ver f\u00f6rklaras och motiveras \u00e4nnu tydligare, t ex att man l\u00e4r sej mer av att aktivt granska andras arbete \u00e4n att passivt ta emot feedback.Pga \u00e5rets l\u00e4sveckoindelning blev introduktionenen till kursprojektet lite v\u00e4l kort. Till n\u00e4sta omg\u00e5ng beh\u00f6ver projektbeskrivning och genomg\u00e5ngen av den f\u00f6rb\u00e4ttras f\u00f6r att tydligare f\u00f6rmedla syfte och uppl\u00e4gg. Den f\u00f6rb\u00e4ttring vi gjorde med att specifiera en t\u00e4nkt arbetsg\u00e5ng verkar snarare ha skapat mer f\u00f6rvirring \u00e4n hj\u00e4lp studenterna f\u00f6rst\u00e5 uppgiften.Anv\u00e4ndandet av Moodle f\u00f6r att hantera kamratgranskningarna av rapporterna var en f\u00f6rb\u00e4ttring i \u00e5r. Dock kvarst\u00e5r kommentarerna om oj\u00e4mn kvalitet p\u00e5 utf\u00f6rda granskningar. Det skulle kanske kunna f\u00f6rb\u00e4ttras genom att inl\u00e4mnad respons kontrolleras, dock \u00e4r den st\u00f6rsta f\u00f6rb\u00e4ttringen att \u00e4nnu tydligare peka p\u00e5 vinsterna f\u00f6r egen del av att granska andras arbete. Kamratgranskningsuppl\u00e4gget skulle kunna f\u00f6rb\u00e4ttras ytterligare, t ex med l\u00e4rarledda diskussion fr\u00e5gor under de muntliga \u00e5terkopplingstillf\u00e4llena (\u00f6vning 2 & 3).Slutligen s\u00e5 skulle jag vilja spr\u00e4nga in sm\u00e5 \u00f6vningar p\u00e5 f\u00f6rel\u00e4sningarna med praktiska och f\u00f6r teorin relevanta fr\u00e5gest\u00e4llningar. Detta skulle kunna stimulera till reflektion och st\u00f6dja aktivt l\u00e4rande av f\u00f6rel\u00e4sningsinneh\u00e5llet.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerLite oklar kurs d\u00e4r det inte var sj\u00e4lvklart vad man skulle g\u00f6ra. Sv\u00e5rt att koppla momenten till kursnamnet. Varf\u00f6r s\u00e5 m\u00e5nga examinerande objekt f\u00f6r s\u00e5 f\u00e5 po\u00e4ng? Att ge feedback i skolan n\u00e4r man redan f\u00e5tt den den genom moodle var ocks\u00e5 ganska on\u00f6digt och man hade hellre kunnat spendera den tiden med att jobba p\u00e5 projektet d\u00e5 att tr\u00e4ffa personerna inte tillf\u00f6rde n\u00e5got mer \u00e4n sj\u00e4lva moodle svarenKursl\u00e4rarens kommentererKA response to CEQ for ETSF01 2015/16En av kursens st\u00f6rsta utmaningar \u00e4r att f\u00f6rmedla relevansen av kursinneh\u00e5llet, d\u00e5 det handlar om av icke-tekniska aspekter av programvaruutveckling (projektplanering/ledning etc.) Responsen \u00e4r fortsatt blandad med b\u00e5de positiva och negativa fritext svar p\u00e5 denna punkt. Kursinneh\u00e5llet beh\u00f6ver fortl\u00f6pande motiveras igenom hela kursen, inte bara i b\u00f6rjan. \u00c5rets tv\u00e5 g\u00e4stf\u00f6rel\u00e4sningar var uppskattade, och gav insikt i hur projekt leds och organiseras inom industrin. Uppl\u00e4gget med tema f\u00f6rel\u00e4sningar fungerade bra, dvs en vanlig f\u00f6rel\u00e4sning i pass 1 och en g\u00e4stf\u00f6rel\u00e4sare som pratade om samma tema i pass 2.Information om kursuppl\u00e4gget beh\u00f6ver ocks\u00e5 fortsatt arbetas med. \u00c4ven om informationen finns tillg\u00e4nglig, t ex l\u00e4sanvisningarna p\u00e5 kurshemsidan, s\u00e5 beh\u00f6vs den pekas p\u00e5 upprepade g\u00e5nger under f\u00f6rel\u00e4sningarna. \u00c4ven de pedagogiska uppl\u00e4gget beh\u00f6ver f\u00f6rklaras och motiveras \u00e4nnu tydligare, t ex att man l\u00e4r sej mer av att aktivt granska andras arbete \u00e4n att passivt ta emot feedback.Pga \u00e5rets l\u00e4sveckoindelning blev introduktionenen till kursprojektet lite v\u00e4l kort. Till n\u00e4sta omg\u00e5ng beh\u00f6ver projektbeskrivning och genomg\u00e5ngen av den f\u00f6rb\u00e4ttras f\u00f6r att tydligare f\u00f6rmedla syfte och uppl\u00e4gg. Den f\u00f6rb\u00e4ttring vi gjorde med att specifiera en t\u00e4nkt arbetsg\u00e5ng verkar snarare ha skapat mer f\u00f6rvirring \u00e4n hj\u00e4lp studenterna f\u00f6rst\u00e5 uppgiften.Anv\u00e4ndandet av Moodle f\u00f6r att hantera kamratgranskningarna av rapporterna var en f\u00f6rb\u00e4ttring i \u00e5r. Dock kvarst\u00e5r kommentarerna om oj\u00e4mn kvalitet p\u00e5 utf\u00f6rda granskningar. Det skulle kanske kunna f\u00f6rb\u00e4ttras genom att inl\u00e4mnad respons kontrolleras, dock \u00e4r den st\u00f6rsta f\u00f6rb\u00e4ttringen att \u00e4nnu tydligare peka p\u00e5 vinsterna f\u00f6r egen del av att granska andras arbete. Kamratgranskningsuppl\u00e4gget skulle kunna f\u00f6rb\u00e4ttras ytterligare, t ex med l\u00e4rarledda diskussion fr\u00e5gor under de muntliga \u00e5terkopplingstillf\u00e4llena (\u00f6vning 2 & 3).Slutligen s\u00e5 skulle jag vilja spr\u00e4nga in sm\u00e5 \u00f6vningar p\u00e5 f\u00f6rel\u00e4sningarna med praktiska och f\u00f6r teorin relevanta fr\u00e5gest\u00e4llningar. Detta skulle kunna stimulera till reflektion och st\u00f6dja aktivt l\u00e4rande av f\u00f6rel\u00e4sningsinneh\u00e5llet.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-42',
     'importanceScore': '+25',
     'name': 'Ingenj\u00f6rsprocessen f\u00f6r programvaruutveckling - ekonomi och kvalitet',
@@ -1752,7 +1752,7 @@ export default {
     'satisfactionScore': '-43',
     'teachingScore': '-31',
     'workloadScore': '+17',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '117': {
     'assessmentScore': '+70',
@@ -1767,7 +1767,7 @@ export default {
     'satisfactionScore': '+58',
     'teachingScore': '+47',
     'workloadScore': '+35',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '118': {
     'assessmentScore': '+42',
@@ -1782,7 +1782,7 @@ export default {
     'satisfactionScore': '+72',
     'teachingScore': '+38',
     'workloadScore': '+38',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '119': {
     'assessmentScore': '+27',
@@ -1797,7 +1797,7 @@ export default {
     'satisfactionScore': '+40',
     'teachingScore': '+27',
     'workloadScore': '+9',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '120': {
     'assessmentScore': '+32',
@@ -1812,7 +1812,7 @@ export default {
     'satisfactionScore': '+33',
     'teachingScore': '+12',
     'workloadScore': '+22',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '121': {
     'assessmentScore': '+60',
@@ -1827,7 +1827,7 @@ export default {
     'satisfactionScore': '+66',
     'teachingScore': '+33',
     'workloadScore': '+13',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '122': {
     'assessmentScore': '+68',
@@ -1842,12 +1842,12 @@ export default {
     'satisfactionScore': '+55',
     'teachingScore': '+28',
     'workloadScore': '+30',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '123': {
     'assessmentScore': '+26',
     'code': 'ETSF05',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerKopplingen mellan de olika delarna av kursen s\u00e5som f\u00f6rel\u00e4sningar, duggan och \u00f6vningarna beh\u00f6ver f\u00f6rb\u00e4ttras. Projektet uppskattades dock v\u00e4dligt mycket av studenterna.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKL och PL n\u00e4rvarande.F\u00f6rsta g\u00e5ngen denna kursen gavs i KLs regi.Flera f\u00f6rb\u00e4ttringspunkter diskuterades.Fokus p\u00e5 att f\u00f6rtydliga m\u00e5l och ut\u00f6ka\/f\u00f6rb\u00e4ttra fr\u00e5gorna i onlinequizzen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerKopplingen mellan de olika delarna av kursen s\u00e5som f\u00f6rel\u00e4sningar, duggan och \u00f6vningarna beh\u00f6ver f\u00f6rb\u00e4ttras. Projektet uppskattades dock v\u00e4dligt mycket av studenterna.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKL och PL n\u00e4rvarande.F\u00f6rsta g\u00e5ngen denna kursen gavs i KLs regi.Flera f\u00f6rb\u00e4ttringspunkter diskuterades.Fokus p\u00e5 att f\u00f6rtydliga m\u00e5l och ut\u00f6ka/f\u00f6rb\u00e4ttra fr\u00e5gorna i onlinequizzen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-36',
     'importanceScore': '+41',
     'name': 'Internetprotokoll',
@@ -1857,7 +1857,7 @@ export default {
     'satisfactionScore': '-28',
     'teachingScore': '-31',
     'workloadScore': '-27',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '124': {
     'assessmentScore': '+49',
@@ -1872,7 +1872,7 @@ export default {
     'satisfactionScore': '+32',
     'teachingScore': '+12',
     'workloadScore': '-18',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '125': {
     'assessmentScore': '+44',
@@ -1887,7 +1887,7 @@ export default {
     'satisfactionScore': '-10',
     'teachingScore': '-34',
     'workloadScore': '-31',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '126': {
     'assessmentScore': '+48',
@@ -1902,7 +1902,7 @@ export default {
     'satisfactionScore': '+44',
     'teachingScore': '+31',
     'workloadScore': '-13',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '127': {
     'assessmentScore': '+31',
@@ -1917,12 +1917,12 @@ export default {
     'satisfactionScore': '+25',
     'teachingScore': '+30',
     'workloadScore': '-5',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '128': {
     'assessmentScore': '+40',
     'code': 'TEK210',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerM\u00e5nga i ettan skulle vilja ha mer fokus p\u00e5 sj\u00e4lva skrivandet av uppsatsen, det vill s\u00e4ga hur det b\u00f6r utformas d\u00e5 det \u00e4r f\u00f6rsta g\u00e5nge man skriver n\u00e5got l\u00e4ngre p\u00e5 universitetsniv\u00e5. G\u00e4stf\u00f6rel\u00e4sningarna k\u00e4ndes f\u00f6r m\u00e5nga som att det var mer kuriosa \u00e4n kursmaterial, det hade varit b\u00e4ttre med en tydligare koppling till kursens inneh\u00e5ll.Kursl\u00e4rarens kommentererKursen verkar har fungerat tillfredsst\u00e4llande, f\u00f6rutom att en del studenter upplevde att grupp\/\u00f6vningsledare kom med olika information. Jag kommer att vara \u00e4nnu tydligare i kommunikationen med \u00f6vningsledarna till n\u00e4sta omg\u00e5ng om vad som g\u00e4ller.Under CEQ-m\u00f6tet kom vi ocks\u00e5 \u00f6verens om att i st\u00f6rre utstr\u00e4ckning betona att ett av m\u00e5len med kursen \u00e4r att \u00f6va er i att skriva akademiska texter. Detta \u00e4r anledningen till de specifika krav som finns p\u00e5 era inl\u00e4mningsuppgifter, exempelvis referenshantering, antal ord etc.Det var roligt att se att de flesta studenterna uppskattade laborationer och \u00f6vningar samt examinationen. Jag noterar ocks\u00e5 att m\u00e5nga tyckte illa om kursplattformen. Tyv\u00e4rr \u00e4r vi bundna till den, men vi kommer att forts\u00e4tta f\u00f6rs\u00f6ka hj\u00e4lpa er att navigera den. Tack f\u00f6r en trevlig termin och lycka till i framtiden!\/AnnikaProgramledarens kommentarerN\u00e4rvarande p\u00e5 m\u00f6tet var KL, PL samt studentrepresentant f\u00f6r C. Kursen ans\u00e5gs generellt som bra, men studenterna hade en del kommentarer ang\u00e5ende genomf\u00f6randet av vissa moment som KL lovade kolla p\u00e5. En pedagogisk utmaning \u00e4r att kursen flyttas fr\u00e5n 3:an till 1:an, vilket medf\u00f6r att studenterna kommer att ha en annan erfarenhet och f\u00f6rkunskaper n\u00e4r de g\u00e5r kursen. Vi kom d\u00e4rf\u00f6r \u00f6verens om att det inte \u00e4r l\u00e4mpligt med stora f\u00f6r\u00e4ndringar i kursen just nu utan fokusera p\u00e5 tydlighet och genomf\u00f6randet av kursmomenten.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerM\u00e5nga i ettan skulle vilja ha mer fokus p\u00e5 sj\u00e4lva skrivandet av uppsatsen, det vill s\u00e4ga hur det b\u00f6r utformas d\u00e5 det \u00e4r f\u00f6rsta g\u00e5nge man skriver n\u00e5got l\u00e4ngre p\u00e5 universitetsniv\u00e5. G\u00e4stf\u00f6rel\u00e4sningarna k\u00e4ndes f\u00f6r m\u00e5nga som att det var mer kuriosa \u00e4n kursmaterial, det hade varit b\u00e4ttre med en tydligare koppling till kursens inneh\u00e5ll.Kursl\u00e4rarens kommentererKursen verkar har fungerat tillfredsst\u00e4llande, f\u00f6rutom att en del studenter upplevde att grupp/\u00f6vningsledare kom med olika information. Jag kommer att vara \u00e4nnu tydligare i kommunikationen med \u00f6vningsledarna till n\u00e4sta omg\u00e5ng om vad som g\u00e4ller.Under CEQ-m\u00f6tet kom vi ocks\u00e5 \u00f6verens om att i st\u00f6rre utstr\u00e4ckning betona att ett av m\u00e5len med kursen \u00e4r att \u00f6va er i att skriva akademiska texter. Detta \u00e4r anledningen till de specifika krav som finns p\u00e5 era inl\u00e4mningsuppgifter, exempelvis referenshantering, antal ord etc.Det var roligt att se att de flesta studenterna uppskattade laborationer och \u00f6vningar samt examinationen. Jag noterar ocks\u00e5 att m\u00e5nga tyckte illa om kursplattformen. Tyv\u00e4rr \u00e4r vi bundna till den, men vi kommer att forts\u00e4tta f\u00f6rs\u00f6ka hj\u00e4lpa er att navigera den. Tack f\u00f6r en trevlig termin och lycka till i framtiden!/AnnikaProgramledarens kommentarerN\u00e4rvarande p\u00e5 m\u00f6tet var KL, PL samt studentrepresentant f\u00f6r C. Kursen ans\u00e5gs generellt som bra, men studenterna hade en del kommentarer ang\u00e5ende genomf\u00f6randet av vissa moment som KL lovade kolla p\u00e5. En pedagogisk utmaning \u00e4r att kursen flyttas fr\u00e5n 3:an till 1:an, vilket medf\u00f6r att studenterna kommer att ha en annan erfarenhet och f\u00f6rkunskaper n\u00e4r de g\u00e5r kursen. Vi kom d\u00e4rf\u00f6r \u00f6verens om att det inte \u00e4r l\u00e4mpligt med stora f\u00f6r\u00e4ndringar i kursen just nu utan fokusera p\u00e5 tydlighet och genomf\u00f6randet av kursmomenten.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-14',
     'importanceScore': '+38',
     'name': 'Kognition',
@@ -1932,7 +1932,7 @@ export default {
     'satisfactionScore': '+14',
     'teachingScore': '-10',
     'workloadScore': '+44',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '129': {
     'assessmentScore': '+68',
@@ -1947,7 +1947,7 @@ export default {
     'satisfactionScore': '+88',
     'teachingScore': '+62',
     'workloadScore': '+50',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '130': {
     'assessmentScore': '+41',
@@ -1962,7 +1962,7 @@ export default {
     'satisfactionScore': '+65',
     'teachingScore': '+44',
     'workloadScore': '-6',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '131': {
     'assessmentScore': '+27',
@@ -1977,7 +1977,7 @@ export default {
     'satisfactionScore': '0',
     'teachingScore': '-15',
     'workloadScore': '-29',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '132': {
     'assessmentScore': '+28',
@@ -1992,7 +1992,7 @@ export default {
     'satisfactionScore': '-20',
     'teachingScore': '-35',
     'workloadScore': '-28',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '133': {
     'assessmentScore': '+39',
@@ -2007,7 +2007,7 @@ export default {
     'satisfactionScore': '-4',
     'teachingScore': '-7',
     'workloadScore': '-21',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '134': {
     'assessmentScore': '+29',
@@ -2022,7 +2022,7 @@ export default {
     'satisfactionScore': '+59',
     'teachingScore': '+6',
     'workloadScore': '+20',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '135': {
     'assessmentScore': '+68',
@@ -2037,12 +2037,12 @@ export default {
     'satisfactionScore': '+78',
     'teachingScore': '+54',
     'workloadScore': '+53',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '136': {
     'assessmentScore': '+56',
     'code': 'EIT100',
-    'comments': 'Studier\u00e5dets kommentarerKursern skulle beh\u00f6va l\u00e4gga mer fokus p\u00e5 r\u00e4knandet och det mer praktiska f\u00f6r att studenterna ska kunna ta till sig allt. En del studenter har upplevt att man g\u00e5tt in i kursen med bristande f\u00f6rskunskap vilket \u00e4r n\u00e5got att ha i \u00e5tanke. Annars har m\u00e5nga upplevt f\u00f6rel\u00e4sningarna som engagerande och \u00f6vningarna som givande.Kursl\u00e4rarens kommentererI det stora hela verkar kursen ha g\u00e5tt ganska bra, trots att den precis bytt kursansvarig\/f\u00f6rel\u00e4sare. Det finns f\u00f6rst\u00e5s punkter att f\u00f6rb\u00e4ttra och b\u00e5de tydligheten i kursens m\u00e5l och arbetsbelastning verkar beh\u00f6va t\u00e4nkas igenom till n\u00e4sta \u00e5r. \u00c4ven kopplingen mellan teori och praktik beh\u00f6ver st\u00e4rkas i kursen. Mera l\u00f6sning av "praktiska" problem kan vara ett st\u00e4tt att f\u00f6rb\u00e4ttra den kopplingen.Programledarens kommentarerPL, KL och \u00f6vningsledare n\u00e4rvarande.Kursen fungerar mycket bra.Inneh\u00e5llet i kursen n\u00e5got decimerat j\u00e4mf\u00f6rt med tidigare \u00e5r, men arbetsbelastningen upplevs \u00e4nd\u00e5 som relativt h\u00f6g, troligtvis f\u00f6r att flera nya koncept introduceras f\u00f6r studenterna.KL hade kursen f\u00f6r f\u00f6rsta g\u00e5ngen, och f\u00e5r (trots detta) goda omd\u00f6men.God n\u00e4rvaro p\u00e5 \u00f6vningarna, ca 60 %.N\u00e5gra f\u00f6rb\u00e4ttringar f\u00f6r att tydligare koppla samman teori och praktik diskuterades, speciellt att ha mer realistiska storheter i r\u00e4kneuppgifterna.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerKursern skulle beh\u00f6va l\u00e4gga mer fokus p\u00e5 r\u00e4knandet och det mer praktiska f\u00f6r att studenterna ska kunna ta till sig allt. En del studenter har upplevt att man g\u00e5tt in i kursen med bristande f\u00f6rskunskap vilket \u00e4r n\u00e5got att ha i \u00e5tanke. Annars har m\u00e5nga upplevt f\u00f6rel\u00e4sningarna som engagerande och \u00f6vningarna som givande.Kursl\u00e4rarens kommentererI det stora hela verkar kursen ha g\u00e5tt ganska bra, trots att den precis bytt kursansvarig/f\u00f6rel\u00e4sare. Det finns f\u00f6rst\u00e5s punkter att f\u00f6rb\u00e4ttra och b\u00e5de tydligheten i kursens m\u00e5l och arbetsbelastning verkar beh\u00f6va t\u00e4nkas igenom till n\u00e4sta \u00e5r. \u00c4ven kopplingen mellan teori och praktik beh\u00f6ver st\u00e4rkas i kursen. Mera l\u00f6sning av "praktiska" problem kan vara ett st\u00e4tt att f\u00f6rb\u00e4ttra den kopplingen.Programledarens kommentarerPL, KL och \u00f6vningsledare n\u00e4rvarande.Kursen fungerar mycket bra.Inneh\u00e5llet i kursen n\u00e5got decimerat j\u00e4mf\u00f6rt med tidigare \u00e5r, men arbetsbelastningen upplevs \u00e4nd\u00e5 som relativt h\u00f6g, troligtvis f\u00f6r att flera nya koncept introduceras f\u00f6r studenterna.KL hade kursen f\u00f6r f\u00f6rsta g\u00e5ngen, och f\u00e5r (trots detta) goda omd\u00f6men.God n\u00e4rvaro p\u00e5 \u00f6vningarna, ca 60 %.N\u00e5gra f\u00f6rb\u00e4ttringar f\u00f6r att tydligare koppla samman teori och praktik diskuterades, speciellt att ha mer realistiska storheter i r\u00e4kneuppgifterna.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+4',
     'importanceScore': '+73',
     'name': 'Informations\u00f6verf\u00f6ring',
@@ -2052,12 +2052,12 @@ export default {
     'satisfactionScore': '+53',
     'teachingScore': '+35',
     'workloadScore': '-3',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '137': {
     'assessmentScore': '+53',
     'code': 'ETI265',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerKommentarer har ej inkommit f\u00f6re utsatt tidKursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKursen fungerar bra och l\u00e4rarna \u00e4r uppskattade.N\u00e5got polariserat bland kommentarerna, n\u00f6jda och neutrala studenter tycker att det mesta \u00e4r bra, medan de missn\u00f6jda \u00e4r tydligt missn\u00f6jda.Till viss del kan detta kanske bero p\u00e5 kursens sv\u00e5righetsgrad.St\u00f6rsta problemet tycks annars vara dimensioneringen av antalet \u00f6vningar\/\u00f6vningsledare.Eventuellt inf\u00f6rande av Python i st\u00e4llet f\u00f6r Matlab n\u00e4mndes ocks\u00e5.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerKommentarer har ej inkommit f\u00f6re utsatt tidKursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKursen fungerar bra och l\u00e4rarna \u00e4r uppskattade.N\u00e5got polariserat bland kommentarerna, n\u00f6jda och neutrala studenter tycker att det mesta \u00e4r bra, medan de missn\u00f6jda \u00e4r tydligt missn\u00f6jda.Till viss del kan detta kanske bero p\u00e5 kursens sv\u00e5righetsgrad.St\u00f6rsta problemet tycks annars vara dimensioneringen av antalet \u00f6vningar/\u00f6vningsledare.Eventuellt inf\u00f6rande av Python i st\u00e4llet f\u00f6r Matlab n\u00e4mndes ocks\u00e5.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+23',
     'importanceScore': '+33',
     'name': 'Signalbehandling i multimedia',
@@ -2067,7 +2067,7 @@ export default {
     'satisfactionScore': '+17',
     'teachingScore': '+14',
     'workloadScore': '-18',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '138': {
     'assessmentScore': '+49',
@@ -2082,7 +2082,7 @@ export default {
     'satisfactionScore': '+58',
     'teachingScore': '+17',
     'workloadScore': '+39',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '139': {
     'assessmentScore': '+39',
@@ -2097,12 +2097,12 @@ export default {
     'satisfactionScore': '+68',
     'teachingScore': '+55',
     'workloadScore': '+41',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '140': {
     'assessmentScore': '-5',
     'code': 'ETSF01',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerEkonomi och kvalitet kursen \u00e4r en kurs med bra inneh\u00e5ll som tyv\u00e4rr inte kommer fram p\u00e5 ett helt r\u00e4ttvist s\u00e4tt. Projektet upplevdes som sv\u00e5rt att koppla till vad som gicks igenom p\u00e5 f\u00f6rel\u00e4sningarna och beskrivningen upplevdes ofta som diffus s\u00e5 studenterna inte hade en klar uppfattning om vad som skulle g\u00f6ras. Till den framtida kursen vill studier\u00e5det g\u00e4rna se ett annat uppl\u00e4gg f\u00f6r eventuellt projekt.Kursl\u00e4rarens kommentererStudenterna \u00e4r \u00f6verlag mer n\u00f6jda med kursen i \u00e5r och har graderat n\u00f6jdhet till -34 j\u00e4mf\u00f6rt med f\u00f6rra \u00e5rets -50 (CEQ f\u00f6r 2015\/16). En m\u00f6jlig f\u00f6rklaring till detta kan vara det \u00f6kade fokuset p\u00e5 att inkludera aktiva moment i f\u00f6rel\u00e4sningarna, och \u00e4ven f\u00f6rtydliga att projektplaneringstekniker mycket v\u00e4l kan appliceras p\u00e5 studenternas egna projekt.\u00c4ven fr\u00e5gan g\u00e4llande hur kursen hj\u00e4lper studenten att f\u00f6rb\u00e4ttra sitt skrivande har \u00f6kat fr\u00e5n -1 (CEQ f\u00f6r 2015\/16) till 11. Denna f\u00f6rb\u00e4ttring kan ev f\u00f6rklaras av att alla studenter i \u00e5r har f\u00e5tt granska 2 andra projektrapporter, vilket enligt forskningsresultat leder till f\u00f6rb\u00e4ttrade l\u00e4rande av skrivaspekter.Detta \u00e4r sista \u00e5ret ETSF01 kursen ges. Stora delar av kursinneh\u00e5llet kommer fram\u00f6ver att ing\u00e5 i kursen ETSF25 Aff\u00e4rsdriven programvaruutveckling, d\u00e4r denna CEQ tas som input till kursutvecklingen.F\u00f6rel\u00e4sningarna funkar i stort bra och uppfattas som tydliga. P\u00e5 ett m\u00f6te med kursrepresentanterna halvv\u00e4gs igenom kursen n\u00e4mndes att f\u00f6rel\u00e4sningsbilderna inneh\u00f6ll v\u00e4ldigt mycket information, vilket jag justerade o d\u00e5 funkade b\u00e4ttre. Det finns CEQ kommentarer om att f\u00f6rel\u00e4sningsbilderna \u00e4r r\u00f6riga, dock oklar om det g\u00e4ller vid anv\u00e4ndning f\u00f6r sj\u00e4lvstudier eller under sj\u00e4lva f\u00f6rel\u00e4sningen (vilket de \u00e4r framtagna f\u00f6r.)G\u00e4stf\u00f6rel\u00e4sningarna uppskattas och kommer att ing\u00e5 \u00e4ven i den nya kursen.Projektuppgiften \u00e4r komplex och initialt sv\u00e5r f\u00f6r studenterna att greppa. Dock finns det CEQ kommentarer om att uppgiften i sej inte upplevdes som s\u00e5 komplex n\u00e4r man f\u00f6rst\u00e5tt vad man skulle g\u00f6ra. Uppgiften omfattar ett verklighetsbaserat fall vilket uppskattas, \u00e4ven om den kr\u00e4ver erfarenhet av programvaruprojekt vilket inte alla studenter har. Den nya kursen kommer att inneh\u00e5lla en annan projektuppgift.I \u00e5r har vi f\u00f6rs\u00f6kt f\u00f6rb\u00e4ttra kamratgransknings\u00f6vningarna genom att uppmuntra studenterna till att diskutera kommentarerna och de olika aspekterna av skrivande som tas upp. Trots detta upplever m\u00e5nga studenter dessa \u00f6vningstillf\u00e4llen som tunna p\u00e5 v\u00e4rde. Ist\u00e4llet efterfr\u00e5gar de m\u00f6jlighet att applicera det som l\u00e4rs ut. Detta tar vi fasta p\u00e5 n\u00e4r vi utvecklar den nya kursen och kommer d\u00e4r att ha seminarium med \u00f6vningsuppgifter p\u00e5 t ex projektplanering och risk analys.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iP\u00e5 sista f\u00f6rel\u00e4sningen',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerEkonomi och kvalitet kursen \u00e4r en kurs med bra inneh\u00e5ll som tyv\u00e4rr inte kommer fram p\u00e5 ett helt r\u00e4ttvist s\u00e4tt. Projektet upplevdes som sv\u00e5rt att koppla till vad som gicks igenom p\u00e5 f\u00f6rel\u00e4sningarna och beskrivningen upplevdes ofta som diffus s\u00e5 studenterna inte hade en klar uppfattning om vad som skulle g\u00f6ras. Till den framtida kursen vill studier\u00e5det g\u00e4rna se ett annat uppl\u00e4gg f\u00f6r eventuellt projekt.Kursl\u00e4rarens kommentererStudenterna \u00e4r \u00f6verlag mer n\u00f6jda med kursen i \u00e5r och har graderat n\u00f6jdhet till -34 j\u00e4mf\u00f6rt med f\u00f6rra \u00e5rets -50 (CEQ f\u00f6r 2015/16). En m\u00f6jlig f\u00f6rklaring till detta kan vara det \u00f6kade fokuset p\u00e5 att inkludera aktiva moment i f\u00f6rel\u00e4sningarna, och \u00e4ven f\u00f6rtydliga att projektplaneringstekniker mycket v\u00e4l kan appliceras p\u00e5 studenternas egna projekt.\u00c4ven fr\u00e5gan g\u00e4llande hur kursen hj\u00e4lper studenten att f\u00f6rb\u00e4ttra sitt skrivande har \u00f6kat fr\u00e5n -1 (CEQ f\u00f6r 2015/16) till 11. Denna f\u00f6rb\u00e4ttring kan ev f\u00f6rklaras av att alla studenter i \u00e5r har f\u00e5tt granska 2 andra projektrapporter, vilket enligt forskningsresultat leder till f\u00f6rb\u00e4ttrade l\u00e4rande av skrivaspekter.Detta \u00e4r sista \u00e5ret ETSF01 kursen ges. Stora delar av kursinneh\u00e5llet kommer fram\u00f6ver att ing\u00e5 i kursen ETSF25 Aff\u00e4rsdriven programvaruutveckling, d\u00e4r denna CEQ tas som input till kursutvecklingen.F\u00f6rel\u00e4sningarna funkar i stort bra och uppfattas som tydliga. P\u00e5 ett m\u00f6te med kursrepresentanterna halvv\u00e4gs igenom kursen n\u00e4mndes att f\u00f6rel\u00e4sningsbilderna inneh\u00f6ll v\u00e4ldigt mycket information, vilket jag justerade o d\u00e5 funkade b\u00e4ttre. Det finns CEQ kommentarer om att f\u00f6rel\u00e4sningsbilderna \u00e4r r\u00f6riga, dock oklar om det g\u00e4ller vid anv\u00e4ndning f\u00f6r sj\u00e4lvstudier eller under sj\u00e4lva f\u00f6rel\u00e4sningen (vilket de \u00e4r framtagna f\u00f6r.)G\u00e4stf\u00f6rel\u00e4sningarna uppskattas och kommer att ing\u00e5 \u00e4ven i den nya kursen.Projektuppgiften \u00e4r komplex och initialt sv\u00e5r f\u00f6r studenterna att greppa. Dock finns det CEQ kommentarer om att uppgiften i sej inte upplevdes som s\u00e5 komplex n\u00e4r man f\u00f6rst\u00e5tt vad man skulle g\u00f6ra. Uppgiften omfattar ett verklighetsbaserat fall vilket uppskattas, \u00e4ven om den kr\u00e4ver erfarenhet av programvaruprojekt vilket inte alla studenter har. Den nya kursen kommer att inneh\u00e5lla en annan projektuppgift.I \u00e5r har vi f\u00f6rs\u00f6kt f\u00f6rb\u00e4ttra kamratgransknings\u00f6vningarna genom att uppmuntra studenterna till att diskutera kommentarerna och de olika aspekterna av skrivande som tas upp. Trots detta upplever m\u00e5nga studenter dessa \u00f6vningstillf\u00e4llen som tunna p\u00e5 v\u00e4rde. Ist\u00e4llet efterfr\u00e5gar de m\u00f6jlighet att applicera det som l\u00e4rs ut. Detta tar vi fasta p\u00e5 n\u00e4r vi utvecklar den nya kursen och kommer d\u00e4r att ha seminarium med \u00f6vningsuppgifter p\u00e5 t ex projektplanering och risk analys.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iP\u00e5 sista f\u00f6rel\u00e4sningen',
     'goalClearnessScore': '-40',
     'importanceScore': '-3',
     'name': 'Ingenj\u00f6rsprocessen f\u00f6r programvaruutveckling - ekonomi och kvalitet',
@@ -2112,7 +2112,7 @@ export default {
     'satisfactionScore': '-53',
     'teachingScore': '-30',
     'workloadScore': '+8',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '141': {
     'assessmentScore': '+56',
@@ -2127,7 +2127,7 @@ export default {
     'satisfactionScore': '+54',
     'teachingScore': '+38',
     'workloadScore': '+3',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '142': {
     'assessmentScore': '+72',
@@ -2142,7 +2142,7 @@ export default {
     'satisfactionScore': '+73',
     'teachingScore': '+53',
     'workloadScore': '+43',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '143': {
     'assessmentScore': '+73',
@@ -2157,12 +2157,12 @@ export default {
     'satisfactionScore': '+71',
     'teachingScore': '+76',
     'workloadScore': '+10',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '144': {
     'assessmentScore': '+20',
     'code': 'EITA55',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerStudenterna ans\u00e5g att kursen k\u00e4ndes problematisk p.g.a. problem med kurshemsidan d\u00e4r det stod felaktig information ang\u00e5ende datum samt uppgifter. Studenterna ans\u00e5g \u00e4ven att tentan var sv\u00e5rare i \u00e5r \u00e4n tidigare.Kursl\u00e4rarens kommentererDen negativa trenden vad avser tentaresultatet har brutits. Detta \u00e4r desto mer positivt d\u00e5 jag sj\u00e4lv tycker att tentan var n\u00e5got sv\u00e5rare \u00e4n tidigare \u00e5r.Det var f\u00f6rv\u00e5nande att se att alla staplar i sammanfattningfiguren blivit s\u00e5 negativa. M\u00f6tet kom dock \u00f6verens om att det troligen beror p\u00e5 den mindre tydliga informationen och felaktigheterna p\u00e5 webbsidan. \u00c4nnu mer f\u00f6rv\u00e5nande att inget om dessa problem meddelades kusrledning under kursen, n\u00e4r problemet kunde r\u00e4ttas till.Synkronisering mellan kursledning\/l\u00e4rare och labbhandledare beh\u00f6ver ses \u00f6ver.Programledarens kommentarerKursen fick s\u00e4mre omd\u00f6me mot tidigare \u00e5r utan n\u00e5gon egentlig kursf\u00f6r\u00e4ndring. St\u00f6rsta missn\u00f6jet tycks ha orsakats av att informationen p\u00e5 kurshemsidan inte presenterades tydligt - vilket ska fixas till n\u00e4sta \u00e5r. I \u00f6vrigt uppskattas b\u00e5de l\u00e4rare, projekt, labbar och \u00f6vningar.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerStudenterna ans\u00e5g att kursen k\u00e4ndes problematisk p.g.a. problem med kurshemsidan d\u00e4r det stod felaktig information ang\u00e5ende datum samt uppgifter. Studenterna ans\u00e5g \u00e4ven att tentan var sv\u00e5rare i \u00e5r \u00e4n tidigare.Kursl\u00e4rarens kommentererDen negativa trenden vad avser tentaresultatet har brutits. Detta \u00e4r desto mer positivt d\u00e5 jag sj\u00e4lv tycker att tentan var n\u00e5got sv\u00e5rare \u00e4n tidigare \u00e5r.Det var f\u00f6rv\u00e5nande att se att alla staplar i sammanfattningfiguren blivit s\u00e5 negativa. M\u00f6tet kom dock \u00f6verens om att det troligen beror p\u00e5 den mindre tydliga informationen och felaktigheterna p\u00e5 webbsidan. \u00c4nnu mer f\u00f6rv\u00e5nande att inget om dessa problem meddelades kusrledning under kursen, n\u00e4r problemet kunde r\u00e4ttas till.Synkronisering mellan kursledning/l\u00e4rare och labbhandledare beh\u00f6ver ses \u00f6ver.Programledarens kommentarerKursen fick s\u00e4mre omd\u00f6me mot tidigare \u00e5r utan n\u00e5gon egentlig kursf\u00f6r\u00e4ndring. St\u00f6rsta missn\u00f6jet tycks ha orsakats av att informationen p\u00e5 kurshemsidan inte presenterades tydligt - vilket ska fixas till n\u00e4sta \u00e5r. I \u00f6vrigt uppskattas b\u00e5de l\u00e4rare, projekt, labbar och \u00f6vningar.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-23',
     'importanceScore': '+76',
     'name': 'Kommunikationssystem',
@@ -2172,12 +2172,12 @@ export default {
     'satisfactionScore': '+6',
     'teachingScore': '+2',
     'workloadScore': '+0',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '145': {
     'assessmentScore': '+46',
     'code': 'EITF05',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerDe flesta gillade kursen. Det som kan f\u00f6rb\u00e4ttras var att kunna komma \u00e5t XAMPP utan egen dator\/laptop. Studenterna upplevde att det var h\u00f6g arbetsbelastning p\u00e5 projektet och att det borde l\u00e4ggas h\u00f6gskolepo\u00e4ng p\u00e5 projeket och \u00e4ven eventuellt \u00f6ka h\u00f6gskolepo\u00e4ngen f\u00f6r hela kursen. Kunde g\u00e5 igenom mer p\u00e5 \u00f6vningarna. F\u00f6rel\u00e4saren var v\u00e4ldigt uppskattad.Kursl\u00e4rarens kommentererKursen fungerar bra, men n\u00e5gra f\u00f6rb\u00e4ttringar diskuterades. Justeringar i tiden mellan tv\u00e5 f\u00f6rs\u00f6k p\u00e5 online-tentamen, kan komma att ut\u00f6kas till tv\u00e5 timmar. F\u00f6r projekten ska kommande peer-review ordnas s\u00e5 att h\u00f6gst tre grupper reviewar samtidigt. Kursen upplevs som tung i f\u00f6rh\u00e5llande till antalet po\u00e4ng den ger.Programledarens kommentarerN\u00e4rvarande p\u00e5 CEQ-m\u00f6tet var representant f\u00f6r SRD, KL samt PL. Studenterna \u00e4r n\u00f6jda med kursen och den anses viktig f\u00f6r utbildningen. Det var en del diskussion kring projektet men annars uppplevs kursen som bra.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerDe flesta gillade kursen. Det som kan f\u00f6rb\u00e4ttras var att kunna komma \u00e5t XAMPP utan egen dator/laptop. Studenterna upplevde att det var h\u00f6g arbetsbelastning p\u00e5 projektet och att det borde l\u00e4ggas h\u00f6gskolepo\u00e4ng p\u00e5 projeket och \u00e4ven eventuellt \u00f6ka h\u00f6gskolepo\u00e4ngen f\u00f6r hela kursen. Kunde g\u00e5 igenom mer p\u00e5 \u00f6vningarna. F\u00f6rel\u00e4saren var v\u00e4ldigt uppskattad.Kursl\u00e4rarens kommentererKursen fungerar bra, men n\u00e5gra f\u00f6rb\u00e4ttringar diskuterades. Justeringar i tiden mellan tv\u00e5 f\u00f6rs\u00f6k p\u00e5 online-tentamen, kan komma att ut\u00f6kas till tv\u00e5 timmar. F\u00f6r projekten ska kommande peer-review ordnas s\u00e5 att h\u00f6gst tre grupper reviewar samtidigt. Kursen upplevs som tung i f\u00f6rh\u00e5llande till antalet po\u00e4ng den ger.Programledarens kommentarerN\u00e4rvarande p\u00e5 CEQ-m\u00f6tet var representant f\u00f6r SRD, KL samt PL. Studenterna \u00e4r n\u00f6jda med kursen och den anses viktig f\u00f6r utbildningen. Det var en del diskussion kring projektet men annars uppplevs kursen som bra.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+53',
     'importanceScore': '+79',
     'name': 'Webbs\u00e4kerhet',
@@ -2187,7 +2187,7 @@ export default {
     'satisfactionScore': '+71',
     'teachingScore': '+49',
     'workloadScore': '+27',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '146': {
     'assessmentScore': '+49',
@@ -2202,7 +2202,7 @@ export default {
     'satisfactionScore': '+11',
     'teachingScore': '-3',
     'workloadScore': '+5',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '147': {
     'assessmentScore': '+40',
@@ -2217,7 +2217,7 @@ export default {
     'satisfactionScore': '+65',
     'teachingScore': '+48',
     'workloadScore': '+19',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '148': {
     'assessmentScore': '+73',
@@ -2232,12 +2232,12 @@ export default {
     'satisfactionScore': '+71',
     'teachingScore': '+76',
     'workloadScore': '+10',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '149': {
     'assessmentScore': '+20',
     'code': 'EITA55',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerStudenterna ans\u00e5g att kursen k\u00e4ndes problematisk p.g.a. problem med kurshemsidan d\u00e4r det stod felaktig information ang\u00e5ende datum samt uppgifter. Studenterna ans\u00e5g \u00e4ven att tentan var sv\u00e5rare i \u00e5r \u00e4n tidigare.Kursl\u00e4rarens kommentererDen negativa trenden vad avser tentaresultatet har brutits. Detta \u00e4r desto mer positivt d\u00e5 jag sj\u00e4lv tycker att tentan var n\u00e5got sv\u00e5rare \u00e4n tidigare \u00e5r.Det var f\u00f6rv\u00e5nande att se att alla staplar i sammanfattningfiguren blivit s\u00e5 negativa. M\u00f6tet kom dock \u00f6verens om att det troligen beror p\u00e5 den mindre tydliga informationen och felaktigheterna p\u00e5 webbsidan. \u00c4nnu mer f\u00f6rv\u00e5nande att inget om dessa problem meddelades kusrledning under kursen, n\u00e4r problemet kunde r\u00e4ttas till.Synkronisering mellan kursledning\/l\u00e4rare och labbhandledare beh\u00f6ver ses \u00f6ver.Programledarens kommentarerKursen fick s\u00e4mre omd\u00f6me mot tidigare \u00e5r utan n\u00e5gon egentlig kursf\u00f6r\u00e4ndring. St\u00f6rsta missn\u00f6jet tycks ha orsakats av att informationen p\u00e5 kurshemsidan inte presenterades tydligt - vilket ska fixas till n\u00e4sta \u00e5r. I \u00f6vrigt uppskattas b\u00e5de l\u00e4rare, projekt, labbar och \u00f6vningar.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerStudenterna ans\u00e5g att kursen k\u00e4ndes problematisk p.g.a. problem med kurshemsidan d\u00e4r det stod felaktig information ang\u00e5ende datum samt uppgifter. Studenterna ans\u00e5g \u00e4ven att tentan var sv\u00e5rare i \u00e5r \u00e4n tidigare.Kursl\u00e4rarens kommentererDen negativa trenden vad avser tentaresultatet har brutits. Detta \u00e4r desto mer positivt d\u00e5 jag sj\u00e4lv tycker att tentan var n\u00e5got sv\u00e5rare \u00e4n tidigare \u00e5r.Det var f\u00f6rv\u00e5nande att se att alla staplar i sammanfattningfiguren blivit s\u00e5 negativa. M\u00f6tet kom dock \u00f6verens om att det troligen beror p\u00e5 den mindre tydliga informationen och felaktigheterna p\u00e5 webbsidan. \u00c4nnu mer f\u00f6rv\u00e5nande att inget om dessa problem meddelades kusrledning under kursen, n\u00e4r problemet kunde r\u00e4ttas till.Synkronisering mellan kursledning/l\u00e4rare och labbhandledare beh\u00f6ver ses \u00f6ver.Programledarens kommentarerKursen fick s\u00e4mre omd\u00f6me mot tidigare \u00e5r utan n\u00e5gon egentlig kursf\u00f6r\u00e4ndring. St\u00f6rsta missn\u00f6jet tycks ha orsakats av att informationen p\u00e5 kurshemsidan inte presenterades tydligt - vilket ska fixas till n\u00e4sta \u00e5r. I \u00f6vrigt uppskattas b\u00e5de l\u00e4rare, projekt, labbar och \u00f6vningar.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-23',
     'importanceScore': '+76',
     'name': 'Kommunikationssystem',
@@ -2247,12 +2247,12 @@ export default {
     'satisfactionScore': '+6',
     'teachingScore': '+2',
     'workloadScore': '+0',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '150': {
     'assessmentScore': '+46',
     'code': 'EITF05',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerDe flesta gillade kursen. Det som kan f\u00f6rb\u00e4ttras var att kunna komma \u00e5t XAMPP utan egen dator\/laptop. Studenterna upplevde att det var h\u00f6g arbetsbelastning p\u00e5 projektet och att det borde l\u00e4ggas h\u00f6gskolepo\u00e4ng p\u00e5 projeket och \u00e4ven eventuellt \u00f6ka h\u00f6gskolepo\u00e4ngen f\u00f6r hela kursen. Kunde g\u00e5 igenom mer p\u00e5 \u00f6vningarna. F\u00f6rel\u00e4saren var v\u00e4ldigt uppskattad.Kursl\u00e4rarens kommentererKursen fungerar bra, men n\u00e5gra f\u00f6rb\u00e4ttringar diskuterades. Justeringar i tiden mellan tv\u00e5 f\u00f6rs\u00f6k p\u00e5 online-tentamen, kan komma att ut\u00f6kas till tv\u00e5 timmar. F\u00f6r projekten ska kommande peer-review ordnas s\u00e5 att h\u00f6gst tre grupper reviewar samtidigt. Kursen upplevs som tung i f\u00f6rh\u00e5llande till antalet po\u00e4ng den ger.Programledarens kommentarerN\u00e4rvarande p\u00e5 CEQ-m\u00f6tet var representant f\u00f6r SRD, KL samt PL. Studenterna \u00e4r n\u00f6jda med kursen och den anses viktig f\u00f6r utbildningen. Det var en del diskussion kring projektet men annars uppplevs kursen som bra.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerDe flesta gillade kursen. Det som kan f\u00f6rb\u00e4ttras var att kunna komma \u00e5t XAMPP utan egen dator/laptop. Studenterna upplevde att det var h\u00f6g arbetsbelastning p\u00e5 projektet och att det borde l\u00e4ggas h\u00f6gskolepo\u00e4ng p\u00e5 projeket och \u00e4ven eventuellt \u00f6ka h\u00f6gskolepo\u00e4ngen f\u00f6r hela kursen. Kunde g\u00e5 igenom mer p\u00e5 \u00f6vningarna. F\u00f6rel\u00e4saren var v\u00e4ldigt uppskattad.Kursl\u00e4rarens kommentererKursen fungerar bra, men n\u00e5gra f\u00f6rb\u00e4ttringar diskuterades. Justeringar i tiden mellan tv\u00e5 f\u00f6rs\u00f6k p\u00e5 online-tentamen, kan komma att ut\u00f6kas till tv\u00e5 timmar. F\u00f6r projekten ska kommande peer-review ordnas s\u00e5 att h\u00f6gst tre grupper reviewar samtidigt. Kursen upplevs som tung i f\u00f6rh\u00e5llande till antalet po\u00e4ng den ger.Programledarens kommentarerN\u00e4rvarande p\u00e5 CEQ-m\u00f6tet var representant f\u00f6r SRD, KL samt PL. Studenterna \u00e4r n\u00f6jda med kursen och den anses viktig f\u00f6r utbildningen. Det var en del diskussion kring projektet men annars uppplevs kursen som bra.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+53',
     'importanceScore': '+79',
     'name': 'Webbs\u00e4kerhet',
@@ -2262,7 +2262,7 @@ export default {
     'satisfactionScore': '+71',
     'teachingScore': '+49',
     'workloadScore': '+27',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '151': {
     'assessmentScore': '+49',
@@ -2277,7 +2277,7 @@ export default {
     'satisfactionScore': '+11',
     'teachingScore': '-3',
     'workloadScore': '+5',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '152': {
     'assessmentScore': '+40',
@@ -2292,12 +2292,12 @@ export default {
     'satisfactionScore': '+65',
     'teachingScore': '+48',
     'workloadScore': '+19',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '153': {
     'assessmentScore': '+62',
     'code': 'EDA260',
-    'comments': 'Studier\u00e5dets kommentarerSv\u00e5rt att bed\u00f6ma kursen utifr\u00e5n enk\u00e4ter och egna kommentarer, d\u00e5 varje grupp hade olika tillv\u00e4gag\u00e5ngs\u00e4tt i sin probleml\u00f6sning. Dock verkar det som att de grupper som hade roligast och l\u00e4rde sig mest hade de mest engagerade coacher. Inledningsvis uppfattades kursens moment som tr\u00e5kiga\/on\u00f6diga men efter varje avklarat moment var den allm\u00e4nna uppfattningen att det som gicks igenom var otroligt relevant och dessutom intressant. En kurs som m\u00e5nga i efterhand tyckte gav otroligt mycket b\u00e5de i programmeringskunskaper och probleml\u00f6sning i allm\u00e4nhet. Kursen \u00e4r extremt relevant f\u00f6r utbildningen men \u00e4ven f\u00f6r de flesta elevers intresse.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKursen \u00e4r viktig f\u00f6r D-linjen d\u00e5 den ger studenterna m\u00f6jlighet att f\u00e5 erfarenhet av programutveckling i grupp. De f\u00e5r erfarenhet av relevanta utvecklingsmetodiker. Det \u00e4r \u00e4ven enda kursen som studenterna skriver ett st\u00f6rre program sj\u00e4lva fr\u00e5n grunden. Kursen \u00e4r \u00e4ven uppskattad av studenterna.\u00c5rets kursomg\u00e5ng var lyckad, \u00e4ven om vissa grupper inte fungerade optimalt. \u00d6verlag var kursen mycket uppskattad av \u00e5rets studenter.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerSv\u00e5rt att bed\u00f6ma kursen utifr\u00e5n enk\u00e4ter och egna kommentarer, d\u00e5 varje grupp hade olika tillv\u00e4gag\u00e5ngs\u00e4tt i sin probleml\u00f6sning. Dock verkar det som att de grupper som hade roligast och l\u00e4rde sig mest hade de mest engagerade coacher. Inledningsvis uppfattades kursens moment som tr\u00e5kiga/on\u00f6diga men efter varje avklarat moment var den allm\u00e4nna uppfattningen att det som gicks igenom var otroligt relevant och dessutom intressant. En kurs som m\u00e5nga i efterhand tyckte gav otroligt mycket b\u00e5de i programmeringskunskaper och probleml\u00f6sning i allm\u00e4nhet. Kursen \u00e4r extremt relevant f\u00f6r utbildningen men \u00e4ven f\u00f6r de flesta elevers intresse.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKursen \u00e4r viktig f\u00f6r D-linjen d\u00e5 den ger studenterna m\u00f6jlighet att f\u00e5 erfarenhet av programutveckling i grupp. De f\u00e5r erfarenhet av relevanta utvecklingsmetodiker. Det \u00e4r \u00e4ven enda kursen som studenterna skriver ett st\u00f6rre program sj\u00e4lva fr\u00e5n grunden. Kursen \u00e4r \u00e4ven uppskattad av studenterna.\u00c5rets kursomg\u00e5ng var lyckad, \u00e4ven om vissa grupper inte fungerade optimalt. \u00d6verlag var kursen mycket uppskattad av \u00e5rets studenter.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+59',
     'importanceScore': '+97',
     'name': 'Programvaruutveckling i grupp - projekt',
@@ -2307,7 +2307,7 @@ export default {
     'satisfactionScore': '+82',
     'teachingScore': '+51',
     'workloadScore': '+50',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '154': {
     'assessmentScore': '+39',
@@ -2322,12 +2322,12 @@ export default {
     'satisfactionScore': '+47',
     'teachingScore': '+21',
     'workloadScore': '+25',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '155': {
     'assessmentScore': '+10',
     'code': 'EIT060',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerKursen var v\u00e4ldigt popul\u00e4r hos eleverna, d\u00e5 \u00e4mnet dels \u00e4r v\u00e4ldigt relevant och intressant f\u00f6r s\u00e5v\u00e4l C:are som D:are. F\u00f6rel\u00e4saren \u00e4r v\u00e4ldigt aktiv under sina f\u00f6rel\u00e4sningar vilket f\u00e5ngar elevernas uppm\u00e4rksamhet v\u00e4ldigt bra. Laborationerna har varit l\u00e4rorika, d\u00e5 man i praktiken f\u00e5r pr\u00f6va p\u00e5 ett par av de verktyg och metoder som kan anv\u00e4ndas f\u00f6r att kn\u00e4cka l\u00f6senord, eller exekvera skadlig kod. Detta \u00e4r v\u00e4ldigt allm\u00e4nbildande f\u00f6r eleverna och blir en erfarenhet de sedan kan ha i baktanke \u00e4ven i framtiden. F\u00f6rel\u00e4saren visar under sina f\u00f6rel\u00e4sningar sj\u00e4lv intresse och erfarenhet f\u00f6r \u00e4mnet vilket g\u00f6r det hela mycket intressantare, d\u00e5 man verkligen f\u00e5r se att han g\u00f6r det f\u00f6r att sprida kunskapen, och inte bara f\u00f6r att han m\u00e5ste i sitt jobb.Kursl\u00e4rarens kommentererKursen har g\u00e5tt bra och studenterna upplever den som mycket angel\u00e4gen f\u00f6r deras utbildning. Det g\u00e4ller b\u00e5de C och D. Jag tycker att jag fick v\u00e4ldigt m\u00e5nga konstruktiva f\u00f6rslag p\u00e5 f\u00f6rb\u00e4ttringar. Jag ska bli mer tydlig med \u00f6vningsuppgifterna, dvs var och att de finns. N\u00e5gra tyckte att labbanvisningarna var lite otydliga, fr\u00e4mst f\u00f6r den tredje laborationen. Jag h\u00e5ller med om det och ska tydligg\u00f6ra det tills n\u00e4sta \u00e5r, speciellt f\u00f6rberedelsedelarna. Flera studenter skulle ocks\u00e5 vilja ha mer hj\u00e4lp i sammans\u00e4ttningen av projektgrupper. Jag ska f\u00f6rs\u00f6ka underl\u00e4tta detta n\u00e4sta \u00e5r och \u00e4ven f\u00f6rs\u00f6ka f\u00e5 dem att ha blandade grupper med studenter fr\u00e5n olika program.Programledarens kommentarerProgramledningen f\u00f6r D var inte p\u00e5 CEQ-m\u00f6tet. Av studenternas svar framg\u00e5r att kursen \u00e4r v\u00e4l uppbyggd och undervisningen h\u00e5ller h\u00f6g kvalit\u00e9. Det framg\u00e5r \u00e4ven att det finns m\u00f6jlighet till f\u00f6rb\u00e4ttringar, t.ex. arbetsf\u00f6rdelningen under kursen (labb 2\/projektet \u00e4r tunga) samt mindre fokus p\u00e5 termer och mer f\u00f6rst\u00e5elseinriktad examination. \u00d6verlag har kursansvarig gjort ett bra jobb och kursen \u00e4r relevant f\u00f6r D utbildningen. Jag anser inte att n\u00e5gra st\u00f6rre f\u00f6r\u00e4ndringar beh\u00f6ver g\u00f6ras.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerKursen var v\u00e4ldigt popul\u00e4r hos eleverna, d\u00e5 \u00e4mnet dels \u00e4r v\u00e4ldigt relevant och intressant f\u00f6r s\u00e5v\u00e4l C:are som D:are. F\u00f6rel\u00e4saren \u00e4r v\u00e4ldigt aktiv under sina f\u00f6rel\u00e4sningar vilket f\u00e5ngar elevernas uppm\u00e4rksamhet v\u00e4ldigt bra. Laborationerna har varit l\u00e4rorika, d\u00e5 man i praktiken f\u00e5r pr\u00f6va p\u00e5 ett par av de verktyg och metoder som kan anv\u00e4ndas f\u00f6r att kn\u00e4cka l\u00f6senord, eller exekvera skadlig kod. Detta \u00e4r v\u00e4ldigt allm\u00e4nbildande f\u00f6r eleverna och blir en erfarenhet de sedan kan ha i baktanke \u00e4ven i framtiden. F\u00f6rel\u00e4saren visar under sina f\u00f6rel\u00e4sningar sj\u00e4lv intresse och erfarenhet f\u00f6r \u00e4mnet vilket g\u00f6r det hela mycket intressantare, d\u00e5 man verkligen f\u00e5r se att han g\u00f6r det f\u00f6r att sprida kunskapen, och inte bara f\u00f6r att han m\u00e5ste i sitt jobb.Kursl\u00e4rarens kommentererKursen har g\u00e5tt bra och studenterna upplever den som mycket angel\u00e4gen f\u00f6r deras utbildning. Det g\u00e4ller b\u00e5de C och D. Jag tycker att jag fick v\u00e4ldigt m\u00e5nga konstruktiva f\u00f6rslag p\u00e5 f\u00f6rb\u00e4ttringar. Jag ska bli mer tydlig med \u00f6vningsuppgifterna, dvs var och att de finns. N\u00e5gra tyckte att labbanvisningarna var lite otydliga, fr\u00e4mst f\u00f6r den tredje laborationen. Jag h\u00e5ller med om det och ska tydligg\u00f6ra det tills n\u00e4sta \u00e5r, speciellt f\u00f6rberedelsedelarna. Flera studenter skulle ocks\u00e5 vilja ha mer hj\u00e4lp i sammans\u00e4ttningen av projektgrupper. Jag ska f\u00f6rs\u00f6ka underl\u00e4tta detta n\u00e4sta \u00e5r och \u00e4ven f\u00f6rs\u00f6ka f\u00e5 dem att ha blandade grupper med studenter fr\u00e5n olika program.Programledarens kommentarerProgramledningen f\u00f6r D var inte p\u00e5 CEQ-m\u00f6tet. Av studenternas svar framg\u00e5r att kursen \u00e4r v\u00e4l uppbyggd och undervisningen h\u00e5ller h\u00f6g kvalit\u00e9. Det framg\u00e5r \u00e4ven att det finns m\u00f6jlighet till f\u00f6rb\u00e4ttringar, t.ex. arbetsf\u00f6rdelningen under kursen (labb 2/projektet \u00e4r tunga) samt mindre fokus p\u00e5 termer och mer f\u00f6rst\u00e5elseinriktad examination. \u00d6verlag har kursansvarig gjort ett bra jobb och kursen \u00e4r relevant f\u00f6r D utbildningen. Jag anser inte att n\u00e5gra st\u00f6rre f\u00f6r\u00e4ndringar beh\u00f6ver g\u00f6ras.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+22',
     'importanceScore': '+88',
     'name': 'Datas\u00e4kerhet',
@@ -2337,12 +2337,12 @@ export default {
     'satisfactionScore': '+60',
     'teachingScore': '+44',
     'workloadScore': '+18',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '156': {
     'assessmentScore': '+42',
     'code': 'EIT070',
-    'comments': 'KommentarerStudier\u00e5dets kommentarer\u00d6verlag en kurs en stor majoritet av studenterna \u00e4r n\u00f6jda med. F\u00f6rel\u00e4saren f\u00e5r stort plus f\u00f6r sin pedagogik. \u00d6vningsledarna prisas f\u00f6r sin grundlighet.Kritik mot labbhandledningen samt att det mot slutet av kursen var mindre koppling\/r\u00f6d tr\u00e5d mellan f\u00f6rel\u00e4sning, laborationer och \u00f6vningar. C-programmeringen b\u00f6r flyttas fr\u00e5n f\u00f6rel\u00e4sning till (frivilligt) laborationsmoment. Framtiden om kursuppl\u00e4gget diskuterades och alternativ lades fram, men i skrivande stund beh\u00f6ver och kommer inte kursen att \u00e4ndras n\u00e4mnv\u00e4rt - n\u00e5got som \u00e4r utan problem, d\u00e5 kursen uppfattas som utm\u00e4rkt.Kursl\u00e4rarens kommentererKursen g\u00e5r i stort sett mycket bra, men institutionen \u00e4r medveten om b\u00e5de m\u00f6jligheten och behovet av modernisering och f\u00f6r\u00e4ndring. Kursen och dess inneh\u00e5ll \u00e4r starkt kopplade till kursen i Datorarkitektur, och all f\u00f6r\u00e4ndring m\u00e5ste ske i samarbete med denna senare kurs. Det \u00e4r i dagens l\u00e4ge oklart vad som skall g\u00f6ras och under vilket \u00e5r.Till n\u00e4sta \u00e5r kommer en det att ske en genomg\u00e5ng av laborationshandledningarna.Under CEQ-m\u00f6tet ber\u00e4ttade representanter fr\u00e5n D-programmet att m\u00e5nga tyckte att kursen k\u00e4ndes mycket inspirerande f\u00f6r just valet av utbildning, och E-programmet var ocks\u00e5 mycket positivt. Kursansvarig tackar f\u00f6r detta och konstaterar att den typen av positiv kritik ocks\u00e5 k\u00e4nns mycket inspirerande.Programledarens kommentarerKursen \u00e4r mycket relevant f\u00f6r D-programmet. Den uppskattas \u00e4ven av studenterna. Efter \u00e5rets kursomg\u00e5ng fanns mest ber\u00f6m till l\u00e4raren. Han tog till sig av den kritik som framf\u00f6rdes, bl.a. kommer labbarna att ses \u00f6ver.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarer\u00d6verlag en kurs en stor majoritet av studenterna \u00e4r n\u00f6jda med. F\u00f6rel\u00e4saren f\u00e5r stort plus f\u00f6r sin pedagogik. \u00d6vningsledarna prisas f\u00f6r sin grundlighet.Kritik mot labbhandledningen samt att det mot slutet av kursen var mindre koppling/r\u00f6d tr\u00e5d mellan f\u00f6rel\u00e4sning, laborationer och \u00f6vningar. C-programmeringen b\u00f6r flyttas fr\u00e5n f\u00f6rel\u00e4sning till (frivilligt) laborationsmoment. Framtiden om kursuppl\u00e4gget diskuterades och alternativ lades fram, men i skrivande stund beh\u00f6ver och kommer inte kursen att \u00e4ndras n\u00e4mnv\u00e4rt - n\u00e5got som \u00e4r utan problem, d\u00e5 kursen uppfattas som utm\u00e4rkt.Kursl\u00e4rarens kommentererKursen g\u00e5r i stort sett mycket bra, men institutionen \u00e4r medveten om b\u00e5de m\u00f6jligheten och behovet av modernisering och f\u00f6r\u00e4ndring. Kursen och dess inneh\u00e5ll \u00e4r starkt kopplade till kursen i Datorarkitektur, och all f\u00f6r\u00e4ndring m\u00e5ste ske i samarbete med denna senare kurs. Det \u00e4r i dagens l\u00e4ge oklart vad som skall g\u00f6ras och under vilket \u00e5r.Till n\u00e4sta \u00e5r kommer en det att ske en genomg\u00e5ng av laborationshandledningarna.Under CEQ-m\u00f6tet ber\u00e4ttade representanter fr\u00e5n D-programmet att m\u00e5nga tyckte att kursen k\u00e4ndes mycket inspirerande f\u00f6r just valet av utbildning, och E-programmet var ocks\u00e5 mycket positivt. Kursansvarig tackar f\u00f6r detta och konstaterar att den typen av positiv kritik ocks\u00e5 k\u00e4nns mycket inspirerande.Programledarens kommentarerKursen \u00e4r mycket relevant f\u00f6r D-programmet. Den uppskattas \u00e4ven av studenterna. Efter \u00e5rets kursomg\u00e5ng fanns mest ber\u00f6m till l\u00e4raren. Han tog till sig av den kritik som framf\u00f6rdes, bl.a. kommer labbarna att ses \u00f6ver.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+52',
     'importanceScore': '+93',
     'name': 'Datorteknik',
@@ -2352,7 +2352,7 @@ export default {
     'satisfactionScore': '+81',
     'teachingScore': '+45',
     'workloadScore': '+47',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '157': {
     'assessmentScore': '+41',
@@ -2367,7 +2367,7 @@ export default {
     'satisfactionScore': '-9',
     'teachingScore': '-8',
     'workloadScore': '-16',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '158': {
     'assessmentScore': '+42',
@@ -2382,7 +2382,7 @@ export default {
     'satisfactionScore': '+31',
     'teachingScore': '+10',
     'workloadScore': '+0',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '159': {
     'assessmentScore': '+88',
@@ -2397,12 +2397,12 @@ export default {
     'satisfactionScore': '+67',
     'teachingScore': '+31',
     'workloadScore': '-63',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '160': {
     'assessmentScore': '+48',
     'code': 'FMAF10',
-    'comments': 'Studier\u00e5dets kommentarer\u00c5sikter om att laborationerna ej ger n\u00e5gon f\u00f6rst\u00e5else togs upp - f\u00f6r l\u00e4tt att copy-paste:a. Stora \u00f6nskem\u00e5l om att f\u00f6rel\u00e4sningsanteckningar l\u00e4ggs upp. I \u00f6verlag en trevlig kurs som uppskattas enormt\/ \u00e4r relevant inf\u00f6r kursen Digital Signalbehandling d\u00e4r f\u00e4rdigheterna fr\u00e5n LinSys anv\u00e4nds flitigt\/ofta. \u00d6nskem\u00e5l om att f\u00f6rel\u00e4saren antingen skriver eller talar tydligare framf\u00f6rdes. En tydlig\/detaljerad kursplan med l\u00e4sanvisningar \u00f6nskas - m\u00e5nga elever hade sv\u00e5rt att h\u00e4nga med om de mot f\u00f6rmodan missat f\u00f6rel\u00e4sning\/\u00f6vning. Ett stort plus till f\u00f6rel\u00e4saren som efter \u00f6nskem\u00e5l fr\u00e5n elever inf\u00f6rde ett extra \u00f6vningstillf\u00e4lle i veckan. F\u00f6rel\u00e4saren prisas av m\u00e5nga f\u00f6r sitt engagemang och sin entusiasm, speciellt under \u00f6vningstillf\u00e4llen d\u00e5 man alltid fick problement utf\u00f6rligt f\u00f6rklarat f\u00f6r sig.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerStudenterna \u00e4r positiva till f\u00f6rel\u00e4saren och uppskattar hans f\u00f6rel\u00e4sningar.M\u00e5nga studenter efterfr\u00e5gade tillg\u00e5ng till f\u00f6rel\u00e4sningsanteckningar. Detta materialet \u00e4gs dock av f\u00f6rel\u00e4saren och det \u00e4r upp till denna om materialet ska delas ut. F\u00f6rel\u00e4saren kan v\u00e4lja att inte dela ut dessa f\u00f6r att stimulera studenterna att t\u00e4nka sj\u00e4lva.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarer\u00c5sikter om att laborationerna ej ger n\u00e5gon f\u00f6rst\u00e5else togs upp - f\u00f6r l\u00e4tt att copy-paste:a. Stora \u00f6nskem\u00e5l om att f\u00f6rel\u00e4sningsanteckningar l\u00e4ggs upp. I \u00f6verlag en trevlig kurs som uppskattas enormt/ \u00e4r relevant inf\u00f6r kursen Digital Signalbehandling d\u00e4r f\u00e4rdigheterna fr\u00e5n LinSys anv\u00e4nds flitigt/ofta. \u00d6nskem\u00e5l om att f\u00f6rel\u00e4saren antingen skriver eller talar tydligare framf\u00f6rdes. En tydlig/detaljerad kursplan med l\u00e4sanvisningar \u00f6nskas - m\u00e5nga elever hade sv\u00e5rt att h\u00e4nga med om de mot f\u00f6rmodan missat f\u00f6rel\u00e4sning/\u00f6vning. Ett stort plus till f\u00f6rel\u00e4saren som efter \u00f6nskem\u00e5l fr\u00e5n elever inf\u00f6rde ett extra \u00f6vningstillf\u00e4lle i veckan. F\u00f6rel\u00e4saren prisas av m\u00e5nga f\u00f6r sitt engagemang och sin entusiasm, speciellt under \u00f6vningstillf\u00e4llen d\u00e5 man alltid fick problement utf\u00f6rligt f\u00f6rklarat f\u00f6r sig.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerStudenterna \u00e4r positiva till f\u00f6rel\u00e4saren och uppskattar hans f\u00f6rel\u00e4sningar.M\u00e5nga studenter efterfr\u00e5gade tillg\u00e5ng till f\u00f6rel\u00e4sningsanteckningar. Detta materialet \u00e4gs dock av f\u00f6rel\u00e4saren och det \u00e4r upp till denna om materialet ska delas ut. F\u00f6rel\u00e4saren kan v\u00e4lja att inte dela ut dessa f\u00f6r att stimulera studenterna att t\u00e4nka sj\u00e4lva.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+33',
     'importanceScore': '+29',
     'name': 'Till\u00e4mpad matematik - Linj\u00e4ra system',
@@ -2412,7 +2412,7 @@ export default {
     'satisfactionScore': '+36',
     'teachingScore': '+12',
     'workloadScore': '+28',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '161': {
     'assessmentScore': '+75',
@@ -2427,7 +2427,7 @@ export default {
     'satisfactionScore': '+77',
     'teachingScore': '+56',
     'workloadScore': '+25',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '162': {
     'assessmentScore': '+28',
@@ -2442,7 +2442,7 @@ export default {
     'satisfactionScore': '+2',
     'teachingScore': '-13',
     'workloadScore': '+7',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '163': {
     'assessmentScore': '+42',
@@ -2457,7 +2457,7 @@ export default {
     'satisfactionScore': '-13',
     'teachingScore': '-22',
     'workloadScore': '-25',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '164': {
     'assessmentScore': '+34',
@@ -2472,7 +2472,7 @@ export default {
     'satisfactionScore': '+12',
     'teachingScore': '-10',
     'workloadScore': '+46',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '165': {
     'assessmentScore': '+30',
@@ -2487,7 +2487,7 @@ export default {
     'satisfactionScore': '+2',
     'teachingScore': '+5',
     'workloadScore': '-4',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '166': {
     'assessmentScore': '+21',
@@ -2502,7 +2502,7 @@ export default {
     'satisfactionScore': '-17',
     'teachingScore': '-20',
     'workloadScore': '+44',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '167': {
     'assessmentScore': '+5',
@@ -2517,7 +2517,7 @@ export default {
     'satisfactionScore': '-31',
     'teachingScore': '-28',
     'workloadScore': '+57',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '168': {
     'assessmentScore': '+40',
@@ -2532,7 +2532,7 @@ export default {
     'satisfactionScore': '+61',
     'teachingScore': '+24',
     'workloadScore': '+27',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '169': {
     'assessmentScore': '+71',
@@ -2547,7 +2547,7 @@ export default {
     'satisfactionScore': '+83',
     'teachingScore': '+72',
     'workloadScore': '-67',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '170': {
     'assessmentScore': '+10',
@@ -2562,7 +2562,7 @@ export default {
     'satisfactionScore': '+31',
     'teachingScore': '+32',
     'workloadScore': '-29',
-    'year': '11\/12'
+    'year': '11/12'
   },
   '171': {
     'assessmentScore': '+17',
@@ -2577,7 +2577,7 @@ export default {
     'satisfactionScore': '+60',
     'teachingScore': '+22',
     'workloadScore': '+68',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '172': {
     'assessmentScore': '-7',
@@ -2592,7 +2592,7 @@ export default {
     'satisfactionScore': '+18',
     'teachingScore': '-13',
     'workloadScore': '+15',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '173': {
     'assessmentScore': '+52',
@@ -2607,7 +2607,7 @@ export default {
     'satisfactionScore': '+67',
     'teachingScore': '+43',
     'workloadScore': '+22',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '174': {
     'assessmentScore': '+51',
@@ -2622,12 +2622,12 @@ export default {
     'satisfactionScore': '+56',
     'teachingScore': '+17',
     'workloadScore': '+37',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '175': {
     'assessmentScore': '+52',
     'code': 'EDA040',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerEn bra och rolig kurs som uppskattas av m\u00e5nga, d\u00e4remot var inte f\u00f6rel\u00e4sningarna det roligaste och vissa g\u00e4stf\u00f6rel\u00e4sningar var n\u00e4st intill v\u00e4rdel\u00f6sa.Projektet var ett bra till\u00e4gg men hemsidan och presentationen k\u00e4ndes f\u00f6r vissa konstig och inte relevant f\u00f6r kursen i sig.Dessv\u00e4rre har inget CEQ-m\u00f6te h\u00e5llts vilken gjort att vi inte kunnat bolla tanker med programledningen\/kursansvariga vilket inte \u00e4r uppskattat!Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerEn bra och rolig kurs som uppskattas av m\u00e5nga, d\u00e4remot var inte f\u00f6rel\u00e4sningarna det roligaste och vissa g\u00e4stf\u00f6rel\u00e4sningar var n\u00e4st intill v\u00e4rdel\u00f6sa.Projektet var ett bra till\u00e4gg men hemsidan och presentationen k\u00e4ndes f\u00f6r vissa konstig och inte relevant f\u00f6r kursen i sig.Dessv\u00e4rre har inget CEQ-m\u00f6te h\u00e5llts vilken gjort att vi inte kunnat bolla tanker med programledningen/kursansvariga vilket inte \u00e4r uppskattat!Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+18',
     'importanceScore': '+80',
     'name': 'Realtidsprogrammering',
@@ -2637,7 +2637,7 @@ export default {
     'satisfactionScore': '+43',
     'teachingScore': '+12',
     'workloadScore': '+18',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '176': {
     'assessmentScore': '+10',
@@ -2652,7 +2652,7 @@ export default {
     'satisfactionScore': '+42',
     'teachingScore': '+29',
     'workloadScore': '+55',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '177': {
     'assessmentScore': '+66',
@@ -2667,7 +2667,7 @@ export default {
     'satisfactionScore': '+71',
     'teachingScore': '+35',
     'workloadScore': '+42',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '178': {
     'assessmentScore': '+50',
@@ -2682,12 +2682,12 @@ export default {
     'satisfactionScore': '+47',
     'teachingScore': '+12',
     'workloadScore': '-4',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '179': {
     'assessmentScore': '+55',
     'code': 'FMA430',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerMer konkreta exempel beh\u00f6vs, alternativt integrera seminarierna i f\u00f6rel\u00e4sningarna och anv\u00e4nda all tid till f\u00f6rel\u00e4sning. Tentan var mer omfattande \u00e4n vanligt och inte en exempeltenta. Det beror p\u00e5 att matteinstitutionen f\u00f6rs\u00f6ker g\u00e5 ifr\u00e5n att tentorna ska vara liknande fr\u00e5n \u00e5r till \u00e5r. De exempel p\u00e5 till\u00e4mpningar som tas upp i kursen \u00e4r inte datorrelaterade, sv\u00e5rt att relatera till som D\/C-are.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerMer konkreta exempel beh\u00f6vs, alternativt integrera seminarierna i f\u00f6rel\u00e4sningarna och anv\u00e4nda all tid till f\u00f6rel\u00e4sning. Tentan var mer omfattande \u00e4n vanligt och inte en exempeltenta. Det beror p\u00e5 att matteinstitutionen f\u00f6rs\u00f6ker g\u00e5 ifr\u00e5n att tentorna ska vara liknande fr\u00e5n \u00e5r till \u00e5r. De exempel p\u00e5 till\u00e4mpningar som tas upp i kursen \u00e4r inte datorrelaterade, sv\u00e5rt att relatera till som D/C-are.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+3',
     'importanceScore': '-6',
     'name': 'Flerdimensionell analys',
@@ -2697,7 +2697,7 @@ export default {
     'satisfactionScore': '-5',
     'teachingScore': '-16',
     'workloadScore': '-24',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '180': {
     'assessmentScore': '+47',
@@ -2712,7 +2712,7 @@ export default {
     'satisfactionScore': '+35',
     'teachingScore': '+9',
     'workloadScore': '-2',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '181': {
     'assessmentScore': '+31',
@@ -2727,12 +2727,12 @@ export default {
     'satisfactionScore': '-11',
     'teachingScore': '-2',
     'workloadScore': '+22',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '182': {
     'assessmentScore': '+45',
     'code': 'EDA260',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerProjektdelen av kursen uppskattas av m\u00e5nga av studenterna. De uppfattas som l\u00e4rorikt och som ett exempel p\u00e5 hur det fungerar i verkligheten. M\u00e5nga uppskattar t\u00e4vlingen i slutet.N\u00e5gra av studenterna tycker att man kan titta p\u00e5 labbarna under f\u00f6rsta delen av kursen och f\u00f6rb\u00e4ttra dessa. N\u00e5gra studenter anser \u00e4ven att kursen kan vara jobbig och ta mycket tid fr\u00e5n andra kurser.Kursl\u00e4rarens kommentererDetta \u00e4r en kurs som studeras i relativt stor grupp, om 8-12 teknologer, som jobbar samman. Just att arbeta samman i en lite st\u00f6rre grupp \u00e4r ett av de b\u00e4rande inslagen i kursen, men det inneb\u00e4r ocks\u00e5 speciella krav p\u00e5 deltagarna j\u00e4mf\u00f6rt med andra kurser, t ex att n\u00e4rvara och att komma i tid, mer realistiska kan man h\u00e4vda. Just att kursen ger en realistisk situation uppskattas mycket av teknologerna och strategin att de skall l\u00e4ra sig av varandra fungerar ocks\u00e5 v\u00e4l.Vi \u00e4r tillfreds med de samlade omd\u00f6men som kursen f\u00e5r. Den stora majoriteten av teknologer \u00e4r mycket positiva till kursen.Vid CEQ-m\u00f6tet diskuterades n\u00e5gra specifika fr\u00e5gor.- Git: Flera studenter efterfr\u00e5gar att man borde byta CVS\/SVN mot det nyare Git. Vi h\u00e5ller med och skall se \u00f6ver detta. Git \u00e4r numera s\u00e5 moget och spritt att det finns sk\u00e4l att anv\u00e4nda det i kursen.- Kommandoraden: M\u00e5nga studenter anv\u00e4nder bara Eclipse vid programutveckling och \u00e4r ovana vid att arbeta fr\u00e5n kommandoraden, vilket leder till problem. Detta \u00e4r n\u00e5got som beh\u00f6ver \u00e5tg\u00e4rdas i tidigare kurser. F\u00f6r PVGs del bygger versionshanteringslabben p\u00e5 att man arbetar fr\u00e5n kommandoraden, och detta \u00e4r allts\u00e5 n\u00e5got som \u00e4r viktigt att beh\u00e5lla.- Gruppdynamik: Gruppdynamiken i de olika teamen blir olika, och en hel del h\u00e4nger p\u00e5 hur coacherna agerar. Det har h\u00e4nt att vissa studenter har f\u00f6rutfattade meningar om andra studenter, och f\u00f6ruts\u00e4tter att de sj\u00e4lva klarar saker b\u00e4ttre, och d\u00e4rf\u00f6r inte samarbetar p\u00e5 ett bra s\u00e4tt. Det \u00e4r viktigt att coacherna ser detta och inte l\u00e5ter s\u00e5dant passera, utan l\u00e5ter alla komma till tals och ser till att alla f\u00e5r f\u00f6ruts\u00e4ttning att arbeta p\u00e5 ett likv\u00e4rdigt s\u00e4tt i teamen. Detta \u00e4r n\u00e5got vi kommer att diskutera med kursledningen f\u00f6r coachingkursen.Programledarens kommentarer\u00c5rets kurs \u00e4r v\u00e4l genomf\u00f6rd och uppskattad av studenterna. Viss kursutveckling kan ske f\u00f6r att uppdatera till moderna verktyg, t.ex. git f\u00f6r versionshantering.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerProjektdelen av kursen uppskattas av m\u00e5nga av studenterna. De uppfattas som l\u00e4rorikt och som ett exempel p\u00e5 hur det fungerar i verkligheten. M\u00e5nga uppskattar t\u00e4vlingen i slutet.N\u00e5gra av studenterna tycker att man kan titta p\u00e5 labbarna under f\u00f6rsta delen av kursen och f\u00f6rb\u00e4ttra dessa. N\u00e5gra studenter anser \u00e4ven att kursen kan vara jobbig och ta mycket tid fr\u00e5n andra kurser.Kursl\u00e4rarens kommentererDetta \u00e4r en kurs som studeras i relativt stor grupp, om 8-12 teknologer, som jobbar samman. Just att arbeta samman i en lite st\u00f6rre grupp \u00e4r ett av de b\u00e4rande inslagen i kursen, men det inneb\u00e4r ocks\u00e5 speciella krav p\u00e5 deltagarna j\u00e4mf\u00f6rt med andra kurser, t ex att n\u00e4rvara och att komma i tid, mer realistiska kan man h\u00e4vda. Just att kursen ger en realistisk situation uppskattas mycket av teknologerna och strategin att de skall l\u00e4ra sig av varandra fungerar ocks\u00e5 v\u00e4l.Vi \u00e4r tillfreds med de samlade omd\u00f6men som kursen f\u00e5r. Den stora majoriteten av teknologer \u00e4r mycket positiva till kursen.Vid CEQ-m\u00f6tet diskuterades n\u00e5gra specifika fr\u00e5gor.- Git: Flera studenter efterfr\u00e5gar att man borde byta CVS/SVN mot det nyare Git. Vi h\u00e5ller med och skall se \u00f6ver detta. Git \u00e4r numera s\u00e5 moget och spritt att det finns sk\u00e4l att anv\u00e4nda det i kursen.- Kommandoraden: M\u00e5nga studenter anv\u00e4nder bara Eclipse vid programutveckling och \u00e4r ovana vid att arbeta fr\u00e5n kommandoraden, vilket leder till problem. Detta \u00e4r n\u00e5got som beh\u00f6ver \u00e5tg\u00e4rdas i tidigare kurser. F\u00f6r PVGs del bygger versionshanteringslabben p\u00e5 att man arbetar fr\u00e5n kommandoraden, och detta \u00e4r allts\u00e5 n\u00e5got som \u00e4r viktigt att beh\u00e5lla.- Gruppdynamik: Gruppdynamiken i de olika teamen blir olika, och en hel del h\u00e4nger p\u00e5 hur coacherna agerar. Det har h\u00e4nt att vissa studenter har f\u00f6rutfattade meningar om andra studenter, och f\u00f6ruts\u00e4tter att de sj\u00e4lva klarar saker b\u00e4ttre, och d\u00e4rf\u00f6r inte samarbetar p\u00e5 ett bra s\u00e4tt. Det \u00e4r viktigt att coacherna ser detta och inte l\u00e5ter s\u00e5dant passera, utan l\u00e5ter alla komma till tals och ser till att alla f\u00e5r f\u00f6ruts\u00e4ttning att arbeta p\u00e5 ett likv\u00e4rdigt s\u00e4tt i teamen. Detta \u00e4r n\u00e5got vi kommer att diskutera med kursledningen f\u00f6r coachingkursen.Programledarens kommentarer\u00c5rets kurs \u00e4r v\u00e4l genomf\u00f6rd och uppskattad av studenterna. Viss kursutveckling kan ske f\u00f6r att uppdatera till moderna verktyg, t.ex. git f\u00f6r versionshantering.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+48',
     'importanceScore': '+84',
     'name': 'Programvaruutveckling i grupp - projekt',
@@ -2742,12 +2742,12 @@ export default {
     'satisfactionScore': '+67',
     'teachingScore': '+34',
     'workloadScore': '+32',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '183': {
     'assessmentScore': '+47',
     'code': 'EDAA01',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerKursen uppskattas \u00f6verlag av studenterna. M\u00e5nga tyckte att labbarna var l\u00e4rorika. Studenterna tyckte \u00e4ven att f\u00f6rel\u00e4saren var bra. M\u00e5nga tyckte dock att boken kunde omvandlas till ett kompendium som kan ink\u00f6pas. Det var \u00e4ven variation p\u00e5 vad som kr\u00e4vdes f\u00f6r att bli godk\u00e4nd p\u00e5 labbarna.Kursl\u00e4rarens kommentererDet \u00e4r gl\u00e4djande att s\u00e5 m\u00e5nga \u00e4r n\u00f6jda med kursen och finner den relevant f\u00f6r sin utbildning.Kursen skiljer sig fr\u00e5n grundkurserna genom att den f\u00f6rutom programmering inneh\u00e5ller en hel del teori. Laborationerna och inl\u00e4mningsuppgiften ger tr\u00e4ning i att skriva program. \u00d6vningarna \u00e4r ett viktigt komplement och inneh\u00e5ller b\u00e5de programmerings- och  teoriuppgifter. Studenternas deltagande i undervisningen har varit bra, \u00e4ven om n\u00e4rvaron p\u00e5 \u00f6vningarna kunde varit b\u00e4ttre.V\u00e5rens kursomg\u00e5ng g\u00e5r under en l\u00e4speriod. Det inneb\u00e4r att studenterna har ca 25 timmar\/vecka att l\u00e4gga p\u00e5 kursen. Sista l\u00e4sveckan upplevs som tung. Men man kan b\u00f6rja med inl\u00e4mningsuppgiften i l\u00e4svecka 4, 5 eller 6 beroende p\u00e5 vilken variant av inl\u00e4mningsuppgiften man valt. Det finns allts\u00e5 m\u00f6jlighet att sj\u00e4lv utj\u00e4mna arbetsbelastningen under l\u00e4sperioden.Inf\u00f6r n\u00e4sta kursomg\u00e5ng planerar vi att se \u00f6ver \u00f6vningsuppgifterna. Bland annat ska vissa  \u00f6vningsuppgifter anpassas s\u00e5 att de l\u00e4ttare kan l\u00f6sas p\u00e5 dator.Programledarens kommentarerEn v\u00e4l genomf\u00f6rd kurs som uppskattas av studenterna och programledningen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerKursen uppskattas \u00f6verlag av studenterna. M\u00e5nga tyckte att labbarna var l\u00e4rorika. Studenterna tyckte \u00e4ven att f\u00f6rel\u00e4saren var bra. M\u00e5nga tyckte dock att boken kunde omvandlas till ett kompendium som kan ink\u00f6pas. Det var \u00e4ven variation p\u00e5 vad som kr\u00e4vdes f\u00f6r att bli godk\u00e4nd p\u00e5 labbarna.Kursl\u00e4rarens kommentererDet \u00e4r gl\u00e4djande att s\u00e5 m\u00e5nga \u00e4r n\u00f6jda med kursen och finner den relevant f\u00f6r sin utbildning.Kursen skiljer sig fr\u00e5n grundkurserna genom att den f\u00f6rutom programmering inneh\u00e5ller en hel del teori. Laborationerna och inl\u00e4mningsuppgiften ger tr\u00e4ning i att skriva program. \u00d6vningarna \u00e4r ett viktigt komplement och inneh\u00e5ller b\u00e5de programmerings- och  teoriuppgifter. Studenternas deltagande i undervisningen har varit bra, \u00e4ven om n\u00e4rvaron p\u00e5 \u00f6vningarna kunde varit b\u00e4ttre.V\u00e5rens kursomg\u00e5ng g\u00e5r under en l\u00e4speriod. Det inneb\u00e4r att studenterna har ca 25 timmar/vecka att l\u00e4gga p\u00e5 kursen. Sista l\u00e4sveckan upplevs som tung. Men man kan b\u00f6rja med inl\u00e4mningsuppgiften i l\u00e4svecka 4, 5 eller 6 beroende p\u00e5 vilken variant av inl\u00e4mningsuppgiften man valt. Det finns allts\u00e5 m\u00f6jlighet att sj\u00e4lv utj\u00e4mna arbetsbelastningen under l\u00e4sperioden.Inf\u00f6r n\u00e4sta kursomg\u00e5ng planerar vi att se \u00f6ver \u00f6vningsuppgifterna. Bland annat ska vissa  \u00f6vningsuppgifter anpassas s\u00e5 att de l\u00e4ttare kan l\u00f6sas p\u00e5 dator.Programledarens kommentarerEn v\u00e4l genomf\u00f6rd kurs som uppskattas av studenterna och programledningen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+43',
     'importanceScore': '+93',
     'name': 'Programmeringsteknik - f\u00f6rdjupningskurs',
@@ -2757,12 +2757,12 @@ export default {
     'satisfactionScore': '+60',
     'teachingScore': '+18',
     'workloadScore': '+18',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '184': {
     'assessmentScore': '+17',
     'code': 'EIT060',
-    'comments': 'Studier\u00e5dets kommentarerV\u00e4ldigt givande och relevant kurs. Inneh\u00e5llet anses vara intressant. F\u00f6rel\u00e4sarens stil och pedagogik \u00e4r exemplarisk. Kunskapen kring de grundl\u00e4ggande och\/eller inledande koncepten b\u00f6r f\u00f6rst\u00e4rkas en aning, fr\u00e4mst f\u00f6r att f\u00f6renkla projektarbeten. Den praktiska programmeringsaspekten ser skr\u00e4mmande ut f\u00f6r en of\u00f6rberedd student, s\u00e5 mer fokus b\u00f6r l\u00e4ggas p\u00e5 att f\u00f6rst\u00e5 helheten runt de l\u00f6sningar man ska implementera (g\u00e4ller fr\u00e4mst labbar).Kursl\u00e4rarens kommentererKursen har g\u00e5tt bra och studenterna upplever den som mycket angel\u00e4gen f\u00f6r deras utbildning. Det g\u00e4ller b\u00e5de C och D. Den viktigaste punkten att titta p\u00e5 inf\u00f6r n\u00e4sta \u00e5r \u00e4r projekt 1 som beh\u00f6ver tydligg\u00f6ras lite. M\u00e5nga f\u00f6rstod inte detta projekt tillr\u00e4ckligt v\u00e4l f\u00f6rr\u00e4n de skulle anv\u00e4nda sitt resultat f\u00f6r att g\u00f6ra projekt 2. Det vore bra om denna f\u00f6rst\u00e5else kom redan n\u00e4r man faktiskt gjorde projekt 1.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerV\u00e4ldigt givande och relevant kurs. Inneh\u00e5llet anses vara intressant. F\u00f6rel\u00e4sarens stil och pedagogik \u00e4r exemplarisk. Kunskapen kring de grundl\u00e4ggande och/eller inledande koncepten b\u00f6r f\u00f6rst\u00e4rkas en aning, fr\u00e4mst f\u00f6r att f\u00f6renkla projektarbeten. Den praktiska programmeringsaspekten ser skr\u00e4mmande ut f\u00f6r en of\u00f6rberedd student, s\u00e5 mer fokus b\u00f6r l\u00e4ggas p\u00e5 att f\u00f6rst\u00e5 helheten runt de l\u00f6sningar man ska implementera (g\u00e4ller fr\u00e4mst labbar).Kursl\u00e4rarens kommentererKursen har g\u00e5tt bra och studenterna upplever den som mycket angel\u00e4gen f\u00f6r deras utbildning. Det g\u00e4ller b\u00e5de C och D. Den viktigaste punkten att titta p\u00e5 inf\u00f6r n\u00e4sta \u00e5r \u00e4r projekt 1 som beh\u00f6ver tydligg\u00f6ras lite. M\u00e5nga f\u00f6rstod inte detta projekt tillr\u00e4ckligt v\u00e4l f\u00f6rr\u00e4n de skulle anv\u00e4nda sitt resultat f\u00f6r att g\u00f6ra projekt 2. Det vore bra om denna f\u00f6rst\u00e5else kom redan n\u00e4r man faktiskt gjorde projekt 1.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+51',
     'importanceScore': '+91',
     'name': 'Datas\u00e4kerhet',
@@ -2772,7 +2772,7 @@ export default {
     'satisfactionScore': '+78',
     'teachingScore': '+59',
     'workloadScore': '+28',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '185': {
     'assessmentScore': '+34',
@@ -2787,12 +2787,12 @@ export default {
     'satisfactionScore': '+76',
     'teachingScore': '+37',
     'workloadScore': '+37',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '186': {
     'assessmentScore': '+29',
     'code': 'FAFF25',
-    'comments': 'Studier\u00e5dets kommentarerProjekt-delen:- Projektens inriktningar anses orelevanta f\u00f6r utbildningen, speciellt klimatfysik. Studenterna \u00f6nskar att projekternas \u00e4mnesomr\u00e5de r\u00f6r sig mer \u00e5t datatekniken. Nuvarande projekt anses totalt fr\u00e5nkopplade fr\u00e5n utbildningens syfte. - En stor del av studenterna ans\u00e5g att de muntliga presentationerna av projektet var underm\u00e5liga. Inneh\u00e5llsm\u00e4ssigt s\u00e5 var presentationerna v\u00e4ldigt lika varandra, ibland n\u00e4stintill kopior. Dessutom s\u00e5 var det inga som helst prestationskrav: Det r\u00e4ckte med att man stod stilla och l\u00e4ste innantill fr\u00e5n ett papper under hela presentationen f\u00f6r att klara av den. D\u00e4remot var det vissa grupper som gjorde exemplariska presentationer. Denna spridning i kvalitet antyder p\u00e5 att studenternas engagemang speglar deras prestation. Detta speglar i sin tur att det finns en akademisk v\u00e4rdegrund som inte n\u00e5tt ut till alla, i samma grad. D\u00e4rav anser m\u00e5nga studenter att vissa obligatoriska krav ska inf\u00f6ras p\u00e5 hur den muntliga presentationen skall h\u00e5llas, ist\u00e4llet f\u00f6r en handfull direktiv; Det var m\u00e5nga grupper som inte fick direktiv r\u00f6rande hur en presentation skall h\u00e5llas, men \u00e4ven dem som fick det klarade sig utan att f\u00f6lja dessa direktiv. Studenter tappar respekt f\u00f6r en kurs d\u00e4r man blir tillsagd att f\u00f6lja ett visst direktiv f\u00f6r att klara ett moment, men d\u00e4r ett godk\u00e4nt kan uppn\u00e5s \u00e4ven om man ignorerar detta direktiv. Termodynamik-delen:- En enkel och intuitiv kurs som fyller sitt syfte i att introducera termodynamiken. Dock s\u00e5 uppfattar de mer ambiti\u00f6sa eleverna kursen som alldeles f\u00f6r l\u00e4tt att klara av. Som den introducerande kursen f\u00f6r hela fysikkursen\/FAFF25 b\u00f6r kursen dock satsa mer p\u00e5 att f\u00f6rklara syftet med kursen. Flera studenter uppfattar termodynamiken (samt \u00f6vriga delkurser) som orelevant och m\u00e5nga anser att de inte beh\u00f6ver, f\u00f6r deras utbildning, l\u00e4sa den h\u00e4r kursen. S\u00e5, mer tid b\u00f6r \u00e5s\u00e4ttas att f\u00f6rklara och motivera syftet bakom kursen\/kurserna. Betona relevansen.Fotonik-delen:- Geometrisk optik-labben samt diffraktion-labben (Lab 1 & 2) uppskattades v\u00e4l, d\u00e5 inneh\u00e5llet i labbarna var starkt kopplade till det som gicks igenom p\u00e5 f\u00f6rel\u00e4sningarna. Det var d\u00e4rav l\u00e4tt att s\u00e4tta sig in i momenten och l\u00f6sa uppgifterna. Fiberoptiklabben (Lab 3) uppskattades mycket mindre d\u00e5 den bestod av ointuitiva handledningar. Det praktiska momentet i fiberoptiklabben var givande, men labben gav ingen vidare f\u00f6rst\u00e5else f\u00f6r \u00e4mnet d\u00e5 man var tvungen att fr\u00e5ga om hj\u00e4lp eller gissa f\u00f6r det mesta. - Sv\u00e5righetsgraden p\u00e5 de tv\u00e5 f\u00f6rsta kursmomenten ("Geometrisk Optik" samt "Ljusets b\u00f6jning & interferens") ans\u00e5gs behaglig. F\u00f6rel\u00e4sningarna och \u00f6vningarna gav tillr\u00e4cklig f\u00f6rst\u00e5else och en r\u00f6d tr\u00e5d h\u00f6lls mellan f\u00f6rel\u00e4sningarna. Fiberoptiksdelen var sv\u00e5rare "att ta p\u00e5", speciellt avsnittet om lasrar;\u00c4ven om teorin (matematiken\/formlerna) \u00e4r ganska r\u00e4ttfram, s\u00e5 innehar den v\u00e4ldigt m\u00e5nga fr\u00e4mmande och ointuitiva koncept som b\u00f6r f\u00f6rklaras nogrannare om en djupare f\u00f6rst\u00e5else kring \u00e4mnet skall uppn\u00e5s.- Seminarierna var givande, dock s\u00e5 b\u00f6r l\u00f6sningsf\u00f6rslag till dessa l\u00e4ggas upp p\u00e5 hemsidan. \u00c4ven om seminarieuppgifterna var likartade de som fanns i boken, s\u00e5 gav inte bokens facit lika tydliga och strukturella l\u00f6sningar som de som gavs p\u00e5 seminarierna.\u00d6vrigt:-Programledningen skall se \u00f6ver om det g\u00e5r att inf\u00f6ra nya och\/eller annorlunda projekt, som blidkar studenterna intresseomr\u00e5den. Dessutom skall diskussioner inledas r\u00f6rande att flytta kursen till \u00e5rskurs 1 eller 2.Kursl\u00e4rarens kommentererL\u00e4rarna p\u00e5 kursen \u00e4r i huvudsak n\u00f6jda med kursens genomf\u00f6rande och vi tolkar CEQ svaren som att detta ocks\u00e5 g\u00e4ller f\u00f6r studenterna.Dock har kursen sedan starten det stora problemet att den inte upplevs som angel\u00e4gen eller relevant f\u00f6r utbildningen. L\u00e4rarna och studenterna \u00e4r helt \u00f6verens om att den viktigaste och n\u00f6dv\u00e4ndiga f\u00f6rb\u00e4ttringen \u00e4r att flytta kursen till \u00e5k 1 eller b\u00f6rjan av \u00e5k 2, d\u00e4r motsvarande kurser ligger i alla andra civilingenj\u00f6rsprogram. En tydlig process mot detta m\u00e5l kommer att startas av programledningarna, och ett f\u00f6rsta uppf\u00f6ljningsm\u00f6te \u00e4r planerat till mitten av september.N\u00e5gra detaljf\u00f6rb\u00e4ttringar som kommer att genomf\u00f6ras till n\u00e4sta kurs \u00e4r:1) Ytterligare betona vikten och kraven p\u00e5 bra muntliga presentationer av projekten2) Som ett led i detta ordnar programledningarna en allm\u00e4n f\u00f6rel\u00e4sning om muntlig presentationsteknik f\u00f6re redovisningarna av projekten.3) Unders\u00f6ka m\u00f6jligheten att hitta n\u00e5got nytt projekt med betoning p\u00e5 h\u00e5llbar utveckling och tydligare koppling till CD utbildningen4) Utrustningen och laborationsinstruktionerna till fiberoptiklabben ses \u00f6ver.5) Eventuellt ut\u00f6ka de dator\/simuleringsbaserade inl\u00e4mningsuppgifterna.Programledarens kommentarerStudenterna uppfattar denna kursen som mycket orelevant f\u00f6r utbildningen. Kursansvariga f\u00f6rklarar detta fr\u00e4mst med att kursen ligger i \u00e5r 3. Programledningen ska unders\u00f6ka om det \u00e4r m\u00f6jligt att flytta kursen till tidigare p\u00e5 p\u00e5 C och D.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerProjekt-delen:- Projektens inriktningar anses orelevanta f\u00f6r utbildningen, speciellt klimatfysik. Studenterna \u00f6nskar att projekternas \u00e4mnesomr\u00e5de r\u00f6r sig mer \u00e5t datatekniken. Nuvarande projekt anses totalt fr\u00e5nkopplade fr\u00e5n utbildningens syfte. - En stor del av studenterna ans\u00e5g att de muntliga presentationerna av projektet var underm\u00e5liga. Inneh\u00e5llsm\u00e4ssigt s\u00e5 var presentationerna v\u00e4ldigt lika varandra, ibland n\u00e4stintill kopior. Dessutom s\u00e5 var det inga som helst prestationskrav: Det r\u00e4ckte med att man stod stilla och l\u00e4ste innantill fr\u00e5n ett papper under hela presentationen f\u00f6r att klara av den. D\u00e4remot var det vissa grupper som gjorde exemplariska presentationer. Denna spridning i kvalitet antyder p\u00e5 att studenternas engagemang speglar deras prestation. Detta speglar i sin tur att det finns en akademisk v\u00e4rdegrund som inte n\u00e5tt ut till alla, i samma grad. D\u00e4rav anser m\u00e5nga studenter att vissa obligatoriska krav ska inf\u00f6ras p\u00e5 hur den muntliga presentationen skall h\u00e5llas, ist\u00e4llet f\u00f6r en handfull direktiv; Det var m\u00e5nga grupper som inte fick direktiv r\u00f6rande hur en presentation skall h\u00e5llas, men \u00e4ven dem som fick det klarade sig utan att f\u00f6lja dessa direktiv. Studenter tappar respekt f\u00f6r en kurs d\u00e4r man blir tillsagd att f\u00f6lja ett visst direktiv f\u00f6r att klara ett moment, men d\u00e4r ett godk\u00e4nt kan uppn\u00e5s \u00e4ven om man ignorerar detta direktiv. Termodynamik-delen:- En enkel och intuitiv kurs som fyller sitt syfte i att introducera termodynamiken. Dock s\u00e5 uppfattar de mer ambiti\u00f6sa eleverna kursen som alldeles f\u00f6r l\u00e4tt att klara av. Som den introducerande kursen f\u00f6r hela fysikkursen/FAFF25 b\u00f6r kursen dock satsa mer p\u00e5 att f\u00f6rklara syftet med kursen. Flera studenter uppfattar termodynamiken (samt \u00f6vriga delkurser) som orelevant och m\u00e5nga anser att de inte beh\u00f6ver, f\u00f6r deras utbildning, l\u00e4sa den h\u00e4r kursen. S\u00e5, mer tid b\u00f6r \u00e5s\u00e4ttas att f\u00f6rklara och motivera syftet bakom kursen/kurserna. Betona relevansen.Fotonik-delen:- Geometrisk optik-labben samt diffraktion-labben (Lab 1 & 2) uppskattades v\u00e4l, d\u00e5 inneh\u00e5llet i labbarna var starkt kopplade till det som gicks igenom p\u00e5 f\u00f6rel\u00e4sningarna. Det var d\u00e4rav l\u00e4tt att s\u00e4tta sig in i momenten och l\u00f6sa uppgifterna. Fiberoptiklabben (Lab 3) uppskattades mycket mindre d\u00e5 den bestod av ointuitiva handledningar. Det praktiska momentet i fiberoptiklabben var givande, men labben gav ingen vidare f\u00f6rst\u00e5else f\u00f6r \u00e4mnet d\u00e5 man var tvungen att fr\u00e5ga om hj\u00e4lp eller gissa f\u00f6r det mesta. - Sv\u00e5righetsgraden p\u00e5 de tv\u00e5 f\u00f6rsta kursmomenten ("Geometrisk Optik" samt "Ljusets b\u00f6jning & interferens") ans\u00e5gs behaglig. F\u00f6rel\u00e4sningarna och \u00f6vningarna gav tillr\u00e4cklig f\u00f6rst\u00e5else och en r\u00f6d tr\u00e5d h\u00f6lls mellan f\u00f6rel\u00e4sningarna. Fiberoptiksdelen var sv\u00e5rare "att ta p\u00e5", speciellt avsnittet om lasrar;\u00c4ven om teorin (matematiken/formlerna) \u00e4r ganska r\u00e4ttfram, s\u00e5 innehar den v\u00e4ldigt m\u00e5nga fr\u00e4mmande och ointuitiva koncept som b\u00f6r f\u00f6rklaras nogrannare om en djupare f\u00f6rst\u00e5else kring \u00e4mnet skall uppn\u00e5s.- Seminarierna var givande, dock s\u00e5 b\u00f6r l\u00f6sningsf\u00f6rslag till dessa l\u00e4ggas upp p\u00e5 hemsidan. \u00c4ven om seminarieuppgifterna var likartade de som fanns i boken, s\u00e5 gav inte bokens facit lika tydliga och strukturella l\u00f6sningar som de som gavs p\u00e5 seminarierna.\u00d6vrigt:-Programledningen skall se \u00f6ver om det g\u00e5r att inf\u00f6ra nya och/eller annorlunda projekt, som blidkar studenterna intresseomr\u00e5den. Dessutom skall diskussioner inledas r\u00f6rande att flytta kursen till \u00e5rskurs 1 eller 2.Kursl\u00e4rarens kommentererL\u00e4rarna p\u00e5 kursen \u00e4r i huvudsak n\u00f6jda med kursens genomf\u00f6rande och vi tolkar CEQ svaren som att detta ocks\u00e5 g\u00e4ller f\u00f6r studenterna.Dock har kursen sedan starten det stora problemet att den inte upplevs som angel\u00e4gen eller relevant f\u00f6r utbildningen. L\u00e4rarna och studenterna \u00e4r helt \u00f6verens om att den viktigaste och n\u00f6dv\u00e4ndiga f\u00f6rb\u00e4ttringen \u00e4r att flytta kursen till \u00e5k 1 eller b\u00f6rjan av \u00e5k 2, d\u00e4r motsvarande kurser ligger i alla andra civilingenj\u00f6rsprogram. En tydlig process mot detta m\u00e5l kommer att startas av programledningarna, och ett f\u00f6rsta uppf\u00f6ljningsm\u00f6te \u00e4r planerat till mitten av september.N\u00e5gra detaljf\u00f6rb\u00e4ttringar som kommer att genomf\u00f6ras till n\u00e4sta kurs \u00e4r:1) Ytterligare betona vikten och kraven p\u00e5 bra muntliga presentationer av projekten2) Som ett led i detta ordnar programledningarna en allm\u00e4n f\u00f6rel\u00e4sning om muntlig presentationsteknik f\u00f6re redovisningarna av projekten.3) Unders\u00f6ka m\u00f6jligheten att hitta n\u00e5got nytt projekt med betoning p\u00e5 h\u00e5llbar utveckling och tydligare koppling till CD utbildningen4) Utrustningen och laborationsinstruktionerna till fiberoptiklabben ses \u00f6ver.5) Eventuellt ut\u00f6ka de dator/simuleringsbaserade inl\u00e4mningsuppgifterna.Programledarens kommentarerStudenterna uppfattar denna kursen som mycket orelevant f\u00f6r utbildningen. Kursansvariga f\u00f6rklarar detta fr\u00e4mst med att kursen ligger i \u00e5r 3. Programledningen ska unders\u00f6ka om det \u00e4r m\u00f6jligt att flytta kursen till tidigare p\u00e5 p\u00e5 C och D.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+11',
     'importanceScore': '-61',
     'name': 'Fysik',
@@ -2802,7 +2802,7 @@ export default {
     'satisfactionScore': '-6',
     'teachingScore': '-2',
     'workloadScore': '+3',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '187': {
     'assessmentScore': '+45',
@@ -2817,7 +2817,7 @@ export default {
     'satisfactionScore': '+64',
     'teachingScore': '+39',
     'workloadScore': '-14',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '188': {
     'assessmentScore': '+69',
@@ -2832,7 +2832,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+63',
     'workloadScore': '-47',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '189': {
     'assessmentScore': '+47',
@@ -2847,7 +2847,7 @@ export default {
     'satisfactionScore': '+29',
     'teachingScore': '+6',
     'workloadScore': '+13',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '190': {
     'assessmentScore': '+79',
@@ -2862,7 +2862,7 @@ export default {
     'satisfactionScore': '+83',
     'teachingScore': '+51',
     'workloadScore': '+29',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '191': {
     'assessmentScore': '+24',
@@ -2877,7 +2877,7 @@ export default {
     'satisfactionScore': '-4',
     'teachingScore': '-11',
     'workloadScore': '+11',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '192': {
     'assessmentScore': '+17',
@@ -2892,7 +2892,7 @@ export default {
     'satisfactionScore': '-2',
     'teachingScore': '-11',
     'workloadScore': '-21',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '193': {
     'assessmentScore': '+31',
@@ -2907,7 +2907,7 @@ export default {
     'satisfactionScore': '+7',
     'teachingScore': '-21',
     'workloadScore': '+21',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '194': {
     'assessmentScore': '+31',
@@ -2922,7 +2922,7 @@ export default {
     'satisfactionScore': '+14',
     'teachingScore': '+17',
     'workloadScore': '-17',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '195': {
     'assessmentScore': '+16',
@@ -2937,7 +2937,7 @@ export default {
     'satisfactionScore': '-22',
     'teachingScore': '-17',
     'workloadScore': '+48',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '196': {
     'assessmentScore': '-7',
@@ -2952,7 +2952,7 @@ export default {
     'satisfactionScore': '-40',
     'teachingScore': '-54',
     'workloadScore': '+29',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '197': {
     'assessmentScore': '+50',
@@ -2967,7 +2967,7 @@ export default {
     'satisfactionScore': '+69',
     'teachingScore': '+19',
     'workloadScore': '+6',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '198': {
     'assessmentScore': '+71',
@@ -2982,12 +2982,12 @@ export default {
     'satisfactionScore': '+67',
     'teachingScore': '+72',
     'workloadScore': '+4',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '199': {
     'assessmentScore': '+30',
     'code': 'FMN011',
-    'comments': 'Studier\u00e5dets kommentarerI \u00f6verlag en kurs som v\u00e4ldigt m\u00e5nga studenter \u00e4r n\u00f6jda med. I \u00e5r, precis som tidigare, har det klagats p\u00e5 arbetsbelastningen. Under utv\u00e4rderingsm\u00f6tet s\u00e5 n\u00e4mndes det att med \u00e5rens lopp har kursinneh\u00e5llets volym minskat, men kommentarerna r\u00f6rande arbetsbelastningen h\u00e5ller sig kvar p\u00e5 samma niv\u00e5. Det \u00e4r f\u00e5 studenter som medverkar p\u00e5 \u00f6vningar, men de som g\u00e5r p\u00e5 och fullf\u00f6ljer \u00f6vningarna anser att kursens inneh\u00e5ll \u00e4r mer l\u00e4ttbegripligt. I framtiden skall f\u00f6rel\u00e4saren se till att inleda varje f\u00f6rel\u00e4sning med en snabb sammanfattning av vad som tidigare g\u00e5tts igenom. Dessutom ska mer tonvikt l\u00e4ggas p\u00e5 vikten av att g\u00e5 p\u00e5 \u00f6vningar och fullf\u00f6lja projekten. Dessutom skall \u00f6vningsuppgifterna fram\u00f6ver likna projektuppgifterna en aning mer. F\u00f6rel\u00e4saren blir prisad f\u00f6r sin f\u00f6rel\u00e4sningsteknik och pedagogik, n\u00e5got som motiverat dennes vinst till 2013 \u00e5rs Gyllene Pekpinne (D-sektionens vandringspris f\u00f6r l\u00e4rare som utm\u00e4rkt sig positivt). Kursens inneh\u00e5ll kan mycket v\u00e4l kopplas till vissa specifika inriktningar\/specialiseringar och f\u00f6r att \u00f6ka studiemotivationen f\u00f6r studenterna b\u00f6r det belysas.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerEn v\u00e4l genomf\u00f6rd kurs som uppskattas av studenterna. Det finns inget behov att g\u00f6ra st\u00f6rra f\u00f6r\u00e4ndringar i kursen. Arbetsbelastningen har minskat j\u00e4mf\u00f6rt med tidigare. Detta \u00e4r kurs studenterna inte kan hoppa \u00f6ver en veckas studier f\u00f6r att h\u00e4mta igen senare. Detta kanske kan f\u00f6rtydligas f\u00f6r att l\u00e4rarnas och studenternas f\u00f6rv\u00e4ntningar p\u00e5 arbetsinsatsen blir mer lika.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerI \u00f6verlag en kurs som v\u00e4ldigt m\u00e5nga studenter \u00e4r n\u00f6jda med. I \u00e5r, precis som tidigare, har det klagats p\u00e5 arbetsbelastningen. Under utv\u00e4rderingsm\u00f6tet s\u00e5 n\u00e4mndes det att med \u00e5rens lopp har kursinneh\u00e5llets volym minskat, men kommentarerna r\u00f6rande arbetsbelastningen h\u00e5ller sig kvar p\u00e5 samma niv\u00e5. Det \u00e4r f\u00e5 studenter som medverkar p\u00e5 \u00f6vningar, men de som g\u00e5r p\u00e5 och fullf\u00f6ljer \u00f6vningarna anser att kursens inneh\u00e5ll \u00e4r mer l\u00e4ttbegripligt. I framtiden skall f\u00f6rel\u00e4saren se till att inleda varje f\u00f6rel\u00e4sning med en snabb sammanfattning av vad som tidigare g\u00e5tts igenom. Dessutom ska mer tonvikt l\u00e4ggas p\u00e5 vikten av att g\u00e5 p\u00e5 \u00f6vningar och fullf\u00f6lja projekten. Dessutom skall \u00f6vningsuppgifterna fram\u00f6ver likna projektuppgifterna en aning mer. F\u00f6rel\u00e4saren blir prisad f\u00f6r sin f\u00f6rel\u00e4sningsteknik och pedagogik, n\u00e5got som motiverat dennes vinst till 2013 \u00e5rs Gyllene Pekpinne (D-sektionens vandringspris f\u00f6r l\u00e4rare som utm\u00e4rkt sig positivt). Kursens inneh\u00e5ll kan mycket v\u00e4l kopplas till vissa specifika inriktningar/specialiseringar och f\u00f6r att \u00f6ka studiemotivationen f\u00f6r studenterna b\u00f6r det belysas.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerEn v\u00e4l genomf\u00f6rd kurs som uppskattas av studenterna. Det finns inget behov att g\u00f6ra st\u00f6rra f\u00f6r\u00e4ndringar i kursen. Arbetsbelastningen har minskat j\u00e4mf\u00f6rt med tidigare. Detta \u00e4r kurs studenterna inte kan hoppa \u00f6ver en veckas studier f\u00f6r att h\u00e4mta igen senare. Detta kanske kan f\u00f6rtydligas f\u00f6r att l\u00e4rarnas och studenternas f\u00f6rv\u00e4ntningar p\u00e5 arbetsinsatsen blir mer lika.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+3',
     'importanceScore': '+24',
     'name': 'Numerisk analys',
@@ -2997,7 +2997,7 @@ export default {
     'satisfactionScore': '+20',
     'teachingScore': '+17',
     'workloadScore': '-34',
-    'year': '12\/13'
+    'year': '12/13'
   },
   '200': {
     'assessmentScore': '+23',
@@ -3012,7 +3012,7 @@ export default {
     'satisfactionScore': '+60',
     'teachingScore': '+23',
     'workloadScore': '+63',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '201': {
     'assessmentScore': '-3',
@@ -3027,7 +3027,7 @@ export default {
     'satisfactionScore': '+23',
     'teachingScore': '-4',
     'workloadScore': '+22',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '202': {
     'assessmentScore': '+63',
@@ -3042,7 +3042,7 @@ export default {
     'satisfactionScore': '+60',
     'teachingScore': '+41',
     'workloadScore': '+18',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '203': {
     'assessmentScore': '+59',
@@ -3057,12 +3057,12 @@ export default {
     'satisfactionScore': '+65',
     'teachingScore': '+36',
     'workloadScore': '+45',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '204': {
     'assessmentScore': '+63',
     'code': 'EDA040',
-    'comments': 'Studier\u00e5dets kommentarerInneh\u00e5llet i kursen \u00e4r extremt relevant f\u00f6r utbildningen. \u00c4ven om labbarna ans\u00e5gs vara v\u00e4ldigt sv\u00e5ra men lika givande. Handledningarna till projekten och labbarna var bristf\u00e4lliga. Feedbacken som gavs till studenterna var otillr\u00e4cklig. Kopplingen\/relevansen mellan det som g\u00e5s igenom p\u00e5 f\u00f6rel\u00e4sningarna och tentan \u00e4r otillr\u00e4cklig. Kursmaterialet b\u00f6r revideras f\u00f6r en smidigare inl\u00e4rning.Kursl\u00e4rarens kommentererDetta har varit en bra kursomg\u00e5ng. Kursansvariga forts\u00e4tter med kursutveckling f\u00f6r att f\u00f6rb\u00e4ttra och uppdatera kursen. N\u00e5gon\/n\u00e5gra givna studentkommentarer tillh\u00f6r ej EDA040, RT anv\u00e4nder ej Haskell som programmeringsspr\u00e5k.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerInneh\u00e5llet i kursen \u00e4r extremt relevant f\u00f6r utbildningen. \u00c4ven om labbarna ans\u00e5gs vara v\u00e4ldigt sv\u00e5ra men lika givande. Handledningarna till projekten och labbarna var bristf\u00e4lliga. Feedbacken som gavs till studenterna var otillr\u00e4cklig. Kopplingen/relevansen mellan det som g\u00e5s igenom p\u00e5 f\u00f6rel\u00e4sningarna och tentan \u00e4r otillr\u00e4cklig. Kursmaterialet b\u00f6r revideras f\u00f6r en smidigare inl\u00e4rning.Kursl\u00e4rarens kommentererDetta har varit en bra kursomg\u00e5ng. Kursansvariga forts\u00e4tter med kursutveckling f\u00f6r att f\u00f6rb\u00e4ttra och uppdatera kursen. N\u00e5gon/n\u00e5gra givna studentkommentarer tillh\u00f6r ej EDA040, RT anv\u00e4nder ej Haskell som programmeringsspr\u00e5k.Programledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+14',
     'importanceScore': '+89',
     'name': 'Realtidsprogrammering',
@@ -3072,7 +3072,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+19',
     'workloadScore': '+11',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '205': {
     'assessmentScore': '+19',
@@ -3087,7 +3087,7 @@ export default {
     'satisfactionScore': '+41',
     'teachingScore': '+29',
     'workloadScore': '+57',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '206': {
     'assessmentScore': '+53',
@@ -3102,7 +3102,7 @@ export default {
     'satisfactionScore': '+46',
     'teachingScore': '+21',
     'workloadScore': '+12',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '207': {
     'assessmentScore': '+46',
@@ -3117,7 +3117,7 @@ export default {
     'satisfactionScore': '+8',
     'teachingScore': '-21',
     'workloadScore': '-21',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '208': {
     'assessmentScore': '+44',
@@ -3132,12 +3132,12 @@ export default {
     'satisfactionScore': '+53',
     'teachingScore': '+21',
     'workloadScore': '+6',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '209': {
     'assessmentScore': '+46',
     'code': 'FMS012',
-    'comments': 'Studier\u00e5dets kommentarerRolig, intressant och l\u00e4rorik kurs som k\u00e4nns relevant f\u00f6r utbildningen. Belastningen p\u00e5 kursens olika moment \u00e4r lite skev. Vissa \u00f6vningar och labbar var man tvungen att stressa sig igenom, medan andra var triviala. Inf\u00f6r n\u00e4sta kursomg\u00e5ng b\u00f6r strukturen och kursens uppl\u00e4gg revideras s\u00e5 att informationen\/l\u00e4rdomarna blir mer l\u00e4ttsm\u00e4lta och j\u00e4mnt f\u00f6rdelade \u00f6ver de 2 l\u00e4sperioderna.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerRolig, intressant och l\u00e4rorik kurs som k\u00e4nns relevant f\u00f6r utbildningen. Belastningen p\u00e5 kursens olika moment \u00e4r lite skev. Vissa \u00f6vningar och labbar var man tvungen att stressa sig igenom, medan andra var triviala. Inf\u00f6r n\u00e4sta kursomg\u00e5ng b\u00f6r strukturen och kursens uppl\u00e4gg revideras s\u00e5 att informationen/l\u00e4rdomarna blir mer l\u00e4ttsm\u00e4lta och j\u00e4mnt f\u00f6rdelade \u00f6ver de 2 l\u00e4sperioderna.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+16',
     'importanceScore': '+23',
     'name': 'Matematisk statistik, allm\u00e4n kurs',
@@ -3147,12 +3147,12 @@ export default {
     'satisfactionScore': '+29',
     'teachingScore': '+5',
     'workloadScore': '-11',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '210': {
     'assessmentScore': '+31',
     'code': 'TEK210',
-    'comments': 'Studier\u00e5dets kommentarerKursboken var uppskattad. Vissa av f\u00f6rel\u00e4sningarna var inte n\u00f6dv\u00e4ndiga f\u00f6r slutexaminationen och upplevdes d\u00e4rf\u00f6r om irrelevanta.Feedbacken p\u00e5 rapporten beh\u00f6ver komma fr\u00e5n \u00f6vningsledare\/f\u00f6rel\u00e4sare och inte enbart fr\u00e5n kamratgranskningen. Detta g\u00f6r att examinationen inte kontrollerar att f\u00f6rst\u00e5elsen f\u00f6r \u00e4mnet \u00e4r uppn\u00e5dd.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerKursboken var uppskattad. Vissa av f\u00f6rel\u00e4sningarna var inte n\u00f6dv\u00e4ndiga f\u00f6r slutexaminationen och upplevdes d\u00e4rf\u00f6r om irrelevanta.Feedbacken p\u00e5 rapporten beh\u00f6ver komma fr\u00e5n \u00f6vningsledare/f\u00f6rel\u00e4sare och inte enbart fr\u00e5n kamratgranskningen. Detta g\u00f6r att examinationen inte kontrollerar att f\u00f6rst\u00e5elsen f\u00f6r \u00e4mnet \u00e4r uppn\u00e5dd.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-12',
     'importanceScore': '+8',
     'name': 'Kognition',
@@ -3162,7 +3162,7 @@ export default {
     'satisfactionScore': '-3',
     'teachingScore': '-3',
     'workloadScore': '+40',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '211': {
     'assessmentScore': '+53',
@@ -3177,12 +3177,12 @@ export default {
     'satisfactionScore': '+81',
     'teachingScore': '+52',
     'workloadScore': '+55',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '212': {
     'assessmentScore': '+51',
     'code': 'EDAA01',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerL\u00e4rarna \u00e4r v\u00e4ldigt sympatiska och pedagogiska. Kursen bidrar med en j\u00e4mn och naturlig \u00f6verg\u00e5ng fr\u00e5n introduktionskursen vilket g\u00f6r att man l\u00e4tt kan s\u00e4tta sig in i \u00e4mnet. En del av inneh\u00e5llet b\u00f6r motiveras och f\u00f6rklaras tydligare s\u00e5som vilka praktiska till\u00e4mpningar det kan ha och hur man kan anv\u00e4nda vissa tekniker p\u00e5 alternativa s\u00e4tt.Kursl\u00e4rarens kommentererDet \u00e4r gl\u00e4djande att s\u00e5 m\u00e5nga \u00e4r n\u00f6jda med kursen och finner den relevant f\u00f6r sin utbildning.V\u00e5rens kursomg\u00e5ng g\u00e5r under en l\u00e4speriod. Det inneb\u00e4r att studenterna har ca 25 timmar\/vecka att l\u00e4gga p\u00e5 kursen. Sista l\u00e4sveckan upplevs som tung, men detta kommer att bli b\u00e4ttre med den nya l\u00e4speriodsindelningen. Sista laborationen och sista inl\u00e4mningsdatum f\u00f6r inl\u00e4mningsuppgiften kommer att hamna i olika l\u00e4sveckor. Jag funderar ocks\u00e5 p\u00e5 att ers\u00e4tta inl\u00e4mningsuppgiften med en laboration. Inf\u00f6r n\u00e4sta kursomg\u00e5ng (HT14) planerar jag att p\u00e5 f\u00f6rs\u00f6k l\u00e4gga in ett moment d\u00e4r studenterna h\u00e5ller en kort muntlig presentation av n\u00e5got begrepp i kursen. Syftet med detta \u00e4r att studenterna ska bli s\u00e4krare p\u00e5 den begreppsapparat som anv\u00e4nds i kursen och dessutom f\u00e5 tr\u00e4na p\u00e5 muntlig presentation.Programledarens kommentarerV\u00e4l genomf\u00f6rd kurs som uppskattas av studenterna. Programledningen ser inget behov av st\u00f6rre f\u00f6r\u00e4ndringar i kursen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerL\u00e4rarna \u00e4r v\u00e4ldigt sympatiska och pedagogiska. Kursen bidrar med en j\u00e4mn och naturlig \u00f6verg\u00e5ng fr\u00e5n introduktionskursen vilket g\u00f6r att man l\u00e4tt kan s\u00e4tta sig in i \u00e4mnet. En del av inneh\u00e5llet b\u00f6r motiveras och f\u00f6rklaras tydligare s\u00e5som vilka praktiska till\u00e4mpningar det kan ha och hur man kan anv\u00e4nda vissa tekniker p\u00e5 alternativa s\u00e4tt.Kursl\u00e4rarens kommentererDet \u00e4r gl\u00e4djande att s\u00e5 m\u00e5nga \u00e4r n\u00f6jda med kursen och finner den relevant f\u00f6r sin utbildning.V\u00e5rens kursomg\u00e5ng g\u00e5r under en l\u00e4speriod. Det inneb\u00e4r att studenterna har ca 25 timmar/vecka att l\u00e4gga p\u00e5 kursen. Sista l\u00e4sveckan upplevs som tung, men detta kommer att bli b\u00e4ttre med den nya l\u00e4speriodsindelningen. Sista laborationen och sista inl\u00e4mningsdatum f\u00f6r inl\u00e4mningsuppgiften kommer att hamna i olika l\u00e4sveckor. Jag funderar ocks\u00e5 p\u00e5 att ers\u00e4tta inl\u00e4mningsuppgiften med en laboration. Inf\u00f6r n\u00e4sta kursomg\u00e5ng (HT14) planerar jag att p\u00e5 f\u00f6rs\u00f6k l\u00e4gga in ett moment d\u00e4r studenterna h\u00e5ller en kort muntlig presentation av n\u00e5got begrepp i kursen. Syftet med detta \u00e4r att studenterna ska bli s\u00e4krare p\u00e5 den begreppsapparat som anv\u00e4nds i kursen och dessutom f\u00e5 tr\u00e4na p\u00e5 muntlig presentation.Programledarens kommentarerV\u00e4l genomf\u00f6rd kurs som uppskattas av studenterna. Programledningen ser inget behov av st\u00f6rre f\u00f6r\u00e4ndringar i kursen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+41',
     'importanceScore': '+95',
     'name': 'Programmeringsteknik - f\u00f6rdjupningskurs',
@@ -3192,7 +3192,7 @@ export default {
     'satisfactionScore': '+61',
     'teachingScore': '+15',
     'workloadScore': '+34',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '213': {
     'assessmentScore': '-2',
@@ -3207,7 +3207,7 @@ export default {
     'satisfactionScore': '+69',
     'teachingScore': '+50',
     'workloadScore': '+15',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '214': {
     'assessmentScore': '+38',
@@ -3222,7 +3222,7 @@ export default {
     'satisfactionScore': '+64',
     'teachingScore': '+37',
     'workloadScore': '+39',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '215': {
     'assessmentScore': '+40',
@@ -3237,7 +3237,7 @@ export default {
     'satisfactionScore': '+9',
     'teachingScore': '+2',
     'workloadScore': '+13',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '216': {
     'assessmentScore': '+43',
@@ -3252,7 +3252,7 @@ export default {
     'satisfactionScore': '+34',
     'teachingScore': '-4',
     'workloadScore': '-6',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '217': {
     'assessmentScore': '+84',
@@ -3267,7 +3267,7 @@ export default {
     'satisfactionScore': '+88',
     'teachingScore': '+79',
     'workloadScore': '+25',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '218': {
     'assessmentScore': '+50',
@@ -3282,7 +3282,7 @@ export default {
     'satisfactionScore': '+34',
     'teachingScore': '+9',
     'workloadScore': '+21',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '219': {
     'assessmentScore': '+77',
@@ -3297,12 +3297,12 @@ export default {
     'satisfactionScore': '+72',
     'teachingScore': '+46',
     'workloadScore': '+19',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '220': {
     'assessmentScore': '+38',
     'code': 'ETI265',
-    'comments': 'Studier\u00e5dets kommentarerDuktig och pedagogisk f\u00f6rel\u00e4sare. F\u00f6rel\u00e4sningar och \u00f6vningar\/inl\u00e4mningsuppgifter var ibland inte i fas. \u00d6vningarna upplevdes ocks\u00e5 som sv\u00e5ra. Tentan var sv\u00e5rare \u00e4n v\u00e4ntat, och det var flera on\u00f6digt kr\u00e5ngliga matematiska problem..Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKursen \u00e4r viktig f\u00f6r programmet. Programledningen kunde tyv\u00e4rr inte vara med p\u00e5 CEQ-m\u00f6tet pga dubbelbokning och f\u00f6r\u00e4ldrarledighet varf\u00f6r jag inte kan kommentera diskussionen d\u00e4r utan h\u00e4nvisar till de andra programledningarna.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerDuktig och pedagogisk f\u00f6rel\u00e4sare. F\u00f6rel\u00e4sningar och \u00f6vningar/inl\u00e4mningsuppgifter var ibland inte i fas. \u00d6vningarna upplevdes ocks\u00e5 som sv\u00e5ra. Tentan var sv\u00e5rare \u00e4n v\u00e4ntat, och det var flera on\u00f6digt kr\u00e5ngliga matematiska problem..Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKursen \u00e4r viktig f\u00f6r programmet. Programledningen kunde tyv\u00e4rr inte vara med p\u00e5 CEQ-m\u00f6tet pga dubbelbokning och f\u00f6r\u00e4ldrarledighet varf\u00f6r jag inte kan kommentera diskussionen d\u00e4r utan h\u00e4nvisar till de andra programledningarna.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+2',
     'importanceScore': '+20',
     'name': 'Signalbehandling i multimedia',
@@ -3312,12 +3312,12 @@ export default {
     'satisfactionScore': '+7',
     'teachingScore': '+13',
     'workloadScore': '-20',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '221': {
     'assessmentScore': '+34',
     'code': 'ETIA01',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerLaborationerna var underh\u00e5llande och intressanta. F\u00f6rel\u00e4saren var duktig och pedagogisk. Det var lite f\u00f6rvirrande att f\u00f6rel\u00e4sningarna och boken var p\u00e5 olika spr\u00e5k. Boken f\u00f6rklarar begrepp lite d\u00e5ligt.Kursl\u00e4rarens kommentererKursen har ur min synpunkt fungerat bra. Den stora vidden p\u00e5 materialet g\u00f6r det sv\u00e5rt att inte f\u00e5 en plottrig kurs. Under m\u00f6tet diskuterades f\u00f6rdelningen av momenten, labbmaterialet och boken d\u00e4r saknaden av AD\/DA avsnittet var st\u00f6rst problem. Inf\u00f6r n\u00e4sta \u00e5rs kurs ska jag utnyttja lab 1 till att bekanta studenterna med instrumenten samt att omf\u00f6rdela lite i materialet. Labutrustningen ska testas noggrannare inf\u00f6r varje lab och mer omfattande labgenomg\u00e5ngar ska ges. En b\u00e4ttre och mer sammanh\u00e4ngande beskrivning av AD\/DA kommer ocks\u00e5 att ges ut.Programledarens kommentarerKursen genomf\u00f6rdes v\u00e4l med en uppskattad f\u00f6rel\u00e4sare. Det finns viss potential till f\u00f6rb\u00e4ttringar, fr\u00e4mst p\u00e5 labbarna. Kursen kommer att g\u00f6ras om till VT16 d\u00e5 den minskar till 5 hp. D\u00e4rf\u00f6r ser programledningen inget st\u00f6rre behov av f\u00f6r\u00e4ndringar inf\u00f6r VT15.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerLaborationerna var underh\u00e5llande och intressanta. F\u00f6rel\u00e4saren var duktig och pedagogisk. Det var lite f\u00f6rvirrande att f\u00f6rel\u00e4sningarna och boken var p\u00e5 olika spr\u00e5k. Boken f\u00f6rklarar begrepp lite d\u00e5ligt.Kursl\u00e4rarens kommentererKursen har ur min synpunkt fungerat bra. Den stora vidden p\u00e5 materialet g\u00f6r det sv\u00e5rt att inte f\u00e5 en plottrig kurs. Under m\u00f6tet diskuterades f\u00f6rdelningen av momenten, labbmaterialet och boken d\u00e4r saknaden av AD/DA avsnittet var st\u00f6rst problem. Inf\u00f6r n\u00e4sta \u00e5rs kurs ska jag utnyttja lab 1 till att bekanta studenterna med instrumenten samt att omf\u00f6rdela lite i materialet. Labutrustningen ska testas noggrannare inf\u00f6r varje lab och mer omfattande labgenomg\u00e5ngar ska ges. En b\u00e4ttre och mer sammanh\u00e4ngande beskrivning av AD/DA kommer ocks\u00e5 att ges ut.Programledarens kommentarerKursen genomf\u00f6rdes v\u00e4l med en uppskattad f\u00f6rel\u00e4sare. Det finns viss potential till f\u00f6rb\u00e4ttringar, fr\u00e4mst p\u00e5 labbarna. Kursen kommer att g\u00f6ras om till VT16 d\u00e5 den minskar till 5 hp. D\u00e4rf\u00f6r ser programledningen inget st\u00f6rre behov av f\u00f6r\u00e4ndringar inf\u00f6r VT15.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+13',
     'importanceScore': '+35',
     'name': 'Elektronik',
@@ -3327,7 +3327,7 @@ export default {
     'satisfactionScore': '+35',
     'teachingScore': '+14',
     'workloadScore': '+13',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '222': {
     'assessmentScore': '+27',
@@ -3342,12 +3342,12 @@ export default {
     'satisfactionScore': '+24',
     'teachingScore': '+9',
     'workloadScore': '+54',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '223': {
     'assessmentScore': '+37',
     'code': 'ETSA01',
-    'comments': 'Studier\u00e5dets kommentarerPositivt:- Roligt att jobba i projekt.- Hemtenta ett bra s\u00e4tt att tentera kursen.Neutralt:- Stora grupper g\u00f6r att man l\u00e4r sig gruppdynamik p\u00e5 ett immersivt s\u00e4tt.- Ganska h\u00f6g arbetsbelastning.Negativt:- Oorganiserad kurshemsida, sv\u00e5rt att hitta vad man beh\u00f6vde g\u00f6ra.- Stor skillnad p\u00e5 vad projekthandledarna kunde\/hur de undervisadeKursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKursen \u00e4r viktig f\u00f6r programmet. Studenterna uppskattar att arbeta i grupp under projektet. Strukturen p\u00e5 hemsidan, f\u00f6rel\u00e4sningar och \u00f6vningar kan f\u00f6rb\u00e4ttras.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerPositivt:- Roligt att jobba i projekt.- Hemtenta ett bra s\u00e4tt att tentera kursen.Neutralt:- Stora grupper g\u00f6r att man l\u00e4r sig gruppdynamik p\u00e5 ett immersivt s\u00e4tt.- Ganska h\u00f6g arbetsbelastning.Negativt:- Oorganiserad kurshemsida, sv\u00e5rt att hitta vad man beh\u00f6vde g\u00f6ra.- Stor skillnad p\u00e5 vad projekthandledarna kunde/hur de undervisadeKursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerKursen \u00e4r viktig f\u00f6r programmet. Studenterna uppskattar att arbeta i grupp under projektet. Strukturen p\u00e5 hemsidan, f\u00f6rel\u00e4sningar och \u00f6vningar kan f\u00f6rb\u00e4ttras.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-16',
     'importanceScore': '+42',
     'name': 'Ingenj\u00f6rsprocessen f\u00f6r programvaruutveckling - metodik',
@@ -3357,7 +3357,7 @@ export default {
     'satisfactionScore': '0',
     'teachingScore': '+16',
     'workloadScore': '+1',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '224': {
     'assessmentScore': '+32',
@@ -3372,7 +3372,7 @@ export default {
     'satisfactionScore': '-26',
     'teachingScore': '-30',
     'workloadScore': '+32',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '225': {
     'assessmentScore': '-32',
@@ -3387,7 +3387,7 @@ export default {
     'satisfactionScore': '-60',
     'teachingScore': '-47',
     'workloadScore': '+9',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '226': {
     'assessmentScore': '+44',
@@ -3402,7 +3402,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '-0',
     'workloadScore': '+18',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '227': {
     'assessmentScore': '+81',
@@ -3417,7 +3417,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+33',
     'workloadScore': '0',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '228': {
     'assessmentScore': '+36',
@@ -3432,7 +3432,7 @@ export default {
     'satisfactionScore': '+30',
     'teachingScore': '+29',
     'workloadScore': '-34',
-    'year': '13\/14'
+    'year': '13/14'
   },
   '229': {
     'assessmentScore': '+14',
@@ -3447,7 +3447,7 @@ export default {
     'satisfactionScore': '+64',
     'teachingScore': '+35',
     'workloadScore': '+72',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '230': {
     'assessmentScore': '+0',
@@ -3462,7 +3462,7 @@ export default {
     'satisfactionScore': '+46',
     'teachingScore': '+6',
     'workloadScore': '+50',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '231': {
     'assessmentScore': '+39',
@@ -3477,7 +3477,7 @@ export default {
     'satisfactionScore': '+65',
     'teachingScore': '+34',
     'workloadScore': '+16',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '232': {
     'assessmentScore': '+56',
@@ -3492,7 +3492,7 @@ export default {
     'satisfactionScore': '+62',
     'teachingScore': '+17',
     'workloadScore': '+46',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '233': {
     'assessmentScore': '+58',
@@ -3507,7 +3507,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+20',
     'workloadScore': '+19',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '234': {
     'assessmentScore': '+11',
@@ -3522,7 +3522,7 @@ export default {
     'satisfactionScore': '+30',
     'teachingScore': '+23',
     'workloadScore': '+63',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '235': {
     'assessmentScore': '+49',
@@ -3537,7 +3537,7 @@ export default {
     'satisfactionScore': '+46',
     'teachingScore': '+23',
     'workloadScore': '+31',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '236': {
     'assessmentScore': '+55',
@@ -3552,7 +3552,7 @@ export default {
     'satisfactionScore': '+15',
     'teachingScore': '-19',
     'workloadScore': '-2',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '237': {
     'assessmentScore': '+51',
@@ -3567,7 +3567,7 @@ export default {
     'satisfactionScore': '+39',
     'teachingScore': '+7',
     'workloadScore': '+17',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '238': {
     'assessmentScore': '+33',
@@ -3582,7 +3582,7 @@ export default {
     'satisfactionScore': '-29',
     'teachingScore': '-51',
     'workloadScore': '-35',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '239': {
     'assessmentScore': '+32',
@@ -3597,12 +3597,12 @@ export default {
     'satisfactionScore': '0',
     'teachingScore': '+8',
     'workloadScore': '+27',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '240': {
     'assessmentScore': '+60',
     'code': 'EDA260',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerKursen har varit uppskattad av studenterna och de har tyckt att det \u00e4r roligt med det annorlunda uppl\u00e4gget p\u00e5 kursen. Vi har f\u00e5tt utveckla v\u00e5r f\u00f6rm\u00e5ga att arbeta i grupp och planera v\u00e5rat arbete. Kursens sista moment, t\u00e4vlingen, upplevdes on\u00f6digt resurskr\u00e4vande i relation till nyttan f\u00f6r studenterna.\u00d6nskem\u00e5l om att f\u00e5 anv\u00e4nda Java 8, som har ett flertal f\u00f6rb\u00e4ttringar, fanns i minst tv\u00e5 grupper. Svaret fr\u00e5n kursledningen var nej, delvis d\u00e5 st\u00f6d inte fanns installerat p\u00e5 skolans datorer. Det fanns en ganska stark \u00e5sikt hos vissa att kravet p\u00e5 att anv\u00e4nda Java 6 var on\u00f6digt och f\u00f6rhindrade att deras program blev s\u00e5 bra som m\u00f6jligt.Flera ifr\u00e5gasatte \u00e4ven anv\u00e4ndandet av CVS och SVN som knappt anv\u00e4nds l\u00e4ngre i "verkligheten" (och sannolikt kommer vara helt d\u00f6tt n\u00e4r kursdeltagarna v\u00e4l tar examen). Bara en grupp anv\u00e4nde Git och jag (Erik, medlem i den gruppen) upplevde det som att vi hade mindre problem \u00e4n vad de andra hade n\u00e4r jag pratade med dem om versionskontrollsystemen. Min grupp anv\u00e4nde \u00e4ven Travis som gjorde det mycket l\u00e4ttare att se vilken commit som gjorde att testfallen\/builden failade (https:\/\/travis-ci.org\/duralf2\/EDA260-Team06), enkelt att anv\u00e4nda tillsammans med GitHub och n\u00e5got att rekommendera till n\u00e4sta \u00e5rs kursdeltagare. Issue-trackern & wikin upplevde jag personligen som betydligt s\u00e4mre \u00e4n den som erbjuds p\u00e5 t.ex. GitHub, men ingen anv\u00e4nde n\u00e5got av dem. Tycker man borde dumpa trackern\/wikin som LTH sj\u00e4lv ordnar och k\u00f6ra p\u00e5 t.ex. GitHub ist\u00e4llet som erbjuder mycket b\u00e4ttre tj\u00e4nst helt gratis. Den \u00e4nda nackdelen \u00e4r v\u00e4l att projektet blir \u00f6ppet f\u00f6r alla att se men personligen tycker jag bara det \u00e4r en f\u00f6rdel, om studenterna tittar p\u00e5 varandras kod och l\u00e4r sig ett b\u00e4ttre s\u00e4tt att g\u00f6ra n\u00e5got \u00e4r det bara en f\u00f6rdel.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerEn v\u00e4l genomf\u00f6rd kurs som uppskattas av studenterna. Inf\u00f6r framtiden kan kursansvariga fundera \u00f6ver hur n\u00e4rvarokontrollen genomf\u00f6rs.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerKursen har varit uppskattad av studenterna och de har tyckt att det \u00e4r roligt med det annorlunda uppl\u00e4gget p\u00e5 kursen. Vi har f\u00e5tt utveckla v\u00e5r f\u00f6rm\u00e5ga att arbeta i grupp och planera v\u00e5rat arbete. Kursens sista moment, t\u00e4vlingen, upplevdes on\u00f6digt resurskr\u00e4vande i relation till nyttan f\u00f6r studenterna.\u00d6nskem\u00e5l om att f\u00e5 anv\u00e4nda Java 8, som har ett flertal f\u00f6rb\u00e4ttringar, fanns i minst tv\u00e5 grupper. Svaret fr\u00e5n kursledningen var nej, delvis d\u00e5 st\u00f6d inte fanns installerat p\u00e5 skolans datorer. Det fanns en ganska stark \u00e5sikt hos vissa att kravet p\u00e5 att anv\u00e4nda Java 6 var on\u00f6digt och f\u00f6rhindrade att deras program blev s\u00e5 bra som m\u00f6jligt.Flera ifr\u00e5gasatte \u00e4ven anv\u00e4ndandet av CVS och SVN som knappt anv\u00e4nds l\u00e4ngre i "verkligheten" (och sannolikt kommer vara helt d\u00f6tt n\u00e4r kursdeltagarna v\u00e4l tar examen). Bara en grupp anv\u00e4nde Git och jag (Erik, medlem i den gruppen) upplevde det som att vi hade mindre problem \u00e4n vad de andra hade n\u00e4r jag pratade med dem om versionskontrollsystemen. Min grupp anv\u00e4nde \u00e4ven Travis som gjorde det mycket l\u00e4ttare att se vilken commit som gjorde att testfallen/builden failade (https://travis-ci.org/duralf2/EDA260-Team06), enkelt att anv\u00e4nda tillsammans med GitHub och n\u00e5got att rekommendera till n\u00e4sta \u00e5rs kursdeltagare. Issue-trackern & wikin upplevde jag personligen som betydligt s\u00e4mre \u00e4n den som erbjuds p\u00e5 t.ex. GitHub, men ingen anv\u00e4nde n\u00e5got av dem. Tycker man borde dumpa trackern/wikin som LTH sj\u00e4lv ordnar och k\u00f6ra p\u00e5 t.ex. GitHub ist\u00e4llet som erbjuder mycket b\u00e4ttre tj\u00e4nst helt gratis. Den \u00e4nda nackdelen \u00e4r v\u00e4l att projektet blir \u00f6ppet f\u00f6r alla att se men personligen tycker jag bara det \u00e4r en f\u00f6rdel, om studenterna tittar p\u00e5 varandras kod och l\u00e4r sig ett b\u00e4ttre s\u00e4tt att g\u00f6ra n\u00e5got \u00e4r det bara en f\u00f6rdel.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerEn v\u00e4l genomf\u00f6rd kurs som uppskattas av studenterna. Inf\u00f6r framtiden kan kursansvariga fundera \u00f6ver hur n\u00e4rvarokontrollen genomf\u00f6rs.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+48',
     'importanceScore': '+74',
     'name': 'Programvaruutveckling i grupp - projekt',
@@ -3612,7 +3612,7 @@ export default {
     'satisfactionScore': '+65',
     'teachingScore': '+49',
     'workloadScore': '+26',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '241': {
     'assessmentScore': '+55',
@@ -3627,7 +3627,7 @@ export default {
     'satisfactionScore': '+52',
     'teachingScore': '+12',
     'workloadScore': '+32',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '242': {
     'assessmentScore': '+1',
@@ -3642,12 +3642,12 @@ export default {
     'satisfactionScore': '+69',
     'teachingScore': '+48',
     'workloadScore': '+21',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '243': {
     'assessmentScore': '-22',
     'code': 'EIT070',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerKopplingen mellan labbarna och f\u00f6rel\u00e4sningarna var otydlig och m\u00e5nga upplevde en chock n\u00e4r de skulle g\u00f6ra de f\u00f6rsta \u00f6vningarna d\u00e5 handlade om assembler som inte ens n\u00e4mnts p\u00e5 de f\u00f6rsta f\u00f6rel\u00e4sningarna. D\u00e5 \u00f6vningarna bara gav kunskapen som man hade behov av i labbarna s\u00e5 var det m\u00e5nga som hoppade \u00f6ver \u00f6vningarna i sig och fokuserade p\u00e5 labbf\u00f6rberedelser ist\u00e4llet.Bristen p\u00e5 extentor var n\u00e5got som vissa upplevde gjorde tentaplugget sv\u00e5rare. Instuderingsfr\u00e5gorna upplevde jag dock som att i princip alla anv\u00e4nde vid tentaplugget och fann anv\u00e4ndbart.Kursl\u00e4rarens kommentererJag (Erik Larsson) gav kursen f\u00f6r f\u00f6rsta g\u00e5ngen VT 2015. Fokus i \u00e5r var att uppdatera f\u00f6rel\u00e4sningarna. Jag ville modernisera kursen lite och ta med cacheminnen, virtuelltminne och mer om pipelining. Detta \u00e4r koncept som finns i alla processorer idag. Gr\u00e4nsen mellan Datorteknik och Datorarkitektur g\u00e5r nu vid antalet k\u00e4rnor i processor (i Datorteknik - 1 CPU\/core och i Datorarkitektur - flera CPU:er\/cores). M\u00e5let med kursen \u00e4r att ge en bra grund i hur datorer fungerar. Fokus ligger p\u00e5 generella principer som g\u00e4ller alla processorer och p\u00e5 att visa p\u00e5 avv\u00e4gningar som g\u00f6rs (framf\u00f6r att i detalj titta p\u00e5 en processor utan att reflektera \u00f6ver designbeslut). Jag ville ocks\u00e5 l\u00e4gga fokus p\u00e5 kursboken av Patterson and Hennessey (framf\u00f6r kursboken av Brorsson).I och med att jag uppdaterade f\u00f6rel\u00e4sningarna och beh\u00f6ll de gamla lektionerna och de gamla laborationerna blev det ett litet glapp mellan f\u00f6rel\u00e4sningarna \u00e5 ena sidan och lektioner\/laborationer \u00e5 andra sidan. Inf\u00f6r 2016 arbetar vi med nya laborationer d\u00e4r vi kommer anv\u00e4nda en FPGA p\u00e5 vilken vi programmerat en processor. Med detta kommer studenterna i kontakt med riktig h\u00e5rdvara och kommer f\u00e5 hantera tryckknappar och 7-segments displayer.Programledarens kommentarerInf\u00f6r \u00e5rets kursomg\u00e5ng har f\u00f6rel\u00e4sningarna omarbetats. Labbarna var dock de gamla varf\u00f6r studenterna inte s\u00e5g ett tydligt samband mellan f\u00f6rel\u00e4sningarna och labbarna. Inf\u00f6r n\u00e4sta \u00e5r ska labbarna uppdateras vilket kommer att f\u00f6rb\u00e4ttra kursen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerKopplingen mellan labbarna och f\u00f6rel\u00e4sningarna var otydlig och m\u00e5nga upplevde en chock n\u00e4r de skulle g\u00f6ra de f\u00f6rsta \u00f6vningarna d\u00e5 handlade om assembler som inte ens n\u00e4mnts p\u00e5 de f\u00f6rsta f\u00f6rel\u00e4sningarna. D\u00e5 \u00f6vningarna bara gav kunskapen som man hade behov av i labbarna s\u00e5 var det m\u00e5nga som hoppade \u00f6ver \u00f6vningarna i sig och fokuserade p\u00e5 labbf\u00f6rberedelser ist\u00e4llet.Bristen p\u00e5 extentor var n\u00e5got som vissa upplevde gjorde tentaplugget sv\u00e5rare. Instuderingsfr\u00e5gorna upplevde jag dock som att i princip alla anv\u00e4nde vid tentaplugget och fann anv\u00e4ndbart.Kursl\u00e4rarens kommentererJag (Erik Larsson) gav kursen f\u00f6r f\u00f6rsta g\u00e5ngen VT 2015. Fokus i \u00e5r var att uppdatera f\u00f6rel\u00e4sningarna. Jag ville modernisera kursen lite och ta med cacheminnen, virtuelltminne och mer om pipelining. Detta \u00e4r koncept som finns i alla processorer idag. Gr\u00e4nsen mellan Datorteknik och Datorarkitektur g\u00e5r nu vid antalet k\u00e4rnor i processor (i Datorteknik - 1 CPU/core och i Datorarkitektur - flera CPU:er/cores). M\u00e5let med kursen \u00e4r att ge en bra grund i hur datorer fungerar. Fokus ligger p\u00e5 generella principer som g\u00e4ller alla processorer och p\u00e5 att visa p\u00e5 avv\u00e4gningar som g\u00f6rs (framf\u00f6r att i detalj titta p\u00e5 en processor utan att reflektera \u00f6ver designbeslut). Jag ville ocks\u00e5 l\u00e4gga fokus p\u00e5 kursboken av Patterson and Hennessey (framf\u00f6r kursboken av Brorsson).I och med att jag uppdaterade f\u00f6rel\u00e4sningarna och beh\u00f6ll de gamla lektionerna och de gamla laborationerna blev det ett litet glapp mellan f\u00f6rel\u00e4sningarna \u00e5 ena sidan och lektioner/laborationer \u00e5 andra sidan. Inf\u00f6r 2016 arbetar vi med nya laborationer d\u00e4r vi kommer anv\u00e4nda en FPGA p\u00e5 vilken vi programmerat en processor. Med detta kommer studenterna i kontakt med riktig h\u00e5rdvara och kommer f\u00e5 hantera tryckknappar och 7-segments displayer.Programledarens kommentarerInf\u00f6r \u00e5rets kursomg\u00e5ng har f\u00f6rel\u00e4sningarna omarbetats. Labbarna var dock de gamla varf\u00f6r studenterna inte s\u00e5g ett tydligt samband mellan f\u00f6rel\u00e4sningarna och labbarna. Inf\u00f6r n\u00e4sta \u00e5r ska labbarna uppdateras vilket kommer att f\u00f6rb\u00e4ttra kursen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-38',
     'importanceScore': '+58',
     'name': 'Datorteknik',
@@ -3657,7 +3657,7 @@ export default {
     'satisfactionScore': '0',
     'teachingScore': '-17',
     'workloadScore': '+20',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '244': {
     'assessmentScore': '+41',
@@ -3672,7 +3672,7 @@ export default {
     'satisfactionScore': '+12',
     'teachingScore': '+1',
     'workloadScore': '+15',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '245': {
     'assessmentScore': '+62',
@@ -3687,7 +3687,7 @@ export default {
     'satisfactionScore': '+44',
     'teachingScore': '-7',
     'workloadScore': '+3',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '246': {
     'assessmentScore': '+69',
@@ -3702,7 +3702,7 @@ export default {
     'satisfactionScore': '+33',
     'teachingScore': '-25',
     'workloadScore': '-17',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '247': {
     'assessmentScore': '+46',
@@ -3717,7 +3717,7 @@ export default {
     'satisfactionScore': '+59',
     'teachingScore': '+36',
     'workloadScore': '+41',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '248': {
     'assessmentScore': '+69',
@@ -3732,7 +3732,7 @@ export default {
     'satisfactionScore': '+58',
     'teachingScore': '+34',
     'workloadScore': '+14',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '249': {
     'assessmentScore': '+54',
@@ -3747,7 +3747,7 @@ export default {
     'satisfactionScore': '+58',
     'teachingScore': '+44',
     'workloadScore': '+36',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '250': {
     'assessmentScore': '+26',
@@ -3762,7 +3762,7 @@ export default {
     'satisfactionScore': '+18',
     'teachingScore': '-1',
     'workloadScore': '+14',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '251': {
     'assessmentScore': '+28',
@@ -3777,7 +3777,7 @@ export default {
     'satisfactionScore': '+54',
     'teachingScore': '+34',
     'workloadScore': '+52',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '252': {
     'assessmentScore': '+43',
@@ -3792,7 +3792,7 @@ export default {
     'satisfactionScore': '+22',
     'teachingScore': '+23',
     'workloadScore': '+17',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '253': {
     'assessmentScore': '+35',
@@ -3807,7 +3807,7 @@ export default {
     'satisfactionScore': '-7',
     'teachingScore': '+3',
     'workloadScore': '+35',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '254': {
     'assessmentScore': '-36',
@@ -3822,7 +3822,7 @@ export default {
     'satisfactionScore': '-57',
     'teachingScore': '-37',
     'workloadScore': '+24',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '255': {
     'assessmentScore': '+61',
@@ -3837,7 +3837,7 @@ export default {
     'satisfactionScore': '+71',
     'teachingScore': '+24',
     'workloadScore': '+31',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '256': {
     'assessmentScore': '+38',
@@ -3852,7 +3852,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+33',
     'workloadScore': '+63',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '257': {
     'assessmentScore': '+33',
@@ -3867,12 +3867,12 @@ export default {
     'satisfactionScore': '+44',
     'teachingScore': '+30',
     'workloadScore': '-24',
-    'year': '14\/15'
+    'year': '14/15'
   },
   '258': {
     'assessmentScore': '+12',
     'code': 'EDA070',
-    'comments': 'Studier\u00e5dets kommentarerStudenterna \u00e4r \u00f6verlag n\u00f6jda med kursen. Man tycker att labbarna d\u00e4r man jobbar med terminalen \u00e4r det nyttigaste och man f\u00e5r g\u00e4rna ut\u00f6ka det medan f\u00f6rel\u00e4sningarna om till exempel datorns historia inte beh\u00f6ver ta upp s\u00e5 mycket tid.Kursl\u00e4rarens kommentererKursen verkar fungera v\u00e4l \u00e4ven efter bytet av kursansvarig. Deltagarna \u00e4r \u00f6verlag n\u00f6jda och kommentarerna \u00e4r \u00f6verv\u00e4gande positiva. I \u00e5r har vi i liten skala b\u00f6rjat att se \u00f6ver kursinneh\u00e5llet och introducera n\u00e5gra viktiga moment som tidigare l\u00e5g i kursen Datorer i system. V\u00e5r m\u00e5ls\u00e4ttning \u00e4r att arbeta vidare p\u00e5 det sp\u00e5ret och inf\u00f6ra mer om teckenkodning och det bin\u00e4ra talsystemet. Det kommer att inkludera en \u00f6versyn av inneh\u00e5llet p\u00e5 n\u00e5gra av f\u00f6rel\u00e4sningarna s\u00e5v\u00e4l som n\u00e5gon\/n\u00e5gra av laborationerna.Programledarens kommentarerEn v\u00e4l fungerande kurs som ger studenterna en introduktion till datorn som verktyg. Under CEQ-m\u00f6tet diskuterades m\u00f6jligheten att l\u00e4gga in n\u00e5got om teckenkodning i kursen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerStudenterna \u00e4r \u00f6verlag n\u00f6jda med kursen. Man tycker att labbarna d\u00e4r man jobbar med terminalen \u00e4r det nyttigaste och man f\u00e5r g\u00e4rna ut\u00f6ka det medan f\u00f6rel\u00e4sningarna om till exempel datorns historia inte beh\u00f6ver ta upp s\u00e5 mycket tid.Kursl\u00e4rarens kommentererKursen verkar fungera v\u00e4l \u00e4ven efter bytet av kursansvarig. Deltagarna \u00e4r \u00f6verlag n\u00f6jda och kommentarerna \u00e4r \u00f6verv\u00e4gande positiva. I \u00e5r har vi i liten skala b\u00f6rjat att se \u00f6ver kursinneh\u00e5llet och introducera n\u00e5gra viktiga moment som tidigare l\u00e5g i kursen Datorer i system. V\u00e5r m\u00e5ls\u00e4ttning \u00e4r att arbeta vidare p\u00e5 det sp\u00e5ret och inf\u00f6ra mer om teckenkodning och det bin\u00e4ra talsystemet. Det kommer att inkludera en \u00f6versyn av inneh\u00e5llet p\u00e5 n\u00e5gra av f\u00f6rel\u00e4sningarna s\u00e5v\u00e4l som n\u00e5gon/n\u00e5gra av laborationerna.Programledarens kommentarerEn v\u00e4l fungerande kurs som ger studenterna en introduktion till datorn som verktyg. Under CEQ-m\u00f6tet diskuterades m\u00f6jligheten att l\u00e4gga in n\u00e5got om teckenkodning i kursen.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+59',
     'importanceScore': '+59',
     'name': 'Datorer och datoranv\u00e4ndning',
@@ -3882,7 +3882,7 @@ export default {
     'satisfactionScore': '+39',
     'teachingScore': '+13',
     'workloadScore': '+67',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '259': {
     'assessmentScore': '+0',
@@ -3897,7 +3897,7 @@ export default {
     'satisfactionScore': '+49',
     'teachingScore': '+7',
     'workloadScore': '+56',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '260': {
     'assessmentScore': '+57',
@@ -3912,7 +3912,7 @@ export default {
     'satisfactionScore': '+67',
     'teachingScore': '+42',
     'workloadScore': '+22',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '261': {
     'assessmentScore': '+69',
@@ -3927,7 +3927,7 @@ export default {
     'satisfactionScore': '+87',
     'teachingScore': '+69',
     'workloadScore': '+52',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '262': {
     'assessmentScore': '+57',
@@ -3942,7 +3942,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+29',
     'workloadScore': '+13',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '263': {
     'assessmentScore': '+58',
@@ -3957,7 +3957,7 @@ export default {
     'satisfactionScore': '+54',
     'teachingScore': '+28',
     'workloadScore': '+33',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '264': {
     'assessmentScore': '+66',
@@ -3972,7 +3972,7 @@ export default {
     'satisfactionScore': '+34',
     'teachingScore': '+11',
     'workloadScore': '+3',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '265': {
     'assessmentScore': '+63',
@@ -3987,7 +3987,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+12',
     'workloadScore': '+31',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '266': {
     'assessmentScore': '+42',
@@ -4002,7 +4002,7 @@ export default {
     'satisfactionScore': '+38',
     'teachingScore': '+22',
     'workloadScore': '-22',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '267': {
     'assessmentScore': '+59',
@@ -4017,7 +4017,7 @@ export default {
     'satisfactionScore': '+44',
     'teachingScore': '+13',
     'workloadScore': '+7',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '268': {
     'assessmentScore': '+33',
@@ -4032,7 +4032,7 @@ export default {
     'satisfactionScore': '+8',
     'teachingScore': '+7',
     'workloadScore': '+37',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '269': {
     'assessmentScore': '+58',
@@ -4047,7 +4047,7 @@ export default {
     'satisfactionScore': '+80',
     'teachingScore': '+55',
     'workloadScore': '+37',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '270': {
     'assessmentScore': '+57',
@@ -4062,7 +4062,7 @@ export default {
     'satisfactionScore': '+67',
     'teachingScore': '+29',
     'workloadScore': '+27',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '271': {
     'assessmentScore': '+43',
@@ -4077,7 +4077,7 @@ export default {
     'satisfactionScore': '+85',
     'teachingScore': '+59',
     'workloadScore': '+43',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '272': {
     'assessmentScore': '+5',
@@ -4092,7 +4092,7 @@ export default {
     'satisfactionScore': '-33',
     'teachingScore': '-40',
     'workloadScore': '-17',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '273': {
     'assessmentScore': '+24',
@@ -4107,7 +4107,7 @@ export default {
     'satisfactionScore': '-12',
     'teachingScore': '-25',
     'workloadScore': '-5',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '274': {
     'assessmentScore': '+42',
@@ -4122,7 +4122,7 @@ export default {
     'satisfactionScore': '-7',
     'teachingScore': '+3',
     'workloadScore': '+12',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '275': {
     'assessmentScore': '0',
@@ -4137,7 +4137,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+50',
     'workloadScore': '+38',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '276': {
     'assessmentScore': '+56',
@@ -4152,7 +4152,7 @@ export default {
     'satisfactionScore': '+70',
     'teachingScore': '+33',
     'workloadScore': '+45',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '277': {
     'assessmentScore': '+49',
@@ -4167,12 +4167,12 @@ export default {
     'satisfactionScore': '+25',
     'teachingScore': '+15',
     'workloadScore': '+54',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '278': {
     'assessmentScore': '+30',
     'code': 'EDAA40',
-    'comments': 'Studier\u00e5dets kommentarerI utv\u00e4rderingarna var majoriteten av studenterna missn\u00f6jda med kursen, det gavs ett antal olika konkreta sk\u00e4l. Det k\u00e4nns rimligt att s\u00e4ga att kursen \u00e4r problematisk och beh\u00f6ver genomg\u00e5 ett antal f\u00f6r\u00e4ndringar f\u00f6r att bli en bra kurs.Mycket utav dessa f\u00f6r\u00e4ndringar handlar om strukturen och momenten i kursen, till exempelvis brist p\u00e5 enklare \u00f6vningar.Viktigt att n\u00e4mna \u00e4r dock att \u00f6verlag tyckte utv\u00e4rderarna att l\u00e4raren \u00e4r en bra f\u00f6rel\u00e4sare, och att kursen h\u00f6r hemma p\u00e5 programmet.Kursl\u00e4rarens kommentererEDAA40 CommentsThe themes that stood out among the things that could be improved upon were the weak link between the programming exercises during the labs and the material in the lectures, and the course book, and here most prominently the absence of solutions to many of its exercises, as well as a desire for more examples for the concepts covered.The course is set up with five exercise sessions\/labs. Of these, one was devoted to "exam prep" in recognition of the fact that there were no past exams to work with, and students would have had no exposure to "exam-like" questions and problems outside of the "homework" that consisted of working on problems in the book, many of which did not have model solutions (more on this below). As the course was also intended to use a new programming language for its practical labs, the first of these was intended to work through a tutorial on that language, leaving three labs for further practical work.Each lecture roughly corresponded to a section in the textbook, and students were given exercises in the textbook to work, many of which did not have model solutions in the book. The planned solution was to engage students on the Piazza platform on these exercises (and any other question they might have), but it ultimately did not work. Registration to the online platform remained low throughout the course, even if it ticked up toward the end, and participation was even lower.After the discussion we had on this, I draw the following conclusions:(1) For Piazza to become more useful, registration and participation needs to be incentivized more strongly. Even then it is doubtful whether it is a good idea to make it an essential part of the learning process. Students seem reluctant to publicly ask questions, even if the platform allows to do so anonymously. Those that do seem to be happy with the interaction, but at least in this iteration of the course, they remained a very small group.(2) Students seem to prefer having model solutions to online interaction, presumably so they can compare their results for themselves when working on exercise problems. The simplest way to cater to this preference is to just create those solutions for the exercises given to the students. However, one driver behind the plan to use Piazza was the hope to engage students online on exercises they did not have solutions for, to spark discussions about different approaches and pitfalls etc. Even if this did not work on Piazza, it still seems a worthwhile goal, so during the discussion we floated the idea of seminars in addition to lectures, where I could work through exercises and have that interaction face to face instead of online. (3) Five labs are not very much space for practical work, especially if one of them goes to learning a new language and another is devoted to exam-like pen and paper exercises. Here, too, seminars could provide some relief --- an early seminar session might be used to teach Clojure, and collectively they would obviate the need for a dedicated exam prep session. That would free up all five lab sessions for programming exercises, which should become more tightly integrated with the theoretical material in the course.(4) Most of the lectures introduced mathematical concepts with only a few "scheduled" examples and occasionally some that arose from a classrom question or discussion. Several comments expressed a desire for more examples in class, which might require pruning the current material by eliminating some content that sits on the fringes of the topic area. And, of course, seminars might also be used to work through more examples interactively.Programledarens kommentarerDetta var f\u00f6rsta g\u00e5ngen kursen gavs. Det var \u00e4ven f\u00f6rsta g\u00e5ngen l\u00e4raren gav en kurs i Sverige. Detta bidrog till att en del saker inte fungerade perfekt. t.ex. f\u00f6rv\u00e4ntade sig inte l\u00e4raren att studenterna skulle f\u00f6rbereda sig inf\u00f6r labbarna, vilket studenterna trodde att de skulle. Materialet kom ut f\u00f6r sent f\u00f6r att studenterna skulle hinna f\u00f6rbereda sig. Anv\u00e4ndandet av piazza var l\u00e5gt under kursen. Systemet hade kunnat hj\u00e4lpa med en del andra saker studenterna upplevde som problematiskt, t.ex. avsaknad av facit p\u00e5 \u00f6vningsuppgifter i boken.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerI utv\u00e4rderingarna var majoriteten av studenterna missn\u00f6jda med kursen, det gavs ett antal olika konkreta sk\u00e4l. Det k\u00e4nns rimligt att s\u00e4ga att kursen \u00e4r problematisk och beh\u00f6ver genomg\u00e5 ett antal f\u00f6r\u00e4ndringar f\u00f6r att bli en bra kurs.Mycket utav dessa f\u00f6r\u00e4ndringar handlar om strukturen och momenten i kursen, till exempelvis brist p\u00e5 enklare \u00f6vningar.Viktigt att n\u00e4mna \u00e4r dock att \u00f6verlag tyckte utv\u00e4rderarna att l\u00e4raren \u00e4r en bra f\u00f6rel\u00e4sare, och att kursen h\u00f6r hemma p\u00e5 programmet.Kursl\u00e4rarens kommentererEDAA40 CommentsThe themes that stood out among the things that could be improved upon were the weak link between the programming exercises during the labs and the material in the lectures, and the course book, and here most prominently the absence of solutions to many of its exercises, as well as a desire for more examples for the concepts covered.The course is set up with five exercise sessions/labs. Of these, one was devoted to "exam prep" in recognition of the fact that there were no past exams to work with, and students would have had no exposure to "exam-like" questions and problems outside of the "homework" that consisted of working on problems in the book, many of which did not have model solutions (more on this below). As the course was also intended to use a new programming language for its practical labs, the first of these was intended to work through a tutorial on that language, leaving three labs for further practical work.Each lecture roughly corresponded to a section in the textbook, and students were given exercises in the textbook to work, many of which did not have model solutions in the book. The planned solution was to engage students on the Piazza platform on these exercises (and any other question they might have), but it ultimately did not work. Registration to the online platform remained low throughout the course, even if it ticked up toward the end, and participation was even lower.After the discussion we had on this, I draw the following conclusions:(1) For Piazza to become more useful, registration and participation needs to be incentivized more strongly. Even then it is doubtful whether it is a good idea to make it an essential part of the learning process. Students seem reluctant to publicly ask questions, even if the platform allows to do so anonymously. Those that do seem to be happy with the interaction, but at least in this iteration of the course, they remained a very small group.(2) Students seem to prefer having model solutions to online interaction, presumably so they can compare their results for themselves when working on exercise problems. The simplest way to cater to this preference is to just create those solutions for the exercises given to the students. However, one driver behind the plan to use Piazza was the hope to engage students online on exercises they did not have solutions for, to spark discussions about different approaches and pitfalls etc. Even if this did not work on Piazza, it still seems a worthwhile goal, so during the discussion we floated the idea of seminars in addition to lectures, where I could work through exercises and have that interaction face to face instead of online. (3) Five labs are not very much space for practical work, especially if one of them goes to learning a new language and another is devoted to exam-like pen and paper exercises. Here, too, seminars could provide some relief --- an early seminar session might be used to teach Clojure, and collectively they would obviate the need for a dedicated exam prep session. That would free up all five lab sessions for programming exercises, which should become more tightly integrated with the theoretical material in the course.(4) Most of the lectures introduced mathematical concepts with only a few "scheduled" examples and occasionally some that arose from a classrom question or discussion. Several comments expressed a desire for more examples in class, which might require pruning the current material by eliminating some content that sits on the fringes of the topic area. And, of course, seminars might also be used to work through more examples interactively.Programledarens kommentarerDetta var f\u00f6rsta g\u00e5ngen kursen gavs. Det var \u00e4ven f\u00f6rsta g\u00e5ngen l\u00e4raren gav en kurs i Sverige. Detta bidrog till att en del saker inte fungerade perfekt. t.ex. f\u00f6rv\u00e4ntade sig inte l\u00e4raren att studenterna skulle f\u00f6rbereda sig inf\u00f6r labbarna, vilket studenterna trodde att de skulle. Materialet kom ut f\u00f6r sent f\u00f6r att studenterna skulle hinna f\u00f6rbereda sig. Anv\u00e4ndandet av piazza var l\u00e5gt under kursen. Systemet hade kunnat hj\u00e4lpa med en del andra saker studenterna upplevde som problematiskt, t.ex. avsaknad av facit p\u00e5 \u00f6vningsuppgifter i boken.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-64',
     'importanceScore': '+5',
     'name': 'Diskreta strukturer i datavetenskap',
@@ -4182,7 +4182,7 @@ export default {
     'satisfactionScore': '-48',
     'teachingScore': '-42',
     'workloadScore': '-28',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '279': {
     'assessmentScore': '+80',
@@ -4197,7 +4197,7 @@ export default {
     'satisfactionScore': '+78',
     'teachingScore': '+44',
     'workloadScore': '+31',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '280': {
     'assessmentScore': '+52',
@@ -4212,7 +4212,7 @@ export default {
     'satisfactionScore': '+44',
     'teachingScore': '+32',
     'workloadScore': '+28',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '281': {
     'assessmentScore': '+59',
@@ -4227,7 +4227,7 @@ export default {
     'satisfactionScore': '+48',
     'teachingScore': '+10',
     'workloadScore': '+65',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '282': {
     'assessmentScore': '+36',
@@ -4242,12 +4242,12 @@ export default {
     'satisfactionScore': '-17',
     'teachingScore': '-7',
     'workloadScore': '+61',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '283': {
     'assessmentScore': '-18',
     'code': 'ETSF01',
-    'comments': 'Studier\u00e5dets kommentarerDetta \u00e4r en kurs som beh\u00f6ver ses \u00f6ver. Studenterna hade sv\u00e5rt att f\u00f6rst\u00e5 vad de skulle g\u00f6ra till projektet. Att ha en tenta och ett projekt i en kurs p\u00e5 4 po\u00e4ng \u00e4r f\u00f6r mycket. \u00d6verlag s\u00e5 var projektet otydligt, studenterna k\u00e4nde att de problem som uppstod i projektet inte hade med \u00e4mnet att g\u00f6ra utan snarare annat kringliggande sakerna.Kursl\u00e4rarens kommentererKA response to CEQ for ETSF01 2015\/16En av kursens st\u00f6rsta utmaningar \u00e4r att f\u00f6rmedla relevansen av kursinneh\u00e5llet, d\u00e5 det handlar om av icke-tekniska aspekter av programvaruutveckling (projektplanering\/ledning etc.) Responsen \u00e4r fortsatt blandad med b\u00e5de positiva och negativa fritext svar p\u00e5 denna punkt. Kursinneh\u00e5llet beh\u00f6ver fortl\u00f6pande motiveras igenom hela kursen, inte bara i b\u00f6rjan. \u00c5rets tv\u00e5 g\u00e4stf\u00f6rel\u00e4sningar var uppskattade, och gav insikt i hur projekt leds och organiseras inom industrin. Uppl\u00e4gget med tema f\u00f6rel\u00e4sningar fungerade bra, dvs en vanlig f\u00f6rel\u00e4sning i pass 1 och en g\u00e4stf\u00f6rel\u00e4sare som pratade om samma tema i pass 2.Information om kursuppl\u00e4gget beh\u00f6ver ocks\u00e5 fortsatt arbetas med. \u00c4ven om informationen finns tillg\u00e4nglig, t ex l\u00e4sanvisningarna p\u00e5 kurshemsidan, s\u00e5 beh\u00f6vs den pekas p\u00e5 upprepade g\u00e5nger under f\u00f6rel\u00e4sningarna. \u00c4ven de pedagogiska uppl\u00e4gget beh\u00f6ver f\u00f6rklaras och motiveras \u00e4nnu tydligare, t ex att man l\u00e4r sej mer av att aktivt granska andras arbete \u00e4n att passivt ta emot feedback.Pga \u00e5rets l\u00e4sveckoindelning blev introduktionenen till kursprojektet lite v\u00e4l kort. Till n\u00e4sta omg\u00e5ng beh\u00f6ver projektbeskrivning och genomg\u00e5ngen av den f\u00f6rb\u00e4ttras f\u00f6r att tydligare f\u00f6rmedla syfte och uppl\u00e4gg. Den f\u00f6rb\u00e4ttring vi gjorde med att specifiera en t\u00e4nkt arbetsg\u00e5ng verkar snarare ha skapat mer f\u00f6rvirring \u00e4n hj\u00e4lp studenterna f\u00f6rst\u00e5 uppgiften.Anv\u00e4ndandet av Moodle f\u00f6r att hantera kamratgranskningarna av rapporterna var en f\u00f6rb\u00e4ttring i \u00e5r. Dock kvarst\u00e5r kommentarerna om oj\u00e4mn kvalitet p\u00e5 utf\u00f6rda granskningar. Det skulle kanske kunna f\u00f6rb\u00e4ttras genom att inl\u00e4mnad respons kontrolleras, dock \u00e4r den st\u00f6rsta f\u00f6rb\u00e4ttringen att \u00e4nnu tydligare peka p\u00e5 vinsterna f\u00f6r egen del av att granska andras arbete. Kamratgranskningsuppl\u00e4gget skulle kunna f\u00f6rb\u00e4ttras ytterligare, t ex med l\u00e4rarledda diskussion fr\u00e5gor under de muntliga \u00e5terkopplingstillf\u00e4llena (\u00f6vning 2 & 3).Slutligen s\u00e5 skulle jag vilja spr\u00e4nga in sm\u00e5 \u00f6vningar p\u00e5 f\u00f6rel\u00e4sningarna med praktiska och f\u00f6r teorin relevanta fr\u00e5gest\u00e4llningar. Detta skulle kunna stimulera till reflektion och st\u00f6dja aktivt l\u00e4rande av f\u00f6rel\u00e4sningsinneh\u00e5llet.Programledarens kommentarerKursen kommer att ges en g\u00e5ng till d\u00e5 den senare kommer att sl\u00e5s ihop med ing.proc. - samh\u00e4llsaspekter i det nya obligatoriet f\u00f6r D.P\u00e5 CEQ-m\u00f6tet diskuterades hur uppgiftsbeskrivningen f\u00f6r projektet kan f\u00f6rb\u00e4ttras d\u00e5 flera studenter upplever den r\u00f6rig. Den kommer att ses \u00f6ver till n\u00e4sta \u00e5r.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerDetta \u00e4r en kurs som beh\u00f6ver ses \u00f6ver. Studenterna hade sv\u00e5rt att f\u00f6rst\u00e5 vad de skulle g\u00f6ra till projektet. Att ha en tenta och ett projekt i en kurs p\u00e5 4 po\u00e4ng \u00e4r f\u00f6r mycket. \u00d6verlag s\u00e5 var projektet otydligt, studenterna k\u00e4nde att de problem som uppstod i projektet inte hade med \u00e4mnet att g\u00f6ra utan snarare annat kringliggande sakerna.Kursl\u00e4rarens kommentererKA response to CEQ for ETSF01 2015/16En av kursens st\u00f6rsta utmaningar \u00e4r att f\u00f6rmedla relevansen av kursinneh\u00e5llet, d\u00e5 det handlar om av icke-tekniska aspekter av programvaruutveckling (projektplanering/ledning etc.) Responsen \u00e4r fortsatt blandad med b\u00e5de positiva och negativa fritext svar p\u00e5 denna punkt. Kursinneh\u00e5llet beh\u00f6ver fortl\u00f6pande motiveras igenom hela kursen, inte bara i b\u00f6rjan. \u00c5rets tv\u00e5 g\u00e4stf\u00f6rel\u00e4sningar var uppskattade, och gav insikt i hur projekt leds och organiseras inom industrin. Uppl\u00e4gget med tema f\u00f6rel\u00e4sningar fungerade bra, dvs en vanlig f\u00f6rel\u00e4sning i pass 1 och en g\u00e4stf\u00f6rel\u00e4sare som pratade om samma tema i pass 2.Information om kursuppl\u00e4gget beh\u00f6ver ocks\u00e5 fortsatt arbetas med. \u00c4ven om informationen finns tillg\u00e4nglig, t ex l\u00e4sanvisningarna p\u00e5 kurshemsidan, s\u00e5 beh\u00f6vs den pekas p\u00e5 upprepade g\u00e5nger under f\u00f6rel\u00e4sningarna. \u00c4ven de pedagogiska uppl\u00e4gget beh\u00f6ver f\u00f6rklaras och motiveras \u00e4nnu tydligare, t ex att man l\u00e4r sej mer av att aktivt granska andras arbete \u00e4n att passivt ta emot feedback.Pga \u00e5rets l\u00e4sveckoindelning blev introduktionenen till kursprojektet lite v\u00e4l kort. Till n\u00e4sta omg\u00e5ng beh\u00f6ver projektbeskrivning och genomg\u00e5ngen av den f\u00f6rb\u00e4ttras f\u00f6r att tydligare f\u00f6rmedla syfte och uppl\u00e4gg. Den f\u00f6rb\u00e4ttring vi gjorde med att specifiera en t\u00e4nkt arbetsg\u00e5ng verkar snarare ha skapat mer f\u00f6rvirring \u00e4n hj\u00e4lp studenterna f\u00f6rst\u00e5 uppgiften.Anv\u00e4ndandet av Moodle f\u00f6r att hantera kamratgranskningarna av rapporterna var en f\u00f6rb\u00e4ttring i \u00e5r. Dock kvarst\u00e5r kommentarerna om oj\u00e4mn kvalitet p\u00e5 utf\u00f6rda granskningar. Det skulle kanske kunna f\u00f6rb\u00e4ttras genom att inl\u00e4mnad respons kontrolleras, dock \u00e4r den st\u00f6rsta f\u00f6rb\u00e4ttringen att \u00e4nnu tydligare peka p\u00e5 vinsterna f\u00f6r egen del av att granska andras arbete. Kamratgranskningsuppl\u00e4gget skulle kunna f\u00f6rb\u00e4ttras ytterligare, t ex med l\u00e4rarledda diskussion fr\u00e5gor under de muntliga \u00e5terkopplingstillf\u00e4llena (\u00f6vning 2 & 3).Slutligen s\u00e5 skulle jag vilja spr\u00e4nga in sm\u00e5 \u00f6vningar p\u00e5 f\u00f6rel\u00e4sningarna med praktiska och f\u00f6r teorin relevanta fr\u00e5gest\u00e4llningar. Detta skulle kunna stimulera till reflektion och st\u00f6dja aktivt l\u00e4rande av f\u00f6rel\u00e4sningsinneh\u00e5llet.Programledarens kommentarerKursen kommer att ges en g\u00e5ng till d\u00e5 den senare kommer att sl\u00e5s ihop med ing.proc. - samh\u00e4llsaspekter i det nya obligatoriet f\u00f6r D.P\u00e5 CEQ-m\u00f6tet diskuterades hur uppgiftsbeskrivningen f\u00f6r projektet kan f\u00f6rb\u00e4ttras d\u00e5 flera studenter upplever den r\u00f6rig. Den kommer att ses \u00f6ver till n\u00e4sta \u00e5r.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-51',
     'importanceScore': '0',
     'name': 'Ingenj\u00f6rsprocessen f\u00f6r programvaruutveckling - ekonomi och kvalitet',
@@ -4257,7 +4257,7 @@ export default {
     'satisfactionScore': '-53',
     'teachingScore': '-35',
     'workloadScore': '+10',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '284': {
     'assessmentScore': '+70',
@@ -4272,12 +4272,12 @@ export default {
     'satisfactionScore': '+82',
     'teachingScore': '+56',
     'workloadScore': '+47',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '285': {
     'assessmentScore': '+46',
     'code': 'FMN011',
-    'comments': 'Studier\u00e5dets kommentarerStudenterna var v\u00e4ldigt n\u00f6jda med f\u00f6rel\u00e4sningarna och f\u00f6rel\u00e4saren, men det beh\u00f6vs svar till \u00f6vningar och seminarier s\u00e5 att man kan kontrollera sina tankeg\u00e5ngar \u00e4ven om man inte kan dyka upp p\u00e5 tillf\u00e4llet. M\u00e5nga k\u00e4nde \u00e4ven att kursen var v\u00e4ldigt tung och att man kanske borde \u00f6verv\u00e4ga att minska inneh\u00e5llet eller s\u00e4tta in fler f\u00f6rel\u00e4sningar f\u00f6r att underl\u00e4tta.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerP\u00e5 CEQ-m\u00f6tet deltog kursansvarig, representant f\u00f6r studenterna samt programledningen f\u00f6r D. B\u00e5de studenter och kursansvarig \u00e4r mycket n\u00f6jda med kursen. De kommentarer som fanns i CEQ ang\u00e5ende inst\u00e4llda\/flyttade f\u00f6rel\u00e4sningar g\u00e4llde ett tillf\u00e4lle n\u00e4r kursansvarig blev sjuk. Programledningen \u00e4r glada \u00f6ver all den positiva feedback som studenterna har gett.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerStudenterna var v\u00e4ldigt n\u00f6jda med f\u00f6rel\u00e4sningarna och f\u00f6rel\u00e4saren, men det beh\u00f6vs svar till \u00f6vningar och seminarier s\u00e5 att man kan kontrollera sina tankeg\u00e5ngar \u00e4ven om man inte kan dyka upp p\u00e5 tillf\u00e4llet. M\u00e5nga k\u00e4nde \u00e4ven att kursen var v\u00e4ldigt tung och att man kanske borde \u00f6verv\u00e4ga att minska inneh\u00e5llet eller s\u00e4tta in fler f\u00f6rel\u00e4sningar f\u00f6r att underl\u00e4tta.Kursl\u00e4rarens kommentererKommentarer har ej inkommet f\u00f6re utsatt tidProgramledarens kommentarerP\u00e5 CEQ-m\u00f6tet deltog kursansvarig, representant f\u00f6r studenterna samt programledningen f\u00f6r D. B\u00e5de studenter och kursansvarig \u00e4r mycket n\u00f6jda med kursen. De kommentarer som fanns i CEQ ang\u00e5ende inst\u00e4llda/flyttade f\u00f6rel\u00e4sningar g\u00e4llde ett tillf\u00e4lle n\u00e4r kursansvarig blev sjuk. Programledningen \u00e4r glada \u00f6ver all den positiva feedback som studenterna har gett.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+34',
     'importanceScore': '+64',
     'name': 'Numerisk analys',
@@ -4287,7 +4287,7 @@ export default {
     'satisfactionScore': '+58',
     'teachingScore': '+48',
     'workloadScore': '-4',
-    'year': '15\/16'
+    'year': '15/16'
   },
   '286': {
     'assessmentScore': '+66',
@@ -4302,12 +4302,12 @@ export default {
     'satisfactionScore': '+71',
     'teachingScore': '+59',
     'workloadScore': '+28',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '287': {
     'assessmentScore': '+15',
     'code': 'EDA070',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerDatorer och datoranv\u00e4ndning \u00e4r en kurs som fyller sitt syfte, vilket \u00e4r att introducera studenter till vanligt f\u00f6rekommande datorbegrepp och -program. Kursens inneh\u00e5ll kan beh\u00f6va uppdateras och d\u00e5 vissa delar av inneh\u00e5llet anses orelevant.Kursl\u00e4rarens kommentererKursen fungerar \u00f6verlag v\u00e4l, vilket parterna p\u00e5 CEQ-m\u00f6tet verkade vara \u00f6verens om. Det \u00e4r dock dags att se \u00f6ver vilka komponenter som ska ing\u00e5 i kursen i framtiden. Vi identifierade teckenkodning som ett exempel p\u00e5 n\u00e5got som borde behandlas mer ing\u00e5ende i D-introduktionen och skulle kunna ers\u00e4tta den nuvarande f\u00f6rel\u00e4sningen\/laborationen om Internet som kanske b\u00f6rjat bli obsolet. Vi \u00e4mnar p\u00e5b\u00f6rja en s\u00e5dan \u00f6versyn till n\u00e4sta \u00e5r.Programledarens kommentarerKursen \u00e4r rel\u00e4vant f\u00f6r utbildningen. Den ger studenterna en introduktion om datorn som verktyg- Kursmaterialet har dock varit med ett antal \u00e5r och viss kursutveckling beh\u00f6vs. P\u00e5 CEQ-m\u00f6tet best\u00e4mdes att kursen skulle ses \u00f6ver till n\u00e4sta \u00e5r.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerDatorer och datoranv\u00e4ndning \u00e4r en kurs som fyller sitt syfte, vilket \u00e4r att introducera studenter till vanligt f\u00f6rekommande datorbegrepp och -program. Kursens inneh\u00e5ll kan beh\u00f6va uppdateras och d\u00e5 vissa delar av inneh\u00e5llet anses orelevant.Kursl\u00e4rarens kommentererKursen fungerar \u00f6verlag v\u00e4l, vilket parterna p\u00e5 CEQ-m\u00f6tet verkade vara \u00f6verens om. Det \u00e4r dock dags att se \u00f6ver vilka komponenter som ska ing\u00e5 i kursen i framtiden. Vi identifierade teckenkodning som ett exempel p\u00e5 n\u00e5got som borde behandlas mer ing\u00e5ende i D-introduktionen och skulle kunna ers\u00e4tta den nuvarande f\u00f6rel\u00e4sningen/laborationen om Internet som kanske b\u00f6rjat bli obsolet. Vi \u00e4mnar p\u00e5b\u00f6rja en s\u00e5dan \u00f6versyn till n\u00e4sta \u00e5r.Programledarens kommentarerKursen \u00e4r rel\u00e4vant f\u00f6r utbildningen. Den ger studenterna en introduktion om datorn som verktyg- Kursmaterialet har dock varit med ett antal \u00e5r och viss kursutveckling beh\u00f6vs. P\u00e5 CEQ-m\u00f6tet best\u00e4mdes att kursen skulle ses \u00f6ver till n\u00e4sta \u00e5r.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+51',
     'importanceScore': '+64',
     'name': 'Datorer och datoranv\u00e4ndning',
@@ -4317,7 +4317,7 @@ export default {
     'satisfactionScore': '+49',
     'teachingScore': '+23',
     'workloadScore': '+51',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '288': {
     'assessmentScore': '+62',
@@ -4332,7 +4332,7 @@ export default {
     'satisfactionScore': '+79',
     'teachingScore': '+45',
     'workloadScore': '+9',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '289': {
     'assessmentScore': '+44',
@@ -4347,7 +4347,7 @@ export default {
     'satisfactionScore': '+73',
     'teachingScore': '+28',
     'workloadScore': '+45',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '290': {
     'assessmentScore': '+54',
@@ -4362,7 +4362,7 @@ export default {
     'satisfactionScore': '+26',
     'teachingScore': '-7',
     'workloadScore': '+9',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '291': {
     'assessmentScore': '+65',
@@ -4377,7 +4377,7 @@ export default {
     'satisfactionScore': '+60',
     'teachingScore': '+57',
     'workloadScore': '+18',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '292': {
     'assessmentScore': '+59',
@@ -4392,7 +4392,7 @@ export default {
     'satisfactionScore': '+42',
     'teachingScore': '+12',
     'workloadScore': '-4',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '293': {
     'assessmentScore': '+21',
@@ -4407,7 +4407,7 @@ export default {
     'satisfactionScore': '+63',
     'teachingScore': '+27',
     'workloadScore': '+35',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '294': {
     'assessmentScore': '+47',
@@ -4422,7 +4422,7 @@ export default {
     'satisfactionScore': '+43',
     'teachingScore': '+11',
     'workloadScore': '-17',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '295': {
     'assessmentScore': '+43',
@@ -4437,12 +4437,12 @@ export default {
     'satisfactionScore': '+3',
     'teachingScore': '-36',
     'workloadScore': '-8',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '296': {
     'assessmentScore': '+37',
     'code': 'TEK210',
-    'comments': 'KommentarerStudier\u00e5dets kommentarerM\u00e5nga gillar denna kursen f\u00f6r att det \u00e4r intressant och annorlunda fr\u00e5n vad data brukar l\u00e4sa. M\u00e5nga tycker dock att kraven p\u00e5 minst antal ord till slutuppgiften inte beh\u00f6vs d\u00e5 m\u00e5nga inte k\u00e4nner att de n\u00e5r den naturligt och det \u00e4r b\u00e4ttre med kvalite framf\u00f6r kvantitet. Det hade ocks\u00e5 hj\u00e4lpt om man hade kunnat f\u00e5 lite feedback p\u00e5 den eller ett exempel s\u00e5 man hade n\u00e5gon v\u00e4gledning i ifall man faktiskt skrivit det som man skulle eller om man missuppfattat.Kursl\u00e4rarens kommentererKursen verkar har fungerat tillfredsst\u00e4llande, f\u00f6rutom att en del studenter upplevde att grupp\/\u00f6vningsledare kom med olika information. Jag kommer att vara \u00e4nnu tydligare i kommunikationen med \u00f6vningsledarna till n\u00e4sta omg\u00e5ng om vad som g\u00e4ller.Under CEQ-m\u00f6tet kom vi ocks\u00e5 \u00f6verens om att i st\u00f6rre utstr\u00e4ckning betona att ett av m\u00e5len med kursen \u00e4r att \u00f6va er i att skriva akademiska texter. Detta \u00e4r anledningen till de specifika krav som finns p\u00e5 era inl\u00e4mningsuppgifter, exempelvis referenshantering, antal ord etc.Det var roligt att se att de flesta studenterna uppskattade laborationer och \u00f6vningar samt examinationen. Jag noterar ocks\u00e5 att m\u00e5nga tyckte illa om kursplattformen. Tyv\u00e4rr \u00e4r vi bundna till den, men vi kommer att forts\u00e4tta f\u00f6rs\u00f6ka hj\u00e4lpa er att navigera den. Tack f\u00f6r en trevlig termin och lycka till i framtiden!\/AnnikaProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'KommentarerStudier\u00e5dets kommentarerM\u00e5nga gillar denna kursen f\u00f6r att det \u00e4r intressant och annorlunda fr\u00e5n vad data brukar l\u00e4sa. M\u00e5nga tycker dock att kraven p\u00e5 minst antal ord till slutuppgiften inte beh\u00f6vs d\u00e5 m\u00e5nga inte k\u00e4nner att de n\u00e5r den naturligt och det \u00e4r b\u00e4ttre med kvalite framf\u00f6r kvantitet. Det hade ocks\u00e5 hj\u00e4lpt om man hade kunnat f\u00e5 lite feedback p\u00e5 den eller ett exempel s\u00e5 man hade n\u00e5gon v\u00e4gledning i ifall man faktiskt skrivit det som man skulle eller om man missuppfattat.Kursl\u00e4rarens kommentererKursen verkar har fungerat tillfredsst\u00e4llande, f\u00f6rutom att en del studenter upplevde att grupp/\u00f6vningsledare kom med olika information. Jag kommer att vara \u00e4nnu tydligare i kommunikationen med \u00f6vningsledarna till n\u00e4sta omg\u00e5ng om vad som g\u00e4ller.Under CEQ-m\u00f6tet kom vi ocks\u00e5 \u00f6verens om att i st\u00f6rre utstr\u00e4ckning betona att ett av m\u00e5len med kursen \u00e4r att \u00f6va er i att skriva akademiska texter. Detta \u00e4r anledningen till de specifika krav som finns p\u00e5 era inl\u00e4mningsuppgifter, exempelvis referenshantering, antal ord etc.Det var roligt att se att de flesta studenterna uppskattade laborationer och \u00f6vningar samt examinationen. Jag noterar ocks\u00e5 att m\u00e5nga tyckte illa om kursplattformen. Tyv\u00e4rr \u00e4r vi bundna till den, men vi kommer att forts\u00e4tta f\u00f6rs\u00f6ka hj\u00e4lpa er att navigera den. Tack f\u00f6r en trevlig termin och lycka till i framtiden!/AnnikaProgramledarens kommentarerKommentarer har ej inkommet f\u00f6re utsatt tidCEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+15',
     'importanceScore': '+9',
     'name': 'Kognition',
@@ -4452,7 +4452,7 @@ export default {
     'satisfactionScore': '+12',
     'teachingScore': '+4',
     'workloadScore': '+43',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '297': {
     'assessmentScore': '+58',
@@ -4467,7 +4467,7 @@ export default {
     'satisfactionScore': '+76',
     'teachingScore': '+33',
     'workloadScore': '+44',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '298': {
     'assessmentScore': '+55',
@@ -4482,7 +4482,7 @@ export default {
     'satisfactionScore': '+86',
     'teachingScore': '+54',
     'workloadScore': '+43',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '299': {
     'assessmentScore': '+31',
@@ -4497,7 +4497,7 @@ export default {
     'satisfactionScore': '+83',
     'teachingScore': '+55',
     'workloadScore': '+27',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '300': {
     'assessmentScore': '+20',
@@ -4512,7 +4512,7 @@ export default {
     'satisfactionScore': '+13',
     'teachingScore': '+2',
     'workloadScore': '-2',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '301': {
     'assessmentScore': '+46',
@@ -4527,7 +4527,7 @@ export default {
     'satisfactionScore': '+8',
     'teachingScore': '+3',
     'workloadScore': '-1',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '302': {
     'assessmentScore': '+23',
@@ -4542,7 +4542,7 @@ export default {
     'satisfactionScore': '-13',
     'teachingScore': '-1',
     'workloadScore': '+3',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '303': {
     'assessmentScore': '+50',
@@ -4557,12 +4557,12 @@ export default {
     'satisfactionScore': '0',
     'teachingScore': '-25',
     'workloadScore': '-75',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '304': {
     'assessmentScore': '+55',
     'code': 'FMAF10',
-    'comments': 'Studier\u00e5dets kommentarerKursen \u00e4r bra, inget st\u00f6rre utvecklingsbehov. Arbetsb\u00f6rdan \u00e4r lagom, labbarna var nyttiga och l\u00e4raren upplevdes som mycket hj\u00e4lpsam.Kursl\u00e4rarens kommentererVi \u00e4r glada att kursen fungerat v\u00e4l ocks\u00e5 i \u00e5r.N\u00e5gra studenter har klagat p\u00e5 att boken k\u00e4nns gammal. Inneh\u00e5llet i boken \u00e4r inte f\u00f6r\u00e5ldrat och det \u00e4r sv\u00e5rt att finna en f\u00e4rdigskriven bok som tar upp hela kursinneh\u00e5llet. Alternativet skulle bli en dyrare och tjockare engelskspr\u00e5kig bok. Vi skall fundera p\u00e5 att komplettera boken med kortare texter om (modernare) till\u00e4mpningar av relevans f\u00f6r D-ingenj\u00f6ren. \/StudierektorProgramledarens kommentarerEn v\u00e4l genomf\u00f6rd kurs. Programledningen ser inget behov av omfattande kursutveckling.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'Studier\u00e5dets kommentarerKursen \u00e4r bra, inget st\u00f6rre utvecklingsbehov. Arbetsb\u00f6rdan \u00e4r lagom, labbarna var nyttiga och l\u00e4raren upplevdes som mycket hj\u00e4lpsam.Kursl\u00e4rarens kommentererVi \u00e4r glada att kursen fungerat v\u00e4l ocks\u00e5 i \u00e5r.N\u00e5gra studenter har klagat p\u00e5 att boken k\u00e4nns gammal. Inneh\u00e5llet i boken \u00e4r inte f\u00f6r\u00e5ldrat och det \u00e4r sv\u00e5rt att finna en f\u00e4rdigskriven bok som tar upp hela kursinneh\u00e5llet. Alternativet skulle bli en dyrare och tjockare engelskspr\u00e5kig bok. Vi skall fundera p\u00e5 att komplettera boken med kortare texter om (modernare) till\u00e4mpningar av relevans f\u00f6r D-ingenj\u00f6ren. /StudierektorProgramledarens kommentarerEn v\u00e4l genomf\u00f6rd kurs. Programledningen ser inget behov av omfattande kursutveckling.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '+49',
     'importanceScore': '+38',
     'name': 'Till\u00e4mpad matematik - Linj\u00e4ra system',
@@ -4572,7 +4572,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+17',
     'workloadScore': '+30',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '305': {
     'assessmentScore': '+26',
@@ -4587,7 +4587,7 @@ export default {
     'satisfactionScore': '+15',
     'teachingScore': '-5',
     'workloadScore': '+42',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '306': {
     'assessmentScore': '+51',
@@ -4602,7 +4602,7 @@ export default {
     'satisfactionScore': '+28',
     'teachingScore': '+19',
     'workloadScore': '+8',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '307': {
     'assessmentScore': '+83',
@@ -4617,12 +4617,12 @@ export default {
     'satisfactionScore': '+88',
     'teachingScore': '+64',
     'workloadScore': '+33',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '308': {
     'assessmentScore': '+74',
     'code': 'EDAF40',
-    'comments': 'The EDAF40 (G2, 5hp, for D2) course was given for the first time, as a modification of an earlier course EDAN40 (A, 7,5hp, for D4 and others) which was given simultaneously.The fact that the courses were given together, with shared lectures (10 out of 14) and assignments (2 out of 3), made it impossible to satisfy all expectations related to the course. Some students complained about the too advanced level of the lectures and a high grade of expected self-sufficiency regarding the assignments. Some others praised both. But the general impression is that the assignments, in particular the first one, is too complex (or too cryptic). The lectures require refreshment and adaptation to G2-level, at least the common ones.In the next year we plan to have introductory labs for the EDAF40 students, making it easier to get through the language learning barrier in the beginning of the course and preparing for the assignments. Two labs are planned before the first assignment, and two before the second. The labs will be voluntary, at least during 2017\/18.The assignments will be reworked, possibly making completely different assignments for EDAF40 and EDAN40. However, this will make the switch between the courses more problematic for those who would like to take EDAN40 later or would change their mind during the term. But as the EDAF40 is an obligatory course, its demands take preference.Finally, the lectures will take up a number of advanced examples, and will spell them out in another functional language as well (Scala) in order to stress the generic aspect of the concepts being presented.Programledarens kommentarerKursen \u00e4r ny variant p\u00e5 G-niv\u00e5. det kan beh\u00f6vas ytterligare lite anpassnings av undervisningsformen f\u00f6r att passa p\u00e5 G2-niv\u00e5 (f\u00f6r D2). I \u00f6vrigt \u00e4r det en bra kurs.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
+    'comments': 'The EDAF40 (G2, 5hp, for D2) course was given for the first time, as a modification of an earlier course EDAN40 (A, 7,5hp, for D4 and others) which was given simultaneously.The fact that the courses were given together, with shared lectures (10 out of 14) and assignments (2 out of 3), made it impossible to satisfy all expectations related to the course. Some students complained about the too advanced level of the lectures and a high grade of expected self-sufficiency regarding the assignments. Some others praised both. But the general impression is that the assignments, in particular the first one, is too complex (or too cryptic). The lectures require refreshment and adaptation to G2-level, at least the common ones.In the next year we plan to have introductory labs for the EDAF40 students, making it easier to get through the language learning barrier in the beginning of the course and preparing for the assignments. Two labs are planned before the first assignment, and two before the second. The labs will be voluntary, at least during 2017/18.The assignments will be reworked, possibly making completely different assignments for EDAF40 and EDAN40. However, this will make the switch between the courses more problematic for those who would like to take EDAN40 later or would change their mind during the term. But as the EDAF40 is an obligatory course, its demands take preference.Finally, the lectures will take up a number of advanced examples, and will spell them out in another functional language as well (Scala) in order to stress the generic aspect of the concepts being presented.Programledarens kommentarerKursen \u00e4r ny variant p\u00e5 G-niv\u00e5. det kan beh\u00f6vas ytterligare lite anpassnings av undervisningsformen f\u00f6r att passa p\u00e5 G2-niv\u00e5 (f\u00f6r D2). I \u00f6vrigt \u00e4r det en bra kurs.CEQ-enk\u00e4ten fylldes iWebbenk\u00e4ter har anv\u00e4nts p\u00e5 denna kurs.',
     'goalClearnessScore': '-9',
     'importanceScore': '+80',
     'name': 'Funktionsprogrammering',
@@ -4632,7 +4632,7 @@ export default {
     'satisfactionScore': '+5',
     'teachingScore': '-35',
     'workloadScore': '-6',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '309': {
     'assessmentScore': '+72',
@@ -4647,7 +4647,7 @@ export default {
     'satisfactionScore': '+22',
     'teachingScore': '-13',
     'workloadScore': '+17',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '310': {
     'assessmentScore': '+42',
@@ -4662,7 +4662,7 @@ export default {
     'satisfactionScore': '-8',
     'teachingScore': '-31',
     'workloadScore': '+51',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '311': {
     'assessmentScore': '+52',
@@ -4677,12 +4677,12 @@ export default {
     'satisfactionScore': '+47',
     'teachingScore': '+7',
     'workloadScore': '+50',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '312': {
     'assessmentScore': '+29',
     'code': 'ETSF01',
-    'comments': 'Studier\u00e5dets kommentarerEkonomi och kvalitet kursen \u00e4r en kurs med bra inneh\u00e5ll som tyv\u00e4rr inte kommer fram p\u00e5 ett helt r\u00e4ttvist s\u00e4tt. Projektet upplevdes som sv\u00e5rt att koppla till vad som gicks igenom p\u00e5 f\u00f6rel\u00e4sningarna och beskrivningen upplevdes ofta som diffus s\u00e5 studenterna inte hade en klar uppfattning om vad som skulle g\u00f6ras. Till den framtida kursen vill studier\u00e5det g\u00e4rna se ett annat uppl\u00e4gg f\u00f6r eventuellt projekt.Kursl\u00e4rarens kommentererStudenterna \u00e4r \u00f6verlag mer n\u00f6jda med kursen i \u00e5r och har graderat n\u00f6jdhet till -34 j\u00e4mf\u00f6rt med f\u00f6rra \u00e5rets -50 (CEQ f\u00f6r 2015\/16). En m\u00f6jlig f\u00f6rklaring till detta kan vara det \u00f6kade fokuset p\u00e5 att inkludera aktiva moment i f\u00f6rel\u00e4sningarna, och \u00e4ven f\u00f6rtydliga att projektplaneringstekniker mycket v\u00e4l kan appliceras p\u00e5 studenternas egna projekt.\u00c4ven fr\u00e5gan g\u00e4llande hur kursen hj\u00e4lper studenten att f\u00f6rb\u00e4ttra sitt skrivande har \u00f6kat fr\u00e5n -1 (CEQ f\u00f6r 2015\/16) till 11. Denna f\u00f6rb\u00e4ttring kan ev f\u00f6rklaras av att alla studenter i \u00e5r har f\u00e5tt granska 2 andra projektrapporter, vilket enligt forskningsresultat leder till f\u00f6rb\u00e4ttrade l\u00e4rande av skrivaspekter.Detta \u00e4r sista \u00e5ret ETSF01 kursen ges. Stora delar av kursinneh\u00e5llet kommer fram\u00f6ver att ing\u00e5 i kursen ETSF25 Aff\u00e4rsdriven programvaruutveckling, d\u00e4r denna CEQ tas som input till kursutvecklingen.F\u00f6rel\u00e4sningarna funkar i stort bra och uppfattas som tydliga. P\u00e5 ett m\u00f6te med kursrepresentanterna halvv\u00e4gs igenom kursen n\u00e4mndes att f\u00f6rel\u00e4sningsbilderna inneh\u00f6ll v\u00e4ldigt mycket information, vilket jag justerade o d\u00e5 funkade b\u00e4ttre. Det finns CEQ kommentarer om att f\u00f6rel\u00e4sningsbilderna \u00e4r r\u00f6riga, dock oklar om det g\u00e4ller vid anv\u00e4ndning f\u00f6r sj\u00e4lvstudier eller under sj\u00e4lva f\u00f6rel\u00e4sningen (vilket de \u00e4r framtagna f\u00f6r.)G\u00e4stf\u00f6rel\u00e4sningarna uppskattas och kommer att ing\u00e5 \u00e4ven i den nya kursen.Projektuppgiften \u00e4r komplex och initialt sv\u00e5r f\u00f6r studenterna att greppa. Dock finns det CEQ kommentarer om att uppgiften i sej inte upplevdes som s\u00e5 komplex n\u00e4r man f\u00f6rst\u00e5tt vad man skulle g\u00f6ra. Uppgiften omfattar ett verklighetsbaserat fall vilket uppskattas, \u00e4ven om den kr\u00e4ver erfarenhet av programvaruprojekt vilket inte alla studenter har. Den nya kursen kommer att inneh\u00e5lla en annan projektuppgift.I \u00e5r har vi f\u00f6rs\u00f6kt f\u00f6rb\u00e4ttra kamratgransknings\u00f6vningarna genom att uppmuntra studenterna till att diskutera kommentarerna och de olika aspekterna av skrivande som tas upp. Trots detta upplever m\u00e5nga studenter dessa \u00f6vningstillf\u00e4llen som tunna p\u00e5 v\u00e4rde. Ist\u00e4llet efterfr\u00e5gar de m\u00f6jlighet att applicera det som l\u00e4rs ut. Detta tar vi fasta p\u00e5 n\u00e4r vi utvecklar den nya kursen och kommer d\u00e4r att ha seminarium med \u00f6vningsuppgifter p\u00e5 t ex projektplanering och risk analys.Programledarens kommentarerKursen gavs f\u00f6r sista g\u00e5ngen och ers\u00e4tts av en ny kurs, "aff\u00e4rsdriven programvaruutveckling" N\u00e5gra av momenten fr\u00e5n ETSF01 kommet att f\u00f6ras \u00f6ver till den nya kursen, framf\u00f6rallt moment som r\u00f6r skriftlig kommunikation.CEQ-enk\u00e4ten fylldes iP\u00e5 sista f\u00f6rel\u00e4sningen',
+    'comments': 'Studier\u00e5dets kommentarerEkonomi och kvalitet kursen \u00e4r en kurs med bra inneh\u00e5ll som tyv\u00e4rr inte kommer fram p\u00e5 ett helt r\u00e4ttvist s\u00e4tt. Projektet upplevdes som sv\u00e5rt att koppla till vad som gicks igenom p\u00e5 f\u00f6rel\u00e4sningarna och beskrivningen upplevdes ofta som diffus s\u00e5 studenterna inte hade en klar uppfattning om vad som skulle g\u00f6ras. Till den framtida kursen vill studier\u00e5det g\u00e4rna se ett annat uppl\u00e4gg f\u00f6r eventuellt projekt.Kursl\u00e4rarens kommentererStudenterna \u00e4r \u00f6verlag mer n\u00f6jda med kursen i \u00e5r och har graderat n\u00f6jdhet till -34 j\u00e4mf\u00f6rt med f\u00f6rra \u00e5rets -50 (CEQ f\u00f6r 2015/16). En m\u00f6jlig f\u00f6rklaring till detta kan vara det \u00f6kade fokuset p\u00e5 att inkludera aktiva moment i f\u00f6rel\u00e4sningarna, och \u00e4ven f\u00f6rtydliga att projektplaneringstekniker mycket v\u00e4l kan appliceras p\u00e5 studenternas egna projekt.\u00c4ven fr\u00e5gan g\u00e4llande hur kursen hj\u00e4lper studenten att f\u00f6rb\u00e4ttra sitt skrivande har \u00f6kat fr\u00e5n -1 (CEQ f\u00f6r 2015/16) till 11. Denna f\u00f6rb\u00e4ttring kan ev f\u00f6rklaras av att alla studenter i \u00e5r har f\u00e5tt granska 2 andra projektrapporter, vilket enligt forskningsresultat leder till f\u00f6rb\u00e4ttrade l\u00e4rande av skrivaspekter.Detta \u00e4r sista \u00e5ret ETSF01 kursen ges. Stora delar av kursinneh\u00e5llet kommer fram\u00f6ver att ing\u00e5 i kursen ETSF25 Aff\u00e4rsdriven programvaruutveckling, d\u00e4r denna CEQ tas som input till kursutvecklingen.F\u00f6rel\u00e4sningarna funkar i stort bra och uppfattas som tydliga. P\u00e5 ett m\u00f6te med kursrepresentanterna halvv\u00e4gs igenom kursen n\u00e4mndes att f\u00f6rel\u00e4sningsbilderna inneh\u00f6ll v\u00e4ldigt mycket information, vilket jag justerade o d\u00e5 funkade b\u00e4ttre. Det finns CEQ kommentarer om att f\u00f6rel\u00e4sningsbilderna \u00e4r r\u00f6riga, dock oklar om det g\u00e4ller vid anv\u00e4ndning f\u00f6r sj\u00e4lvstudier eller under sj\u00e4lva f\u00f6rel\u00e4sningen (vilket de \u00e4r framtagna f\u00f6r.)G\u00e4stf\u00f6rel\u00e4sningarna uppskattas och kommer att ing\u00e5 \u00e4ven i den nya kursen.Projektuppgiften \u00e4r komplex och initialt sv\u00e5r f\u00f6r studenterna att greppa. Dock finns det CEQ kommentarer om att uppgiften i sej inte upplevdes som s\u00e5 komplex n\u00e4r man f\u00f6rst\u00e5tt vad man skulle g\u00f6ra. Uppgiften omfattar ett verklighetsbaserat fall vilket uppskattas, \u00e4ven om den kr\u00e4ver erfarenhet av programvaruprojekt vilket inte alla studenter har. Den nya kursen kommer att inneh\u00e5lla en annan projektuppgift.I \u00e5r har vi f\u00f6rs\u00f6kt f\u00f6rb\u00e4ttra kamratgransknings\u00f6vningarna genom att uppmuntra studenterna till att diskutera kommentarerna och de olika aspekterna av skrivande som tas upp. Trots detta upplever m\u00e5nga studenter dessa \u00f6vningstillf\u00e4llen som tunna p\u00e5 v\u00e4rde. Ist\u00e4llet efterfr\u00e5gar de m\u00f6jlighet att applicera det som l\u00e4rs ut. Detta tar vi fasta p\u00e5 n\u00e4r vi utvecklar den nya kursen och kommer d\u00e4r att ha seminarium med \u00f6vningsuppgifter p\u00e5 t ex projektplanering och risk analys.Programledarens kommentarerKursen gavs f\u00f6r sista g\u00e5ngen och ers\u00e4tts av en ny kurs, "aff\u00e4rsdriven programvaruutveckling" N\u00e5gra av momenten fr\u00e5n ETSF01 kommet att f\u00f6ras \u00f6ver till den nya kursen, framf\u00f6rallt moment som r\u00f6r skriftlig kommunikation.CEQ-enk\u00e4ten fylldes iP\u00e5 sista f\u00f6rel\u00e4sningen',
     'goalClearnessScore': '-11',
     'importanceScore': '+16',
     'name': 'Ingenj\u00f6rsprocessen f\u00f6r programvaruutveckling - ekonomi och kvalitet',
@@ -4692,7 +4692,7 @@ export default {
     'satisfactionScore': '-18',
     'teachingScore': '-2',
     'workloadScore': '+38',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '313': {
     'assessmentScore': '+36',
@@ -4707,7 +4707,7 @@ export default {
     'satisfactionScore': '+77',
     'teachingScore': '+31',
     'workloadScore': '+18',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '314': {
     'assessmentScore': '+46',
@@ -4722,7 +4722,7 @@ export default {
     'satisfactionScore': '+69',
     'teachingScore': '+53',
     'workloadScore': '+6',
-    'year': '16\/17'
+    'year': '16/17'
   },
   '315': {
     'assessmentScore': '+21',
@@ -4737,7 +4737,7 @@ export default {
     'satisfactionScore': '+47',
     'teachingScore': '+14',
     'workloadScore': '+52',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '316': {
     'assessmentScore': '+50',
@@ -4752,7 +4752,7 @@ export default {
     'satisfactionScore': '+81',
     'teachingScore': '+72',
     'workloadScore': '+45',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '317': {
     'assessmentScore': '+41',
@@ -4767,7 +4767,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+21',
     'workloadScore': '+3',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '318': {
     'assessmentScore': '+61',
@@ -4782,7 +4782,7 @@ export default {
     'satisfactionScore': '+61',
     'teachingScore': '+46',
     'workloadScore': '+19',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '319': {
     'assessmentScore': '+21',
@@ -4797,7 +4797,7 @@ export default {
     'satisfactionScore': '+47',
     'teachingScore': '+14',
     'workloadScore': '+52',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '320': {
     'assessmentScore': '+50',
@@ -4812,7 +4812,7 @@ export default {
     'satisfactionScore': '+81',
     'teachingScore': '+72',
     'workloadScore': '+45',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '321': {
     'assessmentScore': '+41',
@@ -4827,7 +4827,7 @@ export default {
     'satisfactionScore': '+50',
     'teachingScore': '+21',
     'workloadScore': '+3',
-    'year': '17\/18'
+    'year': '17/18'
   },
   '322': {
     'assessmentScore': '+61',
@@ -4842,6 +4842,6 @@ export default {
     'satisfactionScore': '+61',
     'teachingScore': '+46',
     'workloadScore': '+19',
-    'year': '17\/18'
+    'year': '17/18'
   }
 }
