@@ -10,6 +10,7 @@ Jag hittade ca 300 valbara kurser för data och infocom, ~160 av dessa var duble
 * Markera vilka specialiseringar kurserna hör till? Kanske scrapa andra sidor också
 * Automatisera scrapning och hämtning till fullo.
 * Spara ner till sqlite
+* cronjob som kollar uptime
 
 ## How to:
 * Installera alla programmen som behövs (python och de flesta i pythonRequirements.txt)
