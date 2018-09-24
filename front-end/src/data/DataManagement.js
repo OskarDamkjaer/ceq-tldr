@@ -12,8 +12,8 @@ export const latestData = scrapeData.reduce((acc, processing) => {
     const notInteresting = acc.filter(current => current.code !== processing.code)
     const interesting = acc.filter(current => current.code === processing.code)
     return interesting
-      .map(current => (
-        parseInt(current.year.slice(-2), 10) > processingYear ? current : processing))
+      .map(current =>
+        (parseInt(current.year.slice(-2), 10) > processingYear ? current : processing))
       .concat(notInteresting)
   }
   return acc.concat(processing)
