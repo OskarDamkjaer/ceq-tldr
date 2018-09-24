@@ -13,10 +13,7 @@ function Table() {
     <PrettyTable>
       <thead>
         <PrettyTr>
-
-          {
             orderedHeaders.map(key => <th key={key}><Link to="/">{key}</Link></th>)
-          }
         </PrettyTr>
       </thead>
       <tbody>
