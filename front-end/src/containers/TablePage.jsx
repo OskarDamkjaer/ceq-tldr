@@ -9,7 +9,7 @@ const TableContainer = styled.div`
  grid-template-areas: ".     header ."
                       ".     search ."
                       "table table  table";
- grid-template-rows: 50px 50px 1fr;
+ grid-template-rows: 100px 50px 1fr;
  grid-template-columns: 100px 1fr 1fr;
 `
 

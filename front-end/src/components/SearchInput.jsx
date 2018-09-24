@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const DamnFineInput = styled.input`
  width: 300px; 
- height: 1.5em;
+ height: 1.4em;
  grid-area: ${props => props.gridArea};
 `
 
