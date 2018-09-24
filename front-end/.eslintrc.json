@@ -1,8 +1,15 @@
 {
-    "extends": "airbnb",
-    "rules": {
-        "react/prop-types": 0,
-        "react/jsx-filename-extension": 0,
-        "implicit-arrow-linebreak": 0
-      }
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "react/prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "implicit-arrow-linebreak": 0,
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
 }
