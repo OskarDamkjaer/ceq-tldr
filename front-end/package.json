@@ -29,5 +29,7 @@
     "eject": "react-scripts eject",
     "eslint": "./node_modules/.bin/eslint . --fix"
   },
-  "pre-commit": ["eslint"]
+  "pre-commit": [
+    "eslint"
+  ]
 }
