@@ -2,13 +2,13 @@ import React from 'react'
 import {
   BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom'
-import Table from './components/Table'
+import TablePage from './components/TablePage'
 import Course from './components/Course'
 
 const App = () => (
   <Router>
     <Switch>
-      <Route exact path="/" component={Table} />
+      <Route exact path="/" component={TablePage} />
       <Route path="/:code" component={Course} />
     </Switch>
   </Router>
