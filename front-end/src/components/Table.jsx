@@ -16,19 +16,26 @@ function Table() {
         <PrettyTr>
 
           {
-              orderedHeaders.map(key => <th key={key}><Link to="/{key}">{key}</Link></th>)
-            }
+          orderedHeaders.map(key => <th key={key}><Link to="/{key}">{key}</Link></th>)
+        }
         </PrettyTr>
       </thead>
       <tbody>
         {
-          latestData.map(row => (
-            <tr>
-              {console.log(row['name'])}
-              {orderedHeaders.map(key => <td key={row[key].code}><Link to={`/${row['name'].toLowerCase().replace(/[, ]+/g, '')}`}>{row[key]}</Link></td>)}
-            </tr>
-          ))
-        }
+        latestData.map(row => (
+          <tr>
+            {orderedHeaders.map(key => (
+              <td key={row[key].code}>
+                <Link
+                  to={`/${row.name.toLowerCase().replace(/[, ]+/g, '')}`}
+                >
+                  {row[key]}
+                </Link>
+              </td>
+            ))}
+          </tr>
+        ))
+      }
       </tbody>
     </PrettyTable>
   )
