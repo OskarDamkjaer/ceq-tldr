@@ -10,7 +10,7 @@ class TablePage extends React.Component {
 
   render() {
     return (
-      <Table data={latestData} headers={orderedHeaders}/>
+      <Table data={latestData} headers={orderedHeaders} />
     )
   }
 }
