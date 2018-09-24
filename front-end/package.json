@@ -11,7 +11,6 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
-    "pre-commit": "^1.2.2",
     "prop-types": "^15.6.2",
     "react-scripts": "1.1.4"
   },
@@ -28,8 +27,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "eslint": "./node_modules/.bin/eslint . --fix"
-  },
-  "pre-commit": [
-    "eslint"
-  ]
+  }
 }
