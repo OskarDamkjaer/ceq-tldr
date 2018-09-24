@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { latestData, orderedHeaders } from '../data/DataManagement';
+import React from 'react'
+import styled from 'styled-components'
+import { latestData, orderedHeaders } from '../data/DataManagement'
 
 const PrettyTable = styled.table`
 `;
@@ -28,6 +28,6 @@ function Table() {
   );
 }
 
-Table.propTypes = {};
+Table.propTypes = {}
 
-export default Table;
+export default Table

@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 import {
   BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom';
-import Table from './components/Table';
-import Course from './components/Course';
+import Table from './components/Table'
+import Course from './components/Course'
 
 
 const App = () => (
@@ -16,4 +16,4 @@ const App = () => (
 );
 
 
-export default App;
+export default App

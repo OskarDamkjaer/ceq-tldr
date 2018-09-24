@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Course = ({ match }) => (
   <div>
@@ -7,4 +7,4 @@ const Course = ({ match }) => (
   </div>
 );
 
-export default Course;
+export default Course
