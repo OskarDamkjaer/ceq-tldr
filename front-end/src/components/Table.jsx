@@ -16,7 +16,7 @@ function Table() {
         <PrettyTr>
 
           {
-          orderedHeaders.map(key => <th key={key}><Link to="/{key}">{key}</Link></th>)
+          orderedHeaders.map(key => <th key={key}><Link to="/">{key}</Link></th>)
         }
         </PrettyTr>
       </thead>
