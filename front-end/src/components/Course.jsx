@@ -3,7 +3,7 @@ import React from 'react'
 const Course = ({ match }) => (
   <div>
     <h3>{`Sammanställning kurs: ${match.params.code}`}</h3>
-    <h3>{match.url}</h3>
+    <h3>{match.url.toLowerCase()}</h3>
   </div>
 )
 

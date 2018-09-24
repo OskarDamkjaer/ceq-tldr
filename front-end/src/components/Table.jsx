@@ -24,7 +24,7 @@ function Table({ data, headers }) {
               (
                 <td key={row[key].code}>
                   <Link
-                    to={`/${row.name.toLowerCase().replace(/[, ]+/g, '')}`}
+                    to={`/${row.name.replace(/[, ]+/g, '')}`}
                     style={{ textDecoration: 'none', color: 'black' }}
                   >
                     {row[key]}
