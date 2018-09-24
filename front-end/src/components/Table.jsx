@@ -25,7 +25,7 @@ function Table() {
       }
       </tbody>
     </PrettyTable>
-  );
+  )
 }
 
 Table.propTypes = {}
