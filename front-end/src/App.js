@@ -1,10 +1,9 @@
 import React from 'react'
 import {
   BrowserRouter as Router, Switch, Route,
-} from 'react-router-dom';
+} from 'react-router-dom'
 import Table from './components/Table'
 import Course from './components/Course'
-
 
 const App = () => (
   <Router>
@@ -13,7 +12,6 @@ const App = () => (
       <Route path="/:code" component={Course} />
     </Switch>
   </Router>
-);
-
+)
 
 export default App
