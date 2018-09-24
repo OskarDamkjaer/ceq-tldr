@@ -4844,4 +4844,4 @@ export default {
     workloadScore: '+19',
     year: '17/18',
   },
-};
+}
