@@ -7,6 +7,15 @@ const PrettyTable = styled.table`
 const PrettyTr = styled.tr`
   font-size: 1.5em;
 `
+const PrettyTd = styled.td`
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2px;
+`
+const PrettyTdHeader = styled.td`
+  font-size: 1.5em;
+  padding: 2px;
+`
 
 function Table({ data, headers }) {
   return (
@@ -20,16 +29,24 @@ function Table({ data, headers }) {
         {
         data.map(row => (
           <tr>
-            {headers.map(key =>
+            <PrettyTdHeader>
+              <Link
+                to={`/${row.name.replace(/[, ]+/g, '-')}`}
+                style={{ textDecoration: 'none', color: 'black' }}
+              >
+                {row.name}
+              </Link>
+            </PrettyTdHeader>
+            {headers.slice(1).map(key =>
               (
-                <td key={row[key].code}>
+                <PrettyTd key={row[key].code}>
                   <Link
-                    to={`/${row.name.replace(/[, ]+/g, '')}`}
+                    to={`/${row.name.replace(/[, ]+/g, '-')}`}
                     style={{ textDecoration: 'none', color: 'black' }}
                   >
                     {row[key]}
                   </Link>
-                </td>
+                </PrettyTd>
               ))
             }
           </tr>
