@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { latestData, orderedHeaders } from './DataManagement'
+import { latestData, orderedHeaders } from '../courses/DataManagement'
 
 const PrettyTable = styled.table`
 `

@@ -1,16 +1,15 @@
-import React, { Component } from 'react'
-import Table from './courses/Table'
+import React from 'react'
+import Table from './components/Table'
+import Course from './components/Course'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
-const Course = () => (
-  <div>hj</div>
-);
+
 
 const App = () => (
   <Router>
     <Switch>
-      <Route exact path="/" component={Table}/>
-      <Route path="/:code" component={Course}/>
+      <Route exact path="/" component={Table} />
+      <Route path="/:code" component={Course} />
     </Switch>
   </Router>
 )

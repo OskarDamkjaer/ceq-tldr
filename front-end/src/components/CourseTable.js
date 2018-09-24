@@ -7,7 +7,7 @@ import TableCell from '@material-ui/core/TableCell'
 import TableHead from '@material-ui/core/TableHead'
 import TableRow from '@material-ui/core/TableRow'
 import Paper from '@material-ui/core/Paper'
-import pureData from './pureScrapeData'
+import pureData from '../courses/pureScrapeData'
 
 const styles = theme => ({
   root: {
