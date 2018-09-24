@@ -1,13 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { withStyles } from '@material-ui/core/styles'
-import Table from '@material-ui/core/Table'
-import TableBody from '@material-ui/core/TableBody'
-import TableCell from '@material-ui/core/TableCell'
-import TableHead from '@material-ui/core/TableHead'
-import TableRow from '@material-ui/core/TableRow'
-import Paper from '@material-ui/core/Paper'
-import pureData from '../courses/pureScrapeData'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
+import pureData from '../data/pureScrapeData';
 
 const styles = theme => ({
   root: {
@@ -19,16 +19,15 @@ const styles = theme => ({
     minWidth: 700,
     maxWidth: '100vw',
   },
-})
+});
 
 // Comments are big and index number 3
-const scrapeData = Object.values(pureData).filter((item, index) => index !== 2)
-const scrapeKeys = Object.keys(pureData[0]).filter((item, index) => index !== 2)
+const scrapeData = Object.values(pureData).filter((item, index) => index !== 2);
+const scrapeKeys = Object.keys(pureData[0]).filter((item, index) => index !== 2);
 
 // Aparently we don't need to parse this as json as it is already a "valid" js object...
 
-function SimpleTable (props) {
-  const {classes} = props
+function SimpleTable({ classes }) {
   return (
     <Paper className={classes.root}>
       <Table className={classes.table}>
@@ -48,11 +47,11 @@ function SimpleTable (props) {
         </TableBody>
       </Table>
     </Paper>
-  )
+  );
 }
 
 SimpleTable.propTypes = {
-  classes: PropTypes.object.isRequired,
-}
+  classes: PropTypes.string.isRequired,
+};
 
-export default withStyles(styles)(SimpleTable)
+export default withStyles(styles)(SimpleTable);

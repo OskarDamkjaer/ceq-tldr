@@ -1,8 +1,9 @@
-import React from 'react'
-import Table from './components/Table'
-import Course from './components/Course'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-
+import React from 'react';
+import {
+  BrowserRouter as Router, Switch, Route,
+} from 'react-router-dom';
+import Table from './components/Table';
+import Course from './components/Course';
 
 
 const App = () => (
@@ -12,7 +13,7 @@ const App = () => (
       <Route path="/:code" component={Course} />
     </Switch>
   </Router>
-)
+);
 
 
-export default App
+export default App;

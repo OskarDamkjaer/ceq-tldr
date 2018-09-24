@@ -1,22 +1,22 @@
-import React from 'react'
-import styled from 'styled-components'
-import { latestData, orderedHeaders } from '../courses/DataManagement'
+import React from 'react';
+import styled from 'styled-components';
+import { latestData, orderedHeaders } from '../data/DataManagement';
 
 const PrettyTable = styled.table`
-`
+`;
 
-function Table (props) {
+function Table() {
   return (
     <PrettyTable>
       <thead>
-      <tr>
-        {
+        <tr>
+          {
           orderedHeaders.map(key => <th key={key}>{key}</th>)
         }
-      </tr>
+        </tr>
       </thead>
       <tbody>
-      {
+        {
         latestData.map((row, index) => (
           <tr>
             {orderedHeaders.map(key => <td key={row[key].code}>{row[key]}</td>)}
@@ -25,9 +25,9 @@ function Table (props) {
       }
       </tbody>
     </PrettyTable>
-  )
+  );
 }
 
-Table.propTypes = {}
+Table.propTypes = {};
 
-export default Table
+export default Table;
