@@ -13,22 +13,23 @@ const PrettyTd = styled.td`
   padding: 2px;
 `
 const PrettyTdHeader = styled.td`
-  font-size: 1.5em;
+  font-size: 1.5em; 
   padding: 2px;
 `
 
-function Table({ data, headers }) {
-  return (
-    <PrettyTable>
-      <thead>
-        <PrettyTr>
-          {headers.map(key => <th key={key}><Link to="/">{key}</Link></th>)}
-        </PrettyTr>
-      </thead>
-      <tbody>
-        {
+const Table = ({ data, headers, handleSortClick }) => (
+  <PrettyTable>
+    <thead>
+      <PrettyTr>
+        {headers.map(key => (
+          <th key={key}><Link to="/" onClick={() => handleSortClick(key)}>{key}</Link></th>
+        ))}
+      </PrettyTr>
+    </thead>
+    <tbody>
+      {
         data.map(row => (
-          <tr>
+          <tr key={row.code}>
             <PrettyTdHeader>
               <Link
                 to={`/${row.name.replace(/[, ]+/g, '-')}`}
@@ -52,9 +53,9 @@ function Table({ data, headers }) {
           </tr>
         ))
       }
-      </tbody>
-    </PrettyTable>
-  )
-}
+    </tbody>
+  </PrettyTable>
+)
+
 
 export default Table
