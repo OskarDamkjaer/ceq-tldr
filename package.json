@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@vx/curve": "^0.0.165",
+    "@vx/shape": "^0.0.176",
+    "d3-array": "^1.2.4"
+  }
+}
