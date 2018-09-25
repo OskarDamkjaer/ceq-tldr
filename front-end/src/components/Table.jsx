@@ -17,16 +17,15 @@ const PrettyTdHeader = styled.td`
   padding: 2px;
 `
 
-function Table({ data, headers }) {
-  return (
-    <PrettyTable>
-      <thead>
-        <PrettyTr>
-          {headers.map(key => <th key={key}><Link to="/">{key}</Link></th>)}
-        </PrettyTr>
-      </thead>
-      <tbody>
-        {
+const Table = ({ data, headers }) => (
+  <PrettyTable>
+    <thead>
+      <PrettyTr>
+        {headers.map(key => <th key={key}><Link to="/">{key}</Link></th>)}
+      </PrettyTr>
+    </thead>
+    <tbody>
+      {
         data.map(row => (
           <tr>
             <PrettyTdHeader>
@@ -52,9 +51,8 @@ function Table({ data, headers }) {
           </tr>
         ))
       }
-      </tbody>
-    </PrettyTable>
-  )
-}
+    </tbody>
+  </PrettyTable>
+)
 
 export default Table
