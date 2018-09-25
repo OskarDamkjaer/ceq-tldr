@@ -1,6 +1,6 @@
 import React from 'react'
-import CourseGraph from './CourseGraph'
 import { courseHistory } from '../data/DataManagement'
+import CourseGraph from '../components/CourseGraph'
 
 const Course = ({match}) => (
   <div>

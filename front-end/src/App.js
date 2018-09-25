@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom'
 import TablePage from './containers/TablePage'
-import Course from './components/Course'
+import Course from './containers/Course'
 
 const App = () => (
   <Router>
