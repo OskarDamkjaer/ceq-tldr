@@ -17,7 +17,8 @@
   "dependencies": {
     "@material-ui/core": "^1.5.0",
     "@vx/axis": "^0.0.176",
-    "@vx/scale": "^0.0.165",
+    "@vx/curve": "^0.0.165",
+    "@vx/shape": "^0.0.176",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",
