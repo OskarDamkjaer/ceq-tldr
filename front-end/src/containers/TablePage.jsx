@@ -20,14 +20,25 @@ const AreaWrapper = styled.div`
 class TablePage extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {searchTerm: ''}
+    this.state = {
+      searchTerm: '',
+      sortBy: 'name'
+    }
   }
 
   courseSearch = data => data.filter(course => (
     course.code.toLowerCase().includes(this.state.searchTerm.toLowerCase())
     || course.name.toLowerCase().includes(this.state.searchTerm.toLowerCase()))
   )
-
+  handleSortClick = (newSort) => {
+    this.setState({sortBy: newSort})
+  }
+  specialSort(data) {
+    let arraySort = []
+    arraySort = data.concat()
+    arraySort.sort((a, b) => a - b)
+    return data
+  } 
   render() {
     return (
       <TableContainer>
@@ -36,7 +47,7 @@ class TablePage extends React.Component {
         </AreaWrapper>
         <AreaWrapper gridArea="search">
           <SearchInput
-            onChange={(event) => this.setState({searchTerm: event.target.value})}
+            onChange={(event) => this.setState({ searchTerm: event.target.value })}
             value={this.state.searchTerm}
           />
         </AreaWrapper>
@@ -45,6 +56,7 @@ class TablePage extends React.Component {
           <Table
             data={this.courseSearch(latestData)}
             headers={orderedHeaders}
+            handleSortClick={this.handleSortClick}
           />
         </AreaWrapper>
       </TableContainer>
