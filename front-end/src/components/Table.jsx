@@ -40,7 +40,7 @@ const Table = ({ data, headers, handleSortClick }) => (
             </PrettyTdHeader>
             {headers.slice(1).map(key =>
               (
-                <PrettyTd key={row[key].code}>
+                <PrettyTd key={key + row.name}>
                   <Link
                     to={`/${row.name.replace(/[, ]+/g, '-')}`}
                     style={{ textDecoration: 'none', color: 'black' }}
