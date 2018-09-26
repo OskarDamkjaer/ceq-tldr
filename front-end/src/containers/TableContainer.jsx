@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import { latestData, orderedHeaders } from '../data/DataManagement'
-import Table from '../components/Table'
-import SearchInput from '../components/SearchInput'
+import Table from '../components/Table/Table'
+import SearchInput from '../components/Table/SearchInput'
+import Header from '../components/Table/Header'
 
 const TableContainer = styled.div`
  display: grid;
@@ -54,7 +55,7 @@ class TablePage extends React.Component {
     return (
       <TableContainer>
         <AreaWrapper gridArea="header">
-          <h1>CEQ-TLDR</h1>
+          <Header />
         </AreaWrapper>
         <AreaWrapper gridArea="search">
           <SearchInput
