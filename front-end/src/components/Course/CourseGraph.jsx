@@ -62,7 +62,6 @@ const CourseGraph = ({ dataArray, tag }) => (
       />
       <AxisLeft
         scale={yScale}
-        label="importanceScore"
         tickValues={importanceScoreArray}
         stroke="#333333"
         tickStroke="#333333"
