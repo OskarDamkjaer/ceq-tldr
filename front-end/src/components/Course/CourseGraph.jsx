@@ -10,6 +10,7 @@ const HeaderStyle = styled.div`
  font-size: 1,2em;
  display:flex;
  justify-content: center;
+ padding-top: 100px;
 `
 
 const xScale = scaleLinear({
@@ -19,7 +20,7 @@ const xScale = scaleLinear({
 
 const yScale = scaleLinear({
   rangeRound: [0, 800],
-  domain: [150, -20],
+  domain: [100, -100],
 })
 
 const xValue = (item) => {
@@ -34,12 +35,12 @@ const yValue = (item) => {
   return parseInt(temp, 10)
 }
 
-const importanceScoreArray = [-20, -10, 10, 30, 50, 70, 90, 110, 130, 150]
+const importanceScoreArray = [-100, -80, -60, -40, -20, 0, +20, 40, 60, 80, 100]
 
 const CourseGraph = ({ dataArray, tag }) => (
   <div>
     <HeaderStyle>{tag}</HeaderStyle>
-    <svg style={{ paddingLeft: '100px', paddingTop: '50px' }} width="600" height="1000">
+    <svg style={{ paddingLeft: '100px', paddingTop: '50px' }} width="600" height="850">
       <LinePath
         data={dataArray.slice(0, 6)}
         xScale={xScale}
@@ -52,7 +53,7 @@ const CourseGraph = ({ dataArray, tag }) => (
       />
       <AxisBottom
         scale={xScale}
-        top={530}
+        top={400}
         label="year"
         tickFormat={item => `${item}`}
         tickValues={[2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]}
