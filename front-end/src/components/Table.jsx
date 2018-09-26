@@ -19,13 +19,11 @@ const PrettyTdHeader = styled.td`
   font-size: 1.5em; 
   padding: 5px;
 `
+
 const PrettyThHeader = styled.th`
   border-bottom: 1px solid #ddd;
   padding: 15px;
 `
-const trStyle = {
-  backgroundColor: '#f5f5f5',
-}
 
 const Table = ({
   data, headers, handleSortClick, hoover, hoverOn,
@@ -34,37 +32,67 @@ const Table = ({
     <thead>
       <PrettyTr>
         {headers.map(key => (
-          <PrettyThHeader key={key}><Link to="/" onClick={() => handleSortClick(key)}>{key}</Link></PrettyThHeader>
+          <PrettyThHeader key={key}><Link to="/" style={{ textDecoration: 'none', color: 'black' }} onClick={() => handleSortClick(key)}>{key}</Link></PrettyThHeader>
         ))}
       </PrettyTr>
     </thead>
     <tbody>
       {
-        data.map(row => (
-          <tr style={trStyle} key={row.code}>
+        data.map((row) => {
+          if (row.code !== hoverOn) {
+            return (
+              <tr key={row.code}>
                 <PrettyTdHeader>
+                  <Link
+                    to={`/${row.name.replace(/[, ]+/g, '-')}`}
+                    style={{ textDecoration: 'none', color: 'black' }}
+                    onMouseEnter={() => hoover(row.code)}
+                  >
+                    {row.name}
+                  </Link>
+                </PrettyTdHeader>
+                {headers.slice(1).map(key =>
+                  (
+                    <PrettyTd key={key + row.name}>
+                      <Link
+                        to={`/${row.name.replace(/[, ]+/g, '-')}`}
+                        style={{ textDecoration: 'none', color: 'black' }}
+                        onMouseEnter={() => hoover(row.code)}
+                      >
+                        {row[key]}
+                      </Link>
+                    </PrettyTd>
+                  ))
+            }
+              </tr>
+            )
+          }
+          return (
+            <tr key={row.code} bgcolor="#f5f5f5">
+              <PrettyTdHeader>
                 <Link
                   to={`/${row.name.replace(/[, ]+/g, '-')}`}
-                  style={{ textDecoration: 'none', color: 'black' }}
+                  style={{ textDecoration: 'none', color: '#75BBC0' }}
                   onMouseEnter={() => hoover(row.code)}
                 >
                   {row.name}
                 </Link>
               </PrettyTdHeader>
-                {headers.slice(1).map(key =>
+              {headers.slice(1).map(key =>
                 (
                   <PrettyTd key={key + row.name}>
                     <Link
                       to={`/${row.name.replace(/[, ]+/g, '-')}`}
-                      style={{ textDecoration: 'none', color: 'black' }}
+                      style={{ textDecoration: 'none', color: '#75BBC0' }}
                     >
                       {row[key]}
                     </Link>
                   </PrettyTd>
                 ))
-            }
-              </tr>
-        ))
+              }
+            </tr>
+          )
+        })
       }
     </tbody>
   </PrettyTable>
