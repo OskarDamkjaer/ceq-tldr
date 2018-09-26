@@ -13,7 +13,6 @@ const PrettyTd = styled.td`
   padding: 2px;
 `
 const PrettyTdHeader = styled.td`
-  font-size: 1.5em; 
   padding: 2px;
 `
 
@@ -22,7 +21,7 @@ const Table = ({ data, headers, handleSortClick }) => (
     <thead>
       <PrettyTr>
         {headers.map(key => (
-          <th key={key}><Link to="/" onClick={() => handleSortClick(key)}>{key}</Link></th>
+          <th key={key}><Link to="/" onClick={() => handleSortClick(key)}>{key.replace(/([A-Z])/g, ' $1').toUpperCase()}</Link></th>
         ))}
       </PrettyTr>
     </thead>
