@@ -25,7 +25,6 @@ class TablePage extends React.Component {
       searchTerm: '',
       sortBy: 'name',
       ascending: false,
-      hoverOn: ''
     }
   }
 
@@ -36,9 +35,6 @@ class TablePage extends React.Component {
   handleSortClick = (newSort) => {
     this.setState({ascending: !this.state.ascending})
     this.setState({ sortBy: newSort })
-  }
-  hoover = (code) => {
-    this.setState({hoverOn: code})
   }
   specialSort(data) {
     let arraySort = data.concat()
@@ -73,8 +69,6 @@ class TablePage extends React.Component {
             data={this.courseSearch(this.specialSort(latestData))}
             headers={orderedHeaders}
             handleSortClick={this.handleSortClick}
-            hoover={this.hoover}
-            hoverOn={this.state.hoverOn}
           />
         </AreaWrapper>
       </TableContainer>
