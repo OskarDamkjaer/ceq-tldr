@@ -3,13 +3,13 @@ import {
   BrowserRouter as Router, Switch, Route,
 } from 'react-router-dom'
 import TablePage from './containers/TablePage'
-import Course from './containers/Course'
+import CoursePage from './view/CoursePage'
 
 const App = () => (
   <Router>
     <Switch>
       <Route exact path="/" component={TablePage} />
-      <Route path="/:code" component={Course} />
+      <Route path="/:code" component={CoursePage} />
     </Switch>
   </Router>
 )
