@@ -32,7 +32,7 @@ const Table = ({
     <thead>
       <PrettyTr>
         {headers.map(key => (
-          <PrettyThHeader key={key}><Link to="/" style={{ textDecoration: 'none', color: 'black' }} onClick={() => handleSortClick(key)}>{key}</Link></PrettyThHeader>
+          <PrettyThHeader key={key}><Link to="/" style={{ textDecoration: 'none', color: 'black' }} onClick={() => handleSortClick(key)}>{key.replace(/([A-Z])/g, ' $1').toUpperCase()}</Link></PrettyThHeader>
         ))}
       </PrettyTr>
     </thead>
@@ -44,7 +44,7 @@ const Table = ({
               <tr key={row.code}>
                 <PrettyTdHeader>
                   <Link
-                    to={`/${row.name.replace(/[, ]+/g, '-')}`}
+                    to={`/${row.code}`}
                     style={{ textDecoration: 'none', color: 'black' }}
                     onMouseEnter={() => hoover(row.code)}
                   >
@@ -55,7 +55,7 @@ const Table = ({
                   (
                     <PrettyTd key={key + row.name}>
                       <Link
-                        to={`/${row.name.replace(/[, ]+/g, '-')}`}
+                        to={`/${row.code}`}
                         style={{ textDecoration: 'none', color: 'black' }}
                         onMouseEnter={() => hoover(row.code)}
                       >
@@ -71,7 +71,7 @@ const Table = ({
             <tr key={row.code} bgcolor="#f5f5f5">
               <PrettyTdHeader>
                 <Link
-                  to={`/${row.name.replace(/[, ]+/g, '-')}`}
+                  to={`/${row.code}`}
                   style={{ textDecoration: 'none', color: '#75BBC0' }}
                   onMouseEnter={() => hoover(row.code)}
                 >
@@ -82,7 +82,7 @@ const Table = ({
                 (
                   <PrettyTd key={key + row.name}>
                     <Link
-                      to={`/${row.name.replace(/[, ]+/g, '-')}`}
+                      to={`/${row.code}`}
                       style={{ textDecoration: 'none', color: '#75BBC0' }}
                     >
                       {row[key]}
