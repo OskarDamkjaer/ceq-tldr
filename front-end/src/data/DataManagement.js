@@ -19,3 +19,4 @@ export const latestData = scrapeData.reduce((acc, processing) => {
 }, [])
 
 export const courseHistory = courseCode => scrapeData.filter(item => item.code === courseCode)
+export const nameByCourse = courseCode => scrapeData.filter(item => item.code === courseCode)[0].name

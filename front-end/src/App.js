@@ -1,8 +1,7 @@
 import React from 'react'
-import {
-  BrowserRouter as Router, Switch, Route,
-} from 'react-router-dom'
-import TablePage from './containers/TablePage'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+import TablePage from './view/TablePage'
 import CoursePage from './view/CoursePage'
 
 const App = () => (
