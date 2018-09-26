@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { latestData, orderedHeaders } from '../data/DataManagement'
+import { latestData, orderedHeaders, orderedHeadersStyled } from '../data/DataManagement'
 import Table from '../components/Table/Table'
 import SearchInput from '../components/Table/SearchInput'
 import Header from '../components/Table/Header'
@@ -67,7 +67,8 @@ class TablePage extends React.Component {
         <AreaWrapper gridArea="table">
           <Table
             data={this.courseSearch(this.specialSort(latestData))}
-            headers={orderedHeaders}
+            headers={orderedHeadersStyled}
+            headersNoStyle={orderedHeaders}
             handleSortClick={this.handleSortClick}
           />
         </AreaWrapper>

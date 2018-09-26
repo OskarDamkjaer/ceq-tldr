@@ -4,6 +4,7 @@ const scrapeData = Object.values(pureData).filter((item, index) => index !== 2)
 const scrapeKeys = Object.keys(pureData[0]).filter((item, index) => index !== 2)
 
 export const orderedHeaders = [scrapeKeys[4], ...scrapeKeys.slice(0, 4), ...scrapeKeys.slice(5)]
+export const orderedHeadersStyled = orderedHeaders.map(item => item.replace(/([A-Z])/g, ' $1').toUpperCase())
 export const latestData = scrapeData.reduce((acc, processing) => {
   const containsCurrCourse = acc.filter(item => item.code === processing.code).length > 0
   if (containsCurrCourse) {

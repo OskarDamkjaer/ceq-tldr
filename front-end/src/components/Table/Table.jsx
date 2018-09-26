@@ -34,12 +34,14 @@ const PrettyThHeader = styled.th`
   padding: 15px;
 `
 
-const Table = ({ data, headers, handleSortClick }) => (
+const Table = ({
+  data, headers, headersNoStyle, handleSortClick,
+}) => (
   <PrettyTable>
     <thead>
       <PrettyTr>
         {headers.map(key => (
-          <PrettyThHeader key={key}><StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{key.replace(/([A-Z])/g, ' $1').toUpperCase()}</StyledLink></PrettyThHeader>
+          <PrettyThHeader key={key}><StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{key}</StyledLink></PrettyThHeader>
         ))}
       </PrettyTr>
     </thead>
@@ -55,7 +57,7 @@ const Table = ({ data, headers, handleSortClick }) => (
                 {row.name}
               </StyledLink>
             </PrettyTdHeader>
-            {headers.slice(1).map(key =>
+            {headersNoStyle.slice(1).map(key =>
               (
                 <PrettyTd key={key + row.name}>
                   <StyledLink
