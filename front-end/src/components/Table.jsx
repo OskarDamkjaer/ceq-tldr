@@ -32,7 +32,7 @@ const Table = ({ data, headers, handleSortClick }) => (
           <tr key={row.code}>
             <PrettyTdHeader>
               <Link
-                to={`/${row.name}`}
+                to={`/${row.code}`}
                 style={{ textDecoration: 'none', color: 'black' }}
               >
                 {row.name}
@@ -42,7 +42,7 @@ const Table = ({ data, headers, handleSortClick }) => (
               (
                 <PrettyTd key={key + row.name}>
                   <Link
-                    to={`/${row.name}`}
+                    to={`/${row.code}`}
                     style={{ textDecoration: 'none', color: 'black' }}
                   >
                     {row[key]}
