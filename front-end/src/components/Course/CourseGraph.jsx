@@ -19,34 +19,39 @@ const xScale = scaleLinear({
 })
 
 const yScale = scaleLinear({
-  rangeRound: [0, 800],
-  domain: [100, -100],
+  rangeRound: [0, 600],
+  domain: [100, -50],
+})
+const yRegScale = scaleLinear({
+  rangeRound: [0, 400],
+  domain: [200, 0],
 })
 
 const xValue = (item) => {
   const temp = `20${item.year.substring(3, 5)}`
-  console.log(temp)
+  console.log(`year ${temp}`)
   return parseInt(temp, 10)
 }
 
-const yValue = (item) => {
-  const temp = parseInt(item.importanceScore, 10)
-  console.log(temp)
+const yValue = (item, dataTag) => {
+  const temp = parseInt(item[dataTag], 10)
+  console.log(`${temp} ${dataTag}`)
   return parseInt(temp, 10)
 }
 
-const importanceScoreArray = [-100, -80, -60, -40, -20, 0, +20, 40, 60, 80, 100]
+const registeredArray = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190]
+const tickArray = [-40, -20, 0, +20, 40, 60, 80, 100]
 
-const CourseGraph = ({ dataArray, tag }) => (
+const CourseGraph = ({ dataArray, tag, dataTag }) => (
   <div>
     <HeaderStyle>{tag}</HeaderStyle>
     <svg style={{ paddingLeft: '100px', paddingTop: '50px' }} width="600" height="850">
       <LinePath
         data={dataArray.slice(0, 6)}
         xScale={xScale}
-        yScale={yScale}
+        yScale={tag === 'REGISTERED' ? yRegScale : yScale}
         x={item => xValue(item)}
-        y={item => yValue(item)}
+        y={item => yValue(item, dataTag)}
         curve={curveNatural}
         stroke="black"
         strokeWidth={2}
@@ -61,8 +66,8 @@ const CourseGraph = ({ dataArray, tag }) => (
         tickStroke="#333333"
       />
       <AxisLeft
-        scale={yScale}
-        tickValues={importanceScoreArray}
+        scale={tag === 'REGISTERED' ? yRegScale : yScale}
+        tickValues={tag === 'REGISTERED' ? registeredArray : tickArray}
         stroke="#333333"
         tickStroke="#333333"
       />
