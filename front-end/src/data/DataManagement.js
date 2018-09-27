@@ -9,8 +9,10 @@ export const orderedHeadersStyled = orderedHeaders.map(item => item.replace(/([A
 
 const excludedHeaders = ['CODE', 'YEAR', 'POINTS']
 const excludedHeadersData = ['code', 'year', 'points']
-export const orderedHeadersFiltered = orderedHeaders.filter(header => !excludedHeadersData.includes(header))
-export const orderedHeadersStyledFiltered = orderedHeadersStyled.filter(header => !excludedHeaders.includes(header))
+export const orderedHeadersFiltered = orderedHeaders
+  .filter(header => !excludedHeadersData.includes(header))
+export const orderedHeadersStyledFiltered = orderedHeadersStyled
+  .filter(header => !excludedHeaders.includes(header))
 
 export const latestData = scrapeData.reduce((acc, processing) => {
   const containsCurrCourse = acc.filter(item => item.code === processing.code).length > 0

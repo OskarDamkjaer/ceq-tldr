@@ -32,12 +32,13 @@ const xValue = (item) => {
   return parseInt(temp, 10)
 }
 
-const yValue = (item, dataTag, dataArray) => {
+const yValue = (item, dataTag) => {
   const temp = parseInt(item[dataTag], 10)
   return parseInt(temp, 10)
 }
 
-const registeredArray = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190]
+const registeredArray = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100,
+  110, 120, 130, 140, 150, 160, 170, 180, 190]
 const tickArray = [-40, -20, 0, +20, 40, 60, 80, 100]
 
 const CourseGraph = ({
