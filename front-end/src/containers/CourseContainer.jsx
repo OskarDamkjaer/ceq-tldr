@@ -1,13 +1,7 @@
 import React from 'react'
 import { courseHistory, nameByCourse } from '../data/DataManagement'
-import { orderedHeaders, orderedHeadersStyled } from '../data/DataManagement'
+import { orderedHeadersFiltered, orderedHeadersStyledFiltered } from '../data/DataManagement'
 import CourseGraph from '../components/Course/CourseGraph'
-
-const excludedHeaders = ['CODE', 'YEAR', 'POINTS']
-const excludedHeadersData = ['code', 'year', 'points']
-
-const orderedHeadersFiltered = orderedHeaders.filter(header => !excludedHeadersData.includes(header))
-const orderedHeadersStyledFiltered = orderedHeadersStyled.filter(header => !excludedHeaders.includes(header))
 
 const CourseContainer = ({ courseCode }) => (
   <div>
