@@ -35,13 +35,13 @@ const PrettyThHeader = styled.th`
 `
 
 const Table = ({
-  data, headers, headersNoStyle, handleSortClick,
+  data, headersNoStyle, headers, handleSortClick,
 }) => (
   <PrettyTable>
     <thead>
       <PrettyTr>
-        {headers.map(key => (
-          <PrettyThHeader key={key}><StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{key}</StyledLink></PrettyThHeader>
+        {headersNoStyle.map((key, index) => (
+          <PrettyThHeader key={key}><StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{headers[index]}</StyledLink></PrettyThHeader>
         ))}
       </PrettyTr>
     </thead>
