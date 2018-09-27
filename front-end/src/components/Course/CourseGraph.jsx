@@ -33,25 +33,28 @@ const xValue = (item) => {
   return parseInt(temp, 10)
 }
 
-const yValue = (item, dataTag) => {
+const yValue = (item, dataTag, dataArray) => {
   const temp = parseInt(item[dataTag], 10)
   console.log(`${temp} ${dataTag}`)
+  console.log(dataArray.length)
   return parseInt(temp, 10)
 }
 
 const registeredArray = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190]
 const tickArray = [-40, -20, 0, +20, 40, 60, 80, 100]
 
-const CourseGraph = ({ dataArray, tag, dataTag }) => (
+const CourseGraph = ({
+  dataArray, tag, dataTag,
+}) => (
   <div>
     <HeaderStyle>{tag}</HeaderStyle>
     <svg style={{ paddingLeft: '100px', paddingTop: '50px' }} width="600" height="850">
       <LinePath
-        data={dataArray.slice(0, 6)}
+        data={dataArray}
         xScale={xScale}
         yScale={tag === 'REGISTERED' ? yRegScale : yScale}
         x={item => xValue(item)}
-        y={item => yValue(item, dataTag)}
+        y={item => yValue(item, dataTag, dataArray)}
         curve={curveNatural}
         stroke="black"
         strokeWidth={2}
