@@ -29,14 +29,11 @@ const yRegScale = scaleLinear({
 
 const xValue = (item) => {
   const temp = `20${item.year.substring(3, 5)}`
-  console.log(`year ${temp}`)
   return parseInt(temp, 10)
 }
 
 const yValue = (item, dataTag, dataArray) => {
   const temp = parseInt(item[dataTag], 10)
-  console.log(`${temp} ${dataTag}`)
-  console.log(dataArray.length)
   return parseInt(temp, 10)
 }
 

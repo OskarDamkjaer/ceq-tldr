@@ -33,19 +33,14 @@ export function courseHistoryYears(courseCode) {
   const tempArray = courseHistory(courseCode).concat()
   const resultArray = []
   resultArray.push(tempArray[0])
-  for (let i = 1; i < tempArray.length; i++) {
+  for (let i = 1; i < tempArray.length; i += 1) {
     if (parseInt(`20${tempArray[i].year.substring(3, 5)}`, 10) < parseInt(`20${tempArray[i - 1].year.substring(3, 5)}`, 10)) {
       break
     }
     resultArray.push(tempArray[i])
   }
-  console.log(tempArray)
-  console.log(resultArray)
-
   return resultArray
 }
-export const courseHistoryYearsTEMP = courseCode => courseHistory(courseCode)
-  .filter((item, index) => item.year < courseHistory(courseCode)[index].year)
 
 export const nameByCourse = courseCode => scrapeData
   .filter(item => item.code === courseCode)[0].name
