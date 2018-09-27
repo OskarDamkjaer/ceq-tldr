@@ -2,54 +2,74 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
+const StyledLink = styled(Link)`
+color: #000000;
+:hover{
+  color: #75BBC0;
+}
+`
+
 const PrettyTable = styled.table`
+  border-collapse: collapse;
 `
 const PrettyTr = styled.tr`
-  font-size: 1.5em;
+  :hover{
+    background-color: #f5f5f5;
+  }
 `
 const PrettyTd = styled.td`
+  border-bottom: 1px solid #ddd;
   font-size: 1.5em;
   text-align: center;
   padding: 2px;
 `
 const PrettyTdHeader = styled.td`
-  padding: 2px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.5em; 
+  padding: 5px;
 `
 
-const Table = ({ data, headers, handleSortClick }) => (
+const PrettyThHeader = styled.th`
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+`
+
+const Table = ({
+  data, headersNoStyle, headers, handleSortClick,
+}) => (
   <PrettyTable>
     <thead>
       <PrettyTr>
-        {headers.map(key => (
-          <th key={key}><Link to="/" onClick={() => handleSortClick(key)}>{key.replace(/([A-Z])/g, ' $1').toUpperCase()}</Link></th>
+        {headersNoStyle.map((key, index) => (
+          <PrettyThHeader key={key}><StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{headers[index]}</StyledLink></PrettyThHeader>
         ))}
       </PrettyTr>
     </thead>
     <tbody>
       {
         data.map(row => (
-          <tr key={row.code}>
+          <PrettyTr key={row.code}>
             <PrettyTdHeader>
-              <Link
+              <StyledLink
                 to={`/${row.code}`}
-                style={{ textDecoration: 'none', color: 'black' }}
+                style={{ textDecoration: 'none' }}
               >
                 {row.name}
-              </Link>
+              </StyledLink>
             </PrettyTdHeader>
-            {headers.slice(1).map(key =>
+            {headersNoStyle.slice(1).map(key =>
               (
                 <PrettyTd key={key + row.name}>
-                  <Link
+                  <StyledLink
                     to={`/${row.code}`}
-                    style={{ textDecoration: 'none', color: 'black' }}
+                    style={{ textDecoration: 'none' }}
                   >
                     {row[key]}
-                  </Link>
+                  </StyledLink>
                 </PrettyTd>
               ))
             }
-          </tr>
+          </PrettyTr>
         ))
       }
     </tbody>

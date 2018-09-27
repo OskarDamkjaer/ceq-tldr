@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const DamnFineInput = styled.input`
- width: 300px; 
- height: 1.4em;
+ width: 700px; 
+ height: 3em;
  grid-area: ${props => props.gridArea};
 `
 
