@@ -7,12 +7,10 @@ export const orderedHeaders = [scrapeKeys[4], ...scrapeKeys.slice(0, 4), ...scra
 export const orderedHeadersStyled = orderedHeaders.map(item => item.replace(/([A-Z])/g, ' $1').toUpperCase())
 
 
-const excludedHeaders = ['CODE', 'YEAR', 'POINTS']
-const excludedHeadersData = ['code', 'year', 'points']
-export const orderedHeadersFiltered = orderedHeaders
-  .filter(header => !excludedHeadersData.includes(header))
-export const orderedHeadersStyledFiltered = orderedHeadersStyled
-  .filter(header => !excludedHeaders.includes(header))
+const excludedHeaders = ['NAME', 'CODE', 'COMMENTS', 'YEAR', 'POINTS', 'REGISTERED']
+const excludedHeadersData = ['name', 'code', 'comments', 'year', 'points', 'registered']
+export const orderedHeadersFiltered = orderedHeaders.filter(header => !excludedHeadersData.includes(header))
+export const orderedHeadersStyledFiltered = orderedHeadersStyled.filter(header => !excludedHeaders.includes(header))
 
 export const latestData = scrapeData.reduce((acc, processing) => {
   const containsCurrCourse = acc.filter(item => item.code === processing.code).length > 0
