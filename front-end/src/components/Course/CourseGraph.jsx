@@ -20,37 +20,31 @@ const xScale = scaleLinear({
 })
 
 const yScale = scaleLinear({
-  rangeRound: [0, 600],
-  domain: [100, -50],
+  rangeRound: [0, 800],
+  domain: [100, -100],
 })
 const yRegScale = scaleLinear({
   rangeRound: [0, 400],
   domain: [200, 0],
 })
 
-const xValue = (item) => {
-  const temp = `20${item.year.substring(3, 5)}`
-  return parseInt(temp, 10)
-}
+const xValue = item => parseInt(`20${item.year.substring(3, 5)}`, 10)
 
-const yValue = (item, dataTag) => {
-  const temp = parseInt(item[dataTag], 10)
-  return parseInt(temp, 10)
-}
+const yValue = (item, dataTag) => parseInt(parseInt(item[dataTag], 10), 10)
 
 const registeredArray = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100,
   110, 120, 130, 140, 150, 160, 170, 180, 190]
-const tickArray = [-40, -20, 0, +20, 40, 60, 80, 100]
+const tickArray = [-100, -80, -60, -40, -20, 0, +20, 40, 60, 80, 100]
 const colorArray = ['#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594']
 /*
 ASSESMENT, GOAL, IMPORTANCE, PERCENTAGE , SATISFACTIONSCORE, TECH, WORKLOAD
 */
 
 const CourseGraph = ({
-  graphHeaders, graphHeadersStyled, courseHistoryYears, nameByCourse,
+  graphHeaders, graphHeadersStyled, courseHistoryYears, name,
 }) => (
   <GraphWrapper>
-    <GraphHeader graphHeadersStyled={graphHeadersStyled} colorArray={colorArray} />
+    <GraphHeader graphHeadersStyled={graphHeadersStyled} colorArray={colorArray} name={name} />
     <svg style={{ paddingLeft: '100px', paddingTop: '50px' }} width="600" height="850">
       {graphHeadersStyled.map((header, index) => (
         <LinePath
@@ -74,8 +68,8 @@ const CourseGraph = ({
         tickStroke="#333333"
       />
       <AxisLeft
-        scale={{ nameByCourse } === 'REGISTERED' ? yRegScale : yScale}
-        tickValues={{ nameByCourse } === 'REGISTERED' ? registeredArray : tickArray}
+        scale={yScale}
+        tickValues={tickArray}
         stroke="#333333"
         tickStroke="#333333"
       />
