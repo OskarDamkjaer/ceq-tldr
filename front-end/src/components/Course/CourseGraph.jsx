@@ -4,9 +4,10 @@ import { AxisBottom, AxisLeft } from '@vx/axis'
 import { scaleLinear } from '@vx/scale'
 import { curveNatural } from '@vx/curve'
 import { LinePath } from '@vx/shape'
+import GraphHeader from './GraphHeader'
 
-const HeaderStyle = styled.div`
- width: 40em;
+
+const GraphWrapper = styled.div`
  font-size: 1,2em;
  display:flex;
  justify-content: center;
@@ -32,11 +33,8 @@ const xValue = (item) => {
   return parseInt(temp, 10)
 }
 
-const yValue = (item, dataTag, courseHistoryYears) => {
+const yValue = (item, dataTag) => {
   const temp = parseInt(item[dataTag], 10)
-  console.log('All data')
-  console.log(courseHistoryYears)
-  console.log(courseHistoryYears.length)
   return parseInt(temp, 10)
 }
 
@@ -45,14 +43,14 @@ const registeredArray = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100,
 const tickArray = [-40, -20, 0, +20, 40, 60, 80, 100]
 const colorArray = ['#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594']
 /*
-ASSESMENT SCORE, GOAL CLEARNESS, IMPORTANCE SCORE, PERCENTAGE PASSED, SATISFACTIONSCORE, WORKLOAD
+ASSESMENT, GOAL, IMPORTANCE, PERCENTAGE , SATISFACTIONSCORE, TECH, WORKLOAD
 */
 
 const CourseGraph = ({
-  graphHeaders, graphHeadersStyled, courseCode, courseHistoryYears, nameByCourse,
+  graphHeaders, graphHeadersStyled, courseHistoryYears, nameByCourse,
 }) => (
-  <div>
-    <HeaderStyle>{nameByCourse}</HeaderStyle>
+  <GraphWrapper>
+    <GraphHeader graphHeadersStyled={graphHeadersStyled} colorArray={colorArray} />
     <svg style={{ paddingLeft: '100px', paddingTop: '50px' }} width="600" height="850">
       {graphHeadersStyled.map((header, index) => (
         <LinePath
@@ -60,7 +58,7 @@ const CourseGraph = ({
           xScale={xScale}
           yScale={header === 'REGISTERED' ? yRegScale : yScale}
           x={item => xValue(item)}
-          y={item => yValue(item, graphHeaders[index], courseHistoryYears)}
+          y={item => yValue(item, graphHeaders[index])}
           curve={curveNatural}
           stroke={colorArray[index]}
           strokeWidth={2}
@@ -82,7 +80,7 @@ const CourseGraph = ({
         tickStroke="#333333"
       />
     </svg>
-  </div>
+  </GraphWrapper>
 )
 
 export default CourseGraph
