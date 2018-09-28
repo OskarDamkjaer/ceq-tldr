@@ -7,10 +7,10 @@ import { Bar } from '@vx/shape'
 const GraphWrapper = styled.div`
  font-size: 1,2em;
  display:flex;
- justify-content: center;
+ flex-direction: column;
+ align-items: center;
  padding-top: 100px;
 `
-
 const xScale = scaleLinear({
   rangeRound: [500, 0],
   domain: [2019, 2011],
@@ -32,6 +32,8 @@ const colorArray = ['#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE
 
 const CourseGraphRegistered = ({ courseHistoryYears }) => (
   <GraphWrapper>
+    <h1>Number of registred</h1>
+
     <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
       {courseHistoryYears.map((item, index) => (
         <Bar
