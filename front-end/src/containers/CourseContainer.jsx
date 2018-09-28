@@ -13,7 +13,7 @@ const CourseContainer = ({ courseCode }) => (
         <h1>
 No data available for
           {' '}
-          {courseCode}
+          {nameByCourse(courseCode)}
         </h1>
 
       </div>
