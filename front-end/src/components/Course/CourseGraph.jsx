@@ -40,23 +40,26 @@ const yValue = (item, dataTag) => {
 const registeredArray = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100,
   110, 120, 130, 140, 150, 160, 170, 180, 190]
 const tickArray = [-40, -20, 0, +20, 40, 60, 80, 100]
+const colorArray = ['#DB2580', '#EEA1AE', '#000000', '#75BBC0', '#117D69']
 
 const CourseGraph = ({
-  dataArray, tag, dataTag,
+  graphHeaders, graphHeadersStyled, courseCode, courseHistoryYears, nameByCourse,
 }) => (
   <div>
-    <HeaderStyle>{tag}</HeaderStyle>
+    <HeaderStyle>{nameByCourse}</HeaderStyle>
     <svg style={{ paddingLeft: '100px', paddingTop: '50px' }} width="600" height="850">
-      <LinePath
-        data={dataArray}
-        xScale={xScale}
-        yScale={tag === 'REGISTERED' ? yRegScale : yScale}
-        x={item => xValue(item)}
-        y={item => yValue(item, dataTag, dataArray)}
-        curve={curveNatural}
-        stroke="black"
-        strokeWidth={2}
-      />
+      {graphHeadersStyled.map((header, index) => (
+        <LinePath
+          data={courseHistoryYears}
+          xScale={xScale}
+          yScale={header === 'REGISTERED' ? yRegScale : yScale}
+          x={item => xValue(item)}
+          y={item => yValue(item, graphHeaders[index], courseHistoryYears)}
+          curve={curveNatural}
+          stroke={colorArray[index]}
+          strokeWidth={2}
+        />
+      ))}
       <AxisBottom
         scale={xScale}
         top={400}
@@ -67,8 +70,8 @@ const CourseGraph = ({
         tickStroke="#333333"
       />
       <AxisLeft
-        scale={tag === 'REGISTERED' ? yRegScale : yScale}
-        tickValues={tag === 'REGISTERED' ? registeredArray : tickArray}
+        scale={{ nameByCourse } === 'REGISTERED' ? yRegScale : yScale}
+        tickValues={{ nameByCourse } === 'REGISTERED' ? registeredArray : tickArray}
         stroke="#333333"
         tickStroke="#333333"
       />
