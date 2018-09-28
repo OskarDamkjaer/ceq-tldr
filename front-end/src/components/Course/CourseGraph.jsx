@@ -32,15 +32,21 @@ const xValue = (item) => {
   return parseInt(temp, 10)
 }
 
-const yValue = (item, dataTag) => {
+const yValue = (item, dataTag, courseHistoryYears) => {
   const temp = parseInt(item[dataTag], 10)
+  console.log('All data')
+  console.log(courseHistoryYears)
+  console.log(courseHistoryYears.length)
   return parseInt(temp, 10)
 }
 
 const registeredArray = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100,
   110, 120, 130, 140, 150, 160, 170, 180, 190]
 const tickArray = [-40, -20, 0, +20, 40, 60, 80, 100]
-const colorArray = ['#DB2580', '#EEA1AE', '#000000', '#75BBC0', '#117D69']
+const colorArray = ['#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594']
+/*
+ASSESMENT SCORE, GOAL CLEARNESS, IMPORTANCE SCORE, PERCENTAGE PASSED, SATISFACTIONSCORE, WORKLOAD
+*/
 
 const CourseGraph = ({
   graphHeaders, graphHeadersStyled, courseCode, courseHistoryYears, nameByCourse,

@@ -7,8 +7,8 @@ export const orderedHeaders = [scrapeKeys[4], ...scrapeKeys.slice(0, 4), ...scra
 export const orderedHeadersStyled = orderedHeaders.map(item => item.replace(/([A-Z])/g, ' $1').toUpperCase())
 
 
-const excludedHeaders = ['NAME', 'CODE', 'YEAR', 'POINTS']
-const excludedHeadersData = ['name', 'code', 'year', 'points']
+const excludedHeaders = ['NAME', 'CODE', 'COMMENTS', 'YEAR', 'POINTS', 'REGISTERED']
+const excludedHeadersData = ['name', 'code', 'comments', 'year', 'points', 'registered']
 export const orderedHeadersFiltered = orderedHeaders.filter(header => !excludedHeadersData.includes(header))
 export const orderedHeadersStyledFiltered = orderedHeadersStyled.filter(header => !excludedHeaders.includes(header))
 
