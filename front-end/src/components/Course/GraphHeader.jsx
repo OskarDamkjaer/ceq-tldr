@@ -7,15 +7,18 @@ const HeaderWrapper = styled.div`
  justify-content: center;
 `
 const Header = styled.div`
- font-size: 4em;
+ font-size: 2em;
  font-weight: bold;
  padding-bottom: 50px;
+ padding-left: 20px;
 `
 
 const HeaderSpan = styled.span`
  font-size: 2em;
  padding-top: 20px;
  color: ${props => props.color};
+ padding-left: 20px;
+
 `
 const GraphHeader = ({ graphHeadersStyled, colorArray, name }) => (
   <HeaderWrapper>

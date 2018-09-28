@@ -45,7 +45,7 @@ const CourseGraph = ({
 }) => (
   <GraphWrapper>
     <GraphHeader graphHeadersStyled={graphHeadersStyled} colorArray={colorArray} name={name} />
-    <svg style={{ paddingLeft: '100px', paddingTop: '50px' }} width="600" height="850">
+    <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
       {graphHeadersStyled.map((header, index) => (
         <LinePath
           data={courseHistoryYears}
