@@ -8,15 +8,30 @@ import CourseGraphRegistered from '../components/Course/CourseGraphRegistered'
 
 const CourseContainer = ({ courseCode }) => (
   <div>
-    <CourseGraph
-      graphHeaders={orderedHeadersFiltered}
-      graphHeadersStyled={orderedHeadersStyledFiltered}
-      courseHistoryYears={courseHistoryYears(courseCode)}
-      name={nameByCourse(courseCode)}
-    />
-    <CourseGraphRegistered
-      courseHistoryYears={courseHistoryYears(courseCode)}
-    />
+    {courseHistoryYears(courseCode).length <= 2 ? (
+      <div>
+        <h1>
+No data available for
+          {' '}
+          {courseCode}
+        </h1>
+
+      </div>
+    )
+      : (
+        <div>
+          <CourseGraph
+            graphHeaders={orderedHeadersFiltered}
+            graphHeadersStyled={orderedHeadersStyledFiltered}
+            courseHistoryYears={courseHistoryYears(courseCode)}
+            name={nameByCourse(courseCode)}
+          />
+          <CourseGraphRegistered
+            courseHistoryYears={courseHistoryYears(courseCode)}
+          />
+        </div>
+      )
+    }
   </div>
 )
 
