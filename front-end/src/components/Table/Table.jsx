@@ -6,6 +6,7 @@ const StyledHeaderLink = styled(Link)`
 color: #A9A9A9;
 :hover{
   color: #000000;
+  font-size: 1,2em;
 }
 `
 

@@ -16,15 +16,16 @@ const TableContainer = styled.div`
 const AreaWrapper = styled.div`
   grid-area: ${props => props.gridArea};
  `
+ const initialState = {
+  searchTerm: '',
+  sortBy: 'name',
+  ascending: false,
+ }
 
 class TablePage extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {
-      searchTerm: '',
-      sortBy: 'name',
-      ascending: false,
-    }
+    this.state = initialState
   }
 
   courseSearch = data => data.filter(course => (
@@ -51,6 +52,7 @@ class TablePage extends React.Component {
     return arraySort
   }
   handleInputChange = event => this.setState({ searchTerm: event.target.value })
+  reset = () => this.setState(initialState)
   
   render() {
     return (
@@ -59,6 +61,7 @@ class TablePage extends React.Component {
           <Header 
             handleInputChange={this.handleInputChange}
             inputValue={this.state.searchTerm}
+            reset={this.reset}
           />
         </AreaWrapper>
         <AreaWrapper gridArea="search">
