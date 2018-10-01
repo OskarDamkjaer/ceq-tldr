@@ -1,11 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import CourseName from './CourseName'
+
+const StyledHeaderLink = styled(Link)`
+color: ${props => props.color};
+:hover{
+  color: #000000;
+}
+`
 
 const StyledLink = styled(Link)`
 color: #000000;
 :hover{
-  color: #75BBC0;
+  color: #117D69;
 }
 `
 
@@ -33,16 +41,21 @@ const PrettyThHeader = styled.th`
   border-bottom: 1px solid #ddd;
   padding: 15px;
 `
+const excludedHeaders = ['year', 'code']
 
 const Table = ({
-  data, headersNoStyle, headers, handleSortClick,
+  data, headersNoStyle, headers, handleSortClick, colorArray,
 }) => (
   <PrettyTable>
     <thead>
       <PrettyTr>
-        {headersNoStyle.map((key, index) => (
-          <PrettyThHeader key={key}><StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{headers[index]}</StyledLink></PrettyThHeader>
-        ))}
+        {headersNoStyle.map((key, index) => !excludedHeaders.includes(key)
+           && (
+           <PrettyThHeader key={key}>
+             <StyledHeaderLink color={colorArray[index]} to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{headers[index]}</StyledHeaderLink>
+           </PrettyThHeader>
+           ))}
+
       </PrettyTr>
     </thead>
     <tbody>
@@ -54,20 +67,20 @@ const Table = ({
                 to={`/${row.code}`}
                 style={{ textDecoration: 'none' }}
               >
-                {row.name}
+                <CourseName name={row.name} code={row.code} />
               </StyledLink>
             </PrettyTdHeader>
-            {headersNoStyle.slice(1).map(key =>
-              (
-                <PrettyTd key={key + row.name}>
-                  <StyledLink
-                    to={`/${row.code}`}
-                    style={{ textDecoration: 'none' }}
-                  >
-                    {row[key]}
-                  </StyledLink>
-                </PrettyTd>
-              ))
+            {headersNoStyle.slice(1).map(key => !excludedHeaders.includes(key)
+           && (
+           <PrettyTd key={key + row.name}>
+             <StyledLink
+               to={`/${row.code}`}
+               style={{ textDecoration: 'none' }}
+             >
+               {row[key]}
+             </StyledLink>
+           </PrettyTd>
+           ))
             }
           </PrettyTr>
         ))

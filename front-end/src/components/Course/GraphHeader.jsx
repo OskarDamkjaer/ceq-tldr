@@ -18,11 +18,20 @@ const HeaderSpan = styled.span`
  padding-top: 20px;
  color: ${props => props.color};
  padding-left: 20px;
-
 `
-const GraphHeader = ({ graphHeadersStyled, colorArray, name }) => (
+const CourseCodeStyle = styled.div`
+ color: gray;
+`
+const GraphHeader = ({
+  graphHeadersStyled, colorArray, name, courseCode,
+}) => (
   <HeaderWrapper>
-    <Header>{name}</Header>
+    <Header>
+      {name}
+      {' '}
+      <CourseCodeStyle>{courseCode}</CourseCodeStyle>
+      {' '}
+    </Header>
     {graphHeadersStyled.map((header, index) => (
       <HeaderSpan color={colorArray[index]}>
         {header}

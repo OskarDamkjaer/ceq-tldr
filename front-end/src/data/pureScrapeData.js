@@ -762,7 +762,7 @@ export default {
     satisfactionScore: '+47',
     teachingScore: '+35',
     workloadScore: '+15',
-    year: '13/14',
+    year: '12/13',
   },
   51: {
     assessmentScore: '+33',

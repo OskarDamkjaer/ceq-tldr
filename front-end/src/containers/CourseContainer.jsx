@@ -1,35 +1,34 @@
 import React from 'react'
 import {
-  courseHistoryYears, nameByCourse, orderedHeadersFiltered, orderedHeadersStyledFiltered,
+  courseHistoryYears, nameByCourse, orderedHeadersFiltered, orderedHeadersStyledFiltered, colorArray, xAxArray,
 } from '../data/DataManagement'
 
-import CourseGraph from '../components/Course/CourseGraph'
-import CourseGraphRegistered from '../components/Course/CourseGraphRegistered'
+import GraphContainer from './GraphContainer'
+
 
 const CourseContainer = ({ courseCode }) => (
   <div>
     {courseHistoryYears(courseCode).length <= 2 ? (
       <div>
         <h1>
-No data available for
+        No data available for
           {' '}
           {nameByCourse(courseCode)}
+          , you are probably looking a course with the same name but different course code.
         </h1>
 
       </div>
     )
       : (
-        <div>
-          <CourseGraph
-            graphHeaders={orderedHeadersFiltered}
-            graphHeadersStyled={orderedHeadersStyledFiltered}
-            courseHistoryYears={courseHistoryYears(courseCode)}
-            name={nameByCourse(courseCode)}
-          />
-          <CourseGraphRegistered
-            courseHistoryYears={courseHistoryYears(courseCode)}
-          />
-        </div>
+        <GraphContainer
+          orderedHeadersFiltered={orderedHeadersFiltered}
+          orderedHeadersStyledFiltered={orderedHeadersStyledFiltered}
+          courseCode={courseCode}
+          nameByCourse={nameByCourse}
+          courseHistoryYears={courseHistoryYears}
+          xAxArray={xAxArray}
+          colorArray={colorArray}
+        />
       )
     }
   </div>

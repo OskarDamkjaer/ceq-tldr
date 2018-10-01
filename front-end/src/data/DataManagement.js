@@ -9,8 +9,10 @@ export const orderedHeadersStyled = orderedHeaders.map(item => item.replace(/([A
 
 const excludedHeaders = ['NAME', 'CODE', 'COMMENTS', 'YEAR', 'POINTS', 'REGISTERED']
 const excludedHeadersData = ['name', 'code', 'comments', 'year', 'points', 'registered']
-export const orderedHeadersFiltered = orderedHeaders.filter(header => !excludedHeadersData.includes(header))
-export const orderedHeadersStyledFiltered = orderedHeadersStyled.filter(header => !excludedHeaders.includes(header))
+export const orderedHeadersFiltered = orderedHeaders
+  .filter(header => !excludedHeadersData.includes(header))
+export const orderedHeadersStyledFiltered = orderedHeadersStyled
+  .filter(header => !excludedHeaders.includes(header))
 
 export const latestData = scrapeData.reduce((acc, processing) => {
   const containsCurrCourse = acc.filter(item => item.code === processing.code).length > 0
@@ -42,5 +44,13 @@ export function courseHistoryYears(courseCode) {
   return resultArray
 }
 
+export function xAxArray(courseCode) {
+  const yearsArray = []
+  courseHistoryYears(courseCode).map(item => yearsArray.push(parseInt(`20${item.year.substring(3, 5)}`, 10)))
+  return yearsArray
+}
+
 export const nameByCourse = courseCode => scrapeData
   .filter(item => item.code === courseCode)[0].name
+
+export const colorArray = ['#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594', '#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594']

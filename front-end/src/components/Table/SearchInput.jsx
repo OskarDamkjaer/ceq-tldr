@@ -5,6 +5,9 @@ const DamnFineInput = styled.input`
  width: 700px; 
  height: 3em;
  grid-area: ${props => props.gridArea};
+ :focus {
+    outline:none;
+}
 `
 
 const SearchField = ({ onChange, value, gridArea }) => (
