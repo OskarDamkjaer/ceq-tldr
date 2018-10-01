@@ -30,13 +30,9 @@ const yValue = (item, dataTag) => parseInt(parseInt(item[dataTag], 10), 10)
 
 const tickArray = [-100, -80, -60, -40, -20, 0, +20, 40, 60, 80, 100]
 const tickArrayX = [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
-const colorArray = ['#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594']
-/*
-ASSESMENT, GOAL, IMPORTANCE, PERCENTAGE , SATISFACTIONSCORE, TECH, WORKLOAD
-*/
 
 const CourseGraph = ({
-  graphHeaders, graphHeadersStyled, courseHistoryYears, name,
+  graphHeaders, graphHeadersStyled, courseHistoryYears, name, colorArray,
 }) => (
   <GraphWrapper>
     <GraphHeader graphHeadersStyled={graphHeadersStyled} colorArray={colorArray} name={name} />

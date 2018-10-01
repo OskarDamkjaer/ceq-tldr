@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { latestData, orderedHeaders, orderedHeadersStyled } from '../data/DataManagement'
+import { latestData, orderedHeaders, orderedHeadersStyled, colorArray, } from '../data/DataManagement'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
 
@@ -72,6 +72,7 @@ class TablePage extends React.Component {
             headers={orderedHeadersStyled}
             headersNoStyle={orderedHeaders}
             handleSortClick={this.handleSortClick}
+            colorArray={colorArray}
           />
         </AreaWrapper>
       </TableContainer>

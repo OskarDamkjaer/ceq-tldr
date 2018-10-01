@@ -7,7 +7,6 @@ const HeaderWrapper = styled.div`
   padding: 20px;
   width: 100vw;
   height: 100px;
-  background: #117D69;
   display: flex;
 `
 const InputWrapper = styled.div`
@@ -19,7 +18,7 @@ const InputWrapper = styled.div`
 
 const StyledLink = styled(Link)`
   font-size: 2.5em;
-  color: #ffffff;
+  color: #000000;
 `
 
 const Header = ({ handleInputChange, inputValue, reset }) => (
