@@ -2,13 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import { latestData, orderedHeaders, orderedHeadersStyled } from '../data/DataManagement'
 import Table from '../components/Table/Table'
-import SearchInput from '../components/Table/SearchInput'
 import Header from '../components/Table/Header'
 
 const TableContainer = styled.div`
  display: grid;
- grid-template-areas: ".     header ."
-                      ".     search ."
+ grid-template-areas: "header header header"
+                      ". . ."
                       "table table  table";
  grid-template-rows: 100px 50px 1fr;
  grid-template-columns: 100px 1fr 1fr;
@@ -32,7 +31,7 @@ class TablePage extends React.Component {
     course.code.toLowerCase().includes(this.state.searchTerm.toLowerCase())
     || course.name.toLowerCase().includes(this.state.searchTerm.toLowerCase()))
   )
-  handleSortClick = (newSort) => {
+  handleSortClick = newSort => {
     this.setState({ascending: !this.state.ascending})
     this.setState({ sortBy: newSort })
   }
@@ -51,19 +50,19 @@ class TablePage extends React.Component {
     )
     return arraySort
   }
+  handleInputChange = event => this.setState({ searchTerm: event.target.value })
+  
   render() {
     return (
       <TableContainer>
         <AreaWrapper gridArea="header">
-          <Header />
-        </AreaWrapper>
-        <AreaWrapper gridArea="search">
-          <SearchInput
-            onChange={(event) => this.setState({ searchTerm: event.target.value })}
-            value={this.state.searchTerm}
+          <Header 
+            handleInputChange={this.handleInputChange}
+            inputValue={this.state.searchTerm}
           />
         </AreaWrapper>
-
+        <AreaWrapper gridArea="search">
+        </AreaWrapper>
         <AreaWrapper gridArea="table">
           <Table
             data={this.courseSearch(this.specialSort(latestData))}

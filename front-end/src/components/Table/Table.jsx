@@ -2,10 +2,17 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
+const StyledHeaderLink = styled(Link)`
+color: #A9A9A9;
+:hover{
+  color: #000000;
+}
+`
+
 const StyledLink = styled(Link)`
 color: #000000;
 :hover{
-  color: #75BBC0;
+  color: #117D69;
 }
 `
 
@@ -41,7 +48,7 @@ const Table = ({
     <thead>
       <PrettyTr>
         {headersNoStyle.map((key, index) => (
-          <PrettyThHeader key={key}><StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{headers[index]}</StyledLink></PrettyThHeader>
+          <PrettyThHeader key={key}><StyledHeaderLink to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{headers[index]}</StyledHeaderLink></PrettyThHeader>
         ))}
       </PrettyTr>
     </thead>
