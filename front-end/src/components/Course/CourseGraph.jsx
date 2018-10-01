@@ -21,12 +21,7 @@ const yScale = scaleLinear({
   domain: [100, -100],
 })
 
-const xValueTemp = item => parseInt(`20${item.year.substring(3, 5)}`, 10)
-
-function xValue(item, xAxArray) {
-  console.log(xAxArray)
-  return parseInt(`20${item.year.substring(3, 5)}`, 10)
-}
+const xValue = item => parseInt(`20${item.year.substring(3, 5)}`, 10)
 
 const yValue = (item, dataTag) => parseInt(parseInt(item[dataTag], 10), 10)
 
@@ -43,7 +38,7 @@ const CourseGraph = ({
           data={courseHistoryYears}
           xScale={scaleLinear(xScaleLiniear(xAxArray[0], xAxArray[xAxArray.length - 1]))}
           yScale={yScale}
-          x={item => xValue(item, xAxArray)}
+          x={item => xValue(item)}
           y={item => yValue(item, graphHeaders[index])}
           curve={curveNatural}
           stroke={colorArray[index]}

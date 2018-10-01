@@ -18,6 +18,7 @@ const GraphContainer = ({
     <CourseGraphRegistered
       courseHistoryYears={courseHistoryYears(courseCode)}
       colorArray={colorArray}
+      xAxArray={xAxArray(courseCode)}
     />
   </div>
 )
