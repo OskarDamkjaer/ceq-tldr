@@ -14,35 +14,36 @@ const GraphWrapper = styled.div`
  padding-top: 100px;
 `
 
-const xScale = scaleLinear({
-  rangeRound: [500, 0],
-  domain: [2019, 2012],
-})
+const xScaleLiniear = (yearLow, yearHigh) => ({ rangeRound: [500, 0], domain: [yearHigh, yearLow] })
 
 const yScale = scaleLinear({
   rangeRound: [0, 800],
   domain: [100, -100],
 })
 
-const xValue = item => parseInt(`20${item.year.substring(3, 5)}`, 10)
+const xValueTemp = item => parseInt(`20${item.year.substring(3, 5)}`, 10)
+
+function xValue(item, xAxArray) {
+  console.log(xAxArray)
+  return parseInt(`20${item.year.substring(3, 5)}`, 10)
+}
 
 const yValue = (item, dataTag) => parseInt(parseInt(item[dataTag], 10), 10)
 
 const tickArray = [-100, -80, -60, -40, -20, 0, +20, 40, 60, 80, 100]
-const tickArrayX = [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
 
 const CourseGraph = ({
-  graphHeaders, graphHeadersStyled, courseHistoryYears, name, colorArray,
+  graphHeaders, graphHeadersStyled, courseHistoryYears, name, colorArray, courseCode, xAxArray,
 }) => (
   <GraphWrapper>
-    <GraphHeader graphHeadersStyled={graphHeadersStyled} colorArray={colorArray} name={name} />
+    <GraphHeader graphHeadersStyled={graphHeadersStyled} colorArray={colorArray} name={name} courseCode={courseCode} />
     <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
       {graphHeadersStyled.map((header, index) => (
         <LinePath
           data={courseHistoryYears}
-          xScale={xScale}
+          xScale={scaleLinear(xScaleLiniear(xAxArray[0], xAxArray[xAxArray.length - 1]))}
           yScale={yScale}
-          x={item => xValue(item)}
+          x={item => xValue(item, xAxArray)}
           y={item => yValue(item, graphHeaders[index])}
           curve={curveNatural}
           stroke={colorArray[index]}
@@ -50,11 +51,11 @@ const CourseGraph = ({
         />
       ))}
       <AxisBottom
-        scale={xScale}
+        scale={scaleLinear(xScaleLiniear(xAxArray[0], xAxArray[xAxArray.length - 1]))}
         top={400}
         label="year"
         tickFormat={item => `${item}`}
-        tickValues={tickArrayX}
+        tickValues={xAxArray}
       />
       <AxisLeft
         scale={yScale}

@@ -44,6 +44,12 @@ export function courseHistoryYears(courseCode) {
   return resultArray
 }
 
+export function xAxArray(courseCode) {
+  const yearsArray = []
+  courseHistoryYears(courseCode).map(item => yearsArray.push(parseInt(`20${item.year.substring(3, 5)}`, 10)))
+  return yearsArray
+}
+
 export const nameByCourse = courseCode => scrapeData
   .filter(item => item.code === courseCode)[0].name
 
