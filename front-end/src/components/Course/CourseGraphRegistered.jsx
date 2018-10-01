@@ -30,7 +30,7 @@ const yPoint = compose(yRegScale, y => y.registered)
 const CourseGraphRegistered = ({ courseHistoryYears, colorArray, xAxArray }) => (
 
   <GraphWrapper>
-    <h1>Number of registred</h1>
+    <h1>Number of registered</h1>
 
     <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
       {courseHistoryYears.map((item, index) => (
