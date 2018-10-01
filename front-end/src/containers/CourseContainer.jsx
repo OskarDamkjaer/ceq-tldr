@@ -14,7 +14,7 @@ const CourseContainer = ({ courseCode }) => (
         No data available for
           {' '}
           {nameByCourse(courseCode)}
-          , probarbly you are looking for this course but with other course code?
+          , you are probably looking a course with the same name but different course code.
         </h1>
 
       </div>

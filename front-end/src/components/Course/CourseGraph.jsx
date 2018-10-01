@@ -23,7 +23,7 @@ const yScale = scaleLinear({
 
 const xValue = item => parseInt(`20${item.year.substring(3, 5)}`, 10)
 
-const yValue = (item, dataTag) => parseInt(parseInt(item[dataTag], 10), 10)
+const yValue = (item, dataTag) => parseInt(item[dataTag], 10)
 
 const tickArray = [-100, -80, -60, -40, -20, 0, +20, 40, 60, 80, 100]
 

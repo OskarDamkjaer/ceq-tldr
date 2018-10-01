@@ -7,7 +7,6 @@ const StyledHeaderLink = styled(Link)`
 color: ${props => props.color};
 :hover{
   color: #000000;
-  font-size: 1,2em;
 }
 `
 
