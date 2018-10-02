@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  courseHistoryYears, nameByCourse, orderedHeadersFiltered, orderedHeadersStyledFiltered, colorArray, xAxArray, isNeg,
+  courseHistoryYears, nameByCourse, orderedHeadersFiltered, orderedHeadersStyledFiltered, colorArray, xAxArray, isNeg, isLess,
 } from '../data/DataManagement'
 
 import GraphContainer from './GraphContainer'
@@ -29,6 +29,7 @@ const CourseContainer = ({ courseCode }) => (
           xAxArray={xAxArray}
           colorArray={colorArray}
           isNeg={isNeg}
+          isLess={isLess}
         />
       )
     }

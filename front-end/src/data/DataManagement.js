@@ -60,3 +60,9 @@ export const isNeg = (courseCode) => {
   courseHistoryYears(courseCode).map(item => allArray.push(...Object.values(item)))
   return Math.sign(Math.min(...allArray.map(item => parseInt(item, 10)).filter(Boolean))) <= 0
 }
+export const isLess = (courseCode) => {
+  const allArray = []
+  courseHistoryYears(courseCode).map(item => allArray.push(item.registered))
+  console.log(Math.max(...allArray))
+  return Math.max(...allArray) < 100
+}
