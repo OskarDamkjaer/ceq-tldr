@@ -12,9 +12,6 @@ const GraphWrapper = styled.div`
  padding-top: 100px;
 `
 
-const xScaleBand = xAxArray => ({ rangeRound: [500, 0], domain: xAxArray })
-
-
 const yRegScalePos = { rangeRound: [0, 400], domain: [200, 0] }
 const yRegScaleLess = { rangeRound: [0, 400], domain: [100, 0] }
 
@@ -36,7 +33,7 @@ const CourseGraphRegistered = ({
     <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
       {courseHistoryYears.map((item, index) => (
         <Bar
-          width={scaleBand(xScaleBand(xAxArray)).bandwidth()}
+          width={scaleBand({ rangeRound: [500, 0], domain: xAxArray }).bandwidth()}
           height={isLess ? 400 - yPointLess(item) : 400 - yPointPos(item)}
 
           x={500 / xAxArray.length * index}
@@ -46,7 +43,7 @@ const CourseGraphRegistered = ({
         />
       ))}
       <AxisBottom
-        scale={scaleBand(xScaleBand(xAxArray))}
+        scale={scaleBand({ rangeRound: [500, 0], domain: xAxArray })}
         top={400}
         label="year"
         tickFormat={item => `${item}`}
