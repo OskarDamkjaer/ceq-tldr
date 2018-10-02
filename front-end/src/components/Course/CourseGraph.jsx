@@ -6,7 +6,6 @@ import { curveNatural } from '@vx/curve'
 import { LinePath } from '@vx/shape'
 import GraphHeader from './GraphHeader'
 
-
 const GraphWrapper = styled.div`
  font-size: 1,2em;
  display:flex;
