@@ -1,5 +1,8 @@
 import pureData from './pureScrapeData'
 
+export const colorArray = ['#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594', '#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594']
+
+
 const scrapeData = Object.values(pureData).filter((item, index) => index !== 2)
 const scrapeKeys = Object.keys(pureData[0]).filter((item, index) => index !== 2)
 
@@ -53,7 +56,6 @@ export function xAxArray(courseCode) {
 export const nameByCourse = courseCode => scrapeData
   .filter(item => item.code === courseCode)[0].name
 
-export const colorArray = ['#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594', '#3F2A36', '#DB2580', '#C5E1A0', '#75BBC0', '#117D69', '#FAE8C4', '#66D594']
 
 export const isNeg = (courseCode) => {
   const allArray = []
