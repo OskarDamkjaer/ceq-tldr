@@ -12,7 +12,7 @@ const GraphWrapper = styled.div`
  padding-top: 100px;
 `
 
-const xScaleBand = xAxArray => ({ rangeRound: [500, 0], domain: xAxArray.reverse() })
+const xScaleBand = xAxArray => ({ rangeRound: [500, 0], domain: xAxArray })
 
 
 const yRegScalePos = { rangeRound: [0, 400], domain: [200, 0] }

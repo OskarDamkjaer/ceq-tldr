@@ -19,7 +19,7 @@ const GraphContainer = ({
     <CourseGraphRegistered
       courseHistoryYears={courseHistoryYears(courseCode)}
       colorArray={colorArray}
-      xAxArray={xAxArray(courseCode)}
+      xAxArray={xAxArray(courseCode).reverse()}
       isLess={isLess(courseCode)}
     />
   </div>
