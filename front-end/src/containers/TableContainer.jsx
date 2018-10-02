@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { latestData, orderedHeaders, orderedHeadersStyled, colorArray, } from '../data/DataManagement'
+import { latestData, orderedHeaders, orderedHeadersStyled, colorArray } from '../data/DataManagement'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
+import ColorContext from '../context/color';
 
 const TableContainer = styled.div`
  display: grid;
@@ -16,6 +17,7 @@ const TableContainer = styled.div`
 const AreaWrapper = styled.div`
   grid-area: ${props => props.gridArea};
  `
+
  const initialState = {
   searchTerm: '',
   sortBy: 'name',
@@ -67,13 +69,16 @@ class TablePage extends React.Component {
         <AreaWrapper gridArea="search">
         </AreaWrapper>
         <AreaWrapper gridArea="table">
+
+        <ColorContext.Provider value={colorArray}>
           <Table
             data={this.courseSearch(this.specialSort(latestData))}
             headers={orderedHeadersStyled}
             headersNoStyle={orderedHeaders}
             handleSortClick={this.handleSortClick}
-            colorArray={colorArray}
           />
+        </ColorContext.Provider>
+
         </AreaWrapper>
       </TableContainer>
     )

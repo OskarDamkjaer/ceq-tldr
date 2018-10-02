@@ -1,7 +1,9 @@
 import React from 'react'
 import {
-  courseHistoryYears, nameByCourse, orderedHeadersFiltered, orderedHeadersStyledFiltered, colorArray, xAxArray, isNeg, isLess,
+  courseHistoryYears, nameByCourse, orderedHeadersFiltered, orderedHeadersStyledFiltered, xAxArray, isNeg, isLess,
 } from '../data/DataManagement'
+import ColorContext from '../context/color'
+
 
 import GraphContainer from './GraphContainer'
 
@@ -20,17 +22,20 @@ const CourseContainer = ({ courseCode }) => (
       </div>
     )
       : (
-        <GraphContainer
-          orderedHeadersFiltered={orderedHeadersFiltered}
-          orderedHeadersStyledFiltered={orderedHeadersStyledFiltered}
-          courseCode={courseCode}
-          nameByCourse={nameByCourse}
-          courseHistoryYears={courseHistoryYears}
-          xAxArray={xAxArray}
-          colorArray={colorArray}
-          isNeg={isNeg}
-          isLess={isLess}
-        />
+        <ColorContext.Consumer>
+          {colorArray => (
+            <GraphContainer
+              orderedHeadersFiltered={orderedHeadersFiltered}
+              orderedHeadersStyledFiltered={orderedHeadersStyledFiltered}
+              courseCode={courseCode}
+              nameByCourse={nameByCourse}
+              courseHistoryYears={courseHistoryYears}
+              xAxArray={xAxArray}
+              colorArray={colorArray}
+              isNeg={isNeg}
+              isLess={isLess}
+            />)}
+        </ColorContext.Consumer>
       )
     }
   </div>

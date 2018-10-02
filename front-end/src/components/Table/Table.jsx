@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import CourseName from './CourseName'
+import ColorContext from '../../context/color'
+
 
 const StyledHeaderLink = styled(Link)`
 color: ${props => props.color};
@@ -44,47 +46,50 @@ const PrettyThHeader = styled.th`
 const excludedHeaders = ['year', 'code']
 
 const Table = ({
-  data, headersNoStyle, headers, handleSortClick, colorArray,
+  data, headersNoStyle, headers, handleSortClick,
 }) => (
   <PrettyTable>
     <thead>
       <PrettyTr>
         {headersNoStyle.map((key, index) => !excludedHeaders.includes(key)
-           && (
-           <PrettyThHeader key={key}>
-             <StyledHeaderLink color={colorArray[index]} to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{headers[index]}</StyledHeaderLink>
-           </PrettyThHeader>
-           ))}
+            && (
+              <PrettyThHeader key={key}>
+                <ColorContext.Consumer>
+                  {colorArray => <StyledHeaderLink color={colorArray[index]} to="/" style={{ textDecoration: 'none' }} onClick={() => handleSortClick(key)}>{headers[index]}</StyledHeaderLink>}
+                </ColorContext.Consumer>
+
+              </PrettyThHeader>
+            ))}
 
       </PrettyTr>
     </thead>
     <tbody>
       {
-        data.map(row => (
-          <PrettyTr key={row.code}>
-            <PrettyTdHeader>
-              <StyledLink
-                to={`/${row.code}`}
-                style={{ textDecoration: 'none' }}
-              >
-                <CourseName name={row.name} code={row.code} />
-              </StyledLink>
-            </PrettyTdHeader>
-            {headersNoStyle.slice(1).map(key => !excludedHeaders.includes(key)
-           && (
-           <PrettyTd key={key + row.name}>
-             <StyledLink
-               to={`/${row.code}`}
-               style={{ textDecoration: 'none' }}
-             >
-               {row[key]}
-             </StyledLink>
-           </PrettyTd>
-           ))
-            }
-          </PrettyTr>
-        ))
-      }
+          data.map(row => (
+            <PrettyTr key={row.code}>
+              <PrettyTdHeader>
+                <StyledLink
+                  to={`/${row.code}`}
+                  style={{ textDecoration: 'none' }}
+                >
+                  <CourseName name={row.name} code={row.code} />
+                </StyledLink>
+              </PrettyTdHeader>
+              {headersNoStyle.slice(1).map(key => !excludedHeaders.includes(key)
+                && (
+                  <PrettyTd key={key + row.name}>
+                    <StyledLink
+                      to={`/${row.code}`}
+                      style={{ textDecoration: 'none' }}
+                    >
+                      {row[key]}
+                    </StyledLink>
+                  </PrettyTd>
+                ))
+              }
+            </PrettyTr>
+          ))
+        }
     </tbody>
   </PrettyTable>
 )
