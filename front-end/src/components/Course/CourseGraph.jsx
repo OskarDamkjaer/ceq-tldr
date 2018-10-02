@@ -6,7 +6,6 @@ import { curveNatural } from '@vx/curve'
 import { LinePath } from '@vx/shape'
 import GraphHeader from './GraphHeader'
 
-
 const GraphWrapper = styled.div`
  font-size: 1,2em;
  display:flex;
@@ -15,20 +14,17 @@ const GraphWrapper = styled.div`
 `
 
 const xScaleLiniear = (yearLow, yearHigh) => ({ rangeRound: [500, 0], domain: [yearHigh, yearLow] })
-
-const yScale = scaleLinear({
-  rangeRound: [0, 800],
-  domain: [100, -100],
-})
+const yPos = { rangeRound: [0, 400], domain: [100, 0] }
+const yNeg = { rangeRound: [0, 800], domain: [100, -100] }
 
 const xValue = item => parseInt(`20${item.year.substring(3, 5)}`, 10)
-
 const yValue = (item, dataTag) => parseInt(item[dataTag], 10)
 
-const tickArray = [-100, -80, -60, -40, -20, 0, +20, 40, 60, 80, 100]
+const tickArrayPos = [0, 20, 40, 60, 80, 100]
+const tickArrayNeg = [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
 
 const CourseGraph = ({
-  graphHeaders, graphHeadersStyled, courseHistoryYears, name, colorArray, courseCode, xAxArray,
+  graphHeaders, graphHeadersStyled, courseHistoryYears, name, colorArray, courseCode, xAxArray, isNeg,
 }) => (
   <GraphWrapper>
     <GraphHeader graphHeadersStyled={graphHeadersStyled} colorArray={colorArray} name={name} courseCode={courseCode} />
@@ -37,7 +33,7 @@ const CourseGraph = ({
         <LinePath
           data={courseHistoryYears}
           xScale={scaleLinear(xScaleLiniear(xAxArray[0], xAxArray[xAxArray.length - 1]))}
-          yScale={yScale}
+          yScale={isNeg ? scaleLinear(yNeg) : scaleLinear(yPos)}
           x={item => xValue(item)}
           y={item => yValue(item, graphHeaders[index])}
           curve={curveNatural}
@@ -53,8 +49,8 @@ const CourseGraph = ({
         tickValues={xAxArray}
       />
       <AxisLeft
-        scale={yScale}
-        tickValues={tickArray}
+        scale={isNeg ? scaleLinear(yNeg) : scaleLinear(yPos)}
+        tickValues={isNeg ? tickArrayNeg : tickArrayPos}
       />
     </svg>
   </GraphWrapper>

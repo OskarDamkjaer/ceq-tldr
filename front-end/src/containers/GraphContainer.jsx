@@ -3,7 +3,7 @@ import CourseGraph from '../components/Course/CourseGraph'
 import CourseGraphRegistered from '../components/Course/CourseGraphRegistered'
 
 const GraphContainer = ({
-  orderedHeadersFiltered, orderedHeadersStyledFiltered, courseCode, nameByCourse, courseHistoryYears, colorArray, xAxArray,
+  orderedHeadersFiltered, orderedHeadersStyledFiltered, courseCode, nameByCourse, courseHistoryYears, colorArray, xAxArray, isNeg, isLess,
 }) => (
   <div>
     <CourseGraph
@@ -14,11 +14,13 @@ const GraphContainer = ({
       colorArray={colorArray}
       courseCode={courseCode}
       xAxArray={xAxArray(courseCode)}
+      isNeg={isNeg(courseCode)}
     />
     <CourseGraphRegistered
       courseHistoryYears={courseHistoryYears(courseCode)}
       colorArray={colorArray}
-      xAxArray={xAxArray(courseCode)}
+      xAxArray={xAxArray(courseCode).reverse()}
+      isLess={isLess(courseCode)}
     />
   </div>
 )
