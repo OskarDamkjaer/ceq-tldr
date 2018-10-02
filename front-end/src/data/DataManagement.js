@@ -63,6 +63,5 @@ export const isNeg = (courseCode) => {
 export const isLess = (courseCode) => {
   const allArray = []
   courseHistoryYears(courseCode).map(item => allArray.push(item.registered))
-  console.log(Math.max(...allArray))
   return Math.max(...allArray) < 100
 }

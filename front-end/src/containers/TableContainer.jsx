@@ -25,11 +25,7 @@ const AreaWrapper = styled.div`
 class TablePage extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {
-      searchTerm: '',
-      sortBy: 'name',
-      ascending: false,
-     }
+    this.state = initialState
   }
 
   courseSearch = data => data.filter(course => (
