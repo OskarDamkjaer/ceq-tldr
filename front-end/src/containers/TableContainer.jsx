@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import {
   latestData, orderedHeaders, orderedHeadersStyled, colorArray,
-} from '../data/DataManagement'
+} from '../data'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
 import ColorContext from '../context/color'
