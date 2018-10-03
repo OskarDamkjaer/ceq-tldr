@@ -9,17 +9,17 @@ const GraphContainer = ({
     <CourseGraph
       graphHeaders={orderedHeadersFiltered}
       graphHeadersStyled={orderedHeadersStyledFiltered}
-      courseHistoryYears={courseData.history}
+      history={courseData.history}
       name={courseData.name}
       colorArray={colorArray}
       courseCode={courseCode}
-      xAxArray={courseData.xAxis}
+      xAxis={courseData.xAxis}
       isNeg={courseData.isNeg}
     />
     <CourseGraphRegistered
-      courseHistoryYears={courseData.history}
+      history={courseData.history}
       colorArray={colorArray}
-      xAxArray={courseData.xAxis}
+      xAxis={courseData.xAxis}
       isLess={courseData.isLess}
     />
   </div>
