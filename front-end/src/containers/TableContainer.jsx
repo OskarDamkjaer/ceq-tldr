@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { latestData, tableHeaders } from '../data'
+import { recentData, tableHeaders, excludedHeaders } from '../data'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
 
@@ -25,9 +25,10 @@ const TableContainer = () => (
     <AreaWrapper gridArea="search" />
     <AreaWrapper gridArea="table">
       <Table
-        headers={tableHeaders().styledHeaders}
-        headersNoStyle={tableHeaders().headers}
-        latestData={latestData}
+        headers={tableHeaders.styledHeaders}
+        headersNoStyle={tableHeaders.headers}
+        latestData={recentData}
+        excludedHeaders={excludedHeaders}
       />
     </AreaWrapper>
   </TableWrapper>

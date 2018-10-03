@@ -19,7 +19,7 @@ const GraphContainer = ({
     <CourseGraphRegistered
       history={courseData.history}
       colorArray={colorArray}
-      xAxis={courseData.xAxis}
+      xAxis={courseData.xAxis.concat().reverse()}
       isLess={courseData.isLess}
     />
   </div>
