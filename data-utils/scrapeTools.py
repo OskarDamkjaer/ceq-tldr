@@ -1,8 +1,10 @@
+import re
 from contextlib import closing
 
 from bs4 import BeautifulSoup
 from requests import get
 from requests.exceptions import RequestException
+import json
 
 
 def simple_get(url):
@@ -89,3 +91,32 @@ def get_all_hrefs():
 
     print(urlbois)
     return urlbois
+
+
+def current_course_codes():
+    courses = simple_get("https://kurser.lth.se/lot/?val=program&prog=C&lang=sv")
+    html = BeautifulSoup(courses, 'html.parser')
+
+    result = {}
+    current_key = "default"
+    for i, tag in enumerate(html.findAll()):
+        if tag.string is None:
+            continue
+        if tag.name == 'a' and tag.parent.name != 'td':
+            continue
+
+        text = tag.get_text().strip()
+        # print(i, text)
+
+        if "Årskurs" in text or "Specialisering" in text:
+            current_key = text
+            result[current_key] = []
+
+        if re.search('[a-zA-Z]{4}[0-9]{2}', text) is not None:
+            if len(text) == 6:
+                result[current_key].append(text)
+    f = open("./data/c_courses.json", "w")
+    f.write(json.dumps(result))
+
+
+current_course_codes()
