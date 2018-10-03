@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import SortingContext from './sorting'
 
-
 class SortingProvider extends Component {
 /* eslint-disable */
   constructor(props) {

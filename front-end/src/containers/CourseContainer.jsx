@@ -3,7 +3,6 @@ import { courseData, graphHeaders } from '../data'
 import ColorContext from '../context/color'
 import GraphContainer from './GraphContainer'
 
-
 const CourseContainer = ({ courseCode }) => (
   <div>
     {courseData(courseCode).history.length <= 2 ? (
