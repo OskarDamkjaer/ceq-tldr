@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {
-  latestData, orderedHeaders, orderedHeadersStyled, colorArray,
+  latestData, tableHeaders, colorArray,
 } from '../data'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
@@ -29,8 +29,8 @@ const TableContainer = () => (
     <AreaWrapper gridArea="table">
       <ColorContext.Provider value={colorArray}>
         <Table
-          headers={orderedHeadersStyled}
-          headersNoStyle={orderedHeaders}
+          headers={tableHeaders().styledHeaders}
+          headersNoStyle={tableHeaders().headers}
           latestData={latestData}
         />
       </ColorContext.Provider>

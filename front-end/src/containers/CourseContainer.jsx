@@ -1,5 +1,5 @@
 import React from 'react'
-import { courseData, orderedHeadersFiltered, orderedHeadersStyledFiltered } from '../data'
+import { courseData, graphHeaders } from '../data'
 import ColorContext from '../context/color'
 import GraphContainer from './GraphContainer'
 
@@ -21,8 +21,8 @@ const CourseContainer = ({ courseCode }) => (
         <ColorContext.Consumer>
           {colorArray => (
             <GraphContainer
-              orderedHeadersFiltered={orderedHeadersFiltered}
-              orderedHeadersStyledFiltered={orderedHeadersStyledFiltered}
+              orderedHeadersFiltered={graphHeaders().headers}
+              orderedHeadersStyledFiltered={graphHeaders().styledHeaders}
               courseCode={courseCode}
               colorArray={colorArray}
               courseData={courseData(courseCode)}

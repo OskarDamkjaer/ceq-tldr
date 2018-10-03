@@ -5,16 +5,21 @@ import {
   isNeg, isLess,
 } from './DataManagement'
 
-/*
-orderedHeaders/orderedHeadersStyled:
-gives column headers for data fetching or visual use orderedHeadersStyled.
-orderedHeadersFiltered/orderedHeadersStyledFiltered: filtered from headers not used in graphs
-*/
-export {
-  orderedHeaders, orderedHeadersStyled, orderedHeadersFiltered, orderedHeadersStyledFiltered,
-}
-/* latestData: returns data from last year.
-    courseHistoryYears: takes course code parses years */
+/* tableHeaders: gives object with headers for table. */
+export const tableHeaders = () => (
+  {
+    headers: orderedHeaders,
+    styledHeaders: orderedHeadersStyled,
+  }
+)
+/* graphHeaders: gives object with headers for graph. */
+export const graphHeaders = () => (
+  {
+    headers: orderedHeadersFiltered,
+    styledHeaders: orderedHeadersStyledFiltered,
+  }
+)
+/* latestData: returns data from last year */
 export {
   latestData,
 }
