@@ -1,8 +1,15 @@
 import React from 'react'
+import { connect } from 'react-redux'
 import styled from 'styled-components'
 import { latestData, tableHeaders } from '../data'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
+
+import {
+  updateSearchTerm,
+  sortBy,
+  resetState,
+} from '../duck-reducers/sorting'
 
 const TableWrapper = styled.div`
  display: grid;
@@ -33,4 +40,18 @@ const TableContainer = () => (
   </TableWrapper>
 )
 
-export default TableContainer
+const mapStateToProps = ({ sorting }) => ({
+  searchTermProp: sorting.searchTerm,
+  sortByProp: sorting.sortBy,
+  ascendingProp: sorting.ascending,
+})
+const mapDispatchToProps = dispatch => ({
+  updateSearchTermProp: inputValue => dispatch(updateSearchTerm(inputValue)),
+  sortByProp: sortTerm => dispatch(sortBy(sortTerm)),
+  resetStateProp: () => dispatch(resetState()),
+})
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(TableContainer)
