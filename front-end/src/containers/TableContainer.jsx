@@ -1,11 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import {
-  latestData, orderedHeaders, orderedHeadersStyled, colorArray,
-} from '../data/DataManagement'
+import { latestData, tableHeaders } from '../data'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
-import ColorContext from '../context/color'
 
 const TableWrapper = styled.div`
  display: grid;
@@ -27,13 +24,11 @@ const TableContainer = () => (
     </AreaWrapper>
     <AreaWrapper gridArea="search" />
     <AreaWrapper gridArea="table">
-      <ColorContext.Provider value={colorArray}>
-        <Table
-          headers={orderedHeadersStyled}
-          headersNoStyle={orderedHeaders}
-          latestData={latestData}
-        />
-      </ColorContext.Provider>
+      <Table
+        headers={tableHeaders().styledHeaders}
+        headersNoStyle={tableHeaders().headers}
+        latestData={latestData}
+      />
     </AreaWrapper>
   </TableWrapper>
 )

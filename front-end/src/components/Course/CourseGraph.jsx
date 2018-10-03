@@ -24,15 +24,20 @@ const tickArrayPos = [0, 20, 40, 60, 80, 100]
 const tickArrayNeg = [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
 
 const CourseGraph = ({
-  graphHeaders, graphHeadersStyled, courseHistoryYears, name, colorArray, courseCode, xAxArray, isNeg,
+  graphHeaders, graphHeadersStyled, history, name, colorArray, courseCode, xAxis, isNeg,
 }) => (
   <GraphWrapper>
-    <GraphHeader graphHeadersStyled={graphHeadersStyled} colorArray={colorArray} name={name} courseCode={courseCode} />
+    <GraphHeader
+      graphHeadersStyled={graphHeadersStyled}
+      colorArray={colorArray}
+      name={name}
+      courseCode={courseCode}
+    />
     <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
       {graphHeadersStyled.map((header, index) => (
         <LinePath
-          data={courseHistoryYears}
-          xScale={scaleLinear(xScaleLiniear(xAxArray[0], xAxArray[xAxArray.length - 1]))}
+          data={history}
+          xScale={scaleLinear(xScaleLiniear(xAxis[0], xAxis[xAxis.length - 1]))}
           yScale={isNeg ? scaleLinear(yNeg) : scaleLinear(yPos)}
           x={item => xValue(item)}
           y={item => yValue(item, graphHeaders[index])}
@@ -42,11 +47,11 @@ const CourseGraph = ({
         />
       ))}
       <AxisBottom
-        scale={scaleLinear(xScaleLiniear(xAxArray[0], xAxArray[xAxArray.length - 1]))}
+        scale={scaleLinear(xScaleLiniear(xAxis[0], xAxis[xAxis.length - 1]))}
         top={400}
         label="year"
         tickFormat={item => `${item}`}
-        tickValues={xAxArray}
+        tickValues={xAxis}
       />
       <AxisLeft
         scale={isNeg ? scaleLinear(yNeg) : scaleLinear(yPos)}

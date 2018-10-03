@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import SortingContext from './sorting'
 
 class SortingProvider extends Component {
+/* eslint-disable */
   constructor(props) {
     super(props)
     this.state = {
@@ -10,7 +11,7 @@ class SortingProvider extends Component {
       ascending: false,
       courseSearch: data => data.filter(course => (
         course.code.toLowerCase().includes(this.state.searchTerm.toLowerCase())
-                || course.name.toLowerCase().includes(this.state.searchTerm.toLowerCase()))),
+        || course.name.toLowerCase().includes(this.state.searchTerm.toLowerCase()))),
       handleSortClick: (newSort) => {
         this.setState({ ascending: !this.state.ascending })
         this.setState({ sortBy: newSort })
@@ -41,7 +42,8 @@ class SortingProvider extends Component {
   }
 
   render() {
-    return <SortingContext.Provider value={this.state}>{this.props.children}</SortingContext.Provider>
+    const { children } = this.props
+    return <SortingContext.Provider value={this.state}>{children}</SortingContext.Provider>
   }
 }
 
