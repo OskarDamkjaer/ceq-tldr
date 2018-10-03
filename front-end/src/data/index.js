@@ -5,8 +5,8 @@ import {
   isNeg, isLess,
 } from './DataManagement'
 
-/* orderedHeaders/orderedHeadersStyled: Column headers for data fetching or visual use orderedHeadersStyled.
-orderedHeadersFiltered/orderedHeadersStyledFiltered: from headers not used in graphs */
+/* orderedHeaders/orderedHeadersStyled: gives column headers for data fetching or visual use orderedHeadersStyled.
+orderedHeadersFiltered/orderedHeadersStyledFiltered: filtered from headers not used in graphs */
 export {
   orderedHeaders, orderedHeadersStyled, orderedHeadersFiltered, orderedHeadersStyledFiltered,
 }
