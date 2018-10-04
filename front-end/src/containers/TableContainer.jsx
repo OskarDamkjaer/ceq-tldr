@@ -24,10 +24,14 @@ const AreaWrapper = styled.div`
   grid-area: ${props => props.gridArea};
  `
 
-const TableContainer = () => (
+const TableContainer = ({ searchTermProp, updateSearchTermProp, resetStateProp }) => (
   <TableWrapper>
     <AreaWrapper gridArea="header">
-      <Header />
+      <Header
+        searchTerm={searchTermProp}
+        updateSearchTerm={updateSearchTermProp}
+        resetState={resetStateProp}
+      />
     </AreaWrapper>
     <AreaWrapper gridArea="search" />
     <AreaWrapper gridArea="table">
@@ -45,6 +49,7 @@ const mapStateToProps = ({ sorting }) => ({
   sortByProp: sorting.sortBy,
   ascendingProp: sorting.ascending,
 })
+
 const mapDispatchToProps = dispatch => ({
   updateSearchTermProp: inputValue => dispatch(updateSearchTerm(inputValue)),
   sortByProp: sortTerm => dispatch(sortBy(sortTerm)),
