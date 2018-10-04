@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import CourseName from './CourseName'
 import ColorContext from '../../context/color'
-import SortingContext from '../../context/sorting'
 
 const excludedHeaders = ['year', 'code']
 
@@ -43,27 +42,27 @@ const PrettyThHeader = styled.th`
   padding: 15px;
 `
 
-const Table = ({ latestData, headersNoStyle, headers }) => (
-  <SortingContext.Consumer>
-    {context => (
-      <PrettyTable>
-        <thead>
-          <PrettyTr>
-            {headersNoStyle.map((key, index) => !excludedHeaders.includes(key)
+const Table = ({
+  courseSearch, headersNoStyle, headers, sortBy,
+}) => (
+  <PrettyTable>
+    <thead>
+      <PrettyTr>
+        {headersNoStyle.map((key, index) => !excludedHeaders.includes(key)
             && (
               <PrettyThHeader key={key}>
                 <ColorContext.Consumer>
-                  {colorArray => <StyledHeaderLink color={colorArray[index]} to="/" style={{ textDecoration: 'none' }} onClick={() => context.handleSortClick(key)}>{headers[index]}</StyledHeaderLink>}
+                  {colorArray => <StyledHeaderLink color={colorArray[index]} to="/" style={{ textDecoration: 'none' }} onClick={() => sortBy(key)}>{headers[index]}</StyledHeaderLink>}
                 </ColorContext.Consumer>
 
               </PrettyThHeader>
             ))}
 
-          </PrettyTr>
-        </thead>
-        <tbody>
-          {
-          context.courseSearch(context.specialSort(latestData)).map(row => (
+      </PrettyTr>
+    </thead>
+    <tbody>
+      {
+          courseSearch.map(row => (
             <PrettyTr key={row.code}>
               <PrettyTdHeader>
                 <StyledLink
@@ -88,10 +87,8 @@ const Table = ({ latestData, headersNoStyle, headers }) => (
             </PrettyTr>
           ))
         }
-        </tbody>
-      </PrettyTable>
-    )}
-  </SortingContext.Consumer>
+    </tbody>
+  </PrettyTable>
 )
 
 

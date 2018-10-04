@@ -24,13 +24,36 @@ const AreaWrapper = styled.div`
   grid-area: ${props => props.gridArea};
  `
 
-const TableContainer = ({ searchTermProp, updateSearchTermProp, resetStateProp }) => (
-  <TableWrapper>
+class TableContainer extends React.Component {
+
+courseSearch = (data,searchTerm) => data.filter(course => (
+  course.code.toLowerCase().includes(searchTerm.toLowerCase())
+  || course.name.toLowerCase().includes(searchTerm.toLowerCase()))
+)
+
+specialSort(data, searchItem, isAscending) {
+  let arraySort = data.concat()
+  arraySort.sort(function (a, b) {
+    const itemA = parseInt(a[searchItem], 10) ? parseInt(a[searchItem], 10) : a[searchItem]
+    const itemB = parseInt(b[searchItem], 10) ? parseInt(b[searchItem], 10) : b[searchItem]
+    if (isAscending) {
+      return itemA > itemB ? -1 : 1
+    }
+    return itemA > itemB ? 1 : -1
+  }
+  )
+  return arraySort
+}
+render(props){
+const { searchTermProp, updateDispatchSearchTermProp, resetDispatchStateProp, sortDispatchByProp, sortByProp, ascendingProp } = this.props
+
+  return(
+      <TableWrapper>
     <AreaWrapper gridArea="header">
       <Header
         searchTerm={searchTermProp}
-        updateSearchTerm={updateSearchTermProp}
-        resetState={resetStateProp}
+        updateSearchTerm={updateDispatchSearchTermProp}
+        resetState={resetDispatchStateProp}
       />
     </AreaWrapper>
     <AreaWrapper gridArea="search" />
@@ -38,11 +61,13 @@ const TableContainer = ({ searchTermProp, updateSearchTermProp, resetStateProp }
       <Table
         headers={tableHeaders().styledHeaders}
         headersNoStyle={tableHeaders().headers}
-        latestData={latestData}
-      />
+        courseSearch={this.courseSearch(this.specialSort(latestData, sortByProp,ascendingProp), searchTermProp)}
+        sortBy={sortDispatchByProp}
+      /> 
     </AreaWrapper>
   </TableWrapper>
 )
+  }}
 
 const mapStateToProps = ({ sorting }) => ({
   searchTermProp: sorting.searchTerm,
@@ -51,9 +76,9 @@ const mapStateToProps = ({ sorting }) => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  updateSearchTermProp: inputValue => dispatch(updateSearchTerm(inputValue)),
-  sortByProp: sortTerm => dispatch(sortBy(sortTerm)),
-  resetStateProp: () => dispatch(resetState()),
+  updateDispatchSearchTermProp: inputValue => dispatch(updateSearchTerm(inputValue)),
+  sortDispatchByProp: sortTerm => dispatch(sortBy(sortTerm)),
+  resetDispatchStateProp: () => dispatch(resetState()),
 })
 
 export default connect(
