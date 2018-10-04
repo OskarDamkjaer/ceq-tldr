@@ -21,9 +21,9 @@ const StyledLink = styled(Link)`
   color: #000000;
 `
 
-const Header = ({ searchTerm, updateSearchTerm, resetState }) => (
+const Header = ({ searchTerm, updateSearchTerm, resetDispatchStateProp }) => (
   <HeaderWrapper>
-    <StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => resetState()}>CEQ-TLDR</StyledLink>
+    <StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => resetDispatchStateProp()}>CEQ-TLDR</StyledLink>
     <InputWrapper>
       <SearchInput
         onChange={event => updateSearchTerm(event.target.value)}
