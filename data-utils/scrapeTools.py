@@ -1,10 +1,10 @@
+import json
 import re
 from contextlib import closing
 
 from bs4 import BeautifulSoup
 from requests import get
 from requests.exceptions import RequestException
-import json
 
 
 def simple_get(url):
@@ -93,12 +93,13 @@ def get_all_hrefs():
     return urlbois
 
 
-def current_course_codes():
-    programs = ["C", "D"o]
+def current_course_codes(start_year):
+    year = str(start_year) + "_" + str(start_year + 1)
+    programs = ["C", "D"]
     result = {}
 
     for prog in programs:
-        courses = simple_get("https://kurser.lth.se/lot/?val=program&prog=" + prog + "&lang=sv")
+        courses = simple_get("https://kurser.lth.se/lot/?val=program&prog=" + prog + "&lang=sv&lasar=" + year)
         html = BeautifulSoup(courses, 'html.parser')
         current_key = "default"
         result[prog] = {}
@@ -120,6 +121,40 @@ def current_course_codes():
                     result[prog][current_key].append(text)
     f = open("./data/courses.json", "w")
     f.write(json.dumps(result))
+    return result
 
 
-current_course_codes()
+def get_url_by_course_code(code, start_year, program):
+    year = str(start_year) + str(int(start_year) + 1)
+    url = "http://www.ceq.lth.se/rapporter/?lasar_lp=" + year + "&program=" + program + "&kurskod=" + code
+    raw_html = simple_get(url)
+    soup = BeautifulSoup(raw_html, 'html.parser')
+    print("Looking at " + str(url) + " for links")
+    urlbois = []
+    for a in soup.find_all('a'):
+        if "slutrapport.html" in a['href']:
+            urlbois.append(a['href'])
+    return urlbois  # LETS go only first one
+
+
+def find_and_save_all_data(start_year):
+    courses = current_course_codes(start_year)
+    save = {}
+    for program, data in courses.items():
+        save[program] = {}
+        for year, codes in data.items():
+            save[program][year] = []
+            for code in codes:
+                print("getting " + code, start_year, program)
+                if "obligatoriska kurser" in year:
+                    url = get_url_by_course_code(code, start_year, program)
+                else:
+                    url = get_url_by_course_code(code, start_year, "")
+
+                print("url is " + str(url))
+                if len(url) == 1:
+                    save[program][year].append(gimme_dat_info(url[0]))
+    f = open("./data/course_data" + start_year + ".json", "w")
+    f.write(json.dumps(save))
+
+# find_and_save_all_data(17) finds all 17/18 data!
