@@ -1,8 +1,15 @@
 import React from 'react'
+import { connect } from 'react-redux'
 import styled from 'styled-components'
 import { recentData, tableHeaders, excludedHeaders } from '../data'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
+
+import {
+  updateSearchTerm,
+  sortBy,
+  resetState,
+} from '../duck-reducers/sorting'
 
 const TableWrapper = styled.div`
  display: grid;
@@ -17,21 +24,65 @@ const AreaWrapper = styled.div`
   grid-area: ${props => props.gridArea};
  `
 
-const TableContainer = () => (
-  <TableWrapper>
+class TableContainer extends React.Component {
+
+courseSearch = (data,searchTerm) => data.filter(course => (
+  course.code.toLowerCase().includes(searchTerm.toLowerCase())
+  || course.name.toLowerCase().includes(searchTerm.toLowerCase()))
+)
+
+specialSort(data, searchItem, isAscending) {
+  let arraySort = data.concat()
+  arraySort.sort(function (a, b) {
+    const itemA = parseInt(a[searchItem], 10) ? parseInt(a[searchItem], 10) : a[searchItem]
+    const itemB = parseInt(b[searchItem], 10) ? parseInt(b[searchItem], 10) : b[searchItem]
+    if (isAscending) {
+      return itemA > itemB ? -1 : 1
+    }
+    return itemA > itemB ? 1 : -1
+  }
+  )
+  return arraySort
+}
+render(props){
+const { searchTermProp, updateDispatchSearchTermProp, resetDispatchStateProp, sortDispatchByProp, sortByProp, ascendingProp } = this.props
+
+  return(
+      <TableWrapper>
     <AreaWrapper gridArea="header">
-      <Header />
+      <Header
+        searchTerm={searchTermProp}
+        updateSearchTerm={updateDispatchSearchTermProp}
+        resetState={resetDispatchStateProp}
+      />
     </AreaWrapper>
     <AreaWrapper gridArea="search" />
     <AreaWrapper gridArea="table">
       <Table
         headers={tableHeaders.styledHeaders}
         headersNoStyle={tableHeaders.headers}
-        latestData={recentData}
+        courseSearch={this.courseSearch(this.specialSort(recentData, sortByProp,ascendingProp), searchTermProp)}
+        sortBy={sortDispatchByProp}
         excludedHeaders={excludedHeaders}
-      />
+      /> 
     </AreaWrapper>
   </TableWrapper>
 )
+  }}
 
-export default TableContainer
+const mapStateToProps = ({ sorting }) => ({
+  searchTermProp: sorting.searchTerm,
+  sortByProp: sorting.sortBy,
+  ascendingProp: sorting.ascending,
+})
+
+const mapDispatchToProps = dispatch => ({
+  updateDispatchSearchTermProp: inputValue => dispatch(updateSearchTerm(inputValue)),
+  sortDispatchByProp: sortTerm => dispatch(sortBy(sortTerm)),
+  resetDispatchStateProp: () => dispatch(resetState()),
+})
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(TableContainer)

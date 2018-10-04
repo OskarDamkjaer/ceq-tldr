@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import SearchInput from './SearchInput'
-import SortingContext from '../../context/sorting'
 
 const HeaderWrapper = styled.div`
   padding: 20px;
@@ -22,20 +21,16 @@ const StyledLink = styled(Link)`
   color: #000000;
 `
 
-const Header = () => (
-  <SortingContext.Consumer>
-    {context => (
-      <HeaderWrapper>
-        <StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => context.reset()}>CEQ-TLDR</StyledLink>
-        <InputWrapper>
-          <SearchInput
-            onChange={event => context.handleInputChange(event)}
-            value={context.searchTerm}
-          />
-        </InputWrapper>
-      </HeaderWrapper>
-    )}
-  </SortingContext.Consumer>
+const Header = ({ searchTerm, updateSearchTerm, resetDispatchStateProp }) => (
+  <HeaderWrapper>
+    <StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => resetDispatchStateProp()}>CEQ-TLDR</StyledLink>
+    <InputWrapper>
+      <SearchInput
+        onChange={event => updateSearchTerm(event.target.value)}
+        value={searchTerm}
+      />
+    </InputWrapper>
+  </HeaderWrapper>
 
 )
 
