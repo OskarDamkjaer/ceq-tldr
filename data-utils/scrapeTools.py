@@ -94,28 +94,31 @@ def get_all_hrefs():
 
 
 def current_course_codes():
-    courses = simple_get("https://kurser.lth.se/lot/?val=program&prog=C&lang=sv")
-    html = BeautifulSoup(courses, 'html.parser')
-
+    programs = ["C", "D"o]
     result = {}
-    current_key = "default"
-    for i, tag in enumerate(html.findAll()):
-        if tag.string is None:
-            continue
-        if tag.name == 'a' and tag.parent.name != 'td':
-            continue
 
-        text = tag.get_text().strip()
-        # print(i, text)
+    for prog in programs:
+        courses = simple_get("https://kurser.lth.se/lot/?val=program&prog=" + prog + "&lang=sv")
+        html = BeautifulSoup(courses, 'html.parser')
+        current_key = "default"
+        result[prog] = {}
+        for i, tag in enumerate(html.findAll()):
+            if tag.string is None:
+                continue
+            if tag.name == 'a' and tag.parent.name != 'td':
+                continue
 
-        if "Årskurs" in text or "Specialisering" in text:
-            current_key = text
-            result[current_key] = []
+            text = tag.get_text().strip()
+            # print(i, text)
 
-        if re.search('[a-zA-Z]{4}[0-9]{2}', text) is not None:
-            if len(text) == 6:
-                result[current_key].append(text)
-    f = open("./data/c_courses.json", "w")
+            if "Årskurs" in text or "Specialisering" in text:
+                current_key = text
+                result[prog][current_key] = []
+
+            if re.search('[a-zA-Z]{4}[0-9]{2}', text) is not None:
+                if len(text) == 6:
+                    result[prog][current_key].append(text)
+    f = open("./data/courses.json", "w")
     f.write(json.dumps(result))
 
 
