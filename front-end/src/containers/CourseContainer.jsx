@@ -2,19 +2,14 @@ import React from 'react'
 import { courseData, graphHeaders } from '../data'
 import ColorContext from '../context/color'
 import GraphContainer from './GraphContainer'
+import NoData from '../components/Course/NoData'
 
 const CourseContainer = ({ courseCode }) => (
   <div>
     {courseData(courseCode).history.length <= 2 ? (
-      <div>
-        <h1>
-        No data available for
-          {' '}
-          {courseData(courseCode).name}
-          , you are probably looking a course with the same name but different course code.
-        </h1>
-
-      </div>
+      <NoData
+        name={courseData(courseCode).name}
+      />
     )
       : (
         <ColorContext.Consumer>
