@@ -5,24 +5,22 @@ import {
   isNeg, isLess,
 } from './DataManagement'
 
-/* tableHeaders: gives object with headers for table. */
-export const tableHeaders = () => (
-  {
-    headers: orderedHeaders,
-    styledHeaders: orderedHeadersStyled,
-  }
-)
-/* graphHeaders: gives object with headers for graph. */
-export const graphHeaders = () => (
-  {
-    headers: orderedHeadersFiltered,
-    styledHeaders: orderedHeadersStyledFiltered,
-  }
-)
-/* latestData: returns data from last year */
-export {
-  latestData,
+/* tableHeaders: object with headers for table. */
+export const tableHeaders = {
+  headers: orderedHeaders,
+  styledHeaders: orderedHeadersStyled,
 }
+/* graphHeaders: object with headers for graph. */
+export const graphHeaders = {
+  headers: orderedHeadersFiltered,
+  styledHeaders: orderedHeadersStyledFiltered,
+}
+/* excludedHeaders: list of Headers that is excluded from  */
+export const excludedHeaders = ['year', 'code']
+
+/* recentData: gives data from last year */
+export const recentData = latestData
+
 /* Takes course code, gives courseData */
 export const courseData = courseCode => (
   {

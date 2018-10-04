@@ -5,8 +5,6 @@ import CourseName from './CourseName'
 import ColorContext from '../../context/color'
 import SortingContext from '../../context/sorting'
 
-const excludedHeaders = ['year', 'code']
-
 const StyledHeaderLink = styled(Link)`
 color: ${props => props.color};
 :hover{
@@ -43,7 +41,9 @@ const PrettyThHeader = styled.th`
   padding: 15px;
 `
 
-const Table = ({ latestData, headersNoStyle, headers }) => (
+const Table = ({
+  latestData, headersNoStyle, headers, excludedHeaders,
+}) => (
   <SortingContext.Consumer>
     {context => (
       <PrettyTable>
