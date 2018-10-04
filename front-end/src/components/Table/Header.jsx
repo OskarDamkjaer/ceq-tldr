@@ -21,16 +21,17 @@ const StyledLink = styled(Link)`
   color: #000000;
 `
 
-const Header = ({ handleInputChange, inputValue, reset }) => (
+const Header = ({ searchTerm, updateSearchTerm, resetDispatchStateProp }) => (
   <HeaderWrapper>
-    <StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => reset()}>CEQ-TLDR</StyledLink>
+    <StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => resetDispatchStateProp()}>CEQ-TLDR</StyledLink>
     <InputWrapper>
       <SearchInput
-        onChange={event => handleInputChange(event)}
-        value={inputValue}
+        onChange={event => updateSearchTerm(event.target.value)}
+        value={searchTerm}
       />
     </InputWrapper>
   </HeaderWrapper>
+
 )
 
 export default Header

@@ -24,30 +24,30 @@ const yPointPos = compose(scaleLinear(yRegScalePos), y => y.registered)
 
 
 const CourseGraphRegistered = ({
-  courseHistoryYears, colorArray, xAxArray, isLess,
+  history, colorArray, xAxis, isLess,
 }) => (
 
   <GraphWrapper>
     <h1>Number of registered</h1>
 
     <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
-      {courseHistoryYears.map((item, index) => (
+      {history.map((item, index) => (
         <Bar
-          width={scaleBand({ rangeRound: [500, 0], domain: xAxArray }).bandwidth()}
+          width={scaleBand({ rangeRound: [500, 0], domain: xAxis }).bandwidth()}
           height={isLess ? 400 - yPointLess(item) : 400 - yPointPos(item)}
 
-          x={500 / xAxArray.length * index}
+          x={500 / xAxis.length * index}
           y={isLess ? 400 - (400 - yPointLess(item)) : 400 - (400 - yPointPos(item))}
 
           fill={colorArray[index]}
         />
       ))}
       <AxisBottom
-        scale={scaleBand({ rangeRound: [500, 0], domain: xAxArray })}
+        scale={scaleBand({ rangeRound: [500, 0], domain: xAxis })}
         top={400}
         label="year"
         tickFormat={item => `${item}`}
-        tickValues={xAxArray}
+        tickValues={xAxis}
       />
       <AxisLeft
         scale={isLess ? scaleLinear(yRegScaleLess) : scaleLinear(yRegScalePos)}
