@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom'
 import CourseName from './CourseName'
 import ColorContext from '../../context/color'
 
-const excludedHeaders = ['year', 'code']
-
 const StyledHeaderLink = styled(Link)`
 color: ${props => props.color};
 :hover{
@@ -43,7 +41,7 @@ const PrettyThHeader = styled.th`
 `
 
 const Table = ({
-  courseSearch, headersNoStyle, headers, sortBy,
+  courseSearch, headersNoStyle, headers, sortBy, excludedHeaders,
 }) => (
   <PrettyTable>
     <thead>

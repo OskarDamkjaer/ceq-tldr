@@ -20,8 +20,8 @@ const CourseContainer = ({ courseCode }) => (
         <ColorContext.Consumer>
           {colorArray => (
             <GraphContainer
-              orderedHeadersFiltered={graphHeaders().headers}
-              orderedHeadersStyledFiltered={graphHeaders().styledHeaders}
+              orderedHeadersFiltered={graphHeaders.headers}
+              orderedHeadersStyledFiltered={graphHeaders.styledHeaders}
               courseCode={courseCode}
               colorArray={colorArray}
               courseData={courseData(courseCode)}

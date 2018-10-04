@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import styled from 'styled-components'
-import { latestData, tableHeaders } from '../data'
+import { recentData, tableHeaders, excludedHeaders } from '../data'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
 
@@ -63,6 +63,7 @@ const { searchTermProp, updateDispatchSearchTermProp, resetDispatchStateProp, so
         headersNoStyle={tableHeaders().headers}
         courseSearch={this.courseSearch(this.specialSort(latestData, sortByProp,ascendingProp), searchTermProp)}
         sortBy={sortDispatchByProp}
+        excludedHeaders={excludedHeaders}
       /> 
     </AreaWrapper>
   </TableWrapper>
