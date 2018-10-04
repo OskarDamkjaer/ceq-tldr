@@ -59,9 +59,9 @@ const { searchTermProp, updateDispatchSearchTermProp, resetDispatchStateProp, so
     <AreaWrapper gridArea="search" />
     <AreaWrapper gridArea="table">
       <Table
-        headers={tableHeaders().styledHeaders}
-        headersNoStyle={tableHeaders().headers}
-        courseSearch={this.courseSearch(this.specialSort(latestData, sortByProp,ascendingProp), searchTermProp)}
+        headers={tableHeaders.styledHeaders}
+        headersNoStyle={tableHeaders.headers}
+        courseSearch={this.courseSearch(this.specialSort(recentData, sortByProp,ascendingProp), searchTermProp)}
         sortBy={sortDispatchByProp}
         excludedHeaders={excludedHeaders}
       /> 
