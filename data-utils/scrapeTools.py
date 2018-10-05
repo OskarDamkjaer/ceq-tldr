@@ -154,7 +154,11 @@ def find_and_save_all_data(start_year):
                 print("url is " + str(url))
                 if len(url) == 1:
                     save[program][year].append(gimme_dat_info(url[0]))
-    f = open("./data/course_data" + start_year + ".json", "w")
+    f = open("./data/course_data" + str(start_year) + ".json", "w")
     f.write(json.dumps(save))
 
-# find_and_save_all_data(17) finds all 17/18 data!
+find_and_save_all_data(17) #finds all 17/18 data!
+find_and_save_all_data(16)
+find_and_save_all_data(15)
+find_and_save_all_data(14)
+find_and_save_all_data(13)
