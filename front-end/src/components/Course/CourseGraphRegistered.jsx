@@ -9,7 +9,7 @@ const GraphWrapper = styled.div`
  display:flex;
  flex-direction: column;
  align-items: center;
- padding-top: 100px;
+ margin-top: 300px;
 `
 
 const yRegScalePos = { rangeRound: [0, 400], domain: [200, 0] }
