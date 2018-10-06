@@ -1,18 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
 
-const Wrapper = styled.div`
-    width: 50vw;
-    height: 100vh;
-    padding: 20px;
-`
-const HeaderSpan = styled.span`
-    font-size: 30px;
-    margin-right: 10px;
-`
-const CourseSpan = styled.span`
-    color:gray;
-`
 const headlines = ['Studierådets kommentarer', 'Programledarens kommentarer', 'Kurslärarens kommenterer', 'Kurslärarens kommentarer']
 
 const headLineCreator = (sentence) => {
@@ -31,18 +18,14 @@ const headLineCreator = (sentence) => {
   return jsxList
 }
 
-const Table = ({ course, courseData }) => (
-  <Wrapper>
-    <HeaderSpan>
-      {courseData.name}
-    </HeaderSpan>
-    <CourseSpan>{course}</CourseSpan>
+const Comments = ({ comments }) => (
+  <div>
     <h2>Swedish comments from Studierådet and Programledarna</h2>
-    { courseData.history[0].comments.split('.').map(
+    { comments.split('.').map(
       headLineCreator,
     )
     }
-  </Wrapper>
+  </div>
 )
 
-export default Table
+export default Comments
