@@ -5,6 +5,7 @@ const HeaderWrapper = styled.div`
  display:flex;
  flex-direction: column;
  align-items: center;
+ margin-top: ${props => props.isNeg && '200px'}
 `
 const Header = styled.div`
  font-size: 3em;
@@ -25,9 +26,9 @@ const CourseCodeStyle = styled.div`
  color: gray;
 `
 const GraphHeader = ({
-  graphHeadersStyled, colorArray, name, courseCode, handleHover, handleOut,
+  graphHeadersStyled, colorArray, name, courseCode, handleHover, handleOut, isNeg,
 }) => (
-  <HeaderWrapper>
+  <HeaderWrapper isNeg={isNeg}>
     <Header>
       {name}
       {' '}
