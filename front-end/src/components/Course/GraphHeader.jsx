@@ -24,6 +24,7 @@ const HeaderSpan = styled.span`
  padding-left: 20px;
  :hover{
   font-weight: bold;
+  text-decoration: underline;
 }
 `
 
@@ -46,7 +47,7 @@ const GraphHeader = ({
         {header}
       </HeaderSpan>
     ))}
-    <CompareInput />
+    <CompareInput course={courseCode} />
   </HeaderWrapper>
 )
 
