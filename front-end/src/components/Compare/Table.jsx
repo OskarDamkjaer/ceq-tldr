@@ -8,6 +8,7 @@ const Wrapper = styled.div`
 `
 const HeaderSpan = styled.span`
     font-size: 30px;
+    margin-right: 10px;
 `
 const CourseSpan = styled.span`
     color:gray;
@@ -18,12 +19,12 @@ const headLineCreator = (sentence) => {
   const jsxList = []
   for (let i = 0; i < headlines.length; i += 1) {
     if (sentence.includes(headlines[i])) {
-      jsxList.push(
+      jsxList.push(jsxList.length === 0 ? (
         <span>
           <h3>{headlines[i]}</h3>
           <span>{`${sentence.replace(headlines[i], '')}. `}</span>
-        </span>,
-      )
+        </span>
+      ) : <h3>{headlines[i]}</h3>)
     }
   }
   jsxList.push(jsxList.length === 0 && <span>{`${sentence}. `}</span>)
