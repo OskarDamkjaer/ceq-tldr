@@ -34,11 +34,8 @@ const Table = ({ course, courseData }) => (
   <Wrapper>
     <HeaderSpan>
       {courseData.name}
-      {' '}
-&nbsp;
     </HeaderSpan>
     <CourseSpan>{course}</CourseSpan>
-&nbsp;
     <h2>Swedish comments from Studierådet and Programledarna</h2>
     { courseData.history[0].comments.split('.').map(
       headLineCreator,
