@@ -5,14 +5,14 @@ import ColorProvider from './context/ColorProvider'
 
 import TablePage from './view/TablePage'
 import CoursePage from './view/CoursePage'
-import Compare from './view/Compare'
+import ComparePage from './view/ComparePage'
 
 const App = () => (
   <ColorProvider>
     <Router>
       <Switch>
         <Route exact path="/" component={TablePage} />
-        <Route exact path="/compare" component={Compare} />
+        <Route exact path="/compare/:courses" component={ComparePage} />
         <Route path="/:code" component={CoursePage} />
       </Switch>
     </Router>
