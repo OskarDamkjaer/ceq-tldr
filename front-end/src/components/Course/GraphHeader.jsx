@@ -1,16 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
+import CompareInput from './CompareInput'
 
 const HeaderWrapper = styled.div`
  display:flex;
  flex-direction: column;
  align-items: center;
-`
+ margin-top: ${props => props.isNeg && '200px'};
+ `
 const Header = styled.div`
  font-size: 3em;
  font-weight: bold;
  padding-bottom: 50px;
  padding-left: 20px;
+ `
+const CourseCodeStyle = styled.div`
+ color: gray;
 `
 
 const HeaderSpan = styled.span`
@@ -19,15 +24,14 @@ const HeaderSpan = styled.span`
  padding-left: 20px;
  :hover{
   font-weight: bold;
+  text-decoration: underline;
 }
 `
-const CourseCodeStyle = styled.div`
- color: gray;
-`
+
 const GraphHeader = ({
-  graphHeadersStyled, colorArray, name, courseCode, handleHover, handleOut,
+  graphHeadersStyled, colorArray, name, courseCode, handleHover, handleOut, isNeg,
 }) => (
-  <HeaderWrapper>
+  <HeaderWrapper isNeg={isNeg}>
     <Header>
       {name}
       {' '}
@@ -43,6 +47,7 @@ const GraphHeader = ({
         {header}
       </HeaderSpan>
     ))}
+    <CompareInput course={courseCode} />
   </HeaderWrapper>
 )
 
