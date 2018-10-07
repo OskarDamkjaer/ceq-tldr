@@ -1,33 +1,25 @@
-import {
-  orderedHeaders, orderedHeadersStyled, orderedHeadersFiltered, orderedHeadersStyledFiltered,
-  latestData, courseHistoryYears,
-  xAxArray, nameByCourse,
-  isNeg, isLess,
-} from './DataManagement'
-
-/* tableHeaders: object with headers for table. */
-export const tableHeaders = {
-  headers: orderedHeaders,
-  styledHeaders: orderedHeadersStyled,
-}
-/* graphHeaders: object with headers for graph. */
-export const graphHeaders = {
-  headers: orderedHeadersFiltered,
-  styledHeaders: orderedHeadersStyledFiltered,
-}
-/* excludedHeaders: list of Headers that is excluded from  */
-export const excludedHeaders = ['year', 'code']
-
-/* recentData: gives data from last year */
-export const recentData = latestData
+import { historyListForCourseCode, getDataForYearAndProgram, isNeg, y2018, DATA } from './dataFetcher'
 
 /* Takes course code, gives courseData */
-export const courseData = courseCode => (
-  {
-    name: nameByCourse(courseCode),
-    history: courseHistoryYears(courseCode),
-    xAxis: xAxArray(courseCode),
-    isNeg: isNeg(courseCode),
-    isLess: isLess(courseCode),
-  }
-)
+export const courseData = (courseCode, program) => {
+  const history = historyListForCourseCode(courseCode, program)
+  return ({
+    name: history[0].name,
+    history,
+    xAxis: history.map(item => parseInt(item.year, 10)),
+    isNeg: isNeg(history),
+    isLess: history.filter(item => item.registered > 100).length > 0
+  })
+}
+
+export const lastYearForProgram = program => getDataForYearAndProgram(y2018, program)
+
+export { DATA, INFOCOM, MASTER, } from './dataFetcher'
+
+export const excludedHeaders = ['name', 'registered', 'year', 'comments', 'category']
+const graphExclude = ['name', 'code', 'comments', 'year', 'points', 'category', 'registered']
+const styleMap = item => item.replace(/([A-Z])/g, ' $1').toUpperCase()
+export const dataHeaders = Object.keys(getDataForYearAndProgram(y2018, DATA)[0])
+export const dataHeadersStyled = dataHeaders.map(styleMap)
+export const graphHeaders = dataHeaders.filter(item => !graphExclude.includes(item))
+export const graphHeadersStyled = graphHeaders.map(styleMap)

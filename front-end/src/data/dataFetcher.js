@@ -2,7 +2,7 @@ import pureData from './lastFiveYears'
 
 export const DATA = 'D'
 export const INFOCOM = 'C'
-export const MASTER = 0
+export const MASTER = 'MASTER'
 
 // USE LAST OF YEAR PAIR IN JS.
 export const y2018 = 'year17'
@@ -11,11 +11,12 @@ export const y2016 = 'year15'
 export const y2015 = 'year14'
 export const y2014 = 'year13'
 
-const flatten = obj => (Object.keys(obj)
-  .map(category => addToObj(category, obj[category]))
+const flatten = (obj, add) => (Object.keys(obj)
+  .map(category => add(category, obj[category]))
   .reduce((prev, curr) => prev.concat(curr), []))
 
-const addToObj = (category, obj) => [...obj].map(obj => ({...obj, category}))
+const addCategoryToObj = (category, obj) => [...obj].map(obj => ({...obj, category}))
+const addYearToObj = (year, obj) => [...obj].map(obj => ({...obj, year}))
 
 const containsCourseCode = (arr, code) => arr.filter(course => course.code === code).length !== 0
 const reduceCodeDuplicates = (prev, curr) => containsCourseCode(prev, curr.code) ? prev : prev.concat(curr)
@@ -26,41 +27,45 @@ const reduceExactSameBestEffort = (prev, curr) => containsIshSame(prev, curr) ? 
 const onlyMastersFilter = item => !item.category.includes('Årskurs')
 const onlyBachelorsFilter = item => item.category.includes('Årskurs')
 
-export const getMastersForYear = (year) => {
+const getMastersForYear = (year) => {
   const latestC = pureData[year].C
   const latestD = pureData[year].D
 
-  return flatten(latestC)
+  return flatten(latestC, addCategoryToObj)
     .filter(onlyMastersFilter)
-    .concat(flatten(latestD).filter(onlyMastersFilter))
+    .concat(flatten(latestD, addCategoryToObj).filter(onlyMastersFilter))
     .reduce(reduceCodeDuplicates, [])
 }
 
-export const getBachelorForYearAndProgram = (year, program) => {
-  //if (program === MASTER) return getMastersForYear(year) // If we want one function doing both.
+export const getDataForYearAndProgram = (year, program) => {
+  if (program === MASTER) return getMastersForYear(year)
 
   const data = pureData[year][program]
-  return flatten(data)
+  return flatten(data, addCategoryToObj)
     .filter(onlyBachelorsFilter)
 }
 
-export const dataForCourseCode = (year, code) => {
-  const latestC = pureData[year].C
-  const latestD = pureData[year].D
+export const dataForCourseCode = (year, code, program) => {
+  const relevantData = getDataForYearAndProgram(year, program)
 
-  const allCourses = flatten(latestC)
-    .concat(flatten(latestD))
-
-  return allCourses
+  return relevantData
     .filter(item => item.code === code)
     .reduce(reduceExactSameBestEffort, [])
-  // TODO DATA och infocom läser samma kurser men ger olika feedback? Slå samman? Hur görs kurser som bytt namn?: ((((
 }
 
-export const allHistoryForCourseCode = code => ({
-  2018: dataForCourseCode('year17', code),
-  2017: dataForCourseCode('year16', code),
-  2016: dataForCourseCode('year15', code),
-  2015: dataForCourseCode('year14', code),
-  2014: dataForCourseCode('year13', code),
+const allHistoryForCourseCode = (code, program) => ({
+  2018: dataForCourseCode('year17', code, program),
+  2017: dataForCourseCode('year16', code, program),
+  2016: dataForCourseCode('year15', code, program),
+  2015: dataForCourseCode('year14', code, program),
+  2014: dataForCourseCode('year13', code, program),
 })
+
+export const historyListForCourseCode = (code, program) => {
+  return flatten(allHistoryForCourseCode(code, program), addYearToObj)
+}
+
+export const isNeg = (history) => {
+  const allArray = history.map(item => Object.values(item))
+  return Math.min(...allArray.map(item => parseInt(item, 10)).filter(Boolean)) < 0
+}

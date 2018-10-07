@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import CompareTableContainer from './CompareTableContainer'
-import { courseData } from '../data'
+import { courseData } from '../data/oldIndex'
 
 const Wrapper = styled.div`
   display: flex;
