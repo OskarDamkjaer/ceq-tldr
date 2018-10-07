@@ -54,8 +54,13 @@ export const dataForCourseCode = (year, code) => {
   return allCourses
     .filter(item => item.code === code)
     .reduce(reduceExactSameBestEffort, [])
-
   // TODO DATA och infocom läser samma kurser men ger olika feedback? Slå samman? Hur görs kurser som bytt namn?: ((((
 }
 
-export default dataForCourseCode
+export const allHistoryForCourseCode = code => ({
+  2018: dataForCourseCode('year17', code),
+  2017: dataForCourseCode('year16', code),
+  2016: dataForCourseCode('year15', code),
+  2015: dataForCourseCode('year14', code),
+  2014: dataForCourseCode('year13', code),
+})
