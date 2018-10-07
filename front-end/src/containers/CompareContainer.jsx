@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Table from '../components/Compare/Table'
+import CompareTableContainer from './CompareTableContainer'
 import { courseData } from '../data'
 
 const Wrapper = styled.div`
@@ -9,11 +9,11 @@ const Wrapper = styled.div`
 
 const CompareContainer = ({ course1, course2 }) => (
   <Wrapper>
-    <Table
+    <CompareTableContainer
       course={course1}
       courseData={courseData(course1)}
     />
-    <Table
+    <CompareTableContainer
       course={course2}
       courseData={courseData(course2)}
     />
