@@ -37,7 +37,7 @@ class CompareInput extends React.Component {
     return (
       <Wrapper>
         {isRedirecting && <Redirect to={`/compare/${course}:${inputValue}`} />}
-        <Header>Compare this course with another course</Header>
+        <Header>Compare with another course</Header>
         <FineInput
           placeholder="Enter course code"
           onChange={event => this.setState({ inputValue: event.target.value })}
