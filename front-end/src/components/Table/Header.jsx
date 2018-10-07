@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 import SearchInput from './SearchInput'
 
 const HeaderWrapper = styled.div`
@@ -16,14 +15,15 @@ const InputWrapper = styled.div`
   align-self: center;
 `
 
-const StyledLink = styled(Link)`
+const StyledLink = styled.div`
   font-size: 2.5em;
   color: #000000;
+  cursor: pointer;
 `
 
-const Header = ({ searchTerm, updateSearchTerm, resetDispatchStateProp }) => (
+const Header = ({ searchTerm, updateSearchTerm, resetState }) => (
   <HeaderWrapper>
-    <StyledLink to="/" style={{ textDecoration: 'none' }} onClick={() => resetDispatchStateProp()}>CEQ-TLDR</StyledLink>
+    <StyledLink style={{ textDecoration: 'none' }} onClick={() => resetState()}>CEQ-TLDR</StyledLink>
     <InputWrapper>
       <SearchInput
         onChange={event => updateSearchTerm(event.target.value)}
