@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import styled from 'styled-components'
 import { lastYearForProgram, excludedHeaders, dataHeaders, dataHeadersStyled } from '../data'
 import Table from '../components/Table/Table'
-import Header from '../components/Table/Header'
+import Header from '../components/Table/Header/Header'
 
 import {
   updateSearchTerm,
@@ -63,6 +63,7 @@ class TableContainer extends React.Component {
             updateSearchTerm={updateDispatchSearchTermProp}
             resetState={resetDispatchStateProp}
             activateFilter={activeFilterDispatchToProp}
+            activeFilter={activeFilterProp}
           />
         </AreaWrapper>
         <AreaWrapper gridArea="search"/>

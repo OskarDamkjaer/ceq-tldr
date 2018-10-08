@@ -1,23 +1,32 @@
 import React from 'react'
+import { connect } from 'react-redux'
 import styled from 'styled-components'
 import CompareTableContainer from './CompareTableContainer'
-import { courseData, MASTER } from '../data'
+import { courseData } from '../data'
 
 const Wrapper = styled.div`
   display: flex;
  `
 
-const CompareContainer = ({ course1, course2 }) => (
+const CompareContainer = ({ course1, course2, activeFilterProp }) => (
   <Wrapper>
     <CompareTableContainer
       course={course1}
-      courseData={courseData(course1, MASTER)}
+      courseData={courseData(course1, activeFilterProp)}
     />
     <CompareTableContainer
       course={course2}
-      courseData={courseData(course2, MASTER)}
+      courseData={courseData(course2, activeFilterProp)}
     />
   </Wrapper>
 )
 
-export default CompareContainer
+const mapStateToProps = ({ sorting }) => ({
+  activeFilterProp: sorting.filter,
+})
+
+
+export default connect(
+  mapStateToProps,
+  null,
+)(CompareContainer)

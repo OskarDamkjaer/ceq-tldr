@@ -5,7 +5,6 @@ import { scaleLinear } from '@vx/scale'
 import { curveNatural } from '@vx/curve'
 import { LinePath } from '@vx/shape'
 import GraphHeader from './GraphHeader'
-import { courseData } from '../../data/oldIndex'
 
 const Wrapper = styled.div`
  height:100vh;
