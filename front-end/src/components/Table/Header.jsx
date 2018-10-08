@@ -20,10 +20,45 @@ const StyledLink = styled.div`
   color: #000000;
   cursor: pointer;
 `
+const RadioStyle = styled.div`
+  display:flex;
+  align-items: center;
+  margin-right: 15px;
+`
+const LabelStyle = styled.label`
+  margin-left: 5px;
+`
 
 const Header = ({ searchTerm, updateSearchTerm, resetState }) => (
   <HeaderWrapper>
     <StyledLink style={{ textDecoration: 'none' }} onClick={() => resetState()}>CEQ-TLDR</StyledLink>
+    <RadioStyle>
+      <input
+        type="radio"
+        id="c"
+        name="filter"
+        value="Infocom"
+      />
+      <LabelStyle>Infocom</LabelStyle>
+    </RadioStyle>
+    <RadioStyle>
+      <input
+        type="radio"
+        id="d"
+        name="filter"
+        value="Datateknik"
+      />
+      <LabelStyle>Datateknik</LabelStyle>
+    </RadioStyle>
+    <RadioStyle>
+      <input
+        type="radio"
+        id="s"
+        name="filter"
+        value="Specialicering"
+      />
+      <LabelStyle>Specialicering</LabelStyle>
+    </RadioStyle>
     <InputWrapper>
       <SearchInput
         onChange={event => updateSearchTerm(event.target.value)}
