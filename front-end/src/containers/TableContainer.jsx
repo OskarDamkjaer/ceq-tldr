@@ -1,9 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import styled from 'styled-components'
-import { lastYearForProgram, MASTER, excludedHeaders, dataHeaders, dataHeadersStyled } from '../data'
+import { lastYearForProgram, excludedHeaders, dataHeaders, dataHeadersStyled } from '../data'
 import Table from '../components/Table/Table'
-import Header from '../components/Table/Header'
+import Header from '../components/Table/Header/Header'
 
 import {
   updateSearchTerm,
@@ -54,7 +54,7 @@ class TableContainer extends React.Component {
 
   render(props) {
     const {searchTermProp, updateDispatchSearchTermProp, resetDispatchStateProp, activeFilterDispatchToProp, sortDispatchByProp, sortByProp, ascendingProp, activeFilterProp} = this.props
-    const data = lastYearForProgram(MASTER)
+    const data = lastYearForProgram(activeFilterProp)
     return (
       <TableWrapper>
         <AreaWrapper gridArea="header">
@@ -63,6 +63,7 @@ class TableContainer extends React.Component {
             updateSearchTerm={updateDispatchSearchTermProp}
             resetState={resetDispatchStateProp}
             activateFilter={activeFilterDispatchToProp}
+            activeFilter={activeFilterProp}
           />
         </AreaWrapper>
         <AreaWrapper gridArea="search"/>
@@ -84,7 +85,7 @@ const mapStateToProps = ({sorting}) => ({
   searchTermProp: sorting.searchTerm,
   sortByProp: sorting.sortBy,
   ascendingProp: sorting.ascending,
-  activeFilterProp: sorting.activeFilter,
+  activeFilterProp: sorting.filter,
 })
 
 const mapDispatchToProps = dispatch => ({

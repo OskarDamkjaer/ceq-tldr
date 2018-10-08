@@ -1,5 +1,5 @@
 import {
-  historyListForCourseCode, getDataForYearAndProgram, isNeg, isLess, y2018, DATA,
+  historyListForCourseCode, getDataForYearAndProgram, isNeg, isLess, y2018, DATA, INFOCOM, MASTER,
 } from './dataFetcher'
 
 /* Takes course code, gives courseData */
@@ -17,6 +17,7 @@ export const courseData = (courseCode, program) => {
 export const lastYearForProgram = program => getDataForYearAndProgram(y2018, program)
 
 export { DATA, INFOCOM, MASTER } from './dataFetcher'
+export const filterList = [DATA, INFOCOM, MASTER]
 
 export const excludedHeaders = ['code', 'registered', 'year', 'comments', 'category']
 const graphExclude = ['name', 'code', 'comments', 'year', 'points', 'category', 'registered']
