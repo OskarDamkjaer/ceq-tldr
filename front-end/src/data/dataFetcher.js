@@ -15,14 +15,17 @@ const flatten = (obj, add) => (Object.keys(obj)
   .map(category => add(category, obj[category]))
   .reduce((prev, curr) => prev.concat(curr), []))
 
-const addCategoryToObj = (category, obj) => [...obj].map(obj => ({...obj, category}))
-const addYearToObj = (year, obj) => [...obj].map(obj => ({...obj, year}))
+const addCategoryToObj = (category, obj) => [...obj].map(obj => ({ ...obj, category }))
+const addYearToObj = (year, obj) => [...obj].map(obj => ({ ...obj, year }))
 
 const containsCourseCode = (arr, code) => arr.filter(course => course.code === code).length !== 0
-const reduceCodeDuplicates = (prev, curr) => containsCourseCode(prev, curr.code) ? prev : prev.concat(curr)
+const reduceCodeDuplicates = (prev, curr) =>
+  (containsCourseCode(prev, curr.code) ? prev : prev.concat(curr))
 
-const containsIshSame = (arr, curr) => arr.filter(course => JSON.stringify(course) === JSON.stringify(curr)).length !== 0
-const reduceExactSameBestEffort = (prev, curr) => containsIshSame(prev, curr) ? prev : prev.concat(curr)
+const containsIshSame = (arr, curr) =>
+  arr.filter(course => JSON.stringify(course) === JSON.stringify(curr)).length !== 0
+const reduceExactSameBestEffort = (prev, curr) =>
+  (containsIshSame(prev, curr) ? prev : prev.concat(curr))
 
 const onlyMastersFilter = item => !item.category.includes('Årskurs')
 const onlyBachelorsFilter = item => item.category.includes('Årskurs')
@@ -61,9 +64,8 @@ const allHistoryForCourseCode = (code, program) => ({
   2014: dataForCourseCode('year13', code, program),
 })
 
-export const historyListForCourseCode = (code, program) => {
-  return flatten(allHistoryForCourseCode(code, program), addYearToObj)
-}
+export const historyListForCourseCode = (code, program) =>
+  flatten(allHistoryForCourseCode(code, program), addYearToObj)
 
 export const isNeg = (history) => {
   const allArray = history.map(item => Object.values(item))

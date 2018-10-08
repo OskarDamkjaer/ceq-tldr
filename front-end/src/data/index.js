@@ -1,4 +1,6 @@
-import { historyListForCourseCode, getDataForYearAndProgram, isNeg, y2018, DATA } from './dataFetcher'
+import {
+  historyListForCourseCode, getDataForYearAndProgram, isNeg, y2018, DATA,
+} from './dataFetcher'
 
 /* Takes course code, gives courseData */
 export const courseData = (courseCode, program) => {
@@ -8,15 +10,15 @@ export const courseData = (courseCode, program) => {
     history,
     xAxis: history.map(item => parseInt(item.year, 10)),
     isNeg: isNeg(history),
-    isLess: history.filter(item => item.registered > 100).length > 0
+    isLess: history.filter(item => item.registered > 100).length > 0,
   })
 }
 
 export const lastYearForProgram = program => getDataForYearAndProgram(y2018, program)
 
-export { DATA, INFOCOM, MASTER, } from './dataFetcher'
+export { DATA, INFOCOM, MASTER } from './dataFetcher'
 
-export const excludedHeaders = ['name', 'registered', 'year', 'comments', 'category']
+export const excludedHeaders = ['code', 'registered', 'year', 'comments', 'category']
 const graphExclude = ['name', 'code', 'comments', 'year', 'points', 'category', 'registered']
 const styleMap = item => item.replace(/([A-Z])/g, ' $1').toUpperCase()
 export const dataHeaders = Object.keys(getDataForYearAndProgram(y2018, DATA)[0])
