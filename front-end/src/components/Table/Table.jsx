@@ -70,7 +70,7 @@ const Table = ({
                   <CourseName name={row.name} code={row.code} />
                 </StyledLink>
               </PrettyTdHeader>
-              {headersNoStyle.slice(1).map(key => !excludedHeaders.includes(key)
+              {headersNoStyle.slice(2).map(key => !excludedHeaders.includes(key)
                 && (
                   <PrettyTd key={key + row.name}>
                     <StyledLink

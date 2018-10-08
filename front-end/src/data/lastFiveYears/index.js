@@ -9,5 +9,5 @@ export default {
   year14,
   year15,
   year16,
-  year17
+  year17,
 }
