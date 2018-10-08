@@ -22,11 +22,6 @@ const xScaleLiniear = (yearLow, yearHigh) => ({ rangeRound: [500, 0], domain: [y
 const yPos = { rangeRound: [0, 400], domain: [100, 0] }
 const yNeg = { rangeRound: [0, 800], domain: [100, -100] }
 
-const xValue = (item, oldHistory, history) => {
-  console.log(oldHistory)
-  console.log(history)
-  return parseInt(`20${item.year.substring(3, 5)}`, 10)
-}
 const yValue = (item, dataTag) => parseInt(item[dataTag], 10)
 
 const tickArrayPos = [0, 20, 40, 60, 80, 100]
