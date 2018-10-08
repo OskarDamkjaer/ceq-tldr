@@ -1,11 +1,13 @@
 export const UPDATE = 'UPDATE'
 export const SORT = 'SORT'
 export const RESET = 'RESET'
+export const FILTER = 'FILTER'
 
 const initialState = {
   searchTerm: '',
   sortBy: 'name',
   ascending: false,
+  filter: 'S',
 }
 export default (state = initialState, action) => {
   switch (action.type) {
@@ -24,6 +26,11 @@ export default (state = initialState, action) => {
 
     case RESET:
       return initialState
+    case FILTER:
+      return {
+        ...state,
+        filter: action.inputFilter,
+      }
     default:
       return state
   }
@@ -46,5 +53,11 @@ export const sortBy = sortTag => (
 export const resetState = () => (
   {
     type: RESET,
+  }
+)
+export const newFilter = inputFilter => (
+  {
+    type: FILTER,
+    inputFilter,
   }
 )

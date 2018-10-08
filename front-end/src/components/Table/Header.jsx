@@ -29,7 +29,9 @@ const LabelStyle = styled.label`
   margin-left: 5px;
 `
 
-const Header = ({ searchTerm, updateSearchTerm, resetState }) => (
+const Header = ({
+  searchTerm, updateSearchTerm, resetState, activateFilter,
+}) => (
   <HeaderWrapper>
     <StyledLink style={{ textDecoration: 'none' }} onClick={() => resetState()}>CEQ-TLDR</StyledLink>
     <RadioStyle>
@@ -38,6 +40,7 @@ const Header = ({ searchTerm, updateSearchTerm, resetState }) => (
         id="c"
         name="filter"
         value="Infocom"
+        onClick={event => activateFilter(event.target.id)}
       />
       <LabelStyle>Infocom</LabelStyle>
     </RadioStyle>
@@ -47,6 +50,7 @@ const Header = ({ searchTerm, updateSearchTerm, resetState }) => (
         id="d"
         name="filter"
         value="Datateknik"
+        onClick={event => activateFilter(event.target.id)}
       />
       <LabelStyle>Datateknik</LabelStyle>
     </RadioStyle>
@@ -56,6 +60,8 @@ const Header = ({ searchTerm, updateSearchTerm, resetState }) => (
         id="s"
         name="filter"
         value="Specialicering"
+        defaultChecked
+        onClick={event => activateFilter(event.target.id)}
       />
       <LabelStyle>Specialicering</LabelStyle>
     </RadioStyle>

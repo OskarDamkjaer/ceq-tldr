@@ -9,6 +9,7 @@ import {
   updateSearchTerm,
   sortBy,
   resetState,
+  newFilter,
 } from '../duck-reducers/sorting'
 
 const TableWrapper = styled.div`
@@ -45,7 +46,7 @@ specialSort(data, searchItem, isAscending) {
   return arraySort
 }
 render(props){
-const { searchTermProp, updateDispatchSearchTermProp, resetDispatchStateProp, sortDispatchByProp, sortByProp, ascendingProp } = this.props
+const { searchTermProp, updateDispatchSearchTermProp, resetDispatchStateProp, activeFilterDispatchToProp, sortDispatchByProp, sortByProp, ascendingProp, activeFilterProp } = this.props
 
   return(
       <TableWrapper>
@@ -54,6 +55,7 @@ const { searchTermProp, updateDispatchSearchTermProp, resetDispatchStateProp, so
         searchTerm={searchTermProp}
         updateSearchTerm={updateDispatchSearchTermProp}
         resetState={resetDispatchStateProp}
+        activateFilter={activeFilterDispatchToProp}
       />
     </AreaWrapper>
     <AreaWrapper gridArea="search" />
@@ -74,12 +76,14 @@ const mapStateToProps = ({ sorting }) => ({
   searchTermProp: sorting.searchTerm,
   sortByProp: sorting.sortBy,
   ascendingProp: sorting.ascending,
+  activeFilterProp: sorting.activeFilter,
 })
 
 const mapDispatchToProps = dispatch => ({
   updateDispatchSearchTermProp: inputValue => dispatch(updateSearchTerm(inputValue)),
   sortDispatchByProp: sortTerm => dispatch(sortBy(sortTerm)),
   resetDispatchStateProp: () => dispatch(resetState()),
+  activeFilterDispatchToProp: inputFilter => dispatch(newFilter(inputFilter))
 })
 
 export default connect(
