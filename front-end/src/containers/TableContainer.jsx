@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import styled from 'styled-components'
-import { lastYearForProgram, MASTER, excludedHeaders, dataHeaders, dataHeadersStyled } from '../data'
+import { lastYearForProgram, excludedHeaders, dataHeaders, dataHeadersStyled } from '../data'
 import Table from '../components/Table/Table'
 import Header from '../components/Table/Header'
 
@@ -54,7 +54,7 @@ class TableContainer extends React.Component {
 
   render(props) {
     const {searchTermProp, updateDispatchSearchTermProp, resetDispatchStateProp, activeFilterDispatchToProp, sortDispatchByProp, sortByProp, ascendingProp, activeFilterProp} = this.props
-    const data = lastYearForProgram(MASTER)
+    const data = lastYearForProgram(activeFilterProp)
     return (
       <TableWrapper>
         <AreaWrapper gridArea="header">
@@ -84,7 +84,7 @@ const mapStateToProps = ({sorting}) => ({
   searchTermProp: sorting.searchTerm,
   sortByProp: sorting.sortBy,
   ascendingProp: sorting.ascending,
-  activeFilterProp: sorting.activeFilter,
+  activeFilterProp: sorting.filter,
 })
 
 const mapDispatchToProps = dispatch => ({

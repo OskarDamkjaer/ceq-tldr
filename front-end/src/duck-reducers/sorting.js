@@ -1,13 +1,16 @@
+import { MASTER } from '../data'
+
 export const UPDATE = 'UPDATE'
 export const SORT = 'SORT'
 export const RESET = 'RESET'
 export const FILTER = 'FILTER'
 
+
 const initialState = {
   searchTerm: '',
   sortBy: 'name',
   ascending: false,
-  filter: 'S',
+  filter: MASTER,
 }
 export default (state = initialState, action) => {
   switch (action.type) {

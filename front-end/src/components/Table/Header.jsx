@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import SearchInput from './SearchInput'
+import { DATA, INFOCOM, MASTER } from '../../data'
+
 
 const HeaderWrapper = styled.div`
   padding: 20px;
@@ -37,7 +39,7 @@ const Header = ({
     <RadioStyle>
       <input
         type="radio"
-        id="c"
+        id={INFOCOM}
         name="filter"
         value="Infocom"
         onClick={event => activateFilter(event.target.id)}
@@ -47,7 +49,7 @@ const Header = ({
     <RadioStyle>
       <input
         type="radio"
-        id="d"
+        id={DATA}
         name="filter"
         value="Datateknik"
         onClick={event => activateFilter(event.target.id)}
@@ -57,9 +59,9 @@ const Header = ({
     <RadioStyle>
       <input
         type="radio"
-        id="s"
+        id={MASTER}
         name="filter"
-        value="Specialicering"
+        value="Master"
         defaultChecked
         onClick={event => activateFilter(event.target.id)}
       />
