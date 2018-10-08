@@ -1,16 +1,18 @@
 import React from 'react'
-import { courseData, graphHeaders, graphHeadersStyled, MASTER } from '../data'
+import {
+  courseData, graphHeaders, graphHeadersStyled, MASTER,
+} from '../data'
 import ColorContext from '../context/color'
 import GraphContainer from './GraphContainer'
 import NoData from '../components/Course/NoData'
 
-const CourseContainer = ({courseCode}) => (
+const CourseContainer = ({ courseCode }) => (
   <div>
     {courseData(courseCode, MASTER).history.length <= 2 ? (
-        <NoData
-          name={courseData(courseCode, MASTER).name}
-        />
-      )
+      <NoData
+        name={courseData(courseCode, MASTER).name}
+      />
+    )
       : (
         <ColorContext.Consumer>
           {colorArray => (
