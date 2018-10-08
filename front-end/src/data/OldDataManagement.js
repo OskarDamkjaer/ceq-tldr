@@ -6,7 +6,6 @@ const scrapeKeys = Object.keys(pureData[0]).filter((item, index) => index !== 2)
 export const orderedHeaders = [scrapeKeys[4], ...scrapeKeys.slice(0, 4), ...scrapeKeys.slice(5)]
 export const orderedHeadersStyled = orderedHeaders.map(item => item.replace(/([A-Z])/g, ' $1').toUpperCase())
 
-
 const excludedHeaders = ['NAME', 'CODE', 'COMMENTS', 'YEAR', 'POINTS', 'REGISTERED']
 const excludedHeadersData = ['name', 'code', 'comments', 'year', 'points', 'registered']
 export const orderedHeadersFiltered = orderedHeaders
@@ -53,14 +52,12 @@ export function xAxArray(courseCode) {
 export const nameByCourse = courseCode => scrapeData
   .filter(item => item.code === courseCode)[0].name
 
-
 export const isNeg = (courseCode) => {
   const allArray = []
   courseHistoryYears(courseCode).map(item => allArray.push(...Object.values(item)))
   return Math.sign(Math.min(...allArray.map(item => parseInt(item, 10)).filter(Boolean))) <= 0
 }
 export const isLess = (courseCode) => {
-  const allArray = []
-  courseHistoryYears(courseCode).map(item => allArray.push(item.registered))
+  const allArray = courseHistoryYears(courseCode).map(item => item.registered)
   return Math.max(...allArray) < 100
 }
