@@ -68,6 +68,7 @@ export const historyListForCourseCode = (code, program) =>
   flatten(allHistoryForCourseCode(code, program), addYearToObj)
 
 export const isNeg = (history) => {
-  const allArray = history.map(item => Object.values(item))
-  return Math.min(...allArray.map(item => parseInt(item, 10)).filter(Boolean)) < 0
+  const allArray = []
+  history.map(item => allArray.push(...Object.values(item)))
+  return Math.sign(Math.min(...allArray.map(item => parseInt(item, 10)).filter(Boolean))) <= 0
 }

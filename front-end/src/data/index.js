@@ -10,7 +10,7 @@ export const courseData = (courseCode, program) => {
     history,
     xAxis: history.map(item => parseInt(item.year, 10)),
     isNeg: isNeg(history),
-    isLess: history.filter(item => item.registered > 100).length > 0,
+    isLess: history.filter(item => item.registered < 100).length > 0,
   })
 }
 
