@@ -1,5 +1,5 @@
 import {
-  historyListForCourseCode, getDataForYearAndProgram, isNeg, y2018, DATA,
+  historyListForCourseCode, getDataForYearAndProgram, isNeg, isLess, y2018, DATA,
 } from './dataFetcher'
 
 /* Takes course code, gives courseData */
@@ -10,7 +10,7 @@ export const courseData = (courseCode, program) => {
     history,
     xAxis: history.map(item => parseInt(item.year, 10)),
     isNeg: isNeg(history),
-    isLess: history.filter(item => item.registered < 100).length > 0,
+    isLess: isLess(history),
   })
 }
 
