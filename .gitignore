@@ -1,5 +1,7 @@
 .idea/
-./data-utils/venv
+data-utils/venv
+data-utils/__pycache__/
+data-utils/__init__.py
 
 # dependencies
 /front-end/node_modules
