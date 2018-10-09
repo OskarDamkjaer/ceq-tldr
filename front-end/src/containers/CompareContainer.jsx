@@ -14,10 +14,13 @@ const CompareContainer = ({ course1, course2, activeFilterProp }) => (
       course={course1}
       courseData={courseData(course1, activeFilterProp)}
     />
+    {course2 !== ''
+    && (
     <CompareTableContainer
       course={course2}
       courseData={courseData(course2, activeFilterProp)}
     />
+    ) }
   </Wrapper>
 )
 
