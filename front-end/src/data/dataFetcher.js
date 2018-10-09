@@ -67,13 +67,12 @@ const allHistoryForCourseCode = (code, program) => ({
 export const historyListForCourseCode = (code, program) =>
   flatten(allHistoryForCourseCode(code, program), addYearToObj)
 
-export const isNeg = (history) => {
-  const allArray = []
-  history.map(item => allArray.push(...Object.values(item)))
-  return Math.sign(Math.min(...allArray.map(item => parseInt(item, 10)).filter(Boolean))) <= 0
-}
+export const isNeg = history => history
+  .reduce((acc, current) => acc.concat(Object.values(current)), [])
+  .filter(item => parseInt(item, 10))
+  .map(item => parseInt(item, 10))
+  .filter(number => number < 0)
+  .length !== 0
 
-export const isLess = (history) => {
-  const allArray = history.map(item => item.registered)
-  return Math.max(...allArray) < 100
-}
+
+export const isLess = history => history.filter(item => item.registered > 100).length === 0
