@@ -25,7 +25,6 @@ const mapStateToProps = ({ sorting }) => ({
   activeFilterProp: sorting.filter,
 })
 
-
 export default connect(
   mapStateToProps,
   null,

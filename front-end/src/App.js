@@ -5,6 +5,7 @@ import ColorProvider from './context/ColorProvider'
 import TablePage from './view/TablePage'
 import CoursePage from './view/CoursePage'
 import ComparePage from './view/ComparePage'
+import NoMatchPage from './view/NoMatchPage'
 
 const App = () => (
   <ColorProvider>
@@ -12,7 +13,8 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={TablePage} />
         <Route exact path="/compare/:courses" component={ComparePage} />
-        <Route path="/:code" component={CoursePage} />
+        <Route exact path="/course/:code" component={CoursePage} />
+        <Route component={NoMatchPage} />
       </Switch>
     </Router>
   </ColorProvider>

@@ -64,7 +64,7 @@ const Table = ({
             <PrettyTr key={row.code}>
               <PrettyTdHeader>
                 <StyledLink
-                  to={`/${row.code}`}
+                  to={`/course/${row.code}`}
                   style={{ textDecoration: 'none' }}
                 >
                   <CourseName name={row.name} code={row.code} />
@@ -74,7 +74,7 @@ const Table = ({
                 && (
                   <PrettyTd key={key + row.name}>
                     <StyledLink
-                      to={`/${row.code}`}
+                      to={`/course/${row.code}`}
                       style={{ textDecoration: 'none' }}
                     >
                       {row[key]}

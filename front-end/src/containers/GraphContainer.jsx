@@ -10,7 +10,7 @@ class GraphContainer extends React.Component {
     }
   }
 
-  handleHover = (name) => this.setState({ active: name })
+  handleHover = name => this.setState({ active: name })
   handleOut = () => this.setState({active: 'all'})
 
   render() {
