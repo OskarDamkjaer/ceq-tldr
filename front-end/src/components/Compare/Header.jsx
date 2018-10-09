@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const Wrapper = styled.div` 
+    height: 100px;
+`
 const HeaderSpan = styled.span`
     font-size: 3em;
     margin-right: 10px;
@@ -11,12 +14,12 @@ const CourseSpan = styled.span`
 `
 
 const Header = ({ courseName, courseCode }) => (
-  <div>
+  <Wrapper>
     <HeaderSpan>
       {courseName}
     </HeaderSpan>
     <CourseSpan>{courseCode}</CourseSpan>
-  </div>
+  </Wrapper>
 )
 
 export default Header

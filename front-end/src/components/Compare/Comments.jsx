@@ -20,7 +20,7 @@ const headLineCreator = (sentence) => {
 
 const Comments = ({ comments }) => (
   <div>
-    <h2>Swedish comments from Studierådet and Programledarna</h2>
+    <h1>Swedish comments from Studierådet and Programledarna</h1>
     { comments.split('.').map(
       headLineCreator,
     )

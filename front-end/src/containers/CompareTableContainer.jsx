@@ -11,7 +11,9 @@ const Wrapper = styled.div`
     height: 100vh;
     padding: 20px;
 `
-
+const tableElements = {
+  year: 'DATA YEAR', category: 'MASTER', points: 'HP', registered: 'NUMBER OF REGISTERED',
+}
 const CompareTableContainer = ({ course, courseData }) => (
   <Wrapper>
     <Header
@@ -19,6 +21,7 @@ const CompareTableContainer = ({ course, courseData }) => (
       courseCode={course}
     />
     <br />
+    <h1>Course info</h1>
     <ColorContext.Consumer>
       {colorArray =>
         graphHeaders.map((headers, index) => (
@@ -28,9 +31,30 @@ const CompareTableContainer = ({ course, courseData }) => (
             color={colorArray[index]}
           />
         ))
-      }
+        }
+    </ColorContext.Consumer>
+    <TableElement
+      header="Aggregated data"
+      data={String(Object.keys(courseData.history[0])
+        .filter(item => graphHeaders.includes(item))
+        .map(item => parseInt(courseData.history[0][item], 10))
+        .reduce((acc, curr) => acc + curr, 0))}
+      color="fat"
+    />
+    <h1>Other course information</h1>
+    <ColorContext.Consumer>
+      {colorArray => (
+        Object.values(tableElements).map((headers, index) => (
+          <TableElement
+            header={headers}
+            data={courseData.history[0][Object.keys(tableElements)[index]]}
+            color={colorArray[index]}
+          />
+        ))
+      )}
     </ColorContext.Consumer>
     <Comments comments={courseData.history[0].comments} color="he" />
+  }
 
   </Wrapper>
 )
