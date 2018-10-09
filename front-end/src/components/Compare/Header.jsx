@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div` 
     height: 100px;
-    background:#66D594;
+    background:${props => props.isWinner && '#66D594'};
     padding: 20px;
 `
 const HeaderSpan = styled.span`
@@ -15,8 +15,8 @@ const CourseSpan = styled.span`
     color:gray;
 `
 
-const Header = ({ courseName, courseCode }) => (
-  <Wrapper>
+const Header = ({ courseName, courseCode, isWinner }) => (
+  <Wrapper isWinner={isWinner}>
     <HeaderSpan>
       {courseName}
     </HeaderSpan>

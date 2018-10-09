@@ -4,7 +4,7 @@ import Comments from '../components/Compare/Comments'
 import Header from '../components/Compare/Header'
 import TableElement from '../components/Compare/TableElement'
 import ColorContext from '../context/color'
-import { graphHeaders, graphHeadersStyled } from '../data'
+import { graphHeadersStyled } from '../data'
 
 const Wrapper = styled.div`
     width: 50vw;
@@ -14,11 +14,14 @@ const Wrapper = styled.div`
 const tableElements = {
   year: 'BASED ON YEAR', category: 'MASTER', points: 'HP', registered: 'NUMBER OF REGISTERED',
 }
-const CompareTableContainer = ({ course, courseData }) => (
+const CompareTableContainer = ({
+  course, courseData, graphHeaders, aggregatedScore, winner,
+}) => (
   <Wrapper>
     <Header
       courseName={courseData.name}
       courseCode={course}
+      isWinner={winner}
     />
     <br />
     <h1>Course info</h1>
@@ -35,10 +38,7 @@ const CompareTableContainer = ({ course, courseData }) => (
     </ColorContext.Consumer>
     <TableElement
       header="Aggregated data"
-      data={String(Object.keys(courseData.history[0])
-        .filter(item => graphHeaders.includes(item))
-        .map(item => parseInt(courseData.history[0][item], 10))
-        .reduce((acc, curr) => acc + curr, 0))}
+      data={aggregatedScore}
       color="bold"
     />
     <h1>Other course information</h1>
