@@ -33,6 +33,7 @@ const CourseGraphRegistered = ({
     <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
       {history.map((item, index) => (
         <Bar
+          key={item.year}
           width={scaleBand({ rangeRound: [500, 0], domain: xAxis }).bandwidth()}
           height={isLess ? 400 - yPointLess(item) : 400 - yPointPos(item)}
 

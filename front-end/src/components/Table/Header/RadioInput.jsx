@@ -15,13 +15,16 @@ const LabelStyle = styled.label`
 const RadioInoput = ({ activateFilter, activeFilter }) => (
   <RadioStyle>
     {filterList.map(filter => (
-      <div>
+      <div
+        key={`${filter}button`}
+      >
+
         <input
           type="radio"
           id={filter}
           name="filter"
           checked={activeFilter === filter}
-          onClick={event => activateFilter(event.target.id)}
+          onChange={event => activateFilter(event.target.id)}
         />
         <LabelStyle>{filter}</LabelStyle>
 

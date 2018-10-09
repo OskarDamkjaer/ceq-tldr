@@ -26,3 +26,14 @@ export const dataHeaders = Object.keys(getDataForYearAndProgram(y2018, DATA)[0])
 export const dataHeadersStyled = dataHeaders.map(styleMap)
 export const graphHeaders = dataHeaders.filter(item => !graphExclude.includes(item))
 export const graphHeadersStyled = graphHeaders.map(styleMap)
+
+/* Takes course code and gives category for course, gives empty string if no match */
+export const isCourse = (course) => {
+  const container = {
+    dataHistory: historyListForCourseCode(course.toUpperCase(), DATA),
+    infocomHistory: historyListForCourseCode(course.toUpperCase(), INFOCOM),
+    masterHistory: historyListForCourseCode(course.toUpperCase(), MASTER),
+  }
+  const tempArray = Object.values(container).filter(item => item.length !== 0)
+  return tempArray[0] ? tempArray[0][0].category : ''
+}

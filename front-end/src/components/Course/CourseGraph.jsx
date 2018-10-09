@@ -53,6 +53,7 @@ const CourseGraph = ({
       <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
         {graphHeadersStyled.map((header, index) => (
           <LinePath
+            key={header}
             data={history}
             xScale={scaleLinear(xScaleLiniear(xAxis[0], xAxis[xAxis.length - 1]))}
             yScale={isNeg ? scaleLinear(yNeg) : scaleLinear(yPos)}

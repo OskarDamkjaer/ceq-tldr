@@ -12,15 +12,20 @@ const headLineCreator = (sentence) => {
   for (let i = 0; i < headlines.length; i += 1) {
     if (sentence.includes(headlines[i])) {
       jsxList.push(jsxList.length === 0 ? (
-        <span>
+        <span key={sentence + headlines[i]}>
           <h3>{headlines[i].toUpperCase()}</h3>
           <span>{`${sentence.replace(headlines[i], '')}. `}</span>
         </span>
-      ) : <h3>{headlines[i].toUpperCase()}</h3>)
+      ) : <h3 key={sentence + headlines[i]}>{headlines[i].toUpperCase()}</h3>)
     }
   }
-  jsxList.push(jsxList.length === 0 && <span>{`${sentence}. `}</span>)
-  return jsxList
+  jsxList.push(jsxList.length === 0 && <span key={`${sentence}span`}>{`${sentence}. `}</span>)
+  return (
+    <div key={sentence}>
+      {jsxList}
+      {' '}
+    </div>
+  )
 }
 
 const Comments = ({ comments }) => (

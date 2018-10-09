@@ -29,6 +29,7 @@ const CompareTableContainer = ({
       {colorArray =>
         graphHeaders.map((headers, index) => (
           <TableElement
+            key={headers}
             header={graphHeadersStyled[index]}
             data={courseData.history[0][headers]}
             color={colorArray[index]}
@@ -46,6 +47,7 @@ const CompareTableContainer = ({
       {colorArray => (
         Object.values(tableElements).map((headers, index) => (
           <TableElement
+            key={headers}
             header={headers}
             data={courseData.history[0][Object.keys(tableElements)[index]]}
             color={colorArray[index]}
@@ -53,7 +55,7 @@ const CompareTableContainer = ({
         ))
       )}
     </ColorContext.Consumer>
-    <Comments comments={courseData.history[0].comments} color="he" />
+    <Comments comments={courseData.history[0].comments} />
   </Wrapper>
 )
 

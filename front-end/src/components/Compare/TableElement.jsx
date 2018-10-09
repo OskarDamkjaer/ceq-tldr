@@ -16,7 +16,7 @@ const Data = styled.span`
 const TableElement = ({ header, data, color }) => (
   <Wrapper>
     <Header color={color}>{header}</Header>
-    <Data color={color}>{data.split('+')}</Data>
+    <Data color={color}>{data}</Data>
     <br />
   </Wrapper>
 )

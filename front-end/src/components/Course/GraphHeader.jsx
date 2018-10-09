@@ -40,6 +40,7 @@ const GraphHeader = ({
     </Header>
     {graphHeadersStyled.map((header, index) => (
       <HeaderSpan
+        key={header}
         onMouseOver={() => handleHover(header)}
         onMouseOut={() => handleOut()}
         color={colorArray[index]}
