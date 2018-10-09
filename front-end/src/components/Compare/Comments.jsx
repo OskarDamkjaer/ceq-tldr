@@ -1,4 +1,9 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Wrapper = styled.div` 
+    padding: 30px;
+`
 
 const headlines = ['Studierådets kommentarer', 'Programledarens kommentarer', 'Kurslärarens kommenterer', 'Kurslärarens kommentarer']
 
@@ -8,10 +13,10 @@ const headLineCreator = (sentence) => {
     if (sentence.includes(headlines[i])) {
       jsxList.push(jsxList.length === 0 ? (
         <span>
-          <h3>{headlines[i]}</h3>
+          <h3>{headlines[i].toUpperCase()}</h3>
           <span>{`${sentence.replace(headlines[i], '')}. `}</span>
         </span>
-      ) : <h3>{headlines[i]}</h3>)
+      ) : <h3>{headlines[i].toUpperCase()}</h3>)
     }
   }
   jsxList.push(jsxList.length === 0 && <span>{`${sentence}. `}</span>)
@@ -21,10 +26,12 @@ const headLineCreator = (sentence) => {
 const Comments = ({ comments }) => (
   <div>
     <h1>Swedish comments from Studierådet and Programledarna</h1>
-    { comments.split('.').map(
-      headLineCreator,
-    )
+    <Wrapper>
+      { comments.split('.').map(
+        headLineCreator,
+      )
     }
+    </Wrapper>
   </div>
 )
 
