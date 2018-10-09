@@ -10,7 +10,7 @@ import Header from '../components/Common/PageHeader'
 const CourseContainer = ({ courseCode, activeFilterProp }) => (
   <div>
     <Header />
-    {courseData(courseCode, activeFilterProp).history.length <= 2 ? (
+    {courseData(courseCode, activeFilterProp).history.length < 2 ? (
       <NoData
         name={courseData(courseCode, activeFilterProp).name}
       />

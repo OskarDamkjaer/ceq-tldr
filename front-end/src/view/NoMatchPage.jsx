@@ -30,7 +30,7 @@ class NoMatchPage extends React.Component {
         Sorry we can't find the page
         {' '}
         <br />
-        <Gray>{`ceqtldr.${location.pathname.substring(1)}.10av10.com`}</Gray>
+        <Gray>{`ceqtldr.10av10.com/${location.pathname.substring(1)}`}</Gray>
         <input type="button" onClick={() => this.setState({ isRedirecting: true })} value="Back to home screen" />
       </Wrapper>
     )

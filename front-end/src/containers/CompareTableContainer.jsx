@@ -31,7 +31,7 @@ const CompareTableContainer = ({
           <TableElement
             key={headers}
             header={graphHeadersStyled[index]}
-            data={courseData.history[0][headers]}
+            data={courseData.history[courseData.history.length - 1][headers]}
             color={colorArray[index]}
           />
         ))
@@ -49,13 +49,13 @@ const CompareTableContainer = ({
           <TableElement
             key={headers}
             header={headers}
-            data={courseData.history[0][Object.keys(tableElements)[index]]}
+            data={courseData.history[courseData.history.length - 1][Object.keys(tableElements)[index]]}
             color={colorArray[index]}
           />
         ))
       )}
     </ColorContext.Consumer>
-    <Comments comments={courseData.history[0].comments} />
+    <Comments comments={courseData.history[courseData.history.length - 1].comments} />
   </Wrapper>
 )
 
