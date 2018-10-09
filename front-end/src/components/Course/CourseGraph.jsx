@@ -21,7 +21,10 @@ const xScaleLiniear = (yearLow, yearHigh) => ({ rangeRound: [500, 0], domain: [y
 const yPos = { rangeRound: [0, 400], domain: [100, 0] }
 const yNeg = { rangeRound: [0, 800], domain: [100, -100] }
 
-const yValue = (item, dataTag) => parseInt(item[dataTag], 10)
+const yValue = (item, dataTag, history) => {
+  console.log(history)
+  return parseInt(item[dataTag], 10)
+}
 
 const tickArrayPos = [0, 20, 40, 60, 80, 100]
 const tickArrayNeg = [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
@@ -57,7 +60,7 @@ const CourseGraph = ({
             xScale={scaleLinear(xScaleLiniear(xAxis[0], xAxis[xAxis.length - 1]))}
             yScale={isNeg ? scaleLinear(yNeg) : scaleLinear(yPos)}
             x={item => item.year}
-            y={item => yValue(item, graphHeaders[index])}
+            y={item => yValue(item, graphHeaders[index], history)}
             curve={curveNatural}
             stroke={isActive === 'all' || isActive === header ? colorArray[index] : '#A8A8A8'}
             strokeWidth={isActive === header ? 4 : 2}

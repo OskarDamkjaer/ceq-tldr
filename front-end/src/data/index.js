@@ -4,7 +4,7 @@ import {
 
 /* Takes course code, gives courseData */
 export const courseData = (courseCode, program) => {
-  const history = historyListForCourseCode(courseCode, program)
+  const history = historyListForCourseCode(courseCode.toUpperCase(), program)
   return ({
     name: history[0].name,
     history,
