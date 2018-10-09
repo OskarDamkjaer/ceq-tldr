@@ -12,7 +12,7 @@ const Wrapper = styled.div`
     padding: 20px;
 `
 const tableElements = {
-  year: 'DATA YEAR', category: 'MASTER', points: 'HP', registered: 'NUMBER OF REGISTERED',
+  year: 'BASED ON YEAR', category: 'MASTER', points: 'HP', registered: 'NUMBER OF REGISTERED',
 }
 const CompareTableContainer = ({ course, courseData }) => (
   <Wrapper>
@@ -39,7 +39,7 @@ const CompareTableContainer = ({ course, courseData }) => (
         .filter(item => graphHeaders.includes(item))
         .map(item => parseInt(courseData.history[0][item], 10))
         .reduce((acc, curr) => acc + curr, 0))}
-      color="fat"
+      color="bold"
     />
     <h1>Other course information</h1>
     <ColorContext.Consumer>
@@ -54,8 +54,6 @@ const CompareTableContainer = ({ course, courseData }) => (
       )}
     </ColorContext.Consumer>
     <Comments comments={courseData.history[0].comments} color="he" />
-  }
-
   </Wrapper>
 )
 

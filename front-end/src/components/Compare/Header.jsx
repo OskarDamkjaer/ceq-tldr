@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div` 
     height: 100px;
+    background:#66D594;
+    padding: 20px;
 `
 const HeaderSpan = styled.span`
     font-size: 3em;

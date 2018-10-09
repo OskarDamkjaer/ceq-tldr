@@ -8,11 +8,15 @@ const Wrapper = styled.div`
 `
 const Header = styled.span`
     color:${props => props.color};
+    font-weight:${props => props.color};
+`
+const Data = styled.span`
+    font-weight:${props => props.color};
 `
 const TableElement = ({ header, data, color }) => (
   <Wrapper>
     <Header color={color}>{header}</Header>
-    <span>{data.split('+')}</span>
+    <Data color={color}>{data.split('+')}</Data>
     <br />
   </Wrapper>
 )
