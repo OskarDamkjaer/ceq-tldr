@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import styled from 'styled-components'
 import CompareTableContainer from './CompareTableContainer'
 import { courseData, graphHeaders } from '../data'
+import Header from '../components/Common/PageHeader'
 
 
 const Wrapper = styled.div`
@@ -17,15 +18,17 @@ const aggregatedData = (course, activeFilterProp) => (
 )
 
 const CompareContainer = ({ course1, course2, activeFilterProp }) => (
-  <Wrapper>
-    <CompareTableContainer
-      course={course1}
-      courseData={courseData(course1, activeFilterProp)}
-      aggregatedScore={String(aggregatedData(course1, activeFilterProp))}
-      graphHeaders={graphHeaders}
-      winner={course2 !== '' ? aggregatedData(course1, activeFilterProp) > aggregatedData(course2, activeFilterProp) : false}
-    />
-    {course2 !== ''
+  <div>
+    <Header />
+    <Wrapper>
+      <CompareTableContainer
+        course={course1}
+        courseData={courseData(course1, activeFilterProp)}
+        aggregatedScore={String(aggregatedData(course1, activeFilterProp))}
+        graphHeaders={graphHeaders}
+        winner={course2 !== '' ? aggregatedData(course1, activeFilterProp) > aggregatedData(course2, activeFilterProp) : false}
+      />
+      {course2 !== ''
     && (
     <CompareTableContainer
       course={course2}
@@ -35,7 +38,9 @@ const CompareContainer = ({ course1, course2, activeFilterProp }) => (
       winner={aggregatedData(course2, activeFilterProp) > aggregatedData(course1, activeFilterProp)}
     />
     ) }
-  </Wrapper>
+    </Wrapper>
+
+  </div>
 )
 
 const mapStateToProps = ({ sorting }) => ({

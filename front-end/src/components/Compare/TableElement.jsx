@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
     display:grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 70% 30%;
     font-size: 1.5em;
 `
 const Header = styled.span`

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Wrapper = styled.div` 
-    height: 100px;
+    height: 200px;
     background:${props => props.isWinner && '#66D594'};
     padding: 20px;
 `

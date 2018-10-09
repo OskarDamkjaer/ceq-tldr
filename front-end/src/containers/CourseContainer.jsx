@@ -4,9 +4,16 @@ import { courseData, graphHeaders, graphHeadersStyled } from '../data'
 import ColorContext from '../context/color'
 import GraphContainer from './GraphContainer'
 import NoData from '../components/Course/NoData'
+import Header from '../components/Common/PageHeader'
 
-const CourseContainer = ({ courseCode, activeFilterProp }) => (
+
+import {
+  resetState,
+} from '../duck-reducers/sorting'
+
+const CourseContainer = ({ courseCode, activeFilterProp, resetDispatchStateProp }) => (
   <div>
+    <Header resetState={resetDispatchStateProp} />
     {courseData(courseCode, activeFilterProp).history.length <= 2 ? (
       <NoData
         name={courseData(courseCode, activeFilterProp).name}
@@ -32,7 +39,11 @@ const mapStateToProps = ({ sorting }) => ({
   activeFilterProp: sorting.filter,
 })
 
+const mapDispatchToProps = dispatch => ({
+  resetDispatchStateProp: () => dispatch(resetState()),
+})
+
 export default connect(
   mapStateToProps,
-  null,
+  mapDispatchToProps,
 )(CourseContainer)
