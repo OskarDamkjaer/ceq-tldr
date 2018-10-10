@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import styled from 'styled-components'
 import CompareTableContainer from './CompareTableContainer'
-import { courseData, graphHeaders } from '../data'
+import { courseData, graphHeaders, isCourse } from '../data'
 import Header from '../components/Common/PageHeader'
 
 
@@ -21,23 +21,49 @@ const CompareContainer = ({ course1, course2, activeFilterProp }) => (
   <div>
     <Header />
     <Wrapper>
-      <CompareTableContainer
-        course={course1}
-        courseData={courseData(course1, activeFilterProp)}
-        aggregatedScore={String(aggregatedData(course1, activeFilterProp))}
-        graphHeaders={graphHeaders}
-        winner={course2 !== '' ? aggregatedData(course1, activeFilterProp) > aggregatedData(course2, activeFilterProp) : false}
-      />
+      {isCourse(course1).length > 0
+        ? (
+          <CompareTableContainer
+            course={course1}
+            courseData={courseData(course1, activeFilterProp)}
+            aggregatedScore={String(aggregatedData(course1, activeFilterProp))}
+            graphHeaders={graphHeaders}
+            winner={course2 !== '' ? aggregatedData(course1, activeFilterProp) > aggregatedData(course2, activeFilterProp) : false}
+          />
+        )
+        : (
+          <h1>
+            {course1}
+            {' '}
+            is not a valid course code
+          </h1>
+        )}
+
       {course2 !== ''
-    && (
-    <CompareTableContainer
-      course={course2}
-      courseData={courseData(course2, activeFilterProp)}
-      aggregatedScore={String(aggregatedData(course2, activeFilterProp))}
-      graphHeaders={graphHeaders}
-      winner={aggregatedData(course2, activeFilterProp) > aggregatedData(course1, activeFilterProp)}
-    />
-    ) }
+        && (
+        <div>
+          { isCourse(course2).length > 0
+            ? (
+              <CompareTableContainer
+                course={course2}
+                courseData={courseData(course2, activeFilterProp)}
+                aggregatedScore={String(aggregatedData(course2, activeFilterProp))}
+                graphHeaders={graphHeaders}
+                winner={aggregatedData(course2, activeFilterProp)
+                > aggregatedData(course1, activeFilterProp)}
+              />
+
+            ) : (
+              <h1>
+                {course2}
+                {' '}
+              is not a valid course code
+              </h1>
+            )
+          }
+        </div>
+
+        )}
     </Wrapper>
 
   </div>
