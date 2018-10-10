@@ -29,11 +29,13 @@ export const graphHeadersStyled = graphHeaders.map(styleMap)
 
 /* Takes course code and gives category for course, gives empty string if no match */
 export const isCourse = (course) => {
-  const container = {
-    dataHistory: historyListForCourseCode(course.toUpperCase(), DATA),
-    infocomHistory: historyListForCourseCode(course.toUpperCase(), INFOCOM),
-    masterHistory: historyListForCourseCode(course.toUpperCase(), MASTER),
+  let category = ''
+  if (historyListForCourseCode(course.toUpperCase(), DATA).length !== 0) {
+    category = DATA
+  } else if (historyListForCourseCode(course.toUpperCase(), INFOCOM).length !== 0) {
+    category = INFOCOM
+  } else if (historyListForCourseCode(course.toUpperCase(), MASTER).length !== 0) {
+    category = MASTER
   }
-  const tempArray = Object.values(container).filter(item => item.length !== 0)
-  return tempArray[0] ? tempArray[0][0].category : ''
+  return category !== '' ? category : ''
 }
