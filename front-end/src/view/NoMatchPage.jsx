@@ -7,10 +7,17 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items:center;
   margin-top: 40px;
-  font-size: 3em;
+  font-size: 4em;
 `
 const Gray = styled.div`
   color:gray;
+`
+const Button = styled.input`
+  height: 50px;
+  width: 200px;
+  background-color: gray;
+  color: white;
+  font-size: 20px;
 `
 class NoMatchPage extends React.Component {
   constructor(props) {
@@ -27,11 +34,15 @@ class NoMatchPage extends React.Component {
     return (
       <Wrapper>
         {isRedirecting && <Redirect to={{ pathname: '/' }} push />}
+        <br />
         Sorry we can't find the page
         {' '}
         <br />
+        <br />
         <Gray>{`ceqtldr.10av10.com/${location.pathname.substring(1)}`}</Gray>
-        <input type="button" onClick={() => this.setState({ isRedirecting: true })} value="Back to home screen" />
+        <br />
+        <br />
+        <Button type="button" onClick={() => this.setState({ isRedirecting: true })} value="BACK TO HOME" />
       </Wrapper>
     )
   }
