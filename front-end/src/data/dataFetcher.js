@@ -74,5 +74,16 @@ export const isNeg = history => history
   .filter(number => number < 0)
   .length !== 0
 
+export const courseHelper = (course) => {
+  let program = ''
+  if (historyListForCourseCode(course.toUpperCase(), DATA).length !== 0) {
+    program = DATA
+  } else if (historyListForCourseCode(course.toUpperCase(), INFOCOM).length !== 0) {
+    program = INFOCOM
+  } else if (historyListForCourseCode(course.toUpperCase(), MASTER).length !== 0) {
+    program = MASTER
+  }
+  return program
+}
 
 export const isLess = history => history.filter(item => item.registered > 100).length === 0

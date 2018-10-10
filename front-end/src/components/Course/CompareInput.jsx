@@ -53,8 +53,8 @@ class CompareInput extends React.Component {
           }
           onKeyPress={(event) => {
             if (event.key === 'Enter') {
-              this.setState({ showError: isCourse(inputValue).length === 0 })
-              this.setState({ isRedirecting: isCourse(inputValue).length > 0 })
+              this.setState({ showError: !isCourse(inputValue) })
+              this.setState({ isRedirecting: isCourse(inputValue) })
             }
           }}
         />

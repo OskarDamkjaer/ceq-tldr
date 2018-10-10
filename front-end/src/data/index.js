@@ -1,18 +1,7 @@
 import {
-  historyListForCourseCode, getDataForYearAndProgram, isNeg, isLess, y2018, DATA, INFOCOM, MASTER,
+  historyListForCourseCode, getDataForYearAndProgram, isNeg, isLess, y2018, DATA, INFOCOM, MASTER, courseHelper,
 } from './dataFetcher'
 
-/* Takes course code, gives courseData */
-export const courseData = (courseCode, program) => {
-  const history = historyListForCourseCode(courseCode.toUpperCase(), program)
-  return ({
-    name: history[0].name,
-    history,
-    xAxis: history.map(item => parseInt(item.year, 10)),
-    isNeg: isNeg(history),
-    isLess: isLess(history),
-  })
-}
 
 export const lastYearForProgram = program => getDataForYearAndProgram(y2018, program)
 
@@ -27,15 +16,20 @@ export const dataHeadersStyled = dataHeaders.map(styleMap)
 export const graphHeaders = dataHeaders.filter(item => !graphExclude.includes(item))
 export const graphHeadersStyled = graphHeaders.map(styleMap)
 
-/* Takes course code and gives category for course, gives empty string if no match */
-export const isCourse = (course) => {
-  let category = ''
-  if (historyListForCourseCode(course.toUpperCase(), DATA).length !== 0) {
-    category = DATA
-  } else if (historyListForCourseCode(course.toUpperCase(), INFOCOM).length !== 0) {
-    category = INFOCOM
-  } else if (historyListForCourseCode(course.toUpperCase(), MASTER).length !== 0) {
-    category = MASTER
-  }
-  return category !== '' ? category : ''
+/* Takes course code and gives program for course, gives empty string if no match */
+export const getProgram = course => (courseHelper(course) !== '' ? courseHelper(course) : '')
+
+/* Takes course code and gives true or false if is course, gives empty string if no match */
+export const isCourse = course => courseHelper(course) !== ''
+
+/* Takes course code, gives courseData */
+export const courseData = (courseCode) => {
+  const history = historyListForCourseCode(courseCode.toUpperCase(), getProgram(courseCode))
+  return ({
+    name: history[0].name,
+    history,
+    xAxis: history.map(item => parseInt(item.year, 10)),
+    isNeg: isNeg(history),
+    isLess: isLess(history),
+  })
 }

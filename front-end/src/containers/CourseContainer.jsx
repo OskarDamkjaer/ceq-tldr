@@ -1,5 +1,4 @@
 import React from 'react'
-import { connect } from 'react-redux'
 import {
   courseData, graphHeaders, graphHeadersStyled, isCourse,
 } from '../data'
@@ -9,12 +8,12 @@ import NoData from '../components/Course/NoData'
 import Header from '../components/Common/PageHeader'
 
 
-const CourseContainer = ({ courseCode, activeFilterProp }) => (
+const CourseContainer = ({ courseCode }) => (
   <div>
     <Header />
-    {courseData(courseCode, activeFilterProp).history.length < 2 ? (
+    {courseData(courseCode).history.length < 2 ? (
       <NoData
-        name={courseData(courseCode, activeFilterProp).name}
+        name={courseData(courseCode).name}
       />
     )
       : (
@@ -25,7 +24,7 @@ const CourseContainer = ({ courseCode, activeFilterProp }) => (
               orderedHeadersStyledFiltered={graphHeadersStyled}
               courseCode={courseCode}
               colorArray={colorArray}
-              courseData={courseData(courseCode, activeFilterProp)}
+              courseData={courseData(courseCode)}
               isCourse={isCourse}
             />)}
         </ColorContext.Consumer>
@@ -34,12 +33,4 @@ const CourseContainer = ({ courseCode, activeFilterProp }) => (
   </div>
 )
 
-const mapStateToProps = ({ sorting }) => ({
-  activeFilterProp: sorting.filter,
-})
-
-
-export default connect(
-  mapStateToProps,
-  null,
-)(CourseContainer)
+export default CourseContainer
