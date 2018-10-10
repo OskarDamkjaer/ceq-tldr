@@ -9,7 +9,30 @@ const RadioStyle = styled.div`
   margin-right: 15px;
 `
 const LabelStyle = styled.label`
-  margin-left: 5px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+`
+const Toggler = styled.input`
+  cursor: pointer;
+  :hover{
+    text-color: red;
+  }
+`
+const TextSpan = styled.span`
+  cursor: pointer;
+  margin-right: 15px;
+  font-size: 1.2em;
+  :hover{
+    color: #117D69;
+    }
 `
 
 const RadioInoput = ({ activateFilter, activeFilter }) => (
@@ -18,15 +41,16 @@ const RadioInoput = ({ activateFilter, activeFilter }) => (
       <div
         key={`${filter}button`}
       >
-
-        <input
-          type="radio"
-          id={filter}
-          name="filter"
-          checked={activeFilter === filter}
-          onChange={event => activateFilter(event.target.id)}
-        />
-        <LabelStyle>{filter}</LabelStyle>
+        <LabelStyle>
+          <TextSpan>{filter}</TextSpan>
+          <Toggler
+            type="radio"
+            id={filter}
+            name="filter"
+            checked={activeFilter === filter}
+            onChange={event => activateFilter(event.target.id)}
+          />
+        </LabelStyle>
 
       </div>
 
