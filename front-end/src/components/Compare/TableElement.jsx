@@ -12,11 +12,17 @@ const Header = styled.span`
 `
 const Data = styled.span`
     font-weight:${props => props.color};
+    background:${props => props.green && '#66D594'};
+    padding: 5px;
 `
-const TableElement = ({ header, data, color }) => (
+const TableElement = ({
+  header, data, color, green,
+}) => (
   <Wrapper>
     <Header color={color}>{header}</Header>
-    <Data color={color}>{data}</Data>
+    <div>
+      <Data green={green} color={color}>{data}</Data>
+    </div>
     <br />
   </Wrapper>
 )

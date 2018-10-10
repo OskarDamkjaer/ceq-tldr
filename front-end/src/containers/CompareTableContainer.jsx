@@ -15,7 +15,7 @@ const tableElements = {
   year: 'BASED ON YEAR', category: 'YEAR', points: 'HP', registered: 'NUMBER OF REGISTERED',
 }
 const CompareTableContainer = ({
-  course, courseData, graphHeaders, aggregatedScore, winner,
+  course, courseData, graphHeaders, aggregatedScore, winner, winnerArray,
 }) => (
   <Wrapper>
     <Header
@@ -33,6 +33,7 @@ const CompareTableContainer = ({
             header={graphHeadersStyled[index]}
             data={courseData.history[courseData.history.length - 1][headers]}
             color={colorArray[index]}
+            green={winnerArray[index]}
           />
         ))
         }

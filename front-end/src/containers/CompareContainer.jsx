@@ -11,12 +11,17 @@ const Wrapper = styled.div`
   display: flex;
  `
 const aggregatedData = course => (
-  Object.keys(courseData(course).history[0])
+  Object.keys(courseData(course).history[courseData(course).history.length - 1])
     .filter(item => graphHeaders.includes(item))
-    .map(item => parseInt(courseData(course).history[0][item], 10))
+    .map(item => parseInt(courseData(course).history[courseData(course).history.length - 1][item], 10))
     .reduce((acc, curr) => acc + curr, 0)
 )
-
+const winnerArray = (courseCurrent, courseComparing) => (
+  graphHeaders.map(items => (
+    parseInt(courseData(courseCurrent).history[courseData(courseCurrent).history.length - 1][items], 10)
+    > parseInt(courseData(courseComparing).history[courseData(courseComparing).history.length - 1][items], 10)
+  ))
+)
 const CompareContainer = ({ course1, course2 }) => (
   <div>
     <Header />
@@ -29,6 +34,7 @@ const CompareContainer = ({ course1, course2 }) => (
             aggregatedScore={aggregatedData(course1)}
             graphHeaders={graphHeaders}
             winner={course2 !== '' && isCourse(course2) && aggregatedData(course1) > aggregatedData(course2)}
+            winnerArray={course2 !== '' && isCourse(course2) && winnerArray(course1, course2)}
           />
         )
         : (
@@ -37,7 +43,6 @@ const CompareContainer = ({ course1, course2 }) => (
           />
         )
       }
-
       {course2 !== ''
         ? (
           <div>
@@ -50,6 +55,8 @@ const CompareContainer = ({ course1, course2 }) => (
                   graphHeaders={graphHeaders}
                   winner={isCourse(course1) && aggregatedData(course2)
                 > aggregatedData(course1)}
+                  winnerArray={isCourse(course1) && winnerArray(course2, course1)}
+
                 />
 
               ) : (
@@ -59,7 +66,6 @@ const CompareContainer = ({ course1, course2 }) => (
               )
           }
           </div>
-
         ) : (
           <CompareInput
             isCourse={isCourse}
@@ -67,7 +73,6 @@ const CompareContainer = ({ course1, course2 }) => (
           />
         )}
     </Wrapper>
-
   </div>
 )
 
