@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import CompareTableContainer from './CompareTableContainer'
 import { courseData, graphHeaders, isCourse } from '../data'
 import Header from '../components/Common/PageHeader'
+import InvalidCourseCode from '../components/Compare/InvalidCourseCode'
 
 
 const Wrapper = styled.div`
@@ -32,11 +33,9 @@ const CompareContainer = ({ course1, course2, activeFilterProp }) => (
           />
         )
         : (
-          <h1>
-            {course1}
-            {' '}
-            is not a valid course code
-          </h1>
+          <InvalidCourseCode
+            course={course1}
+          />
         )}
 
       {course2 !== ''
@@ -54,11 +53,9 @@ const CompareContainer = ({ course1, course2, activeFilterProp }) => (
               />
 
             ) : (
-              <h1>
-                {course2}
-                {' '}
-              is not a valid course code
-              </h1>
+              <InvalidCourseCode
+                course={course2}
+              />
             )
           }
         </div>
