@@ -1,6 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { courseData, graphHeaders, graphHeadersStyled } from '../data'
+import {
+  courseData, graphHeaders, graphHeadersStyled, isCourse,
+} from '../data'
 import ColorContext from '../context/color'
 import GraphContainer from './GraphContainer'
 import NoData from '../components/Course/NoData'
@@ -24,6 +26,7 @@ const CourseContainer = ({ courseCode, activeFilterProp }) => (
               courseCode={courseCode}
               colorArray={colorArray}
               courseData={courseData(courseCode, activeFilterProp)}
+              isCourse={isCourse}
             />)}
         </ColorContext.Consumer>
       )

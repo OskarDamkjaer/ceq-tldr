@@ -21,6 +21,10 @@ const Header = styled.div`
  padding-left: 20px;
  margin-top:40px;
  `
+const Error = styled.span`
+ color:red;
+ margin-left: 100px;
+ `
 
 class CompareInput extends React.Component {
   constructor(props) {
@@ -28,25 +32,42 @@ class CompareInput extends React.Component {
     this.state = {
       isRedirecting: false,
       inputValue: '',
+      showError: false,
+
     }
   }
 
   render() {
-    const { course } = this.props
-    const { isRedirecting, inputValue } = this.state
+    const { course, isCourse } = this.props
+    const { isRedirecting, inputValue, showError } = this.state
     return (
       <Wrapper>
         {isRedirecting && <Redirect to={`/compare/${course}:${inputValue}`} />}
         <Header>Compare with another course</Header>
         <FineInput
           placeholder="Enter course code"
-          onChange={event => this.setState({ inputValue: event.target.value })}
+          onChange={(event) => {
+            this.setState({ inputValue: event.target.value })
+            { showError && this.setState({ showError: false }) }
+          }
+          }
           onKeyPress={(event) => {
             if (event.key === 'Enter') {
-              this.setState({ isRedirecting: true })
+              this.setState({ showError: isCourse(inputValue).length === 0 })
+              this.setState({ isRedirecting: isCourse(inputValue).length > 0 })
             }
           }}
         />
+        {showError
+        && (
+        <Error>
+          {inputValue.toUpperCase()}
+          {' '}
+          {' '}
+is not a valid course code
+        </Error>
+        )
+        }
       </Wrapper>
     )
   }

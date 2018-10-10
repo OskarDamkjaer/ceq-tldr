@@ -20,6 +20,7 @@ class GraphContainer extends React.Component {
       courseCode,
       colorArray,
       courseData,
+      isCourse,
     } = this.props
 
     return (
@@ -36,6 +37,7 @@ class GraphContainer extends React.Component {
           isActive={this.state.active}
           handleHover={this.handleHover}
           handleOut={this.handleOut}
+          isCourse={isCourse}
         />
         <CourseGraphRegistered
           history={courseData.history}

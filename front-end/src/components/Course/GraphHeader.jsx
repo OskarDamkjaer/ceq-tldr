@@ -29,7 +29,7 @@ const HeaderSpan = styled.span`
 `
 
 const GraphHeader = ({
-  graphHeadersStyled, colorArray, name, courseCode, handleHover, handleOut, isNeg,
+  graphHeadersStyled, colorArray, name, courseCode, handleHover, handleOut, isNeg, isCourse,
 }) => (
   <HeaderWrapper isNeg={isNeg}>
     <Header>
@@ -48,7 +48,7 @@ const GraphHeader = ({
         {header}
       </HeaderSpan>
     ))}
-    <CompareInput course={courseCode} />
+    <CompareInput course={courseCode} isCourse={isCourse} />
   </HeaderWrapper>
 )
 
