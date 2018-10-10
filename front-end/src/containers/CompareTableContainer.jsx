@@ -12,7 +12,7 @@ const Wrapper = styled.div`
     padding: 20px;
 `
 const tableElements = {
-  year: 'BASED ON YEAR', category: 'MASTER', points: 'HP', registered: 'NUMBER OF REGISTERED',
+  year: 'BASED ON YEAR', category: 'YEAR', points: 'HP', registered: 'NUMBER OF REGISTERED',
 }
 const CompareTableContainer = ({
   course, courseData, graphHeaders, aggregatedScore, winner,
