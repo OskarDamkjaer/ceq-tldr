@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Redirect } from 'react-router-dom'
+import PageHeader from '../components/Common/PageHeader'
 
 const Wrapper = styled.div`
   display: flex;
@@ -32,18 +33,22 @@ class NoMatchPage extends React.Component {
     const { location } = this.props
 
     return (
-      <Wrapper>
-        {isRedirecting && <Redirect to={{ pathname: '/' }} push />}
-        <br />
+      <div>
+        <PageHeader />
+        <Wrapper>
+          {isRedirecting && <Redirect to={{ pathname: '/' }} push />}
+          <br />
         Sorry we can't find the page
-        {' '}
-        <br />
-        <br />
-        <Gray>{`ceqtldr.10av10.com/${location.pathname.substring(1)}`}</Gray>
-        <br />
-        <br />
-        <Button type="button" onClick={() => this.setState({ isRedirecting: true })} value="BACK TO HOME" />
-      </Wrapper>
+          {' '}
+          <br />
+          <br />
+          <Gray>{`ceqtldr.10av10.com/${location.pathname.substring(1)}`}</Gray>
+          <br />
+          <br />
+          <Button type="button" onClick={() => this.setState({ isRedirecting: true })} value="BACK TO HOME" />
+        </Wrapper>
+      </div>
+
     )
   }
 }
