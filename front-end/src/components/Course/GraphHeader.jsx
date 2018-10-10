@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import CompareInput from './CompareInput'
+import CompareInput from '../Common/CompareInput'
 
 const HeaderWrapper = styled.div`
  display:flex;

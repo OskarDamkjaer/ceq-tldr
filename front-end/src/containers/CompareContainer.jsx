@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import CompareTableContainer from './CompareTableContainer'
 import { courseData, graphHeaders, isCourse } from '../data'
 import Header from '../components/Common/PageHeader'
+import CompareInput from '../components/Common/CompareInput'
 import InvalidCourseCode from '../components/Compare/InvalidCourseCode'
 
 
@@ -34,30 +35,36 @@ const CompareContainer = ({ course1, course2 }) => (
           <InvalidCourseCode
             course={course1}
           />
-        )}
+        )
+      }
 
       {course2 !== ''
-        && (
-        <div>
-          { isCourse(course2)
-            ? (
-              <CompareTableContainer
-                course={course2}
-                courseData={courseData(course2)}
-                aggregatedScore={String(aggregatedData(course2))}
-                graphHeaders={graphHeaders}
-                winner={isCourse(course1) && aggregatedData(course2)
+        ? (
+          <div>
+            { isCourse(course2)
+              ? (
+                <CompareTableContainer
+                  course={course2}
+                  courseData={courseData(course2)}
+                  aggregatedScore={String(aggregatedData(course2))}
+                  graphHeaders={graphHeaders}
+                  winner={isCourse(course1) && aggregatedData(course2)
                 > aggregatedData(course1)}
-              />
+                />
 
-            ) : (
-              <InvalidCourseCode
-                course={course2}
-              />
-            )
+              ) : (
+                <InvalidCourseCode
+                  course={course2}
+                />
+              )
           }
-        </div>
+          </div>
 
+        ) : (
+          <CompareInput
+            isCourse={isCourse}
+            course={course1}
+          />
         )}
     </Wrapper>
 

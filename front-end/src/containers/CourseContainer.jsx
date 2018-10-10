@@ -1,20 +1,17 @@
 import React from 'react'
+import { Redirect } from 'react-router-dom'
 import {
   courseData, graphHeaders, graphHeadersStyled, isCourse,
 } from '../data'
 import ColorContext from '../context/color'
 import GraphContainer from './GraphContainer'
-import NoData from '../components/Course/NoData'
 import Header from '../components/Common/PageHeader'
-
 
 const CourseContainer = ({ courseCode }) => (
   <div>
     <Header />
     {courseData(courseCode).history.length < 2 ? (
-      <NoData
-        name={courseData(courseCode).name}
-      />
+      <Redirect to={`/compare/${courseCode}`} />
     )
       : (
         <ColorContext.Consumer>
