@@ -10,7 +10,6 @@ import InvalidCourseCode from '../components/Compare/InvalidCourseCode'
 const Wrapper = styled.div`
   display: flex;
  `
-
 const aggregatedData = (course, activeFilterProp) => (
   Object.keys(courseData(course, activeFilterProp).history[0])
     .filter(item => graphHeaders.includes(item))
@@ -29,7 +28,7 @@ const CompareContainer = ({ course1, course2, activeFilterProp }) => (
             courseData={courseData(course1, activeFilterProp)}
             aggregatedScore={String(aggregatedData(course1, activeFilterProp))}
             graphHeaders={graphHeaders}
-            winner={course2 !== '' ? aggregatedData(course1, activeFilterProp) > aggregatedData(course2, activeFilterProp) : false}
+            winner={course2 !== '' && isCourse(course2).length > 0 ? aggregatedData(course1, activeFilterProp) > aggregatedData(course2, activeFilterProp) : false}
           />
         )
         : (
@@ -48,7 +47,7 @@ const CompareContainer = ({ course1, course2, activeFilterProp }) => (
                 courseData={courseData(course2, activeFilterProp)}
                 aggregatedScore={String(aggregatedData(course2, activeFilterProp))}
                 graphHeaders={graphHeaders}
-                winner={aggregatedData(course2, activeFilterProp)
+                winner={isCourse(course1).length > 0 && aggregatedData(course2, activeFilterProp)
                 > aggregatedData(course1, activeFilterProp)}
               />
 
