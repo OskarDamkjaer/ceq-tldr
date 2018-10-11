@@ -9,7 +9,6 @@ import ComparePage from './view/ComparePage'
 import NoMatchPage from './view/NoMatchPage'
 
 const Wrapper = styled.div`
-  min-width:1300px;
  `
 
 const App = () => (

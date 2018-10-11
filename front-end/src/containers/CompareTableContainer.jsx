@@ -7,8 +7,6 @@ import ColorContext from '../context/color'
 import { graphHeadersStyled } from '../data'
 
 const Wrapper = styled.div`
-    width: 50vw;
-    height: 100vh;
     padding: 20px;
 `
 const tableElements = {

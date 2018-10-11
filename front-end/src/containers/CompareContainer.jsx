@@ -8,9 +8,9 @@ import Header from '../components/Common/PageHeader'
 import CompareInput from '../components/Common/CompareInput'
 import InvalidCourseCode from '../components/Compare/InvalidCourseCode'
 
-
 const Wrapper = styled.div`
-  display: flex;
+   display: grid;
+   grid-template-columns: 50% 50%;
  `
 const aggregatedData = course => (
   Object.keys(courseData(course).history[courseData(course).history.length - 1])

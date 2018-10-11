@@ -5,22 +5,22 @@ const Wrapper = styled.div`
     height: 200px;
     background:${props => props.isWinner && '#66D594'};
     padding: 20px;
+    display:flex;
+    flex-direction: column;
 `
-const HeaderSpan = styled.span`
-    font-size: 3em;
+const HeaderDiv = styled.div`
+    font-size: 30px;
     margin-right: 10px;
 `
-const CourseSpan = styled.span` 
+const Course = styled.div` 
     font-size: 2em;
     color:gray;
 `
 
 const Header = ({ courseName, courseCode, isWinner }) => (
   <Wrapper isWinner={isWinner}>
-    <HeaderSpan>
-      {courseName}
-    </HeaderSpan>
-    <CourseSpan>{courseCode}</CourseSpan>
+    <HeaderDiv>{courseName}</HeaderDiv>
+    <Course>{courseCode}</Course>
   </Wrapper>
 )
 
