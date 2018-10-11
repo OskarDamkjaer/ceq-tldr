@@ -22,6 +22,12 @@ export const getProgram = course => (courseHelper(course) !== '' ? courseHelper(
 /* Takes course code and gives true or false if is course, gives empty string if no match */
 export const isCourse = course => courseHelper(course) !== ''
 
+/* Takes course start and gives suggested course code */
+export const courseSuggestion = (courseStart) => 
+  // todo
+   courseStart
+
+
 /* Takes course code, gives courseData */
 export const courseData = (courseCode) => {
   const history = historyListForCourseCode(courseCode.toUpperCase(), getProgram(courseCode))
