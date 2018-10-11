@@ -7,7 +7,7 @@ const Wrapper = styled.div`
 
 `
 const InvalidCourseCode = ({
-  course, isCourse, courseSuggestion, tag,
+  course, redirectCourse, isCourse, courseSuggestion, tag,
 }) => (
   <Wrapper>
     <h1>
@@ -16,7 +16,7 @@ const InvalidCourseCode = ({
               is not a valid course code
     </h1>
     <CompareInput
-      course={course}
+      course={redirectCourse}
       isCourse={isCourse}
       courseSuggestion={courseSuggestion}
       tag={tag}

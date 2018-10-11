@@ -57,6 +57,13 @@ class CompareInput extends React.Component {
       this.setState({secondCourse: this.props.courseSuggestion(event.target.value)})
   }
 
+  handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      this.setState({ showError: !this.props.isCourse(this.state.inputValue)})
+      this.setState({ isRedirecting: this.props.isCourse(this.state.inputValue) || this.props.isCourse(this.state.courseSugg) })
+    }
+  }
+
   componentDidMount() {
     const { course, tag } = this.props;
     if(course){
@@ -68,7 +75,6 @@ class CompareInput extends React.Component {
   }
   
   render() {
-    const { isCourse } = this.props
     const {
       isRedirecting, inputValue, showError, courseSugg, firstCourse, secondCourse,
     } = this.state
@@ -80,12 +86,7 @@ class CompareInput extends React.Component {
           placeholder="Enter course code"
           value={inputValue}
           onChange={event => this.handleChange(event)}
-          onKeyPress={(event) => {
-            if (event.key === 'Enter') {
-              this.setState({ showError: !isCourse(inputValue)})
-              this.setState({ isRedirecting: isCourse(inputValue) || isCourse(courseSugg) })
-            }
-          }}
+          onKeyPress={event => this.handleKeyPress(event)}
         />
         {courseSugg.length > 0 && (
           <span>Do you mean {courseSugg}?</span>

@@ -41,10 +41,11 @@ const CompareContainer = ({ course1, course2 }) => (
         )
         : (
           <InvalidCourseCode
-            course={course2 !== '' && isCourse(course2) ? course2 : ''}
+            redirectCourse={course2}
             isCourse={isCourse}
             courseSuggestion={courseSuggestion}
             tag={1}
+            course={course1}
           />
         )
       }
@@ -67,10 +68,12 @@ const CompareContainer = ({ course1, course2 }) => (
               ) : (
                 <div>
                   <InvalidCourseCode
-                    course={isCourse(course1) ? course1 : ''}
+                    redirectCourse={course1}
                     isCourse={isCourse}
                     courseSuggestion={courseSuggestion}
                     tag={2}
+                    course={course2}
+
                   />
                 </div>
               )
