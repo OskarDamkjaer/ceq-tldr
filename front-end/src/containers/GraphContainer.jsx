@@ -21,6 +21,7 @@ class GraphContainer extends React.Component {
       colorArray,
       courseData,
       isCourse,
+      courseSuggestion,
     } = this.props
 
     return (
@@ -38,6 +39,7 @@ class GraphContainer extends React.Component {
           handleHover={this.handleHover}
           handleOut={this.handleOut}
           isCourse={isCourse}
+          courseSuggestion={courseSuggestion}
         />
         <CourseGraphRegistered
           history={courseData.history}

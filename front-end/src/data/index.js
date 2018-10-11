@@ -1,5 +1,6 @@
 import {
-  historyListForCourseCode, getDataForYearAndProgram, isNeg, isLess, y2018, DATA, INFOCOM, MASTER, courseHelper,
+  historyListForCourseCode, getDataForYearAndProgram, isNeg, isLess, y2018,
+  DATA, INFOCOM, MASTER, courseHelper,
 } from './dataFetcher'
 
 
@@ -23,9 +24,13 @@ export const getProgram = course => (courseHelper(course) !== '' ? courseHelper(
 export const isCourse = course => courseHelper(course) !== ''
 
 /* Takes course start and gives suggested course code */
-export const courseSuggestion = (courseStart) => 
-  // todo
-   courseStart
+export const courseSuggestion = (courseStart) => {
+  // console.log(getDataForYearAndProgram(y2018, DATA))
+  const relevantData = getDataForYearAndProgram(y2018, DATA).concat(getDataForYearAndProgram(y2018, INFOCOM))
+    .concat(getDataForYearAndProgram(y2018, MASTER))
+  const tempData = relevantData.filter(obj => obj.code.includes(courseStart.toUpperCase()) && courseStart.length > 0)
+  return tempData[0] ? tempData[0].code : ''
+}
 
 
 /* Takes course code, gives courseData */

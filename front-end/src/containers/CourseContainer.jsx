@@ -1,7 +1,7 @@
 import React from 'react'
 import { Redirect } from 'react-router-dom'
 import {
-  courseData, graphHeaders, graphHeadersStyled, isCourse,
+  courseData, graphHeaders, graphHeadersStyled, isCourse, courseSuggestion,
 } from '../data'
 import ColorContext from '../context/color'
 import GraphContainer from './GraphContainer'
@@ -23,6 +23,7 @@ const CourseContainer = ({ courseCode }) => (
               colorArray={colorArray}
               courseData={courseData(courseCode)}
               isCourse={isCourse}
+              courseSuggestion={courseSuggestion}
             />)}
         </ColorContext.Consumer>
       )

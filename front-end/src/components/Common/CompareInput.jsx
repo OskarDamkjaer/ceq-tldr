@@ -33,31 +33,44 @@ class CompareInput extends React.Component {
       isRedirecting: false,
       inputValue: '',
       showError: false,
-
+      courseSugg: '',
+      redirectCourse: '',
     }
   }
 
+  handleChange = (event) => {
+    this.setState({ inputValue: event.target.value })
+    if (this.state.showError) {
+      this.setState({ showError: false })
+    }
+    this.setState({courseSugg: this.props.courseSuggestion(event.target.value)})
+    this.props.isCourse(event.target.value) ? this.setState({redirectCourse: event.target.value}) : this.props.isCourse(this.props.courseSuggestion(event.target.value)) && this.setState({redirectCourse: this.props.courseSuggestion(event.target.value)})
+  }
+  
   render() {
     const { course, isCourse } = this.props
-    const { isRedirecting, inputValue, showError } = this.state
+    const {
+      isRedirecting, inputValue, showError, courseSugg, redirectCourse
+    } = this.state
     return (
       <Wrapper>
-        {isRedirecting && <Redirect to={`/compare/${course}:${inputValue}`} />}
+        {isRedirecting && <Redirect to={`/compare/${course}:${redirectCourse}`} />}
         <Header>Compare with another course</Header>
         <FineInput
           placeholder="Enter course code"
-          onChange={(event) => {
-            this.setState({ inputValue: event.target.value })
-            { showError && this.setState({ showError: false }) }
-          }
-          }
+          value={inputValue}
+          onChange={event => this.handleChange(event)}
           onKeyPress={(event) => {
             if (event.key === 'Enter') {
-              this.setState({ showError: !isCourse(inputValue) })
-              this.setState({ isRedirecting: isCourse(inputValue) })
+              this.setState({ showError: !isCourse(inputValue)})
+              this.setState({ isRedirecting: isCourse(inputValue) || isCourse(courseSugg) })
             }
           }}
         />
+        {courseSugg.length > 0 && (
+          <span>Do you mean {courseSugg}?</span>
+        )
+        }
         {showError
         && (
         <Error>

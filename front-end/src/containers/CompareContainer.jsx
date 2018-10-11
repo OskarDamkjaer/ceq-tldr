@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import CompareTableContainer from './CompareTableContainer'
-import { courseData, graphHeaders, isCourse } from '../data'
+import {
+  courseData, graphHeaders, isCourse, courseSuggestion,
+} from '../data'
 import Header from '../components/Common/PageHeader'
 import CompareInput from '../components/Common/CompareInput'
 import InvalidCourseCode from '../components/Compare/InvalidCourseCode'
@@ -70,6 +72,7 @@ const CompareContainer = ({ course1, course2 }) => (
           <CompareInput
             isCourse={isCourse}
             course={course1}
+            courseSuggestion={courseSuggestion}
           />
         )}
     </Wrapper>
