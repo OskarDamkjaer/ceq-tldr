@@ -48,7 +48,7 @@ const GraphHeader = ({
         {header}
       </HeaderSpan>
     ))}
-    <CompareInput course={courseCode} isCourse={isCourse} courseSuggestion={courseSuggestion} />
+    <CompareInput course={courseCode} isCourse={isCourse} courseSuggestion={courseSuggestion} tag={2} />
   </HeaderWrapper>
 )
 

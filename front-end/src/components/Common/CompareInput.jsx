@@ -34,7 +34,8 @@ class CompareInput extends React.Component {
       inputValue: '',
       showError: false,
       courseSugg: '',
-      redirectCourse: '',
+      firstCourse: '',
+      secondCourse: '',
     }
   }
 
@@ -44,17 +45,36 @@ class CompareInput extends React.Component {
       this.setState({ showError: false })
     }
     this.setState({courseSugg: this.props.courseSuggestion(event.target.value)})
-    this.props.isCourse(event.target.value) ? this.setState({redirectCourse: event.target.value}) : this.props.isCourse(this.props.courseSuggestion(event.target.value)) && this.setState({redirectCourse: this.props.courseSuggestion(event.target.value)})
+    this.props.isCourse(event.target.value) ? 
+      this.props.tag === 1 ? 
+        this.setState({firstCourse: event.target.value})
+      : this.setState({secondCourse: event.target.value}) : 
+      this.props.tag === 1 ? 
+      this.props.isCourse(this.props.courseSuggestion(event.target.value)) && 
+      this.setState({firstCourse: this.props.courseSuggestion(event.target.value)})
+      :
+      this.props.isCourse(this.props.courseSuggestion(event.target.value)) && 
+      this.setState({secondCourse: this.props.courseSuggestion(event.target.value)})
+  }
+
+  componentDidMount() {
+    const { course, tag } = this.props;
+    if(course){
+      if(course.length > 0){
+        tag === 1 ? this.setState({secondCourse: course }) :
+        this.setState({firstCourse: course })
+      }
+    }
   }
   
   render() {
-    const { course, isCourse } = this.props
+    const { isCourse } = this.props
     const {
-      isRedirecting, inputValue, showError, courseSugg, redirectCourse
+      isRedirecting, inputValue, showError, courseSugg, firstCourse, secondCourse,
     } = this.state
     return (
       <Wrapper>
-        {isRedirecting && <Redirect to={`/compare/${course}:${redirectCourse}`} />}
+        {isRedirecting && <Redirect to={`/compare/${firstCourse}:${secondCourse}`} />}
         <Header>Compare with another course</Header>
         <FineInput
           placeholder="Enter course code"
