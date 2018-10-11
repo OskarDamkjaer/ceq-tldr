@@ -13,6 +13,10 @@ class GraphContainer extends React.Component {
   handleHover = name => this.setState({ active: name })
   handleOut = () => this.setState({active: 'all'})
 
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     const {
       orderedHeadersFiltered,
@@ -23,7 +27,6 @@ class GraphContainer extends React.Component {
       isCourse,
       courseSuggestion,
     } = this.props
-
     return (
       <div>
         <CourseGraph

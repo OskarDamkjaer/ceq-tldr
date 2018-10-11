@@ -11,7 +11,8 @@ const CodeWrapper = styled.div`
     color: #a9a9a9;
 `
 const NameWrapper = styled.div`
-
+  margin-left: 50px;
+  padding: 10px;
 `
 const CourseName = ({ name, code }) => (
   <HeaderWrapper>
