@@ -38,6 +38,10 @@ const AboutLink = styled(Link)`
   color: #000000;
   cursor:pointer;
 `
+const DrpDownStyle = styled.div`
+    display:flex;
+    align-items: center;
+`
 
 const Header = ({
   searchTerm, updateSearchTerm, resetState, activateFilter, activeFilter,
@@ -58,7 +62,13 @@ const Header = ({
         />
       </InputWrapper>
       <div />
+<<<<<<< HEAD
       <Dropdown activateFilter={activateFilter} activeFilter={activeFilter} />
+=======
+      <DrpDownStyle>
+        <Dropdown activateFilter={activateFilter} activeFilter={activeFilter} />
+      </DrpDownStyle>
+>>>>>>> e4150202fedd6a824477604767f48736d4a4851c
     </SecondWrapper>
   </HeaderWrapper>
 
