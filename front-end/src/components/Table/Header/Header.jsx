@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import SearchInput from './SearchInput'
 import RadioInput from './RadioInput'
+import Dropdown from './Dropdown'
 
 const HeaderWrapper = styled.div`
   padding: 20px;
@@ -15,7 +16,7 @@ const FirstWrapper = styled.div`
   width: 100vw;
   height: 100px;
   display: grid;
-  grid-template-columns: 90% 10%;
+  grid-template-columns: 20% 70% 10%;
 `
 
 const InputWrapper = styled.div`
@@ -23,7 +24,7 @@ const InputWrapper = styled.div`
 `
 const SecondWrapper = styled.div`
   display:grid;
-  grid-template-columns:70% 30%;
+  grid-template-columns: 20% 70% 10%;
   margin-top: 50px;
 `
 
@@ -44,6 +45,7 @@ const Header = ({
   <HeaderWrapper>
     <FirstWrapper>
       <StyledLink style={{ textDecoration: 'none' }} onClick={() => resetState()}>CEQ-TLDR</StyledLink>
+      <div />
       <AboutLink to="../about" style={{ textDecoration: 'none' }}>
         <span>About</span>
       </AboutLink>
@@ -55,7 +57,8 @@ const Header = ({
           value={searchTerm}
         />
       </InputWrapper>
-      <RadioInput activateFilter={activateFilter} activeFilter={activeFilter} />
+      <div />
+      <Dropdown activateFilter={activateFilter} activeFilter={activeFilter} />
     </SecondWrapper>
   </HeaderWrapper>
 
