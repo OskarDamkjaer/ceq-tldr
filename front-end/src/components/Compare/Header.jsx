@@ -5,8 +5,6 @@ const Wrapper = styled.div`
     height: 200px;
     background:${props => props.isWinner && '#66D594'};
     padding: 20px;
-    display:flex;
-    flex-direction: column;
 `
 const HeaderDiv = styled.div`
     font-size: 30px;
