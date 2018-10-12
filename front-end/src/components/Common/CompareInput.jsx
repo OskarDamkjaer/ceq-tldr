@@ -11,15 +11,16 @@ const FineInput = styled.input`
  height: 3em;
  :focus {
     outline:none;
-}
-align-self: center;
-`
+  }
+  align-self: center;
+  `
 const Header = styled.div`
  font-size: 2em;
  font-weight: bold;
  padding-bottom: 50px;
  padding-left: 20px;
  margin-top:40px;
+ align-self: center;
  `
 const Error = styled.span`
  color:red;
