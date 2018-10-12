@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import SearchInput from './SearchInput'
-import RadioInput from './RadioInput'
 import Dropdown from './Dropdown'
 
 const HeaderWrapper = styled.div`
@@ -62,13 +61,7 @@ const Header = ({
         />
       </InputWrapper>
       <div />
-<<<<<<< HEAD
       <Dropdown activateFilter={activateFilter} activeFilter={activeFilter} />
-=======
-      <DrpDownStyle>
-        <Dropdown activateFilter={activateFilter} activeFilter={activeFilter} />
-      </DrpDownStyle>
->>>>>>> e4150202fedd6a824477604767f48736d4a4851c
     </SecondWrapper>
   </HeaderWrapper>
 
