@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import Comments from '../components/Compare/Comments'
-import Header from '../components/Compare/Header'
-import TableElement from '../components/Compare/TableElement'
-import ColorContext from '../context/color'
-import { graphHeadersStyled } from '../data'
+import Comments from './Comments'
+import Header from './Header'
+import TableElement from './TableElement'
+import ColorContext from '../../context/color'
+import { graphHeaders, graphHeadersStyled } from '../../data'
 
 const Wrapper = styled.div`
     padding: 20px;
@@ -13,7 +13,7 @@ const tableElements = {
   year: 'BASED ON YEAR', category: 'YEAR', points: 'HP', registered: 'NUMBER OF REGISTERED',
 }
 const CompareTableContainer = ({
-  course, courseData, graphHeaders, aggregatedScore, winner, winnerArray,
+  course, courseData, aggregatedScore, winner, winnerArray,
 }) => (
   <Wrapper>
     <Header

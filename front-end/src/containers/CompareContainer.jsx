@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import CompareTableContainer from './CompareTableContainer'
 import {
-  courseData, graphHeaders, isCourse, courseSuggestion,
+  courseData, graphHeaders, isCourse,
 } from '../data'
 import Header from '../components/Common/PageHeader'
-import CompareInput from '../components/Common/CompareInput'
-import InvalidCourseCode from '../components/Compare/InvalidCourseCode'
 import MobileContext from '../context/isMobile'
+import SetUpTable from '../components/Compare/SetUpTable'
 
 
 const Wrapper = styled.div`
@@ -32,63 +30,22 @@ const CompareContainer = ({ course1, course2 }) => (
     <MobileContext.Consumer>
       {isMobile => (
         <Wrapper isMobile={isMobile}>
-          {isCourse(course1)
-            ? (
-              <CompareTableContainer
-                course={course1}
-                courseData={courseData(course1)}
-                aggregatedScore={aggregatedData(course1)}
-                graphHeaders={graphHeaders}
-                winner={course2 !== '' && isCourse(course2) && aggregatedData(course1) > aggregatedData(course2)}
-                winnerArray={course2 !== '' && isCourse(course2) && winnerArray(course1, course2)}
-              />
-            )
-            : (
-              <InvalidCourseCode
-                redirectCourse={course2}
-                isCourse={isCourse}
-                courseSuggestion={courseSuggestion}
-                tag={1}
-                course={course1}
-              />
-            )
-      }
-          {course2 !== ''
-            ? (
-              <div>
-                { isCourse(course2)
-                  ? (
-                    <CompareTableContainer
-                      course={course2}
-                      courseData={courseData(course2)}
-                      aggregatedScore={String(aggregatedData(course2))}
-                      graphHeaders={graphHeaders}
-                      winner={isCourse(course1) && aggregatedData(course2)
-                > aggregatedData(course1)}
-                      winnerArray={isCourse(course1) && winnerArray(course2, course1)}
-                    />
-
-                  ) : (
-                    <div>
-                      <InvalidCourseCode
-                        redirectCourse={course1}
-                        isCourse={isCourse}
-                        courseSuggestion={courseSuggestion}
-                        tag={2}
-                        course={course2}
-                      />
-                    </div>
-                  )
-          }
-              </div>
-            ) : (
-              <CompareInput
-                isCourse={isCourse}
-                course={course1}
-                courseSuggestion={courseSuggestion}
-                tag={2}
-              />
-            )}
+          <SetUpTable
+            course={course1}
+            isWinner={isCourse(course1) && isCourse(course2) && aggregatedData(course1)
+              > aggregatedData(course2)}
+            winnerArray={isCourse(course1) && isCourse(course2) && winnerArray(course1, course2)}
+            aggregatedScore={isCourse(course1) && String(aggregatedData(course1))}
+            graphHeaders={graphHeaders}
+          />
+          <SetUpTable
+            course={course2}
+            isWinner={isCourse(course1) && isCourse(course2) && aggregatedData(course2)
+                    > aggregatedData(course1)}
+            winnerArray={isCourse(course1) && isCourse(course2) && winnerArray(course2, course1)}
+            aggregatedScore={isCourse(course2) && String(aggregatedData(course2))}
+            graphHeaders={graphHeaders}
+          />
         </Wrapper>
       )}
     </MobileContext.Consumer>
