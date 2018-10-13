@@ -7,7 +7,7 @@ import CompareInput from '../Common/CompareInput'
 
 
 export default ({
-  course, isWinner, winnerArray, aggregatedScore,
+  course, isWinner, winnerArray, aggregatedScore, onEnter,
 }) => (
   <div>
     {course !== ''
@@ -35,6 +35,7 @@ export default ({
                   isCourse={isCourse}
                   courseSuggestion={courseSuggestion}
                   course={course}
+                  onEnter={onEnter}
                 />
               </div>
             )
@@ -45,6 +46,7 @@ export default ({
           isCourse={isCourse}
           course={course}
           courseSuggestion={courseSuggestion}
+          onEnter={onEnter}
         />
       )}
   </div>

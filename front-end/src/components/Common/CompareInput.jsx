@@ -1,6 +1,8 @@
 import React from 'react'
-import { Redirect } from 'react-router-dom'
 import styled from 'styled-components'
+import {
+  courseSuggestion, isCourse,
+} from '../../data'
 
 const Wrapper = styled.div`
     display:flex;
@@ -31,57 +33,25 @@ class CompareInput extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      isRedirecting: false,
       inputValue: '',
       showError: false,
-      courseSugg: '',
-      firstCourse: '',
-      secondCourse: '',
     }
   }
-
-  handleChange = (event) => {
-    this.setState({ inputValue: event.target.value })
-    if (this.state.showError) {
-      this.setState({ showError: false })
-    }
-    this.setState({courseSugg: this.props.courseSuggestion(event.target.value)})
-    this.props.isCourse(event.target.value) ? 
-      this.props.tag === 1 ? 
-        this.setState({firstCourse: event.target.value})
-      : this.setState({secondCourse: event.target.value}) : 
-      this.props.tag === 1 ? 
-      this.props.isCourse(this.props.courseSuggestion(event.target.value)) && 
-      this.setState({firstCourse: this.props.courseSuggestion(event.target.value)})
-      :
-      this.props.isCourse(this.props.courseSuggestion(event.target.value)) && 
-      this.setState({secondCourse: this.props.courseSuggestion(event.target.value)})
-  }
+  handleChange = (event) => this.setState({ inputValue: event.target.value, showError: false })
 
   handleKeyPress = (event) => {
     if (event.key === 'Enter') {
-      this.setState({ showError: !this.props.isCourse(this.state.inputValue)})
-      this.setState({ isRedirecting: this.props.isCourse(this.state.inputValue) || this.props.isCourse(this.state.courseSugg) })
+      isCourse(this.state.inputValue) ? 
+      this.props.onEnter(this.state.inputValue) :
+      this.setState({showError: true})
     }
   }
 
-  componentDidMount() {
-    const { course, tag } = this.props;
-    if(course){
-      if(course.length > 0){
-        tag === 1 ? this.setState({secondCourse: course }) :
-        this.setState({firstCourse: course })
-      }
-    }
-  }
-  
   render() {
-    const {
-      isRedirecting, inputValue, showError, courseSugg, firstCourse, secondCourse,
-    } = this.state
+    const { inputValue, showError } = this.state
+    const suggestion = courseSuggestion(inputValue)
     return (
       <Wrapper>
-        {isRedirecting && <Redirect to={`/compare/${firstCourse}:${secondCourse}`} />}
         <Header>Compare with another course</Header>
         <FineInput
           placeholder="Enter course code"
@@ -89,19 +59,13 @@ class CompareInput extends React.Component {
           onChange={event => this.handleChange(event)}
           onKeyPress={event => this.handleKeyPress(event)}
         />
-        {courseSugg.length > 0 && (
-          <span>Do you mean {courseSugg}?</span>
-        )
+        {suggestion.length > 0 && 
+          <span>Do you mean {suggestion}?</span>
         }
-        {showError
-        && (
+        {showError && 
         <Error>
-          {inputValue.toUpperCase()}
-          {' '}
-          {' '}
-is not a valid course code
+          {inputValue.toUpperCase()} is not a valid course code
         </Error>
-        )
         }
       </Wrapper>
     )
