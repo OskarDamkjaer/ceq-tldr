@@ -37,10 +37,6 @@ const AboutLink = styled(Link)`
   color: #000000;
   cursor:pointer;
 `
-const DrpDownStyle = styled.div`
-    display:flex;
-    align-items: center;
-`
 
 const Header = ({
   searchTerm, updateSearchTerm, resetState, activateFilter, activeFilter,
