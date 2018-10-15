@@ -19,7 +19,7 @@ const CompareTableContainer = ({
     <Header
       courseName={courseData.name}
       courseCode={course}
-      isWinner={typeof testWinner === 'object' ? winner.winnerArray[winner.winnerArray.length - 1] : false}
+      isWinner={winner.winnerArray[winner.winnerArray.length - 1]}
     />
     <br />
     <h1>Course info</h1>
