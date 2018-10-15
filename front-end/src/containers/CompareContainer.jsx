@@ -8,7 +8,6 @@ import Header from '../components/Common/PageHeader'
 import MobileContext from '../context/isMobile'
 import SetUpTable from '../components/Compare/SetUpTable'
 
-
 const Wrapper = styled.div`
    display: grid;
    grid-template-columns: ${props => !props.isMobile && '50% 50%'};

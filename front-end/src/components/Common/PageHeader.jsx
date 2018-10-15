@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
-  padding: 20px;
+  padding: 50px;
   width: 100vw;
-  height: 100px;
+  height: 150px;
   display: grid;
   grid-template-columns: 90% 10%;
 `
@@ -24,8 +24,7 @@ const AboutLink = styled(Link)`
 const PageHeader = () => (
   <HeaderWrapper>
     <StyledLink to="../" style={{ textDecoration: 'none' }}>
-      <div>CEQ</div>
-      <div>-TLDR</div>
+      <div>CEQ-TLDR</div>
     </StyledLink>
     <AboutLink to="../about" style={{ textDecoration: 'none' }}>
       <span>About</span>

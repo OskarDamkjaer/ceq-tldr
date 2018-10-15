@@ -6,31 +6,33 @@ import Dropdown from './Dropdown'
 
 const HeaderWrapper = styled.div`
   padding: 20px;
-  height: 100px;
   display: flex;
   flex-direction: column;
 `
 const FirstWrapper = styled.div`
   padding: 20px;
   width: 100vw;
-  height: 100px;
   display: grid;
-  grid-template-columns: 20% 70% 10%;
+  grid-template-columns: 15% 75% 10%;
+  margin-bottom: 50px;
 `
-
 const InputWrapper = styled.div`
- 
+  padding-left: 20px;
 `
 const SecondWrapper = styled.div`
   display:grid;
   grid-template-columns: 20% 70% 10%;
-  margin-top: 50px;
+  margin-bottom: 50px;
 `
-
 const StyledLink = styled.div`
   font-size: 2.5em;
   color: #000000;
   cursor: pointer;
+`
+const StyledFilter = styled.div`
+  font-size: 2.5em;
+  color: #000000;
+  font-weight: lighter;
 `
 const AboutLink = styled(Link)`
   font-size: 1.5em;
@@ -44,7 +46,11 @@ const Header = ({
   <HeaderWrapper>
     <FirstWrapper>
       <StyledLink style={{ textDecoration: 'none' }} onClick={() => resetState()}>CEQ-TLDR</StyledLink>
-      <div />
+      <StyledFilter>
+      active filter
+        {' '}
+        {activeFilter}
+      </StyledFilter>
       <AboutLink to="../about" style={{ textDecoration: 'none' }}>
         <span>About</span>
       </AboutLink>
@@ -60,7 +66,6 @@ const Header = ({
       <Dropdown activateFilter={activateFilter} activeFilter={activeFilter} />
     </SecondWrapper>
   </HeaderWrapper>
-
 )
 
 export default Header

@@ -15,8 +15,6 @@ const LeftWrapper = styled.div`
 const RightWrapper = styled.div`
   display:flex;
   flex-direction: column;
-  align-items: center;
-  justify-content:center;
 `
 const HeaderStyle = styled.div`
   display:flex;
@@ -37,18 +35,21 @@ const AboutPage = () => (
     <Wrapper>
       <LeftWrapper>
         <TextStyle>
-This page was created with Create React using technologies like
+This page was created with technologies like
 React, React Router, React Redux, React Context etcetera.
-Data is received from public CEQ reports from Lund University faculty of engeneering.
           The source code is published in open repo on
           {' '}
-          <b>Github</b>
+          <b>
+            <a href="https://github.com/OskarDamkjaer/ceq-tldr/tree/master/front-end" alt="github">Github</a>
+          </b>
 .
           {' '}
-          <br />
-          <br />
-        Please send us bug report, feedback and suggestion for this site to this email address:
-          <b>&nbsp; contact@10av10.com</b>
+
+          Data is received from public CEQ reports from Lund University faculty of engeneering. Code for fetching data is written in Python and the source code is published in open repo on
+          {' '}
+          <b>
+            <a href="https://github.com/OskarDamkjaer/ceq-tldr/tree/master/data-utils" alt="github">Github</a>
+          </b>
         </TextStyle>
       </LeftWrapper>
       <RightWrapper>
@@ -56,11 +57,14 @@ Data is received from public CEQ reports from Lund University faculty of engenee
           <b>Front-end:&nbsp;</b>
           {' '}
           Catarina Sörensen
-        </TextStyle>
-        <TextStyle>
+          &nbsp;
           <b>Data fetching:&nbsp;</b>
           {' '}
           Oskar Damkjaer
+        </TextStyle>
+        <TextStyle>
+        Please send us bug report, feedback and suggestion for this site to this email address:
+          <b>&nbsp; ceqtldr@10av10.com</b>
         </TextStyle>
       </RightWrapper>
     </Wrapper>

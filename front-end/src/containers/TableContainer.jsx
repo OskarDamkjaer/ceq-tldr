@@ -17,7 +17,7 @@ const TableWrapper = styled.div`
  grid-template-areas: "header header header"
                       ". . ."
                       "table table  table";
- grid-template-rows: 100px 50px 1fr;
+ grid-template-rows: 200px 50px 1fr;
  grid-template-columns: 100px 1fr 1fr;
 `
 
