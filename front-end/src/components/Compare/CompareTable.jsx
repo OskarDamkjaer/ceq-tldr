@@ -5,6 +5,7 @@ import Header from './Header'
 import TableElement from './TableElement'
 import ColorContext from '../../context/color'
 import { graphHeaders, graphHeadersStyled } from '../../data'
+import NoGraphData from './NoGraphData'
 
 const Wrapper = styled.div`
     padding: 20px;
@@ -13,22 +14,19 @@ const tableElements = {
   year: 'BASED ON YEAR', category: 'YEAR', points: 'HP', registered: 'NUMBER OF REGISTERED',
 }
 const CompareTableContainer = ({
-  course, courseData, winner, search,
+  course, courseData, winner, search, onEnter,
 }) => (
   <Wrapper>
     {search === '?nograph' && (
-    <h1>
-Attention! There is no graph data for
-      {' '}
-      {course}
-      {' '}
-available
-    </h1>
+      <NoGraphData
+        course={course}
+      />
     )}
     <Header
       courseName={courseData.name}
       courseCode={course}
       isWinner={winner.winnerArray[winner.winnerArray.length - 1]}
+      onEnter={onEnter}
     />
     <br />
     <h1>Course info</h1>

@@ -5,7 +5,6 @@ import {
 import CompareTable from './CompareTable'
 import CompareInput from '../Common/CompareInput'
 
-
 export default ({
   course, winner, onEnter, search,
 }) => (
@@ -20,6 +19,7 @@ export default ({
                 courseData={courseData(course)}
                 winner={winner}
                 search={search}
+                onEnter={onEnter}
               />
             )
             : (

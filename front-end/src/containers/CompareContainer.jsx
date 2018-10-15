@@ -30,8 +30,16 @@ class CompareContainer extends React.Component {
       activeCourse2: '',
     }
   }
-  onEnterC1 = c1 => this.setState({ isRedirecting2: true, activeCourse1: c1 })
-  onEnterC2 = c2 => this.setState({ isRedirecting1: true, activeCourse2: c2 })
+  onEnterC1 = (c1, isRemoving) => {
+    isRemoving ? 
+    this.setState({ isRedirecting2: true, activeCourse1: '' })
+    : this.setState({ isRedirecting2: true, activeCourse1: c1 })
+  }
+  onEnterC2 = (c2, isRemoving) => {
+    isRemoving ? 
+    this.setState({ isRedirecting1: true, activeCourse2: '' })
+    : this.setState({ isRedirecting1: true, activeCourse2: c2 })
+  }
 
   winnerCreator = (coursePerspective, compareCourse) => {
     const winArray = isCourse(compareCourse) ? 
