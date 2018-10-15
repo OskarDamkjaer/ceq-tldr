@@ -32,11 +32,12 @@ class CompareContainer extends React.Component {
     this.state = {
       isRedirecting1: false,
       isRedirecting2: false,
-      activeCourse: ''
+      activeCourse1: '',
+      activeCourse2: '',
     }
   }
-  onEnterC1 = c1 => c1 !== this.props.course1 && this.setState({isRedirecting2:true, activeCourse: c1})
-  onEnterC2 = c2 => c2 !== this.props.course2 && this.setState({isRedirecting1:true, activeCourse: c2})
+  onEnterC1 = c1 => this.setState({isRedirecting2:true, activeCourse1: c1})
+  onEnterC2 = c2 => this.setState({isRedirecting1:true, activeCourse2: c2})
   render() {
     const {
       course1,
@@ -45,12 +46,13 @@ class CompareContainer extends React.Component {
     const {
       isRedirecting1,
       isRedirecting2,
-      activeCourse
+      activeCourse1,
+      activeCourse2
     } = this.state
     return (
       <div>
-        {isRedirecting1 && <Redirect to={`/compare/${course1}:${activeCourse}`} />}
-        {isRedirecting2 && <Redirect to={`/compare/${activeCourse}:${course2}`} />}
+        {isRedirecting1 && <Redirect to={`/compare/${course1}:${activeCourse2}`} />}
+        {isRedirecting2 && <Redirect to={`/compare/${activeCourse1}:${course2}`} />}
         <Header />
         <MobileContext.Consumer>
           {isMobile => (

@@ -22,7 +22,6 @@ export default ({
                 winner={isWinner}
                 winnerArray={winnerArray}
               />
-
             )
             : (
               <div>
