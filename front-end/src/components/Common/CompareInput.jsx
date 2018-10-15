@@ -42,7 +42,9 @@ class CompareInput extends React.Component {
   handleKeyPress = (event) => {
     if (event.key === 'Enter') {
       isCourse(this.state.inputValue) ? 
-      this.props.onEnter(this.state.inputValue) :
+      this.props.onEnter(this.state.inputValue) : 
+      isCourse(courseSuggestion(this.state.inputValue)) ? 
+      this.props.onEnter(courseSuggestion(this.state.inputValue)):
       this.setState({showError: true})
     }
   }

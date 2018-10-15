@@ -27,16 +27,30 @@ const winnerArray = (courseCurrent, courseComparing) => (
   ))
 )
 class CompareContainer extends React.Component {
-  onEnterC1 = c1 => c1 !== this.props.course1 && <Redirect to={`/compare/${c1}:${this.props.course2}`} />
-  onEnterC2 = c2 => c2 !== this.props.course2 && <Redirect to={`/compare/${this.props.course1}:${c2}`} />
-
+  constructor(props) {
+    super(props)
+    this.state = {
+      isRedirecting1: false,
+      isRedirecting2: false,
+      activeCourse: ''
+    }
+  }
+  onEnterC1 = c1 => c1 !== this.props.course1 && this.setState({isRedirecting2:true, activeCourse: c1})
+  onEnterC2 = c2 => c2 !== this.props.course2 && this.setState({isRedirecting1:true, activeCourse: c2})
   render() {
     const {
       course1,
       course2,
     } = this.props
+    const {
+      isRedirecting1,
+      isRedirecting2,
+      activeCourse
+    } = this.state
     return (
       <div>
+        {isRedirecting1 && <Redirect to={`/compare/${course1}:${activeCourse}`} />}
+        {isRedirecting2 && <Redirect to={`/compare/${activeCourse}:${course2}`} />}
         <Header />
         <MobileContext.Consumer>
           {isMobile => (
