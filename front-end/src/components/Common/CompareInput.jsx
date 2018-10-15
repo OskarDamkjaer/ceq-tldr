@@ -26,9 +26,11 @@ const Header = styled.div`
  `
 const Error = styled.span`
  color:red;
- margin-left: 100px;
+ align-self: center;
  `
-
+const Suggestion = styled.span`
+  align-self: center;
+ `
 class CompareInput extends React.Component {
   constructor(props) {
     super(props)
@@ -62,7 +64,7 @@ class CompareInput extends React.Component {
           onKeyPress={event => this.handleKeyPress(event)}
         />
         {suggestion.length > 0 && 
-          <span>Do you mean {suggestion}?</span>
+          <Suggestion>Do you mean {suggestion}?</Suggestion>
         }
         {showError && 
         <Error>
