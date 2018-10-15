@@ -40,6 +40,7 @@ const CourseGraph = ({
   handleOut,
   isCourse,
   courseSuggestion,
+  onEnter,
 }) => (
   <Wrapper>
     <GraphHeader
@@ -52,6 +53,7 @@ const CourseGraph = ({
       isNeg={isNeg}
       isCourse={isCourse}
       courseSuggestion={courseSuggestion}
+      onEnter={onEnter}
     />
     <GraphWrapper>
       <svg style={{ paddingLeft: '40px', paddingTop: '50px' }} width="600" height="850">
