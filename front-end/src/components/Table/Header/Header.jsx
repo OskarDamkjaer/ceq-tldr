@@ -21,7 +21,7 @@ const InputWrapper = styled.div`
 `
 const SecondWrapper = styled.div`
   display:grid;
-  grid-template-columns: 20% 70% 10%;
+  grid-template-columns: 60% 30% 10%;
   margin-bottom: 50px;
 `
 const StyledLink = styled.div`
@@ -46,11 +46,7 @@ const Header = ({
   <HeaderWrapper>
     <FirstWrapper>
       <StyledLink style={{ textDecoration: 'none' }} onClick={() => resetState()}>CEQ-TLDR</StyledLink>
-      <StyledFilter>
-      active filter
-        {' '}
-        {activeFilter}
-      </StyledFilter>
+      <div />
       <AboutLink to="../about" style={{ textDecoration: 'none' }}>
         <span>About</span>
       </AboutLink>
@@ -62,7 +58,11 @@ const Header = ({
           value={searchTerm}
         />
       </InputWrapper>
-      <div />
+      <StyledFilter>
+      active filter
+        {' '}
+        {activeFilter}
+      </StyledFilter>
       <Dropdown activateFilter={activateFilter} activeFilter={activeFilter} />
     </SecondWrapper>
   </HeaderWrapper>

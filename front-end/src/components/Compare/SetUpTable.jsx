@@ -7,7 +7,7 @@ import CompareInput from '../Common/CompareInput'
 
 
 export default ({
-  course, winner, onEnter,
+  course, winner, onEnter, search,
 }) => (
   <div>
     {course !== ''
@@ -19,6 +19,7 @@ export default ({
                 course={course}
                 courseData={courseData(course)}
                 winner={winner}
+                search={search}
               />
             )
             : (

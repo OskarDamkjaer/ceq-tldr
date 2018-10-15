@@ -53,6 +53,7 @@ class CompareContainer extends React.Component {
     const {
       course1,
       course2,
+      location
     } = this.props
     const {
       isRedirecting1,
@@ -73,6 +74,7 @@ class CompareContainer extends React.Component {
                 winner={isCourse(course1) && this.winnerObject(course1)}
                 graphHeaders={graphHeaders}
                 onEnter={this.onEnterC1}
+                search={location.search}
               />
               <SetUpTable
                 course={course2}

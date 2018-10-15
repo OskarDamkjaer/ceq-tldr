@@ -11,7 +11,7 @@ const CourseContainer = ({ courseCode }) => (
   <div>
     <Header />
     {courseData(courseCode).history.length < 2 ? (
-      <Redirect to={`/compare/${courseCode}`} />
+      <Redirect to={`/compare/${courseCode}?nograph`} />
     )
       : (
         <ColorContext.Consumer>

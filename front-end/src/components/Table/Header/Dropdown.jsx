@@ -3,7 +3,6 @@ import 'bootstrap3/dist/css/bootstrap.css'
 import { DropdownButton, MenuItem } from 'react-bootstrap'
 import { filterList } from '../../../data'
 
-
 function getFilterList(filterBy) {
   const drpDwnList = []
   filterList.map((title, index) => (
@@ -13,9 +12,9 @@ function getFilterList(filterBy) {
 }
 const Dropdown = ({ activeFilter, activateFilter }) => (
   <DropdownButton
-    bsStyle="default"
-    bsSize="small"
-    title="Filter by"
+    bsStyle="primary"
+    bsSize="large"
+    title="FILTER"
     id="dd"
   >
     { getFilterList(activeFilter).map(drpDwnItem => (

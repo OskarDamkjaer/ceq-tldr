@@ -13,9 +13,18 @@ const tableElements = {
   year: 'BASED ON YEAR', category: 'YEAR', points: 'HP', registered: 'NUMBER OF REGISTERED',
 }
 const CompareTableContainer = ({
-  course, courseData, winner,
+  course, courseData, winner, search,
 }) => (
   <Wrapper>
+    {search === '?nograph' && (
+    <h1>
+Attention! There is no graph data for
+      {' '}
+      {course}
+      {' '}
+available
+    </h1>
+    )}
     <Header
       courseName={courseData.name}
       courseCode={course}
