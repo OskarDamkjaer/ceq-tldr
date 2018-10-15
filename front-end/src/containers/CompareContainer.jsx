@@ -13,19 +13,14 @@ const Wrapper = styled.div`
    display: grid;
    grid-template-columns: ${props => !props.isMobile && '50% 50%'};
  `
- 
+
 const aggregatedData = course => (
   Object.keys(courseData(course).history[courseData(course).history.length - 1])
     .filter(item => graphHeaders.includes(item))
     .map(item => parseInt(courseData(course).history[courseData(course).history.length - 1][item], 10))
     .reduce((acc, curr) => acc + curr, 0)
 )
-const winnerArray = (courseCurrent, courseComparing) => (
-  graphHeaders.map(items => (
-    parseInt(courseData(courseCurrent).history[courseData(courseCurrent).history.length - 1][items], 10)
-    > parseInt(courseData(courseComparing).history[courseData(courseComparing).history.length - 1][items], 10)
-  ))
-)
+
 class CompareContainer extends React.Component {
   constructor(props) {
     super(props)
@@ -36,8 +31,25 @@ class CompareContainer extends React.Component {
       activeCourse2: '',
     }
   }
-  onEnterC1 = c1 => this.setState({isRedirecting2:true, activeCourse1: c1})
-  onEnterC2 = c2 => this.setState({isRedirecting1:true, activeCourse2: c2})
+  onEnterC1 = c1 => this.setState({ isRedirecting2: true, activeCourse1: c1 })
+  onEnterC2 = c2 => this.setState({ isRedirecting1: true, activeCourse2: c2 })
+
+  winnerCreator = (coursePerspective, compareCourse) => {
+    const winArray = isCourse(compareCourse) ? 
+    graphHeaders.map(items => (
+      parseInt(courseData(coursePerspective).history[courseData(coursePerspective).history.length - 1][items], 10)
+      > parseInt(courseData(compareCourse).history[courseData(compareCourse).history.length - 1][items], 10)
+    ))
+    : false
+    winArray && winArray.push(aggregatedData(coursePerspective) > aggregatedData(compareCourse))
+    return winArray
+  }
+  compareCourse = coursePerspective => coursePerspective === this.props.course1 ? this.props.course2 : this.props.course1
+  winnerObject = coursePerspective => ({
+      winnerArray: this.winnerCreator(coursePerspective, this.compareCourse(coursePerspective)),
+      aggregatedData: aggregatedData(coursePerspective),
+  })
+
   render() {
     const {
       course1,
@@ -59,19 +71,13 @@ class CompareContainer extends React.Component {
             <Wrapper isMobile={isMobile}>
               <SetUpTable
                 course={course1}
-                isWinner={isCourse(course1) && isCourse(course2) && aggregatedData(course1)
-              > aggregatedData(course2)}
-                winnerArray={isCourse(course1) && isCourse(course2) && winnerArray(course1, course2)}
-                aggregatedScore={isCourse(course1) && String(aggregatedData(course1))}
+                winner={isCourse(course1) && this.winnerObject(course1)}
                 graphHeaders={graphHeaders}
                 onEnter={this.onEnterC1}
               />
               <SetUpTable
                 course={course2}
-                isWinner={isCourse(course1) && isCourse(course2) && aggregatedData(course2)
-              > aggregatedData(course1)}
-                winnerArray={isCourse(course1) && isCourse(course2) && winnerArray(course2, course1)}
-                aggregatedScore={isCourse(course2) && String(aggregatedData(course2))}
+                winner={isCourse(course2) && this.winnerObject(course2)}
                 graphHeaders={graphHeaders}
                 onEnter={this.onEnterC2}
               />

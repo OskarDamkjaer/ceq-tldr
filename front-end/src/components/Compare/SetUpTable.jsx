@@ -7,7 +7,7 @@ import CompareInput from '../Common/CompareInput'
 
 
 export default ({
-  course, isWinner, winnerArray, aggregatedScore, onEnter,
+  course, winner, onEnter,
 }) => (
   <div>
     {course !== ''
@@ -18,9 +18,7 @@ export default ({
               <CompareTable
                 course={course}
                 courseData={courseData(course)}
-                aggregatedScore={aggregatedScore}
-                winner={isWinner}
-                winnerArray={winnerArray}
+                winner={winner}
               />
             )
             : (

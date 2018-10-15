@@ -13,13 +13,13 @@ const tableElements = {
   year: 'BASED ON YEAR', category: 'YEAR', points: 'HP', registered: 'NUMBER OF REGISTERED',
 }
 const CompareTableContainer = ({
-  course, courseData, aggregatedScore, winner, winnerArray,
+  course, courseData, winner,
 }) => (
   <Wrapper>
     <Header
       courseName={courseData.name}
       courseCode={course}
-      isWinner={winner}
+      isWinner={typeof testWinner === 'object' ? winner.winnerArray[winner.winnerArray.length - 1] : false}
     />
     <br />
     <h1>Course info</h1>
@@ -31,15 +31,16 @@ const CompareTableContainer = ({
             header={graphHeadersStyled[index]}
             data={courseData.history[courseData.history.length - 1][headers]}
             color={colorArray[index]}
-            green={winnerArray[index]}
+            green={winner.winnerArray[index]}
           />
         ))
         }
     </ColorContext.Consumer>
     <TableElement
       header="Aggregated data"
-      data={aggregatedScore}
+      data={winner.aggregatedData}
       color="bold"
+      green={winner.winnerArray[winner.winnerArray.length - 1]}
     />
     <h1>Other course information</h1>
     <ColorContext.Consumer>
