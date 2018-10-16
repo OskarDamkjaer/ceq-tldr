@@ -45,20 +45,20 @@ class CompareInput extends React.Component {
     if (event.key === 'Enter') {
       isCourse(this.state.inputValue) ? 
       this.props.onEnter(this.state.inputValue) : 
-      isCourse(courseSuggestion(this.state.inputValue)) ? 
-      this.props.onEnter(courseSuggestion(this.state.inputValue)):
+      isCourse(courseSuggestion(this.state.inputValue).code) ? 
+      this.props.onEnter(courseSuggestion(this.state.inputValue).code):
       this.setState({showError: true})
     }
   }
 
   render() {
     const { inputValue, showError } = this.state
-    const suggestion = courseSuggestion(inputValue)
+    const suggestion = typeof(courseSuggestion(inputValue)) === 'object' ? courseSuggestion(inputValue).name : ''
     return (
       <Wrapper>
         <Header>Compare with another course</Header>
         <FineInput
-          placeholder="Enter course code"
+          placeholder="Enter course code or name"
           value={inputValue}
           onChange={event => this.handleChange(event)}
           onKeyPress={event => this.handleKeyPress(event)}

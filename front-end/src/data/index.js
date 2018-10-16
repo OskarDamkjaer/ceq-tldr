@@ -27,8 +27,9 @@ export const isCourse = course => courseHelper(course) !== ''
 export const courseSuggestion = (courseStart) => {
   const relevantData = getDataForYearAndProgram(y2018, DATA).concat(getDataForYearAndProgram(y2018, INFOCOM))
     .concat(getDataForYearAndProgram(y2018, MASTER))
-  const tempData = relevantData.filter(obj => obj.code.includes(courseStart.toUpperCase()) && courseStart.length > 0)
-  return tempData[0] ? tempData[0].code : ''
+  let tempData = relevantData.filter(obj => obj.code.includes(courseStart.toUpperCase()) && courseStart.length > 0)
+  tempData = !tempData[0] && courseStart.length > 0 && relevantData.filter(obj => obj.name.toUpperCase().includes(courseStart.toUpperCase()))
+  return tempData[0] ? { name: tempData[0].name, code: tempData[0].code } : ''
 }
 
 /* Takes course code, gives courseData */
