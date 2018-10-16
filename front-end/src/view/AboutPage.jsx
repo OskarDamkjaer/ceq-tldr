@@ -35,8 +35,8 @@ const AboutPage = () => (
     <Wrapper>
       <LeftWrapper>
         <TextStyle>
-This page was created with technologies like
-React, React Router, React Redux, React Context etcetera.
+This app was created with the following technologies/libraries:
+React, React Router, React Context, React Bootstrap, Redux, VX etcetera.
           The source code is published in open repo on
           {' '}
           <b>

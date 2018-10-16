@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Redirect } from 'react-router-dom'
 import {
-  courseData, graphHeaders, isCourse,
+  courseData, headers, isCourse,
 } from '../data'
 import Header from '../components/Common/PageHeader'
 import MobileContext from '../context/isMobile'
@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 
 const aggregatedData = course => (
   Object.keys(courseData(course).history[courseData(course).history.length - 1])
-    .filter(item => graphHeaders.includes(item))
+    .filter(item => headers.includes(item))
     .map(item => parseInt(courseData(course).history[courseData(course).history.length - 1][item], 10))
     .reduce((acc, curr) => acc + curr, 0)
 )
@@ -43,7 +43,7 @@ class CompareContainer extends React.Component {
 
   winnerCreator = (coursePerspective, compareCourse) => {
     const winArray = isCourse(compareCourse) ? 
-    graphHeaders.map(items => (
+    headers.map(items => (
       parseInt(courseData(coursePerspective).history[courseData(coursePerspective).history.length - 1][items], 10)
       > parseInt(courseData(compareCourse).history[courseData(compareCourse).history.length - 1][items], 10)
     ))
@@ -80,14 +80,12 @@ class CompareContainer extends React.Component {
               <SetUpTable
                 course={course1}
                 winner={isCourse(course1) && this.winnerObject(course1)}
-                graphHeaders={graphHeaders}
                 onEnter={this.onEnterC1}
                 search={location.search}
               />
               <SetUpTable
                 course={course2}
                 winner={isCourse(course2) && this.winnerObject(course2)}
-                graphHeaders={graphHeaders}
                 onEnter={this.onEnterC2}
               />
             </Wrapper>

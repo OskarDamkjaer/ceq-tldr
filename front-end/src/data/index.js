@@ -14,8 +14,8 @@ const graphExclude = ['name', 'code', 'comments', 'year', 'points', 'category', 
 const styleMap = item => item.replace(/([A-Z])/g, ' $1').toUpperCase()
 export const dataHeaders = Object.keys(getDataForYearAndProgram(y2018, DATA)[0])
 export const dataHeadersStyled = dataHeaders.map(styleMap)
-export const graphHeaders = dataHeaders.filter(item => !graphExclude.includes(item))
-export const graphHeadersStyled = graphHeaders.map(styleMap)
+export const headers = dataHeaders.filter(item => !graphExclude.includes(item))
+export const headersStyled = headers.map(styleMap)
 
 /* Takes course code and gives program for course, gives empty string if no match */
 export const getProgram = course => (courseHelper(course) !== '' ? courseHelper(course) : '')
@@ -31,10 +31,11 @@ export const courseSuggestion = (courseStart) => {
   return tempData[0] ? tempData[0].code : ''
 }
 
-
 /* Takes course code, gives courseData */
-export const courseData = (courseCode) => {
-  const history = historyListForCourseCode(courseCode.toUpperCase(), getProgram(courseCode))
+export const courseData = (courseCode, filter) => {
+  const history = filter
+    ? historyListForCourseCode(courseCode.toUpperCase(), filter)
+    : historyListForCourseCode(courseCode.toUpperCase(), getProgram(courseCode))
   return ({
     name: history[0].name,
     history,

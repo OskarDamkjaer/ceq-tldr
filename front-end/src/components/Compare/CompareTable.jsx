@@ -4,7 +4,7 @@ import Comments from './Comments'
 import Header from './Header'
 import TableElement from './TableElement'
 import ColorContext from '../../context/color'
-import { graphHeaders, graphHeadersStyled } from '../../data'
+import { headers, headersStyled } from '../../data'
 import NoGraphData from './NoGraphData'
 
 const Wrapper = styled.div`
@@ -32,11 +32,11 @@ const CompareTableContainer = ({
     <h1>Course info</h1>
     <ColorContext.Consumer>
       {colorArray =>
-        graphHeaders.map((headers, index) => (
+        headers.map((items, index) => (
           <TableElement
-            key={headers}
-            header={graphHeadersStyled[index]}
-            data={courseData.history[courseData.history.length - 1][headers]}
+            key={items}
+            header={headersStyled[index]}
+            data={courseData.history[courseData.history.length - 1][items]}
             color={colorArray[index]}
             green={winner.winnerArray[index]}
           />
@@ -52,10 +52,10 @@ const CompareTableContainer = ({
     <h1>Other course information</h1>
     <ColorContext.Consumer>
       {colorArray => (
-        Object.values(tableElements).map((headers, index) => (
+        Object.values(tableElements).map((items, index) => (
           <TableElement
-            key={headers}
-            header={headers}
+            key={items}
+            header={items}
             data={courseData.history[courseData.history.length - 1][Object.keys(tableElements)[index]]}
             color={colorArray[index]}
           />

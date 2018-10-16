@@ -1,13 +1,14 @@
 import React from 'react'
 import { Redirect } from 'react-router-dom'
+import { connect } from 'react-redux'
 import {
-  courseData, graphHeaders, graphHeadersStyled, isCourse, courseSuggestion,
+  courseData, headers, headersStyled, isCourse, courseSuggestion,
 } from '../data'
 import ColorContext from '../context/color'
 import GraphContainer from './GraphContainer'
 import Header from '../components/Common/PageHeader'
 
-const CourseContainer = ({ courseCode }) => (
+const CourseContainer = ({ courseCode, activeFilterProp }) => (
   <div>
     <Header />
     {courseData(courseCode).history.length < 2 ? (
@@ -17,11 +18,11 @@ const CourseContainer = ({ courseCode }) => (
         <ColorContext.Consumer>
           {colorArray => (
             <GraphContainer
-              orderedHeadersFiltered={graphHeaders}
-              orderedHeadersStyledFiltered={graphHeadersStyled}
+              orderedHeadersFiltered={headers}
+              orderedHeadersStyledFiltered={headersStyled}
               courseCode={courseCode}
               colorArray={colorArray}
-              courseData={courseData(courseCode)}
+              courseData={courseData(courseCode, activeFilterProp)}
               isCourse={isCourse}
               courseSuggestion={courseSuggestion}
             />)}
@@ -31,4 +32,11 @@ const CourseContainer = ({ courseCode }) => (
   </div>
 )
 
-export default CourseContainer
+const mapStateToProps = ({ sorting }) => ({
+  activeFilterProp: sorting.filter,
+})
+
+export default connect(
+  mapStateToProps,
+  null,
+)(CourseContainer)
